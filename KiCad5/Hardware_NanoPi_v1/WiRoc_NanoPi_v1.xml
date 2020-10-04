@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/henla464/Documents/WiRoc/Hardware/Hardware_NanoPi_v1/WiRoc_NanoPi_v1.sch</source>
+    <date>lör  7 jul 2018 10:55:37</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>WiRoc NanoPI Hat</title>
+        <company>Henrik Larsson</company>
+        <rev>1</rev>
+        <date>2018-03-31</date>
+        <source>WiRoc_NanoPi_v1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J6">
+      <value>NanoPIAir_USBPort</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm</footprint>
+      <datasheet>http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf</datasheet>
+      <fields>
+        <field name="Package">1x 12P-2.54</field>
+        <field name="ManufacturerPartNumber">PPTC121LFBN-RC</field>
+        <field name="Description">CONN HEADER FEM 12POS.1" SGL TIN</field>
+        <field name="WebsiteURL">https://www.digikey.se/products/en?keywords=PPTC121LFBN-RC</field>
+        <field name="WebsiteURL2">https://www.aliexpress.com/item/Free-Shipping-10pcs-Female-Pin-Header-Strip-2-54-mm-Single-Row-Female-Pin-Header/32792248914.html?spm=2114.search0104.3.169.29fc3e55CbxpgH&amp;ws_ab_test=searchweb0_0,searchweb201602_2_10152_10151_10065_10344_10068_5722815_10342_10343_10340_5722915_10341_5722615_10696_10084_10083_10618_10307_10301_10303_5722715_5711215_10313_10059_10534_100031_10103_441_10624_10623_10622_5722515_10621_10620,searchweb201603_50,ppcSwitch_3&amp;algo_expid=4e7669d0-437f-42f3-8baf-303fcc330e84-24&amp;algo_pvid=4e7669d0-437f-42f3-8baf-303fcc330e84&amp;priceBeautifyAB=0</field>
+        <field name="Original">No</field>
+        <field name="Manufacturer">Sullins Connector Solutions</field>
+      </fields>
+      <libsource lib="WiRoc" part="NanoPIAir_USBPort"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABFC92B</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>NanoPIAir_GPIOPort</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x12_Pitch2.54mm</footprint>
+      <datasheet>http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf</datasheet>
+      <fields>
+        <field name="Package">2x 12P-2.54</field>
+        <field name="ManufacturerPartNumber">PPTC122LFBN-RC</field>
+        <field name="Description">2.54mm 2X12 Pin Double Row Female 12P</field>
+        <field name="WebsiteURL">https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC122LFBN-RC/S7080-ND/810218</field>
+        <field name="WebsiteURL2">https://www.aliexpress.com/item/10pcs-lot-2-54mm-2X12-Pin-Double-Row-Female-12P-Straight-Header-Pitch-Socket-Strip/32453066786.html?spm=2114.search0104.3.2.7e801edaChtslQ&amp;ws_ab_test=searchweb0_0,searchweb201602_2_10152_10151_10065_10344_10068_5722815_10342_10343_10340_5722915_10341_5722615_10696_10084_10083_10618_10307_10301_10303_5722715_5711215_10313_10059_10534_100031_10103_441_10624_10623_10622_5722515_10621_10620,searchweb201603_50,ppcSwitch_3&amp;algo_expid=d299785e-441c-49de-9a7d-8afdc668f6e8-0&amp;algo_pvid=d299785e-441c-49de-9a7d-8afdc668f6e8&amp;priceBeautifyAB=0</field>
+        <field name="Manufacturer">Sullins Connector Solutions</field>
+        <field name="Original">No</field>
+      </fields>
+      <libsource lib="WiRoc" part="NanoPIAir_GPIOPort"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABFC9AA</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>NanoPIAir_DebugPort</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <datasheet>http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf</datasheet>
+      <fields>
+        <field name="Package">1x 4P-2.54</field>
+        <field name="ManufacturerPartNumber">PPTC041LFBN-RC</field>
+        <field name="Description">CONN HEADER FEM 12POS.1" SGL TIN</field>
+        <field name="WebsiteURL2">https://www.aliexpress.com/item/Free-Shipping-10pcs-Female-Pin-Header-Strip-2-54-mm-Single-Row-Female-Pin-Header/32792248914.html?spm=2114.search0104.3.169.29fc3e55CbxpgH&amp;ws_ab_test=searchweb0_0,searchweb201602_2_10152_10151_10065_10344_10068_5722815_10342_10343_10340_5722915_10341_5722615_10696_10084_10083_10618_10307_10301_10303_5722715_5711215_10313_10059_10534_100031_10103_441_10624_10623_10622_5722515_10621_10620,searchweb201603_50,ppcSwitch_3&amp;algo_expid=4e7669d0-437f-42f3-8baf-303fcc330e84-24&amp;algo_pvid=4e7669d0-437f-42f3-8baf-303fcc330e84&amp;priceBeautifyAB=0</field>
+        <field name="Manufacturer">Sullins Connector Solutions</field>
+        <field name="Original">No</field>
+        <field name="WebsiteURL">https://www.digikey.se/product-detail/en/sullins-connector-solutions/PPTC041LFBN-RC/S7002-ND/810144</field>
+      </fields>
+      <libsource lib="WiRoc" part="NanoPIAir_DebugPort"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABFCA25</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AXP209</value>
+      <footprint>Housings_DFN_QFN:QFN-48-1EP_6x6mm_Pitch0.4mm</footprint>
+      <datasheet>http://dl.linux-sunxi.org/AXP/AXP209_Datasheet_v1.0en.pdf</datasheet>
+      <fields>
+        <field name="Package">6mm x 6mm 48-pin QFN</field>
+        <field name="ManufacturerPartNumber">AXP209</field>
+        <field name="Description">Enhanced single Cell Li-Battery and Power System Management IC</field>
+        <field name="Manufacturer">X-Powers Limited</field>
+        <field name="Original">Yes</field>
+      </fields>
+      <libsource lib="WiRoc" part="axp209"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABFCE3D</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LP6226/SY7208</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.lowpowersemi.com/uploads/soft/20170826Boost/LP6226.pdf</datasheet>
+      <fields>
+        <field name="Package">SOT23-6</field>
+        <field name="ManufacturerPartNumber">LP6226B6F</field>
+        <field name="Description">High Efficiency Boost DC/DC Convertor</field>
+        <field name="Manufacturer">lowpowersemi</field>
+        <field name="Original">Yes</field>
+      </fields>
+      <libsource lib="WiRoc" part="LP6226/SY7208"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC000ED</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>200K-1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="ManufacturerPartNumber">0603WAF2003T5E</field>
+        <field name="Package">0603</field>
+        <field name="ElecrowPartNumber">C25811</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC0038F</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ManufacturerPartNumber">CL10A106KP8NNNC</field>
+        <field name="ElecrowPartNumber">C19702</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC00414</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>2.2uH-DCR&lt;0.1R-1.5A</value>
+      <footprint>WiRoc:ELL4LG-A</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/AGM0000/AGM0000CE3.pdf</datasheet>
+      <fields>
+        <field name="Package">ELL4LG-A</field>
+        <field name="Description">FIXED IND 2.2UH 1.7A 55 MOHM SMD</field>
+        <field name="ManufacturerPartNumber">ELL-4LG2R2NA</field>
+        <field name="WebsiteURL">https://www.digikey.se/product-detail/en/panasonic-electronic-components/ELL-4LG2R2NA/PCD2215TR-ND/1938292</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="device" part="L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC0045C</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>IN5819</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30217.pdf</datasheet>
+      <fields>
+        <field name="Package">SOD-123</field>
+        <field name="ManufacturerPartNumber">1N5819HW-7-F</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="WebsiteURL">https://www.digikey.com/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283</field>
+        <field name="Description">Diode Schottky 40V 1A Surface Mount SOD-123</field>
+        <field name="Original">No</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC00704</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ElecrowPartNumber">C19702</field>
+        <field name="ManufacturerPartNumber">CL10A106KP8NNNC</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC00D7E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>24K-1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ManufacturerPartNumber">0603WAF2402T5E</field>
+        <field name="ElecrowPartNumber">C23352</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC014D8</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>FIDUCIAL</value>
+      <footprint>WiRoc:Fiducial</footprint>
+      <libsource lib="WiRoc" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC01DB3</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>FIDUCIAL</value>
+      <footprint>WiRoc:Fiducial</footprint>
+      <libsource lib="WiRoc" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC01E90</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>SY6280</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.szyucan.com/upfile/IC-PDF/SY6280A.pdf</datasheet>
+      <fields>
+        <field name="Package">SOT23-5</field>
+        <field name="ManufacturerPartNumber">SY6280AAC</field>
+        <field name="Manufacturer">SILERGY</field>
+        <field name="Original">Yes</field>
+        <field name="Description">Power Distribution Switch, 1In/1Out, Act-High Enable, 1A, Vin 2.4÷5.5V, 80mΩ</field>
+      </fields>
+      <libsource lib="WiRoc" part="SY6280"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC0E414</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ManufacturerPartNumber">CL10A106KP8NNNC</field>
+        <field name="ElecrowPartNumber">C19702</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC0E612</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>3.6K-1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="ManufacturerPartNumber">0603WAF3601T5E</field>
+        <field name="Package">0603</field>
+        <field name="ElecrowPartNumber">C22980</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC0EAB5</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>JST-2PIN</value>
+      <footprint>WiRoc:JST_2.56</footprint>
+      <fields>
+        <field name="Package">-</field>
+        <field name="ManufacturerPartNumber">B2B-XH-A(LF)(SN)</field>
+        <field name="WebsiteURL">https://www.digikey.se/product-detail/en/jst-sales-america-inc/B2B-XH-A-LF-SN/455-2247-ND/1651045</field>
+        <field name="Description">2 Positions Header Connector 0.098" (2.50mm) Through Hole Tin</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Original">No</field>
+        <field name="Notes">2.54 mm pitch should work too...</field>
+      </fields>
+      <libsource lib="WiRoc" part="JST-2PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC0FC32</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ManufacturerPartNumber">CL10A475KO8NNNC</field>
+        <field name="ElecrowPartNumber">C19666</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC10F88</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_TVS</value>
+      <footprint>WiRoc:SOD-882L</footprint>
+      <datasheet>/home/henla464/Documents/WiRoc/Hardware/Datasheet</datasheet>
+      <fields>
+        <field name="Package">DFN1006-2</field>
+        <field name="ManufacturerPartNumber">AU0511P1</field>
+        <field name="Manufacturer">Applied Power Microelectronics</field>
+        <field name="WebsiteURL">http://www.datasheetspdf.com/pdf/1099402/AppliedPowerMicroelectronics/AU0511P1/1</field>
+        <field name="Original">No</field>
+      </fields>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC111DC</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ElecrowPartNumber">C19702</field>
+        <field name="ManufacturerPartNumber">CL10A106KP8NNNC</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC11E32</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>0R03</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="ManufacturerPartNumber">WSL0805R0300FEA</field>
+        <field name="ElecrowPartNumber">-</field>
+        <field name="Original">No</field>
+        <field name="Description">RESISTOR 0805 0.03Ω 1/8W±1%</field>
+        <field name="WebsiteURL">https://www.digikey.com/product-detail/en/vishay-dale/WSL0805R0300FEA/WSLA-.03CT-ND/713392</field>
+        <field name="Manufacturer">Vishay Dale</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC12F41</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ElecrowPartNumber">C15849</field>
+        <field name="ManufacturerPartNumber">CL10A105KB8NNNC</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC13149</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH-DCR&lt;0.1R-1.5A</value>
+      <footprint>WiRoc:ELL4LG-A</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/AGM0000/AGM0000CE3.pdf</datasheet>
+      <fields>
+        <field name="Package">ELL4LG-A</field>
+        <field name="Description">FIXED IND 2.2UH 1.7A 55 MOHM SMD</field>
+        <field name="ManufacturerPartNumber">ELL-4LG2R2NA</field>
+        <field name="WebsiteURL">https://www.digikey.se/product-detail/en/panasonic-electronic-components/ELL-4LG2R2NA/PCD2215TR-ND/1938292</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="device" part="L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC13320</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ManufacturerPartNumber">CL10A475KO8NNNC</field>
+        <field name="ElecrowPartNumber">C19666</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC13497</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ManufacturerPartNumber">CL10A475KO8NNNC</field>
+        <field name="ElecrowPartNumber">C19666</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC13C5B</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ManufacturerPartNumber">CL10A475KO8NNNC</field>
+        <field name="ElecrowPartNumber">C19666</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC14629</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Package">1x 2P-2.54</field>
+        <field name="ElecrowPartNumber">6030916A</field>
+        <field name="Original">No</field>
+      </fields>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC15570</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ManufacturerPartNumber">0603F1001T5E</field>
+        <field name="ElecrowPartNumber">C21190</field>
+        <field name="Original">Free</field>
+        <field name="Description">1KΩ (1001) ±1%</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC15F05</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ElecrowPartNumber">C14858</field>
+        <field name="ManufacturerPartNumber">CL10C101JB8NNNC</field>
+        <field name="Original">Free</field>
+        <field name="Description">100pF (101) ±5% 50V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC16199</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ElecrowPartNumber">C19702</field>
+        <field name="ManufacturerPartNumber">CL10A106KP8NNNC</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC1AB0A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ElecrowPartNumber">C15849</field>
+        <field name="ManufacturerPartNumber">CL10A105KB8NNNC</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC2209C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>200K-1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ManufacturerPartNumber">0603WAF2003T5E</field>
+        <field name="ElecrowPartNumber">C25811</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC222CF</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ElecrowPartNumber">C19666</field>
+        <field name="ManufacturerPartNumber">CL10A475KO8NNNC</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC22D53</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ElecrowPartNumber">C15849</field>
+        <field name="ManufacturerPartNumber">CL10A105KB8NNNC</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC22F91</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>HAT_Conn_DBG</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Package">1x 3P-2.54</field>
+        <field name="ElecrowPartNumber">6030916A</field>
+        <field name="Original">No</field>
+      </fields>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC26C60</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ElecrowPartNumber">4040506A</field>
+        <field name="ManufacturerPartNumber">-</field>
+        <field name="Original">No</field>
+        <field name="Description">Red LED</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC2B646</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ManufacturerPartNumber">0603F1001T5E</field>
+        <field name="ElecrowPartNumber">C21190</field>
+        <field name="Original">Free</field>
+        <field name="Description">1KΩ (1001) ±1%</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC2BA88</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LoraRadio</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Package">-</field>
+        <field name="Manufacturer">AppconnWireless</field>
+        <field name="ManufacturerPartNumber">RF1276T ; freq: ~440Mhz ; voltage: 2.1-3.7V ; TTL serial</field>
+        <field name="Original">Yes</field>
+        <field name="Description">Lora radio module</field>
+      </fields>
+      <libsource lib="WiRoc" part="LoraRadio"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC2E1F3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100K-1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ManufacturerPartNumber">0603WAF1003T5E</field>
+        <field name="ElecrowPartNumber">C25803</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC307A4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>200K-1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ManufacturerPartNumber">0603WAF2003T5E</field>
+        <field name="ElecrowPartNumber">C25811</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC31588</tstamp>
+    </comp>
+    <comp ref="FID3">
+      <value>FIDUCIAL</value>
+      <footprint>WiRoc:Fiducial</footprint>
+      <libsource lib="WiRoc" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD3BC5E</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>TerminalBlock_USB_Power_01x04</value>
+      <footprint>WiRoc:TerminalBlock_4P_2.54mm</footprint>
+      <libsource lib="WiRoc" part="TerminalBlock_USB_Power_01x04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD3CBB1</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x06</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD3D291</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>TerminalBlock_USB_Host_Data_01x04</value>
+      <footprint>WiRoc:TerminalBlock_4P_2.54mm</footprint>
+      <libsource lib="WiRoc" part="TerminalBlock_USB_Host_Data_01x04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD3F81E</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32AD65</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32AE0A</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32AEC5</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32B22A</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32B861</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32CBFC</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32CF29</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32D105</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100K-1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="ManufacturerPartNumber">0603WAF1003T5E</field>
+        <field name="ElecrowPartNumber">C25803</field>
+        <field name="Original">Free</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3E977D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression (TVS) diode</description>
+      <docs>https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="FIDUCIAL">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">FIDUCIAL</field>
+      </fields>
+    </libpart>
+    <libpart lib="WiRoc" part="JST-2PIN">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JST-2PIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_out"/>
+        <pin num="2" name="Gnd" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="LP6226/SY7208">
+      <description>SOT23-6</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP6226/SY7208</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LX" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="output"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="IN" type="input"/>
+        <pin num="6" name="NC" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="LoraRadio">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LoraRadio</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="TXD" type="output"/>
+        <pin num="6" name="AUX" type="output"/>
+        <pin num="7" name="SET" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="NanoPIAir_DebugPort">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NanoPIAir_DebugPort</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD_5V" type="power_in"/>
+        <pin num="3" name="UART_TXD0" type="output"/>
+        <pin num="4" name="UART_RXD0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="NanoPIAir_GPIOPort">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NanoPIAir_GPIOPort</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SYS_3.3V" type="power_out"/>
+        <pin num="2" name="VDD_5V" type="power_in"/>
+        <pin num="3" name="I2C0_SDA" type="BiDi"/>
+        <pin num="4" name="VCC_5V" type="power_in"/>
+        <pin num="5" name="I2C0_SCL" type="BiDi"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GPIOG11" type="BiDi"/>
+        <pin num="8" name="UART1_TX" type="output"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="UART1_RX" type="input"/>
+        <pin num="11" name="GPIOA0" type="BiDi"/>
+        <pin num="12" name="GPIOA6" type="BiDi"/>
+        <pin num="13" name="GPIOA2" type="BiDi"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="GPIOA3" type="BiDi"/>
+        <pin num="16" name="UART1_RTS" type="output"/>
+        <pin num="17" name="SYS_3.3V" type="power_out"/>
+        <pin num="18" name="UART1_CTS" type="input"/>
+        <pin num="19" name="GPIOC0" type="BiDi"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="GPIOC1" type="BiDi"/>
+        <pin num="22" name="GPIOA1" type="BiDi"/>
+        <pin num="23" name="GPIOC2" type="BiDi"/>
+        <pin num="24" name="GPIOC3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="NanoPIAir_USBPort">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NanoPIAir_USBPort</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD_5V" type="power_out"/>
+        <pin num="2" name="USB-DP1" type="BiDi"/>
+        <pin num="3" name="USB-DM1" type="BiDi"/>
+        <pin num="4" name="USB-DP2" type="BiDi"/>
+        <pin num="5" name="USB-DM2" type="BiDi"/>
+        <pin num="6" name="GPIOL11" type="BiDi"/>
+        <pin num="7" name="GPIOA17" type="BiDi"/>
+        <pin num="8" name="I2S0_LRC" type="BiDi"/>
+        <pin num="9" name="I2S0_BCK" type="BiDi"/>
+        <pin num="10" name="I2S0_SDOUT" type="output"/>
+        <pin num="11" name="I2S0_SDIN" type="input"/>
+        <pin num="12" name="GND" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="SY6280">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SY6280</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ISET" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="TEST">
+      <description>Testpoint, connection for test equipment</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TEST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="TerminalBlock_USB_Host_Data_01x04">
+      <description>Generic connector, single row, 01x04</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TerminalBlock_USB_Host_Data_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="TerminalBlock_USB_Power_01x04">
+      <description>Generic connector, single row, 01x04</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TerminalBlock_USB_Power_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="power_out"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="axp209">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">axp209</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="BiDi"/>
+        <pin num="2" name="SCK" type="input"/>
+        <pin num="3" name="GPIO3" type="BiDi"/>
+        <pin num="4" name="N_OE" type="input"/>
+        <pin num="5" name="GPIO2" type="BiDi"/>
+        <pin num="6" name="N_VBUSEN" type="input"/>
+        <pin num="7" name="VIN2" type="power_in"/>
+        <pin num="8" name="LX2" type="BiDi"/>
+        <pin num="9" name="PGIND2" type="power_in"/>
+        <pin num="10" name="DCDC2" type="input"/>
+        <pin num="11" name="LDO4" type="input"/>
+        <pin num="12" name="LDO2" type="output"/>
+        <pin num="13" name="LDO24IN" type="power_in"/>
+        <pin num="14" name="VIN3" type="power_in"/>
+        <pin num="15" name="LX3" type="BiDi"/>
+        <pin num="16" name="PGND3" type="power_in"/>
+        <pin num="17" name="DCDC3" type="input"/>
+        <pin num="18" name="GPIO1" type="BiDi"/>
+        <pin num="19" name="GPIO0" type="BiDi"/>
+        <pin num="20" name="EXTEN" type="output"/>
+        <pin num="21" name="APS" type="power_in"/>
+        <pin num="22" name="AGND" type="power_in"/>
+        <pin num="23" name="BIAS" type="BiDi"/>
+        <pin num="24" name="VREF" type="output"/>
+        <pin num="25" name="PWROK" type="output"/>
+        <pin num="26" name="VINT" type="BiDi"/>
+        <pin num="27" name="LDO1SET" type="input"/>
+        <pin num="28" name="LDO1" type="output"/>
+        <pin num="29" name="DC3SET" type="input"/>
+        <pin num="30" name="BACKUP" type="BiDi"/>
+        <pin num="31" name="VBUS" type="power_in"/>
+        <pin num="32" name="ACIN" type="power_in"/>
+        <pin num="33" name="ACIN" type="power_in"/>
+        <pin num="34" name="IPSOUT" type="power_out"/>
+        <pin num="35" name="ISPOUT" type="power_out"/>
+        <pin num="36" name="CHGLED" type="output"/>
+        <pin num="37" name="TS" type="input"/>
+        <pin num="38" name="BAT" type="power_in"/>
+        <pin num="39" name="BAT" type="power_in"/>
+        <pin num="40" name="LDO3IN" type="output"/>
+        <pin num="41" name="LDO3" type="input"/>
+        <pin num="42" name="BATSENCE" type="input"/>
+        <pin num="43" name="CHSENCE" type="output"/>
+        <pin num="44" name="VIN1" type="power_in"/>
+        <pin num="45" name="LX1" type="BiDi"/>
+        <pin num="46" name="PGND1" type="power_in"/>
+        <pin num="47" name="PWRON" type="input"/>
+        <pin num="48" name="IRQ/WAKEUP" type="BiDi"/>
+        <pin num="49" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="WiRoc">
+      <uri>/home/henla464/Documents/WiRoc/Hardware/Hardware_Library/WiRocSchemaLibrary/WiRoc.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C2-Pad1)">
+      <node ref="TP2" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="2" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="U3" pin="23"/>
+      <node ref="TP3" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U3" pin="27"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U3" pin="46"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="37"/>
+      <node ref="J9" pin="20"/>
+      <node ref="J9" pin="9"/>
+      <node ref="J9" pin="6"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="J4" pin="4"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U3" pin="22"/>
+      <node ref="U3" pin="49"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J9" pin="14"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="J6" pin="12"/>
+      <node ref="U4" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J8" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D3-Pad2)">
+      <node ref="U4" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="TP11" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="6" name="IPSOUT">
+      <node ref="U3" pin="44"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U3" pin="35"/>
+      <node ref="C1" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="U3" pin="21"/>
+      <node ref="U3" pin="34"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="8" name="SCK">
+      <node ref="J9" pin="5"/>
+      <node ref="U3" pin="2"/>
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="9" name="SDA">
+      <node ref="J5" pin="5"/>
+      <node ref="J9" pin="3"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="10" name="SYS_3.3V">
+      <node ref="J9" pin="17"/>
+      <node ref="J5" pin="4"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="12" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="13" name="Net-(J9-Pad23)">
+      <node ref="J9" pin="23"/>
+    </net>
+    <net code="14" name="Net-(J9-Pad7)">
+      <node ref="J9" pin="7"/>
+    </net>
+    <net code="15" name="Net-(J9-Pad24)">
+      <node ref="J9" pin="24"/>
+    </net>
+    <net code="16" name="Net-(J9-Pad21)">
+      <node ref="J9" pin="21"/>
+    </net>
+    <net code="17" name="Net-(J9-Pad19)">
+      <node ref="J9" pin="19"/>
+    </net>
+    <net code="18" name="Net-(J6-Pad6)">
+      <node ref="J6" pin="6"/>
+    </net>
+    <net code="19" name="STATUS_LED">
+      <node ref="J9" pin="12"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="20" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="21" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="22" name="Net-(J9-Pad1)">
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="23" name="UART1_RX">
+      <node ref="J9" pin="10"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="24" name="UART1_TX">
+      <node ref="U2" pin="4"/>
+      <node ref="J9" pin="8"/>
+    </net>
+    <net code="25" name="VDD_5V">
+      <node ref="TP14" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="J9" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="J9" pin="4"/>
+    </net>
+    <net code="26" name="USBHost-DP1">
+      <node ref="J4" pin="3"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="27" name="USBHost-DM1">
+      <node ref="J6" pin="3"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="28" name="N_VBUSEN">
+      <node ref="J9" pin="22"/>
+      <node ref="U3" pin="6"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="29" name="Net-(J2-Pad3)">
+      <node ref="J5" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="30" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="31" name="VBUS">
+      <node ref="C5" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="32" name="Net-(J6-Pad4)">
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="33" name="Net-(J6-Pad5)">
+      <node ref="J6" pin="5"/>
+    </net>
+    <net code="34" name="Net-(J6-Pad7)">
+      <node ref="J6" pin="7"/>
+    </net>
+    <net code="35" name="IRQ">
+      <node ref="U3" pin="48"/>
+      <node ref="J9" pin="15"/>
+    </net>
+    <net code="36" name="Net-(R3-Pad2)">
+      <node ref="U3" pin="4"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="37" name="LORAEN">
+      <node ref="J9" pin="13"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="38" name="LORAAUX">
+      <node ref="J9" pin="11"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="39" name="Net-(J7-Pad3)">
+      <node ref="J8" pin="2"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="40" name="Net-(J7-Pad4)">
+      <node ref="J7" pin="4"/>
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="41" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="U3" pin="45"/>
+    </net>
+    <net code="42" name="Net-(C11-Pad2)">
+      <node ref="L1" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U3" pin="43"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="43" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="44" name="Net-(C6-Pad1)">
+      <node ref="U3" pin="24"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="45" name="PWRON">
+      <node ref="U3" pin="47"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="46" name="Net-(U3-Pad18)">
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="47" name="Net-(U3-Pad28)">
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="48" name="Net-(U3-Pad19)">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="49" name="Net-(U3-Pad29)">
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="50" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="51" name="Net-(U3-Pad17)">
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="52" name="Net-(U3-Pad36)">
+      <node ref="U3" pin="36"/>
+    </net>
+    <net code="53" name="Net-(U3-Pad16)">
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="54" name="Net-(U3-Pad25)">
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="55" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="56" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="57" name="EXTEN">
+      <node ref="R10" pin="2"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="U3" pin="20"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="58" name="Net-(J9-Pad16)">
+      <node ref="J9" pin="16"/>
+    </net>
+    <net code="59" name="Net-(J6-Pad11)">
+      <node ref="J6" pin="11"/>
+    </net>
+    <net code="60" name="Net-(J6-Pad10)">
+      <node ref="J6" pin="10"/>
+    </net>
+    <net code="61" name="Net-(J6-Pad9)">
+      <node ref="J6" pin="9"/>
+    </net>
+    <net code="62" name="Net-(J6-Pad8)">
+      <node ref="J6" pin="8"/>
+    </net>
+    <net code="63" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="64" name="Net-(U3-Pad33)">
+      <node ref="U3" pin="33"/>
+    </net>
+    <net code="65" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="66" name="Net-(U3-Pad32)">
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="67" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="68" name="Net-(U3-Pad41)">
+      <node ref="U3" pin="41"/>
+    </net>
+    <net code="69" name="Net-(U3-Pad11)">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="70" name="Net-(U3-Pad40)">
+      <node ref="U3" pin="40"/>
+    </net>
+    <net code="71" name="Net-(U3-Pad30)">
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="72" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="73" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="74" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="75" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="76" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="77" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="78" name="Net-(J9-Pad18)">
+      <node ref="J9" pin="18"/>
+    </net>
+    <net code="79" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="80" name="BAT">
+      <node ref="C9" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U3" pin="39"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="42"/>
+      <node ref="U3" pin="38"/>
+    </net>
+  </nets>
+</export>

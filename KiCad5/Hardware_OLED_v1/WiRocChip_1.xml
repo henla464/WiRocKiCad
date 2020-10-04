@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/henla464/Documents/WiRoc/Hardware_OLED_v1/WiRocChip_1.sch</source>
+    <date>mån 19 feb 2018 23:56:58</date>
+    <tool>Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>WiRocChip_1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>CHIP</value>
+      <footprint>Library:Chip</footprint>
+      <libsource lib="chip" part="CHIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5831EB02</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>JST-2PIN</value>
+      <footprint>Library:JST_2.56</footprint>
+      <libsource lib="WiRoc" part="JST-2PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5831DE90</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5831F070</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Lora Conn</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X07"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5831F69C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58334EFA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_D3.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58335011</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588DF620</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X01</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588DFE31</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X04</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8B5E84</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="chip" part="CHIP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CHIP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="3" name="VCC-5V" type="power_out"/>
+        <pin num="5" name="VCC-3V3" type="power_out"/>
+        <pin num="8" name="BAT" type="power_in"/>
+        <pin num="10" name="PWRON" type="input"/>
+        <pin num="17" name="LCD-D2-UART2-TX" type="output"/>
+        <pin num="20" name="LCD-D3-UART2-RX" type="input"/>
+        <pin num="103" name="UART1-TX" type="output"/>
+        <pin num="105" name="UART1-RX" type="input"/>
+        <pin num="107" name="FEL" type="input"/>
+        <pin num="125" name="TWI2-SDA" type="input"/>
+        <pin num="126" name="TWI-SCK" type="input"/>
+        <pin num="131" name="CSID0" type="BiDi"/>
+        <pin num="132" name="CSID1" type="BiDi"/>
+        <pin num="133" name="CSID2" type="BiDi"/>
+        <pin num="134" name="CSID3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X07">
+      <description>Connector 01x07</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X07</fp>
+        <fp>Pin_Header_Angled_1X07</fp>
+        <fp>Socket_Strip_Straight_1X07</fp>
+        <fp>Socket_Strip_Angled_1X07</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="JST-2PIN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">JST-2PIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_out"/>
+        <pin num="2" name="Gnd" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="chip">
+      <uri>/home/henla464/Documents/WiRoc/Hardware_OLED_v1/chip.lib</uri>
+    </library>
+    <library logical="WiRoc">
+      <uri>/home/henla464/Documents/WiRoc/Hardware_OLED_v1/Library/WiRoc.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC-3V3">
+      <node ref="R3" pin="2"/>
+      <node ref="P4" pin="3"/>
+      <node ref="U2" pin="5"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(P2-Pad1)">
+      <node ref="U2" pin="107"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(P3-Pad1)">
+      <node ref="U2" pin="103"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="5" name="Net-(P3-Pad2)">
+      <node ref="U2" pin="105"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="U2" pin="131"/>
+    </net>
+    <net code="9" name="BAT">
+      <node ref="U2" pin="8"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="10" name="LoraAUX">
+      <node ref="U2" pin="133"/>
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="11" name="TWI2-SDA">
+      <node ref="U2" pin="125"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad132)">
+      <node ref="U2" pin="132"/>
+    </net>
+    <net code="14" name="TWI-SCK">
+      <node ref="P4" pin="2"/>
+      <node ref="U2" pin="126"/>
+    </net>
+    <net code="15" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="P4" pin="4"/>
+      <node ref="P1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="17" name="LoraEN">
+      <node ref="P1" pin="3"/>
+      <node ref="U2" pin="134"/>
+    </net>
+    <net code="18" name="Net-(P1-Pad5)">
+      <node ref="P1" pin="5"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="19" name="Net-(SW1-Pad2)">
+      <node ref="U2" pin="10"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(P1-Pad7)">
+      <node ref="P1" pin="7"/>
+    </net>
+  </nets>
+</export>

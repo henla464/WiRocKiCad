@@ -1,0 +1,45 @@
+### Module positions - created on mån 16 sep 2019 23:08:42 ###
+### Printed by Pcbnew version kicad 5.0.2-bee76a0~70~ubuntu16.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                  Package                                 PosX       PosY       Rot  Side
+C1        4.7uF                C_0603_1608Metric                    18.6173    17.9224  270.0000  top
+C2        1uF                  C_0603_1608Metric                    25.7928    21.0734  270.0000  top
+C3        4.7uF                C_0603_1608Metric                    28.2516    30.1438  270.0000  top
+C4        10uF                 C_0603_1608Metric                    23.7354    25.7717   90.0000  top
+C5        10uF                 C_0603_1608Metric                    29.0550    23.6160    0.0000  top
+C6        1uF                  C_0603_1608Metric                    22.8160    18.0400  270.0000  top
+C7        100pF                C_0603_1608Metric                    16.4820     6.2170   90.0000  top
+C8        4.7uF                C_0603_1608Metric                    17.4744    30.0041  270.0000  top
+C9        1uF                  C_0603_1608Metric                    19.9356    32.2520  180.0000  top
+C10       4.7uF                C_0603_1608Metric                    24.2815    29.0737  180.0000  top
+C11       4.7uF                C_0603_1608Metric                    16.0291    31.5052   90.0000  top
+C12       10uF                 C_0603_1608Metric                    22.9760    57.2257  180.0000  top
+C13       10uF                 C_0603_1608Metric                    24.0766    61.4065  270.0000  top
+C14       10uF                 C_0603_1608Metric                    15.5675    58.6012  270.0000  top
+C15       47uF                 C_1210_3225Metric                    38.3260    55.8740  270.0000  top
+D2        LED                  D_0603_1608Metric                    39.5452    40.9007   90.0000  top
+D3        IN5819               D_SOD-123                            30.0245    61.5818    0.0000  top
+D4        LED                  D_0603_1608Metric                    39.5706    52.3307  270.0000  top
+D5        LED                  D_0603_1608Metric                    39.5706    43.9741  270.0000  top
+J9        Conn_Coaxial         U.FL_Hirose_U.FL-R-SMT-1_Vertical    39.9770    48.2540    0.0000  top
+L1        2.2uH-DCR<0.1R-1.5A  Inductor_SLW4018                     12.5594    30.7755   90.0000  top
+L2        2.2uH-DCR<0.1R-1.5A  Inductor_SLW4018                     32.2300    56.3820   90.0000  top
+R1        100K-1%              R_0603_1608Metric                    12.6483    22.9904    0.0000  top
+R2        200K-1%              R_0603_1608Metric                    20.6493    18.1009   90.0000  top
+R3        200K-1%              R_0603_1608Metric                    12.6363    24.6299    0.0000  top
+R4        1K                   R_0603_1608Metric                    14.5770     6.2170   90.0000  top
+R5        0R03                 R_0805_2012Metric                    20.0906    30.0651    0.0000  top
+R6        1K                   R_0603_1608Metric                    41.3232    40.9007   90.0000  top
+R7        200K-1%              R_0603_1608Metric                    26.0324    61.3811   90.0000  top
+R8        24K-1%               R_0603_1608Metric                    23.2427    59.0418    0.0000  top
+R9        3.6K-1%              R_0603_1608Metric                    14.3484    56.2249    0.0000  top
+R10       100K-1%              R_0603_1608Metric                     7.2110    55.3660  270.0000  top
+R11       10K                  R_0603_1608Metric                    36.6090    31.1776  270.0000  top
+R12       10K                  R_0603_1608Metric                    34.5973    31.1903  270.0000  top
+R13       1K                   R_0603_1608Metric                    41.3486    52.3307   90.0000  top
+R14       1K                   R_0603_1608Metric                    41.3486    43.9741   90.0000  top
+U3        AXP209               qfn48_6x6mm_Pitch0.4mm               18.4998    23.6164    0.0000  top
+U4        LP6226_SY7208        SOT-23-6                             27.0181    57.9175  270.0000  top
+U5        SY6280               SOT-23-5                             18.9712    58.2188    0.0000  top
+## End

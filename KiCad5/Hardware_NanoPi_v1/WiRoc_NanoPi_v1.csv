@@ -1,0 +1,49 @@
+Title,WiRoc NanoPI Hat
+Revision,1
+Date,2018-03-31
+Generated,lör  7 jul 2018 10:55:37
+Company,Henrik Larsson
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,53
+Total Unique Parts,29
+
+
+
+Ref,Qty,Value,Footprint,Description,ElecrowPNr,Manufacturer,ManufacturerPNr,Notes,Original,Package,WebsiteURL,WebsiteURL2,
+C13 C12 C14 C4 C5 ,5,10uF,Capacitors_SMD:C_0603, ,C19702, ,CL10A106KP8NNNC, ,Free,0603, , 
+C3 C11 C10 C8 C1 ,5,4.7uF,Capacitors_SMD:C_0603, ,C19666, ,CL10A475KO8NNNC, ,Free,0603, , 
+C9 C2 C6 ,3,1uF,Capacitors_SMD:C_0603, ,C15849, ,CL10A105KB8NNNC, ,Free,0603, , 
+C7 ,1,100pF,Capacitors_SMD:C_0603,100pF (101) ±5% 50V,C14858, ,CL10C101JB8NNNC, ,Free,0603, , 
+D3 ,1,IN5819,Diodes_SMD:D_SOD-123,Diode Schottky 40V 1A Surface Mount SOD-123, ,Diodes Incorporated,1N5819HW-7-F, ,No,SOD-123,https://www.digikey.com/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283, 
+D1 ,1,D_TVS,WiRoc:SOD-882L, , ,Applied Power Microelectronics,AU0511P1, ,No,DFN1006-2,http://www.datasheetspdf.com/pdf/1099402/AppliedPowerMicroelectronics/AU0511P1/1, 
+D2 ,1,LED,Diodes_SMD:D_0603,Red LED,4040506A, ,-, ,No,0603, , 
+J6 ,1,NanoPIAir_USBPort,Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm,CONN HEADER FEM 12POS.1" SGL TIN, ,Sullins Connector Solutions,PPTC121LFBN-RC, ,No,1x 12P-2.54,https://www.digikey.se/products/en?keywords=PPTC121LFBN-RC,https://www.aliexpress.com/item/Free-Shipping-10pcs-Female-Pin-Header-Strip-2-54-mm-Single-Row-Female-Pin-Header/32792248914.html?spm=2114.search0104.3.169.29fc3e55CbxpgH&ws_ab_test=searchweb0_0 searchweb201602_2_10152_10151_10065_10344_10068_5722815_10342_10343_10340_5722915_10341_5722615_10696_10084_10083_10618_10307_10301_10303_5722715_5711215_10313_10059_10534_100031_10103_441_10624_10623_10622_5722515_10621_10620 searchweb201603_50 ppcSwitch_3&algo_expid=4e7669d0-437f-42f3-8baf-303fcc330e84-24&algo_pvid=4e7669d0-437f-42f3-8baf-303fcc330e84&priceBeautifyAB=0
+J9 ,1,NanoPIAir_GPIOPort,Pin_Headers:Pin_Header_Straight_2x12_Pitch2.54mm,2.54mm 2X12 Pin Double Row Female 12P, ,Sullins Connector Solutions,PPTC122LFBN-RC, ,No,2x 12P-2.54,https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC122LFBN-RC/S7080-ND/810218,https://www.aliexpress.com/item/10pcs-lot-2-54mm-2X12-Pin-Double-Row-Female-12P-Straight-Header-Pitch-Socket-Strip/32453066786.html?spm=2114.search0104.3.2.7e801edaChtslQ&ws_ab_test=searchweb0_0 searchweb201602_2_10152_10151_10065_10344_10068_5722815_10342_10343_10340_5722915_10341_5722615_10696_10084_10083_10618_10307_10301_10303_5722715_5711215_10313_10059_10534_100031_10103_441_10624_10623_10622_5722515_10621_10620 searchweb201603_50 ppcSwitch_3&algo_expid=d299785e-441c-49de-9a7d-8afdc668f6e8-0&algo_pvid=d299785e-441c-49de-9a7d-8afdc668f6e8&priceBeautifyAB=0
+J7 ,1,NanoPIAir_DebugPort,Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm,CONN HEADER FEM 12POS.1" SGL TIN, ,Sullins Connector Solutions,PPTC041LFBN-RC, ,No,1x 4P-2.54,https://www.digikey.se/product-detail/en/sullins-connector-solutions/PPTC041LFBN-RC/S7002-ND/810144,https://www.aliexpress.com/item/Free-Shipping-10pcs-Female-Pin-Header-Strip-2-54-mm-Single-Row-Female-Pin-Header/32792248914.html?spm=2114.search0104.3.169.29fc3e55CbxpgH&ws_ab_test=searchweb0_0 searchweb201602_2_10152_10151_10065_10344_10068_5722815_10342_10343_10340_5722915_10341_5722615_10696_10084_10083_10618_10307_10301_10303_5722715_5711215_10313_10059_10534_100031_10103_441_10624_10623_10622_5722515_10621_10620 searchweb201603_50 ppcSwitch_3&algo_expid=4e7669d0-437f-42f3-8baf-303fcc330e84-24&algo_pvid=4e7669d0-437f-42f3-8baf-303fcc330e84&priceBeautifyAB=0
+J3 ,1,JST-2PIN,WiRoc:JST_2.56,2 Positions Header Connector 0.098" (2.50mm) Through Hole Tin, ,JST Sales America Inc.,B2B-XH-A(LF)(SN),2.54 mm pitch should work too...,No,-,https://www.digikey.se/product-detail/en/jst-sales-america-inc/B2B-XH-A-LF-SN/455-2247-ND/1651045, 
+J1 ,1,Conn_01x02,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm, ,6030916A, , , ,No,1x 2P-2.54, , 
+J8 ,1,HAT_Conn_DBG,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm, ,6030916A, , , ,No,1x 3P-2.54, , 
+J2 ,1,TerminalBlock_USB_Power_01x04,WiRoc:TerminalBlock_4P_2.54mm, , , , , , , , , 
+J5 ,1,Conn_01x06,Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm, , , , , , , , , 
+J4 ,1,TerminalBlock_USB_Host_Data_01x04,WiRoc:TerminalBlock_4P_2.54mm, , , , , , , , , 
+L2 L1 ,2,2.2uH-DCR<0.1R-1.5A,WiRoc:ELL4LG-A,FIXED IND 2.2UH 1.7A 55 MOHM SMD, ,Panasonic Electronic Components,ELL-4LG2R2NA, , ,ELL4LG-A,https://www.digikey.se/product-detail/en/panasonic-electronic-components/ELL-4LG2R2NA/PCD2215TR-ND/1938292, 
+R7 R2 R3 ,3,200K-1%,Resistors_SMD:R_0603, ,C25811, ,0603WAF2003T5E, ,Free,0603, , 
+R8 ,1,24K-1%,Resistors_SMD:R_0603, ,C23352, ,0603WAF2402T5E, ,Free,0603, , 
+R9 ,1,3.6K-1%,Resistors_SMD:R_0603, ,C22980, ,0603WAF3601T5E, ,Free,0603, , 
+R5 ,1,0R03,Resistors_SMD:R_0805,RESISTOR 0805 0.03Ω 1/8W±1%,-,Vishay Dale,WSL0805R0300FEA, ,No,0805,https://www.digikey.com/product-detail/en/vishay-dale/WSL0805R0300FEA/WSLA-.03CT-ND/713392, 
+R4 R6 ,2,1K,Resistors_SMD:R_0603,1KΩ (1001) ±1%,C21190, ,0603F1001T5E, ,Free,0603, , 
+R1 R10 ,2,100K-1%,Resistors_SMD:R_0603, ,C25803, ,0603WAF1003T5E, ,Free,0603, , 
+TP10 TP11 TP14 TP4 TP1 TP2 TP9 TP3 ,8,TEST,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small, , , , , , , , , 
+U3 ,1,AXP209,Housings_DFN_QFN:QFN-48-1EP_6x6mm_Pitch0.4mm,Enhanced single Cell Li-Battery and Power System Management IC, ,X-Powers Limited,AXP209, ,Yes,6mm x 6mm 48-pin QFN, , 
+U4 ,1,LP6226/SY7208,TO_SOT_Packages_SMD:SOT-23-6,High Efficiency Boost DC/DC Convertor, ,lowpowersemi,LP6226B6F, ,Yes,SOT23-6, , 
+U5 ,1,SY6280,TO_SOT_Packages_SMD:SOT-23-5,Power Distribution Switch  1In/1Out  Act-High Enable  1A  Vin 2.4÷5.5V  80mΩ, ,SILERGY,SY6280AAC, ,Yes,SOT23-5, , 
+U2 ,1,LoraRadio,Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm,Lora radio module, ,AppconnWireless,RF1276T ; freq: ~440Mhz ; voltage: 2.1-3.7V ; TTL serial, ,Yes,-, , 
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated lör  7 jul 2018 10:55:37

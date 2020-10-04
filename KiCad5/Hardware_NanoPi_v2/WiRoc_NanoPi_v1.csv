@@ -1,0 +1,51 @@
+Title,WiRoc NanoPI Hat
+Revision,1
+Date,2018-03-31
+Generated,fre 14 sep 2018 20:57:53
+Company,Henrik Larsson
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,55
+Total Unique Parts,30
+
+
+
+Ref,Qty,Value,Footprint,Description,ElecrowPNr,Manufacturer,ManufacturerPNr,Notes,Original,Package,WebsiteURL,WebsiteURL2,
+C13 C12 C14 C4 C5 ,5,10uF,Capacitors_SMD:C_0603, ,C19702,Samsung Electro-Mechanics,CL10A106KP8NNNC, ,No,0603,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html, 
+C3 C11 C10 C8 C1 ,5,4.7uF,Capacitors_SMD:C_0603, ,C99226,Guangdong Fenghua Advanced Tech,0603B475K160NT, ,No,0603,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_4-7uF-475-10-16V_C99226.html, 
+C9 C2 C6 ,3,1uF,Capacitors_SMD:C_0603, ,C157684,Guangdong Fenghua Advanced Tech,0603X105K500NT, ,No,0603,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1uF-105-10-50V_C157684.html, 
+C7 ,1,100pF,Capacitors_SMD:C_0603,100pF (101) ±5% 50V,C1635,Guangdong Fenghua Advanced Tech,0603CG101J500NT, ,No,0603,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100pF-101-5-50V_C1635.html, 
+D3 ,1,IN5819,Diodes_SMD:D_SOD-123,Diode Schottky 40V 1A Surface Mount SOD-123,C82544,Diodes Incorporated,1N5819HW-7-F, ,No,SOD-123,https://www.digikey.com/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283, 
+D1 ,1,D_TVS,WiRoc:SOD-882L, ,Missing,Applied Power Microelectronics,AU0511P1, ,No,DFN1006-2,https://item.taobao.com/item.htm?spm=a230r.1.14.51.3b9f766aTXZiNq&id=571116775820&ns=1&abbucket=3#detail, 
+D2 ,1,LED,Diodes_SMD:D_0603,Red LED,C118330,Wuxi ARK Tech Elec,D-R060306L3-KS2, ,No,0603,https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_D-R060306L3-KS2-Azarin_C118330.html, 
+J6 ,1,NanoPIAir_USBPort,WiRoc:Pin_Header_Straight_1x12_Pitch2.54mm,CONN HEADER Male 12POS.1",C2337,Boom Precision Elec, , ,No,1x 12P-2.54,https://lcsc.com/product-detail/Male-Header_2-54mm-1-40P-Straight-Headers-Pins_C2337.html,https://www.aliexpress.com/item/Free-Shipping-10pcs-Female-Pin-Header-Strip-2-54-mm-Single-Row-Female-Pin-Header/32792248914.html?spm=2114.search0104.3.169.29fc3e55CbxpgH&ws_ab_test=searchweb0_0 searchweb201602_2_10152_10151_10065_10344_10068_5722815_10342_10343_10340_5722915_10341_5722615_10696_10084_10083_10618_10307_10301_10303_5722715_5711215_10313_10059_10534_100031_10103_441_10624_10623_10622_5722515_10621_10620 searchweb201603_50 ppcSwitch_3&algo_expid=4e7669d0-437f-42f3-8baf-303fcc330e84-24&algo_pvid=4e7669d0-437f-42f3-8baf-303fcc330e84&priceBeautifyAB=0
+J9 ,1,NanoPIAir_GPIOPort,WiRoc:Pin_Header_Straight_2x12_Pitch2.54mm,CONN HEADER Male 2x12POS.1",C2333,Boom Precision Elec, , ,No,2x 12P-2.54,https://lcsc.com/product-detail/Male-Header_2-54mm-2-40P-Straight-Headers-Pins_C2333.html,https://www.aliexpress.com/item/10pcs-lot-2-54mm-2X12-Pin-Double-Row-Female-12P-Straight-Header-Pitch-Socket-Strip/32453066786.html?spm=2114.search0104.3.2.7e801edaChtslQ&ws_ab_test=searchweb0_0 searchweb201602_2_10152_10151_10065_10344_10068_5722815_10342_10343_10340_5722915_10341_5722615_10696_10084_10083_10618_10307_10301_10303_5722715_5711215_10313_10059_10534_100031_10103_441_10624_10623_10622_5722515_10621_10620 searchweb201603_50 ppcSwitch_3&algo_expid=d299785e-441c-49de-9a7d-8afdc668f6e8-0&algo_pvid=d299785e-441c-49de-9a7d-8afdc668f6e8&priceBeautifyAB=0
+J7 ,1,NanoPIAir_DebugPort,WiRoc:Pin_Header_Straight_1x04_Pitch2.54mm,CONN HEADER Male 4POS.1",C2337,Boom Precision Elec, , ,No,1x 4P-2.54,https://lcsc.com/product-detail/Male-Header_2-54mm-1-40P-Straight-Headers-Pins_C2337.html,https://www.aliexpress.com/item/Free-Shipping-10pcs-Female-Pin-Header-Strip-2-54-mm-Single-Row-Female-Pin-Header/32792248914.html?spm=2114.search0104.3.169.29fc3e55CbxpgH&ws_ab_test=searchweb0_0 searchweb201602_2_10152_10151_10065_10344_10068_5722815_10342_10343_10340_5722915_10341_5722615_10696_10084_10083_10618_10307_10301_10303_5722715_5711215_10313_10059_10534_100031_10103_441_10624_10623_10622_5722515_10621_10620 searchweb201603_50 ppcSwitch_3&algo_expid=4e7669d0-437f-42f3-8baf-303fcc330e84-24&algo_pvid=4e7669d0-437f-42f3-8baf-303fcc330e84&priceBeautifyAB=0
+J3 ,1,JST-2PIN,WiRoc:JST_2.56,2 Positions Header Connector 0.098" (2.50mm) Through Hole Tin,C20079,Boom Precision Elec,XH-2A,2.54 mm pitch should work too...,No,XH-2A,https://lcsc.com/product-detail/XH-Connectors_XH-2A-2P-pitch2-5mm-Straight-line_C20079.html, 
+J1 ,1,Conn_01x02,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm, ,C2337,Boom Precision Elec, , ,No,1x 2P-2.54,https://lcsc.com/product-detail/Male-Header_2-54mm-1-40P-Straight-Headers-Pins_C2337.html, 
+J8 ,1,HAT_Conn_DBG,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,CONN HEADER Male 3POS.1",C2337,Boom Precision Elec, , ,No,1x 3P-2.54,https://lcsc.com/product-detail/Male-Header_2-54mm-1-40P-Straight-Headers-Pins_C2337.html, 
+J2 ,1,USB_Power_02x02,WiRoc:USBConnPads, ,N/A, , , , , , , 
+J5 ,1,Conn_01x06,Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm, ,C2334,Boom Precision Elec, , ,No, ,https://lcsc.com/product-detail/Male-Header_2-54mm-1-40P-bend-Headers-Pins_C2334.html, 
+J4 ,1,USB_Host_Data_02x02,WiRoc:USBConnPads, ,N/A, , , , , , , 
+L2 L1 ,2,2.2uH-DCR<0.1R-1.5A,WiRoc:Inductor_SLW4018,FIXED IND 2.2UH 1.7A 55 MOHM SMD,C206341,Sunltech Tech,SLW4018S2R2MST, ,Yes,4018,https://lcsc.com/product-detail/Power-Inductors_2-2uH-20-1-65A_C206341.html, 
+R7 R2 R3 ,3,200K-1%,Resistors_SMD:R_0603, ,C25811,Uniroyal Elec,0603WAF2003T5E, ,No,0603,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF2003T5E_C25811.html, 
+R8 ,1,24K-1%,Resistors_SMD:R_0603, ,C23352,Uniroyal Elec,0603WAF2402T5E, ,No,0603,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF2402T5E_C23352.html, 
+R9 ,1,3.6K-1%,Resistors_SMD:R_0603, ,C100993,LIZ Elec,CR0603FA3601G, ,No,0603,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_3-6KR-3601-1_C100993.html, 
+R5 ,1,0R03,Resistors_SMD:R_0805,RESISTOR 0805 0.03Ω 1/8W±1%,C158159,RALEC,RTT05R030FTP, ,No,0805,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_0-03R-R030-1_C158159.html, 
+R4 R6 ,2,1K,Resistors_SMD:R_0603,1KΩ (1001) ±1%,C103198,RALEC,RTT031001FTP, ,No,0603,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-1001-1_C103198.html, 
+R1 R10 ,2,100K-1%,Resistors_SMD:R_0603, ,C25803,Uniroyal Elec,0603WAF1003T5E, ,No,0603,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF1003T5E_C25803.html, 
+R11 R12 ,2,10K,Resistors_SMD:R_0603,RESISTOR 0603 10KΩ,C108450,Huaxin S&T,WR06X103JTL, ,No,0603,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-103-5_C108450.html, 
+TP10 TP11 TP14 TP4 TP1 TP2 TP9 TP3 ,8,TEST,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small, ,N/A, , , , , , , 
+U3 ,1,AXP209,WiRoc:qfn48_6x6mm_Pitch0.4mm,Enhanced single Cell Li-Battery and Power System Management IC,C80525,X-Powers Limited,AXP209, ,Yes,6mm x 6mm 48-pin QFN,https://lcsc.com/product-detail/PMIC-AC-DC-Converters_AXP209_C80525.html
+, 
+U4 ,1,LP6226/SY7208,TO_SOT_Packages_SMD:SOT-23-6,High Efficiency Boost DC/DC Convertor,Missing,lowpowersemi,LP6226B6F, ,Yes,SOT23-6,Ask for quote,https://lcsc.com/product-detail/DC-DC-Converters_Silergy_SY7208ABC_SY7208ABC_C80514.html
+U5 ,1,SY6280,TO_SOT_Packages_SMD:SOT-23-5,Power Distribution Switch  1In/1Out  Act-High Enable  1A  Vin 2.4÷5.5V  80mΩ,C55136,SILERGY,SY6280AAC, ,Yes,SOT23-5,https://lcsc.com/product-detail/PMIC-Power-Distribution-Switches_Silergy_SY6280AAC_SY6280AAC_C55136.html, 
+U2 ,1,LoraRadio,Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm,Lora radio module,Missing,AppconnWireless,RF1276T ; freq: ~440Mhz ; voltage: 2.1-3.7V ; TTL serial, ,Yes,-,https://item.taobao.com/item.htm?spm=a230r.1.14.18.8be92845BTVnWk&id=20300238466&ns=1&abbucket=3#detail, 
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated fre 14 sep 2018 20:57:53

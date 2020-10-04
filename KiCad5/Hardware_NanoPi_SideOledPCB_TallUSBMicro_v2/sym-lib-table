@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name WiRoc_NanoPi_SideOledPCB_v1-rescue)(type Legacy)(uri ${KIPRJMOD}/WiRoc_NanoPi_SideOledPCB_v1-rescue.lib)(options "")(descr ""))
+)

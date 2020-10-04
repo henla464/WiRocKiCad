@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name WiRoc)(type KiCad)(uri "$(KIPRJMOD)/WiRoc.pretty")(options "")(descr ""))
+  (lib (name Library)(type KiCad)(uri "$(KIPRJMOD)/Library.pretty")(options "")(descr ""))
+  (lib (name Connectors_JST)(type KiCad)(uri "$(KIPRJMOD)/Connectors_JST.pretty")(options "")(descr ""))
+)

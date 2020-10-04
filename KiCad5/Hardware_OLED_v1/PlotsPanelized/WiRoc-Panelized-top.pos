@@ -1,0 +1,10 @@
+### Module positions - created on Tue Aug  7 11:55:12 2018 ###
+### Printed by Pcbnew version kicad 4.0.7-e2-6376~58~ubuntu16.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                                    Package                                     PosX       PosY       Rot  Side
+REF**     CP_Tantalum_Case-E_EIA-7260-38_Reflow  CP_Tantalum_Case-E_EIA-7260-38_Reflow   166.8272  -131.7955    0.0000  top
+REF**     CP_Tantalum_Case-E_EIA-7260-38_Reflow  CP_Tantalum_Case-E_EIA-7260-38_Reflow   123.5989  -132.8471    0.0000  top
+REF**     CP_Tantalum_Case-E_EIA-7260-38_Reflow  CP_Tantalum_Case-E_EIA-7260-38_Reflow   167.9854   -88.7425    0.0000  top
+REF**     CP_Tantalum_Case-E_EIA-7260-38_Reflow  CP_Tantalum_Case-E_EIA-7260-38_Reflow   124.1069   -89.0575    0.0000  top
+## End
