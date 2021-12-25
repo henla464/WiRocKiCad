@@ -1,24 +1,54 @@
-Ref,Qty,Value,Footprint,Description,IncludeInBOM,LCSCPNr,Manufacturer,ManufacturerPNr,Original,Package,ThroughHole,WebsiteURL,WebsiteURL2
-C13 C12 C14 C4 C5 ,5,10uF,Capacitor_SMD:C_0603_1608Metric, ,TRUE,C19702,Samsung Electro-Mechanics,CL10A106KP8NNNC,No,603,FALSE,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html, 
-C3 C11 C10 C8 C1 ,5,4.7uF,Capacitor_SMD:C_0603_1608Metric, ,TRUE,C19666,Guangdong Fenghua Advanced Tech,0603B475K160NT,No,603,FALSE,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_4-7uF-475-10-16V_C99226.html, 
-C9 C2 C6 ,3,1uF,Capacitor_SMD:C_0603_1608Metric, ,TRUE,C15849,Guangdong Fenghua Advanced Tech,0603X105K500NT,No,603,FALSE,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1uF-105-10-50V_C157684.html, 
-C7 ,1,100pF,Capacitor_SMD:C_0603_1608Metric,100pF (101) ±5% 50V,TRUE,C14858,Guangdong Fenghua Advanced Tech,0603CG101J500NT,No,603,FALSE,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100pF-101-5-50V_C1635.html, 
-C15 ,1,47uF,Capacitor_SMD:C_1210_3225Metric, ,TRUE,C77101,Murata Electronics,GRM32ER61C476KE15L,No,1210,FALSE, , 
-D3 ,1,IN5819,Diode_SMD:D_SOD-123,Diode Schottky 40V 1A Surface Mount SOD-123,TRUE,C8597,Diodes Incorporated,1N5819HW-7-F,No,SOD-123,FALSE,https://www.digikey.com/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283, 
-D5 D4 ,2,LED,Diode_SMD:D_0603_1608Metric,Red LED,TRUE,C2286,Wuxi ARK Tech Elec,D-R060306L3-KS2,No,603,FALSE,https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_D-R060306L3-KS2-Azarin_C118330.html, 
-J1 ,1,Conn_01x02,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,Pin header for power on button,TRUE,C2337,Boom Precision Elec,2.54mm 1x40P,No,1x 2P-2.54,TRUE,https://lcsc.com/product-detail/Male-Header_2-54mm-1-40P-Straight-Headers-Pins_C2337.html, 
-J6 ,1,HAT_Conn_DBG,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,Serial debug port,TRUE,C2337,Boom Precision Elec,2.54mm 1x40P,No,1x 3P-2.54,TRUE,https://lcsc.com/product-detail/Male-Header_2-54mm-1-40P-Straight-Headers-Pins_C2337.html, 
+Title,WiRoc NanoPI Hat
+Revision,1
+Date,2018-03-31
+Generated,tor  5 nov 2020 01:36:50
+Company,Henrik Larsson
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,60
+Total Unique Parts,33
+
+
+
+Ref,Qty,Value,Footprint,Description,IncludeInBOM,LCSCPNr,Manufacturer,ManufacturerPNr,Original,Package,ThroughHole,WebsiteURL,WebsiteURL2,
+C13 C12 C14 C4 C5 ,5,10uF,Capacitor_SMD:C_0603_1608Metric, ,TRUE,C19702,Samsung Electro-Mechanics,CL10A106KP8NNNC,No,0603,FALSE,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html, 
+C3 C11 C10 C8 C1 C18 ,6,4.7uF,Capacitor_SMD:C_0603_1608Metric, ,TRUE,C19666,Samsung Electro-Mechanics,CL10A475KO8NNNC,No,0603,FALSE,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_4-7uF-475-10-16V_C99226.html, 
+C9 C2 C6 C16 ,4,1uF,Capacitor_SMD:C_0603_1608Metric, ,TRUE,C15849,Samsung Electro-Mechanics,CL10A105KB8NNNC,No,0603,FALSE,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1uF-105-10-50V_C157684.html, 
+C7 ,1,100pF,Capacitor_SMD:C_0603_1608Metric,100pF (101) ±5% 50V,TRUE,C14858,Samsung Electro-Mechanics,CL10C101JB8NNNC,No,0603,FALSE,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100pF-101-5-50V_C1635.html, 
+C15 C17 ,2,47uF,Capacitor_SMD:C_1210_3225Metric, ,TRUE,C77101,Murata Electronics,GRM32ER61C476KE15L,No,1210,FALSE, , 
+D3 ,1,IN5819,Diode_SMD:D_SOD-123,Diode Schottky 40V 1A Surface Mount SOD-123,TRUE,C8597,Changjiang Electronics Tech (CJ),B5817W,No,SOD-123,FALSE,https://www.digikey.com/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283, 
+D1 ,1,LED_DUAL_ACCA,WiRoc:LED_Dual_1.7_1.6, ,TRUE,C513363,HONGLITRONIC(Hongli Zhihui (HONGLITRONIC)),HL-PCB-1617S9FH203BC,Yes,SMD 1.6x1.7x0.67mm,FALSE, , 
+J1 ,1,Conn_01x02,WiRoc:Pin_Header_Straight_1x02_Pitch2.54mm,Pin header for power on button,TRUE,C2337,Boom Precision Elec,2.54mm 1x40P,No,1x 2P-2.54,TRUE,https://lcsc.com/product-detail/Male-Header_2-54mm-1-40P-Straight-Headers-Pins_C2337.html, 
+J2 ,1,USB_Power_02x02,WiRoc:USBConnPads5, ,FALSE,N/A, , , , ,TRUE, , 
+J4 ,1,USB_Host_Data_02x02,WiRoc:USBConnPads5, ,FALSE,N/A, , , , ,TRUE, , 
+J6 ,1,HAT_Conn_DBG,WiRoc:Pin_Header_Straight_1x03_Pitch2.54mm,Serial debug port,TRUE,C2337,Boom Precision Elec,2.54mm 1x40P,No,1x 3P-2.54,TRUE,https://lcsc.com/product-detail/Male-Header_2-54mm-1-40P-Straight-Headers-Pins_C2337.html, 
+J8 ,1,USB_Host_Data_02x02,WiRoc:USBConnPads6, ,FALSE,N/A, , , , ,TRUE, , 
 J7 ,1,NanoPIAir,WiRoc:NanoPiNeoAirAllPins, ,TRUE,C2333,Boom Precision Elec,2.54mm 2x40P,No,-,TRUE,https://lcsc.com/product-detail/Pin-Header-Female-Header_BOOMELE-Boom-Precision-Elec-2-54mm-2x40P_C2333.html, 
+J9 ,1,Conn_Coaxial,Connector_Coaxial:SMA_Amphenol_901-144_Vertical, ,FALSE,N/A, , , , ,TRUE, , 
+J3 ,1,Serial,WiRoc:SerialConnPads, ,FALSE,N/A, , , , ,TRUE, , 
 L2 L1 ,2,2.2uH-DCR<0.1R-1.5A,WiRoc:Inductor_SLW4018,FIXED IND 2.2UH 1.7A 55 MOHM SMD,TRUE,C206341,Sunltech Tech,SLW4018S2R2MST,Yes,4018,FALSE,https://lcsc.com/product-detail/Power-Inductors_2-2uH-20-1-65A_C206341.html, 
-R7 R2 R3 ,3,200K-1%,Resistor_SMD:R_0603_1608Metric, ,TRUE,C25811,Uniroyal Elec,0603WAF2003T5E,No,603,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF2003T5E_C25811.html, 
-R8 ,1,24K-1%,Resistor_SMD:R_0603_1608Metric, ,TRUE,C23352,Uniroyal Elec,0603WAF2402T5E,No,603,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF2402T5E_C23352.html, 
-R9 ,1,3.6K-1%,Resistor_SMD:R_0603_1608Metric, ,TRUE,C22980,LIZ Elec,CR0603FA3601G,No,603,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_3-6KR-3601-1_C100993.html, 
-R5 ,1,0R03,Resistor_SMD:R_0805_2012Metric,RESISTOR 0805 0.03Ω 1/8W±1%,TRUE,C247605,RALEC,RTT05R030FTP,No,805,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_0-03R-R030-1_C158159.html, 
-R4 R14 R13 ,3,1K,Resistor_SMD:R_0603_1608Metric,1KΩ (1001) ±1%,TRUE,C21190,RALEC,RTT031001FTP,No,603,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-1001-1_C103198.html, 
-R1 R10 ,2,100K-1%,Resistor_SMD:R_0603_1608Metric, ,TRUE,C25803,Uniroyal Elec,0603WAF1003T5E,No,603,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF1003T5E_C25803.html, 
-R11 R12 ,2,10K,Resistor_SMD:R_0603_1608Metric,RESISTOR 0603 10KΩ,TRUE,C25804,Huaxin S&T,WR06X103JTL,No,603,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-103-5_C108450.html, 
-SW1 ,1,SW_SPST,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Jumper for battery,TRUE,C2337,Boom Precision Elec,2.54mm 1x40P,No,1x 2P-2.54,TRUE,https://lcsc.com/product-detail/Male-Header_2-54mm-1-40P-Straight-Headers-Pins_C2337.html, 
+R7 R2 R3 ,3,200K-1%,Resistor_SMD:R_0603_1608Metric, ,TRUE,C25811,Uniroyal Elec,0603WAF2003T5E,No,0603,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF2003T5E_C25811.html, 
+R8 ,1,24K-1%,Resistor_SMD:R_0603_1608Metric, ,TRUE,C23352,Uniroyal Elec,0603WAF2402T5E,No,0603,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF2402T5E_C23352.html, 
+R9 ,1,3.6K-1%,Resistor_SMD:R_0603_1608Metric, ,TRUE,C22980,Uniroyal Elec,0603WAF3601T5E,No,0603,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_3-6KR-3601-1_C100993.html, 
+R5 ,1,0R03,Resistor_SMD:R_0805_2012Metric,RESISTOR 0805 0.03Ω 1/8W±1%,TRUE,C247605,RALEC,RTT05R030FTP,No,0805,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_0-03R-R030-1_C158159.html, 
+R4 ,1,24K-1%,Resistor_SMD:R_0603_1608Metric, ,TRUE,C23352,Uniroyal Elec,0603WAF2402T5E,No,0603,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-1001-1_C103198.html, 
+R1 R10 ,2,100K-1%,Resistor_SMD:R_0603_1608Metric, ,TRUE,C25803,Uniroyal Elec,0603WAF1003T5E,No,0603,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF1003T5E_C25803.html, 
+R11 R12 ,2,10K,Resistor_SMD:R_0603_1608Metric,RESISTOR 0603 10KΩ,TRUE,C25804,Uniroyal Elec,0603WAF1002T5E,No,0603,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-103-5_C108450.html, 
+R14 R13 R6 ,3,1K,Resistor_SMD:R_0603_1608Metric,1KΩ (1001) ±1%,TRUE,C25585,Uniroyal Elec,0603WAJ0102T5E,No,0603,FALSE,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-1001-1_C103198.html, 
+SW1 ,1,SW_SPST,WiRoc:Pin_Header_Straight_1x02_Pitch2.54mm,Jumper for battery,TRUE,C2337,Boom Precision Elec,2.54mm 1x40P,No,1x 2P-2.54,TRUE,https://lcsc.com/product-detail/Male-Header_2-54mm-1-40P-Straight-Headers-Pins_C2337.html, 
+TP10 TP11 TP14 TP4 TP1 TP2 TP9 TP3 ,8,TEST,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small, ,FALSE,N/A, , , , ,FALSE, , 
 U3 ,1,AXP209,WiRoc:qfn48_6x6mm_Pitch0.4mm,Enhanced single Cell Li-Battery and Power System Management IC,TRUE,C80525,X-Powers Limited,AXP209,Yes,6mm x 6mm 48-pin QFN,FALSE,https://lcsc.com/product-detail/PMIC-AC-DC-Converters_AXP209_C80525.html, 
-U4 ,1,LP6226_SY7208,TO_SOT_Packages_SMD:SOT-23-6,High Efficiency Boost DC/DC Convertor,TRUE,C80514,lowpowersemi,LP6226B6F,Yes,SOT23-6,FALSE,Ask for quote,https://lcsc.com/product-detail/DC-DC-Converters_Silergy_SY7208ABC_SY7208ABC_C80514.html
-U5 ,1,SY6280,TO_SOT_Packages_SMD:SOT-23-5,Power Distribution Switch  1In/1Out  Act-High Enable  1A  Vin 2.4÷5.5V  80mΩ,TRUE,C55136,SILERGY,SY6280AAC,Yes,SOT23-5,FALSE,https://lcsc.com/product-detail/PMIC-Power-Distribution-Switches_Silergy_SY6280AAC_SY6280AAC_C55136.html, 
+U4 ,1,LP6226_SY7208,TO_SOT_Packages_SMD:SOT-23-6,High Efficiency Boost DC/DC Convertor,TRUE,C80514,Silergy Corp,SY7208ABC,Yes,SOT23-6,FALSE,Ask for quote,https://lcsc.com/product-detail/DC-DC-Converters_Silergy_SY7208ABC_SY7208ABC_C80514.html
+U5 ,1,SY6280,TO_SOT_Packages_SMD:SOT-23-5,Power Distribution Switch  1In/1Out  Act-High Enable  1A  Vin 2.4÷5.5V  80mΩ,TRUE,C55136,Silergy Corp,SY6280AAC,Yes,SOT23-5,FALSE,https://lcsc.com/product-detail/PMIC-Power-Distribution-Switches_Silergy_SY6280AAC_SY6280AAC_C55136.html, 
+U1 ,1,DRF1268DS,WiRoc:DRF1268DS, ,FALSE,N/A, , , , ,FALSE, , 
 U2 ,1,OLED,WiRoc:CONN_OLED_TWI-Socket_Strip_Straight_1x04_Pitch2.54mm,Pin header for OLED dispaly,TRUE,C2337,Boom Precision Elec,2.54mm 1x40P,No,1x 4P-2.54,TRUE,https://lcsc.com/product-detail/Male-Header_2-54mm-1-40P-Straight-Headers-Pins_C2337.html, 
+U7 ,1,BatteryPadP,WiRoc:BatteryPad, ,FALSE,N/A, , , , ,FALSE, , 
+U6 ,1,BatteryPadM,WiRoc:BatteryPad, ,FALSE,N/A, , , , ,FALSE, , 
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated tor  5 nov 2020 01:36:50

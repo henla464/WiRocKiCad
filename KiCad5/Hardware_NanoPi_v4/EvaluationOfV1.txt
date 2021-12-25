@@ -1,5 +1,0 @@
-LDO24IN and LDO3 in must be connected to IPSOUT (pin13 and pin40 i think)
-Need pullup resistors on scl, sda
-Make drillholes for pinheaders smaller, if 1mm now then 0.8mm maybe
-
-

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name WiRoc)(type Legacy)(uri /home/henla464/Documents/WiRoc/Hardware/KiCad/KiCad5/Hardware_Library/WiRocSchemaLibrary/WiRoc.lib)(options "")(descr ""))
+)

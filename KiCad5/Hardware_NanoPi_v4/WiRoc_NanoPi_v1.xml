@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/henla464/Documents/WiRoc/Hardware/KiCad/KiCad5/Hardware_NanoPi_v4/WiRoc_NanoPi_v1.sch</source>
-    <date>sön  4 okt 2020 01:22:12</date>
+    <date>tor  5 nov 2020 23:08:37</date>
     <tool>Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -41,13 +41,13 @@
     <comp ref="U4">
       <value>LP6226_SY7208</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
-      <datasheet>http://www.lowpowersemi.com/uploads/soft/20170826Boost/LP6226.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810010234_Silergy-Corp-SY7208ABC_C80514.pdf</datasheet>
       <fields>
         <field name="Description">High Efficiency Boost DC/DC Convertor</field>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C80514</field>
-        <field name="Manufacturer">lowpowersemi</field>
-        <field name="ManufacturerPartNumber">LP6226B6F</field>
+        <field name="Manufacturer">Silergy Corp</field>
+        <field name="ManufacturerPartNumber">SY7208ABC</field>
         <field name="Original">Yes</field>
         <field name="Package">SOT23-6</field>
         <field name="ThroughHole">FALSE</field>
@@ -113,13 +113,13 @@
     <comp ref="D3">
       <value>IN5819</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/ds30217.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011112_Changjiang-Electronics-Tech-CJ-B5817W_C8597.pdf</datasheet>
       <fields>
         <field name="Description">Diode Schottky 40V 1A Surface Mount SOD-123</field>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C8597</field>
-        <field name="Manufacturer">Diodes Incorporated</field>
-        <field name="ManufacturerPartNumber">1N5819HW-7-F</field>
+        <field name="Manufacturer">Changjiang Electronics Tech (CJ)</field>
+        <field name="ManufacturerPartNumber">B5817W</field>
         <field name="Original">No</field>
         <field name="Package">SOD-123</field>
         <field name="ThroughHole">FALSE</field>
@@ -166,12 +166,12 @@
     <comp ref="U5">
       <value>SY6280</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.szyucan.com/upfile/IC-PDF/SY6280A.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810121532_Silergy-Corp-SY6280AAC_C55136.pdf</datasheet>
       <fields>
         <field name="Description">Power Distribution Switch, 1In/1Out, Act-High Enable, 1A, Vin 2.4÷5.5V, 80mΩ</field>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C55136</field>
-        <field name="Manufacturer">SILERGY</field>
+        <field name="Manufacturer">Silergy Corp</field>
         <field name="ManufacturerPartNumber">SY6280AAC</field>
         <field name="Original">Yes</field>
         <field name="Package">SOT23-5</field>
@@ -202,11 +202,12 @@
     <comp ref="R9">
       <value>3.6K-1%</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811081731_UNI-ROYAL-Uniroyal-Elec-0603WAF3601T5E_C22980.pdf</datasheet>
       <fields>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C22980</field>
-        <field name="Manufacturer">LIZ Elec</field>
-        <field name="ManufacturerPartNumber">CR0603FA3601G</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="ManufacturerPartNumber">0603WAF3601T5E</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -222,8 +223,8 @@
       <fields>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C19666</field>
-        <field name="Manufacturer">Guangdong Fenghua Advanced Tech</field>
-        <field name="ManufacturerPartNumber">0603B475K160NT</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="ManufacturerPartNumber">CL10A475KO8NNNC</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -257,8 +258,8 @@
         <field name="Description">RESISTOR 0805 0.03Ω 1/8W±1%</field>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C247605</field>
-        <field name="Manufacturer">RALEC</field>
-        <field name="ManufacturerPartNumber">RTT05R030FTP</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="ManufacturerPartNumber">0805W4F300MT5E</field>
         <field name="Original">No</field>
         <field name="Package">0805</field>
         <field name="ThroughHole">FALSE</field>
@@ -274,8 +275,8 @@
       <fields>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C15849</field>
-        <field name="Manufacturer">Guangdong Fenghua Advanced Tech</field>
-        <field name="ManufacturerPartNumber">0603X105K500NT</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="ManufacturerPartNumber">CL10A105KB8NNNC</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -309,8 +310,8 @@
       <fields>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C19666</field>
-        <field name="Manufacturer">Guangdong Fenghua Advanced Tech</field>
-        <field name="ManufacturerPartNumber">0603B475K160NT</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="ManufacturerPartNumber">CL10A475KO8NNNC</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -326,8 +327,8 @@
       <fields>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C19666</field>
-        <field name="Manufacturer">Guangdong Fenghua Advanced Tech</field>
-        <field name="ManufacturerPartNumber">0603B475K160NT</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="ManufacturerPartNumber">CL10A475KO8NNNC</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -343,8 +344,8 @@
       <fields>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C19666</field>
-        <field name="Manufacturer">Guangdong Fenghua Advanced Tech</field>
-        <field name="ManufacturerPartNumber">0603B475K160NT</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="ManufacturerPartNumber">CL10A475KO8NNNC</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -356,7 +357,7 @@
     </comp>
     <comp ref="J1">
       <value>Conn_01x02</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <footprint>WiRoc:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
       <fields>
         <field name="Description">Pin header for power on button</field>
         <field name="IncludeInBOM">TRUE</field>
@@ -373,14 +374,13 @@
       <tstamp>5AC15570</tstamp>
     </comp>
     <comp ref="R4">
-      <value>1K</value>
+      <value>24K-1%</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="Description">1KΩ (1001) ±1%</field>
         <field name="IncludeInBOM">TRUE</field>
-        <field name="LCSCPartNumber">C21190</field>
-        <field name="Manufacturer">RALEC</field>
-        <field name="ManufacturerPartNumber">RTT031001FTP</field>
+        <field name="LCSCPartNumber">C23352</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="ManufacturerPartNumber">0603WAF2402T5E</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -397,8 +397,8 @@
         <field name="Description">100pF (101) ±5% 50V</field>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C14858</field>
-        <field name="Manufacturer">Guangdong Fenghua Advanced Tech</field>
-        <field name="ManufacturerPartNumber">0603CG101J500NT</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="ManufacturerPartNumber">CL10C101JB8NNNC</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -431,8 +431,8 @@
       <fields>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C15849</field>
-        <field name="Manufacturer">Guangdong Fenghua Advanced Tech</field>
-        <field name="ManufacturerPartNumber">0603X105K500NT</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="ManufacturerPartNumber">CL10A105KB8NNNC</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -465,8 +465,8 @@
       <fields>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C19666</field>
-        <field name="Manufacturer">Guangdong Fenghua Advanced Tech</field>
-        <field name="ManufacturerPartNumber">0603B475K160NT</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="ManufacturerPartNumber">CL10A475KO8NNNC</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -482,8 +482,8 @@
       <fields>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C15849</field>
-        <field name="Manufacturer">Guangdong Fenghua Advanced Tech</field>
-        <field name="ManufacturerPartNumber">0603X105K500NT</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="ManufacturerPartNumber">CL10A105KB8NNNC</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -671,8 +671,8 @@
         <field name="Description">RESISTOR 0603 10KΩ</field>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C25804</field>
-        <field name="Manufacturer">Huaxin S&amp;T</field>
-        <field name="ManufacturerPartNumber">WR06X103JTL</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="ManufacturerPartNumber">0603WAF1002T5E</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -689,8 +689,8 @@
         <field name="Description">RESISTOR 0603 10KΩ</field>
         <field name="IncludeInBOM">TRUE</field>
         <field name="LCSCPartNumber">C25804</field>
-        <field name="Manufacturer">Huaxin S&amp;T</field>
-        <field name="ManufacturerPartNumber">WR06X103JTL</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="ManufacturerPartNumber">0603WAF1002T5E</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -702,7 +702,7 @@
     </comp>
     <comp ref="J6">
       <value>HAT_Conn_DBG</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <footprint>WiRoc:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
       <fields>
         <field name="Description">Serial debug port</field>
         <field name="IncludeInBOM">TRUE</field>
@@ -730,33 +730,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D82B7BC</tstamp>
     </comp>
-    <comp ref="D5">
-      <value>LED</value>
-      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
-      <fields>
-        <field name="Description">Red LED</field>
-        <field name="IncludeInBOM">TRUE</field>
-        <field name="LCSCPartNumber">C2286</field>
-        <field name="Manufacturer">Wuxi ARK Tech Elec</field>
-        <field name="ManufacturerPartNumber">D-R060306L3-KS2</field>
-        <field name="Original">No</field>
-        <field name="Package">0603</field>
-        <field name="ThroughHole">FALSE</field>
-        <field name="WebsiteURL">https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_D-R060306L3-KS2-Azarin_C118330.html</field>
-      </fields>
-      <libsource lib="WiRoc_NanoPi_v1-rescue" part="LED" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D8BD0B8</tstamp>
-    </comp>
     <comp ref="R14">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">1KΩ (1001) ±1%</field>
         <field name="IncludeInBOM">TRUE</field>
-        <field name="LCSCPartNumber">C21190</field>
-        <field name="Manufacturer">RALEC</field>
-        <field name="ManufacturerPartNumber">RTT031001FTP</field>
+        <field name="LCSCPartNumber">C25585</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="ManufacturerPartNumber">0603WAJ0102T5E</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -766,33 +748,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D8DA038</tstamp>
     </comp>
-    <comp ref="D4">
-      <value>LED</value>
-      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
-      <fields>
-        <field name="Description">Red LED</field>
-        <field name="IncludeInBOM">TRUE</field>
-        <field name="LCSCPartNumber">C2286</field>
-        <field name="Manufacturer">Wuxi ARK Tech Elec</field>
-        <field name="ManufacturerPartNumber">D-R060306L3-KS2</field>
-        <field name="Original">No</field>
-        <field name="Package">0603</field>
-        <field name="ThroughHole">FALSE</field>
-        <field name="WebsiteURL">https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_D-R060306L3-KS2-Azarin_C118330.html</field>
-      </fields>
-      <libsource lib="WiRoc_NanoPi_v1-rescue" part="LED" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D90A7D0</tstamp>
-    </comp>
     <comp ref="R13">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">1KΩ (1001) ±1%</field>
         <field name="IncludeInBOM">TRUE</field>
-        <field name="LCSCPartNumber">C21190</field>
-        <field name="Manufacturer">RALEC</field>
-        <field name="ManufacturerPartNumber">RTT031001FTP</field>
+        <field name="LCSCPartNumber">C25585</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="ManufacturerPartNumber">0603WAJ0102T5E</field>
         <field name="Original">No</field>
         <field name="Package">0603</field>
         <field name="ThroughHole">FALSE</field>
@@ -905,7 +869,7 @@
     </comp>
     <comp ref="SW1">
       <value>SW_SPST</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <footprint>WiRoc:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
       <fields>
         <field name="Description">Jumper for battery</field>
         <field name="IncludeInBOM">TRUE</field>
@@ -932,6 +896,92 @@
       <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F85D5F3</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="IncludeInBOM">TRUE</field>
+        <field name="LCSCPartNumber">C77101</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="ManufacturerPartNumber">GRM32ER61C476KE15L</field>
+        <field name="Original">No</field>
+        <field name="Package">1210</field>
+        <field name="ThroughHole">FALSE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA3887F</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="IncludeInBOM">TRUE</field>
+        <field name="LCSCPartNumber">C15849</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="ManufacturerPartNumber">CL10A105KB8NNNC</field>
+        <field name="Original">No</field>
+        <field name="Package">0603</field>
+        <field name="ThroughHole">FALSE</field>
+        <field name="WebsiteURL">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1uF-105-10-50V_C157684.html</field>
+      </fields>
+      <libsource lib="WiRoc_NanoPi_v1-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA60172</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="IncludeInBOM">TRUE</field>
+        <field name="LCSCPartNumber">C19666</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="ManufacturerPartNumber">CL10A475KO8NNNC</field>
+        <field name="Original">No</field>
+        <field name="Package">0603</field>
+        <field name="ThroughHole">FALSE</field>
+        <field name="WebsiteURL">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_4-7uF-475-10-16V_C99226.html</field>
+      </fields>
+      <libsource lib="WiRoc_NanoPi_v1-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAA191F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_DUAL_ACCA</value>
+      <footprint>WiRoc:LED_Dual_1.7_1.6</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2005041205_HONGLITRONIC-Hongli-Zhihui-HONGLITRONIC-HL-PCB-1617S9FH203BC_C513363.pdf</datasheet>
+      <fields>
+        <field name="IncludeInBOM">TRUE</field>
+        <field name="LCSCPartNumber">C513363</field>
+        <field name="Manufacturer">HONGLITRONIC(Hongli Zhihui (HONGLITRONIC))</field>
+        <field name="ManufacturerPartNumber">HL-PCB-1617S9FH203BC</field>
+        <field name="Original">Yes</field>
+        <field name="Package">SMD,1.6x1.7x0.67mm</field>
+        <field name="ThroughHole">FALSE</field>
+      </fields>
+      <libsource lib="WiRoc" part="LED_DUAL_ACCA" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAD8D9A</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">1KΩ (1001) ±1%</field>
+        <field name="IncludeInBOM">TRUE</field>
+        <field name="LCSCPartNumber">C25585</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="ManufacturerPartNumber">0603WAJ0102T5E</field>
+        <field name="Original">No</field>
+        <field name="Package">0603</field>
+        <field name="ThroughHole">FALSE</field>
+        <field name="WebsiteURL">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-1001-1_C103198.html</field>
+      </fields>
+      <libsource lib="WiRoc_NanoPi_v1-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB43E95</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1047,6 +1097,18 @@
         <pin num="24" name="GND" type="power_in"/>
         <pin num="25" name="ANT" type="BiDi"/>
         <pin num="26" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="LED_DUAL_ACCA">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_DUAL_ACCA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="K1" type="input"/>
+        <pin num="3" name="K2" type="input"/>
+        <pin num="4" name="A2" type="input"/>
       </pins>
     </libpart>
     <libpart lib="WiRoc" part="LP6226_SY7208">
@@ -1321,19 +1383,6 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="WiRoc_NanoPi_v1-rescue" part="LED">
-      <footprints>
-        <fp>LED*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="WiRoc_NanoPi_v1-rescue" part="R">
       <footprints>
         <fp>R_*</fp>
@@ -1376,389 +1425,397 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="J7" pin="14"/>
+    <net code="1" name="Net-(J7-Pad23)">
+      <node ref="J7" pin="23"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C17" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J8" pin="4"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="J3" pin="4"/>
       <node ref="R1" pin="1"/>
       <node ref="R3" pin="1"/>
-      <node ref="J7" pin="20"/>
-      <node ref="U2" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="C5" pin="2"/>
-      <node ref="J8" pin="4"/>
-      <node ref="J7" pin="42"/>
-      <node ref="C15" pin="1"/>
-      <node ref="U6" pin="1"/>
-      <node ref="J7" pin="51"/>
-      <node ref="J7" pin="9"/>
-      <node ref="U1" pin="9"/>
-      <node ref="C2" pin="2"/>
       <node ref="J9" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="J3" pin="4"/>
-      <node ref="C6" pin="2"/>
-      <node ref="J7" pin="6"/>
-      <node ref="U3" pin="46"/>
-      <node ref="U3" pin="37"/>
-      <node ref="C12" pin="2"/>
-      <node ref="U3" pin="49"/>
-      <node ref="U4" pin="2"/>
-      <node ref="U5" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="R8" pin="1"/>
-      <node ref="U3" pin="27"/>
-      <node ref="U3" pin="22"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R9" pin="1"/>
       <node ref="C3" pin="2"/>
       <node ref="C10" pin="1"/>
-      <node ref="R9" pin="1"/>
-      <node ref="C14" pin="2"/>
       <node ref="C11" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="J1" pin="1"/>
-      <node ref="C7" pin="1"/>
+      <node ref="C5" pin="2"/>
       <node ref="C4" pin="2"/>
-      <node ref="TP9" pin="1"/>
-      <node ref="U1" pin="24"/>
-      <node ref="U1" pin="22"/>
-      <node ref="U1" pin="26"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J7" pin="6"/>
+      <node ref="J7" pin="51"/>
+      <node ref="J7" pin="42"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J7" pin="14"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J7" pin="9"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U3" pin="27"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U3" pin="22"/>
+      <node ref="J7" pin="20"/>
+      <node ref="U3" pin="49"/>
+      <node ref="U3" pin="46"/>
+      <node ref="U3" pin="37"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="2"/>
       <node ref="R10" pin="1"/>
       <node ref="U1" pin="21"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="22"/>
+      <node ref="U1" pin="26"/>
+      <node ref="U1" pin="24"/>
       <node ref="U1" pin="23"/>
       <node ref="J4" pin="4"/>
       <node ref="J6" pin="1"/>
       <node ref="J2" pin="4"/>
-      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="9"/>
     </net>
-    <net code="2" name="UART1_TX">
-      <node ref="U1" pin="12"/>
+    <net code="3" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3"/>
+      <node ref="J7" pin="54"/>
+    </net>
+    <net code="4" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+      <node ref="J7" pin="53"/>
+    </net>
+    <net code="5" name="Net-(J7-Pad18)">
+      <node ref="J7" pin="18"/>
+    </net>
+    <net code="6" name="Net-(J7-Pad16)">
+      <node ref="J7" pin="16"/>
+    </net>
+    <net code="7" name="Net-(J7-Pad24)">
+      <node ref="J7" pin="24"/>
+    </net>
+    <net code="8" name="Net-(J7-Pad7)">
+      <node ref="J7" pin="7"/>
+    </net>
+    <net code="9" name="Net-(J7-Pad52)">
+      <node ref="J7" pin="52"/>
+    </net>
+    <net code="10" name="Net-(J7-Pad41)">
+      <node ref="J7" pin="41"/>
+    </net>
+    <net code="11" name="Net-(J7-Pad40)">
+      <node ref="J7" pin="40"/>
+    </net>
+    <net code="12" name="Net-(J7-Pad39)">
+      <node ref="J7" pin="39"/>
+    </net>
+    <net code="13" name="Net-(J7-Pad38)">
+      <node ref="J7" pin="38"/>
+    </net>
+    <net code="14" name="Net-(J7-Pad31)">
+      <node ref="J7" pin="31"/>
+    </net>
+    <net code="15" name="UART1_TX">
       <node ref="J7" pin="8"/>
+      <node ref="U1" pin="12"/>
     </net>
-    <net code="3" name="UART1_RX">
+    <net code="16" name="UART1_RX">
       <node ref="U1" pin="13"/>
       <node ref="J7" pin="10"/>
     </net>
-    <net code="4" name="N_VBUSEN">
-      <node ref="TP1" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="J7" pin="21"/>
+    <net code="17" name="N_VBUSEN">
       <node ref="U3" pin="6"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="J7" pin="21"/>
+      <node ref="R1" pin="2"/>
     </net>
-    <net code="5" name="UART2_RX">
+    <net code="18" name="UART2_RX">
       <node ref="J7" pin="22"/>
       <node ref="J3" pin="2"/>
     </net>
-    <net code="6" name="Net-(J6-Pad2)">
-      <node ref="J7" pin="53"/>
-      <node ref="J6" pin="2"/>
-    </net>
-    <net code="7" name="Net-(J6-Pad3)">
-      <node ref="J7" pin="54"/>
-      <node ref="J6" pin="3"/>
-    </net>
-    <net code="8" name="SYS_3.3V">
-      <node ref="J7" pin="1"/>
-      <node ref="R12" pin="2"/>
-      <node ref="U2" pin="2"/>
-      <node ref="J7" pin="17"/>
-      <node ref="J3" pin="1"/>
-      <node ref="R11" pin="2"/>
-    </net>
-    <net code="9" name="SDA">
-      <node ref="U2" pin="4"/>
-      <node ref="R11" pin="1"/>
-      <node ref="U3" pin="1"/>
-      <node ref="J7" pin="3"/>
-    </net>
-    <net code="10" name="SCK">
-      <node ref="J7" pin="5"/>
-      <node ref="R12" pin="1"/>
-      <node ref="U2" pin="3"/>
-      <node ref="U3" pin="2"/>
-    </net>
-    <net code="11" name="LORAAUX">
-      <node ref="J7" pin="19"/>
-      <node ref="U1" pin="14"/>
-    </net>
-    <net code="12" name="LORAEN">
-      <node ref="J7" pin="13"/>
-      <node ref="U1" pin="11"/>
-    </net>
-    <net code="13" name="IRQ">
-      <node ref="J7" pin="15"/>
-      <node ref="U3" pin="48"/>
-    </net>
-    <net code="14" name="VDD_5V">
-      <node ref="J4" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="J8" pin="1"/>
-      <node ref="U1" pin="10"/>
-      <node ref="TP14" pin="1"/>
-      <node ref="U5" pin="1"/>
-      <node ref="J7" pin="4"/>
-      <node ref="C15" pin="2"/>
-      <node ref="J7" pin="2"/>
-    </net>
-    <net code="15" name="Net-(U1-Pad16)">
-      <node ref="U1" pin="16"/>
-    </net>
-    <net code="16" name="Net-(U1-Pad17)">
-      <node ref="U1" pin="17"/>
-    </net>
-    <net code="17" name="Net-(U1-Pad18)">
+    <net code="19" name="Net-(U1-Pad18)">
       <node ref="U1" pin="18"/>
-    </net>
-    <net code="18" name="Net-(U1-Pad19)">
-      <node ref="U1" pin="19"/>
-    </net>
-    <net code="19" name="Net-(U1-Pad2)">
-      <node ref="U1" pin="2"/>
     </net>
     <net code="20" name="Net-(U1-Pad20)">
       <node ref="U1" pin="20"/>
     </net>
-    <net code="21" name="Net-(J9-Pad1)">
-      <node ref="U1" pin="25"/>
-      <node ref="J9" pin="1"/>
+    <net code="21" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
     </net>
-    <net code="22" name="Net-(U1-Pad3)">
+    <net code="22" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad3)">
       <node ref="U1" pin="3"/>
     </net>
-    <net code="23" name="Net-(D5-Pad1)">
-      <node ref="U1" pin="4"/>
-      <node ref="D5" pin="1"/>
-    </net>
-    <net code="24" name="Net-(D4-Pad1)">
-      <node ref="D4" pin="1"/>
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="25" name="Net-(U1-Pad6)">
+    <net code="26" name="Net-(U1-Pad6)">
       <node ref="U1" pin="6"/>
     </net>
-    <net code="26" name="Net-(J7-Pad52)">
-      <node ref="J7" pin="52"/>
+    <net code="27" name="Net-(D1-Pad2)">
+      <node ref="U1" pin="4"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="27" name="Net-(J7-Pad18)">
-      <node ref="J7" pin="18"/>
+    <net code="28" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+      <node ref="U1" pin="5"/>
     </net>
-    <net code="28" name="Net-(J7-Pad16)">
-      <node ref="J7" pin="16"/>
-    </net>
-    <net code="29" name="Net-(J7-Pad24)">
-      <node ref="J7" pin="24"/>
-    </net>
-    <net code="30" name="Net-(J7-Pad23)">
-      <node ref="J7" pin="23"/>
-    </net>
-    <net code="31" name="Net-(J7-Pad7)">
-      <node ref="J7" pin="7"/>
-    </net>
-    <net code="32" name="Net-(J7-Pad41)">
-      <node ref="J7" pin="41"/>
-    </net>
-    <net code="33" name="Net-(J7-Pad40)">
-      <node ref="J7" pin="40"/>
-    </net>
-    <net code="34" name="Net-(J7-Pad39)">
-      <node ref="J7" pin="39"/>
-    </net>
-    <net code="35" name="Net-(J7-Pad38)">
-      <node ref="J7" pin="38"/>
-    </net>
-    <net code="36" name="Net-(J7-Pad31)">
-      <node ref="J7" pin="31"/>
-    </net>
-    <net code="37" name="VBUS">
-      <node ref="J2" pin="1"/>
-      <node ref="U3" pin="31"/>
-      <node ref="C5" pin="1"/>
-    </net>
-    <net code="38" name="Net-(R2-Pad2)">
+    <net code="29" name="Net-(R2-Pad2)">
       <node ref="U3" pin="23"/>
       <node ref="TP3" pin="1"/>
       <node ref="R2" pin="2"/>
     </net>
-    <net code="39" name="IPSOUT">
-      <node ref="U4" pin="5"/>
-      <node ref="L2" pin="1"/>
-      <node ref="U3" pin="34"/>
-      <node ref="U3" pin="35"/>
-      <node ref="C12" pin="1"/>
-      <node ref="U3" pin="40"/>
-      <node ref="TP10" pin="1"/>
-      <node ref="U3" pin="44"/>
-      <node ref="U3" pin="13"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U3" pin="21"/>
-      <node ref="C8" pin="2"/>
+    <net code="30" name="SCK">
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R12" pin="1"/>
+      <node ref="J7" pin="5"/>
     </net>
-    <net code="40" name="Net-(SW1-Pad1)">
+    <net code="31" name="SYS_3.3V">
+      <node ref="R12" pin="2"/>
+      <node ref="J7" pin="17"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="32" name="SDA">
+      <node ref="J7" pin="3"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="33" name="LORAAUX">
+      <node ref="U1" pin="14"/>
+      <node ref="J7" pin="19"/>
+    </net>
+    <net code="34" name="LORAEN">
+      <node ref="J7" pin="13"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="35" name="IRQ">
+      <node ref="U3" pin="48"/>
+      <node ref="J7" pin="15"/>
+    </net>
+    <net code="36" name="UART2_TX">
+      <node ref="J3" pin="3"/>
+      <node ref="J7" pin="11"/>
+    </net>
+    <net code="37" name="IPSOUT">
+      <node ref="C1" pin="1"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U3" pin="21"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="44"/>
+      <node ref="U3" pin="40"/>
+      <node ref="U3" pin="35"/>
+      <node ref="U3" pin="34"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="38" name="Net-(SW1-Pad1)">
       <node ref="U7" pin="1"/>
       <node ref="SW1" pin="1"/>
     </net>
-    <net code="41" name="LORARS">
-      <node ref="J7" pin="36"/>
-      <node ref="U1" pin="7"/>
-    </net>
-    <net code="42" name="PWRON">
-      <node ref="C7" pin="2"/>
-      <node ref="U3" pin="5"/>
-      <node ref="R4" pin="2"/>
-      <node ref="U3" pin="47"/>
-    </net>
-    <net code="43" name="UART2_TX">
-      <node ref="J7" pin="11"/>
-      <node ref="J3" pin="3"/>
-    </net>
-    <net code="44" name="LORAMO">
-      <node ref="J7" pin="37"/>
-      <node ref="U1" pin="15"/>
-    </net>
-    <net code="45" name="USBHost-DP1">
+    <net code="39" name="USBHost-DP1">
       <node ref="J4" pin="3"/>
       <node ref="J7" pin="32"/>
     </net>
-    <net code="46" name="USBHost-DM1">
+    <net code="40" name="USBHost-DM1">
       <node ref="J4" pin="2"/>
       <node ref="J7" pin="33"/>
     </net>
-    <net code="47" name="USBHost-DP2">
+    <net code="41" name="LORAMO">
+      <node ref="J7" pin="37"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="42" name="PWRON">
+      <node ref="R4" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="47"/>
+    </net>
+    <net code="43" name="Net-(J9-Pad1)">
+      <node ref="J9" pin="1"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="44" name="LORARS">
+      <node ref="U1" pin="7"/>
+      <node ref="J7" pin="36"/>
+    </net>
+    <net code="45" name="Net-(D1-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="46" name="Net-(D1-Pad4)">
+      <node ref="D1" pin="4"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="47" name="VDD_5V">
+      <node ref="C15" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="TP14" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J7" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="48" name="USBHost-DM2">
+      <node ref="J8" pin="2"/>
+      <node ref="J7" pin="35"/>
+    </net>
+    <net code="49" name="USBHost-DP2">
       <node ref="J7" pin="34"/>
       <node ref="J8" pin="3"/>
     </net>
-    <net code="48" name="USBHost-DM2">
-      <node ref="J7" pin="35"/>
-      <node ref="J8" pin="2"/>
-    </net>
-    <net code="49" name="Net-(D5-Pad2)">
-      <node ref="D5" pin="2"/>
-      <node ref="R14" pin="1"/>
-    </net>
-    <net code="50" name="Net-(D4-Pad2)">
-      <node ref="R13" pin="1"/>
-      <node ref="D4" pin="2"/>
-    </net>
-    <net code="51" name="Net-(R13-Pad2)">
-      <node ref="R14" pin="2"/>
-      <node ref="U1" pin="8"/>
-      <node ref="R13" pin="2"/>
-    </net>
-    <net code="52" name="Net-(J7-Pad12)">
+    <net code="50" name="Net-(J7-Pad12)">
       <node ref="J7" pin="12"/>
     </net>
-    <net code="53" name="Net-(U3-Pad7)">
-      <node ref="U3" pin="7"/>
+    <net code="51" name="Net-(R13-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R14" pin="2"/>
     </net>
-    <net code="54" name="Net-(U3-Pad8)">
-      <node ref="U3" pin="8"/>
-    </net>
-    <net code="55" name="Net-(U3-Pad15)">
-      <node ref="U3" pin="15"/>
-    </net>
-    <net code="56" name="Net-(U3-Pad17)">
-      <node ref="U3" pin="17"/>
-    </net>
-    <net code="57" name="Net-(U3-Pad10)">
+    <net code="52" name="Net-(U3-Pad10)">
       <node ref="U3" pin="10"/>
     </net>
-    <net code="58" name="Net-(U3-Pad36)">
+    <net code="53" name="Net-(U3-Pad36)">
       <node ref="U3" pin="36"/>
     </net>
-    <net code="59" name="Net-(U3-Pad30)">
+    <net code="54" name="Net-(U3-Pad30)">
       <node ref="U3" pin="30"/>
     </net>
-    <net code="60" name="Net-(U3-Pad14)">
+    <net code="55" name="Net-(U3-Pad14)">
       <node ref="U3" pin="14"/>
     </net>
-    <net code="61" name="Net-(U3-Pad16)">
+    <net code="56" name="Net-(U3-Pad16)">
       <node ref="U3" pin="16"/>
     </net>
-    <net code="62" name="Net-(U3-Pad9)">
+    <net code="57" name="Net-(U3-Pad9)">
       <node ref="U3" pin="9"/>
     </net>
-    <net code="63" name="Net-(R9-Pad2)">
-      <node ref="R9" pin="2"/>
-      <node ref="U5" pin="3"/>
+    <net code="58" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="59" name="Net-(U3-Pad17)">
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="60" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="61" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="62" name="Net-(U3-Pad19)">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="63" name="Net-(U3-Pad18)">
+      <node ref="U3" pin="18"/>
     </net>
     <net code="64" name="Net-(J1-Pad2)">
       <node ref="J1" pin="2"/>
       <node ref="R4" pin="1"/>
     </net>
-    <net code="65" name="Net-(U3-Pad29)">
-      <node ref="U3" pin="29"/>
-    </net>
-    <net code="66" name="Net-(U3-Pad18)">
-      <node ref="U3" pin="18"/>
-    </net>
-    <net code="67" name="Net-(U3-Pad19)">
-      <node ref="U3" pin="19"/>
-    </net>
-    <net code="68" name="Net-(U3-Pad32)">
+    <net code="65" name="Net-(U3-Pad32)">
       <node ref="U3" pin="32"/>
     </net>
-    <net code="69" name="Net-(U3-Pad33)">
+    <net code="66" name="Net-(U3-Pad33)">
       <node ref="U3" pin="33"/>
     </net>
-    <net code="70" name="Net-(U3-Pad28)">
-      <node ref="U3" pin="28"/>
+    <net code="67" name="VBUS">
+      <node ref="C5" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U3" pin="31"/>
     </net>
-    <net code="71" name="Net-(U3-Pad12)">
-      <node ref="U3" pin="12"/>
-    </net>
-    <net code="72" name="Net-(U3-Pad41)">
-      <node ref="U3" pin="41"/>
-    </net>
-    <net code="73" name="Net-(U3-Pad11)">
+    <net code="68" name="Net-(U3-Pad11)">
       <node ref="U3" pin="11"/>
     </net>
-    <net code="74" name="Net-(U3-Pad25)">
+    <net code="69" name="Net-(U3-Pad28)">
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="70" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="71" name="Net-(U3-Pad41)">
+      <node ref="U3" pin="41"/>
+    </net>
+    <net code="72" name="Net-(U3-Pad25)">
       <node ref="U3" pin="25"/>
     </net>
-    <net code="75" name="Net-(U3-Pad3)">
+    <net code="73" name="Net-(U3-Pad29)">
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="74" name="Net-(U3-Pad3)">
       <node ref="U3" pin="3"/>
     </net>
-    <net code="76" name="Net-(R3-Pad2)">
+    <net code="75" name="Net-(R3-Pad2)">
       <node ref="R3" pin="2"/>
       <node ref="U3" pin="4"/>
     </net>
-    <net code="77" name="BAT">
-      <node ref="U3" pin="42"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="U3" pin="39"/>
+    <net code="76" name="BAT">
       <node ref="U3" pin="38"/>
-      <node ref="C3" pin="1"/>
-      <node ref="R5" pin="2"/>
       <node ref="C9" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U3" pin="39"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U3" pin="42"/>
     </net>
-    <net code="78" name="Net-(C11-Pad2)">
-      <node ref="C9" pin="2"/>
-      <node ref="U3" pin="43"/>
-      <node ref="R5" pin="1"/>
+    <net code="77" name="Net-(C11-Pad2)">
       <node ref="C11" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C9" pin="2"/>
       <node ref="L1" pin="2"/>
+      <node ref="U3" pin="43"/>
     </net>
-    <net code="79" name="Net-(L1-Pad1)">
-      <node ref="U3" pin="45"/>
+    <net code="78" name="Net-(L1-Pad1)">
       <node ref="L1" pin="1"/>
+      <node ref="U3" pin="45"/>
     </net>
-    <net code="80" name="EXTEN">
-      <node ref="R10" pin="2"/>
+    <net code="79" name="EXTEN">
       <node ref="TP4" pin="1"/>
-      <node ref="U4" pin="4"/>
       <node ref="U5" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="R10" pin="2"/>
       <node ref="U3" pin="20"/>
     </net>
-    <net code="81" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1"/>
+    <net code="80" name="Net-(C6-Pad1)">
       <node ref="U3" pin="24"/>
+      <node ref="C6" pin="1"/>
     </net>
-    <net code="82" name="Net-(C2-Pad1)">
+    <net code="81" name="Net-(C2-Pad1)">
       <node ref="TP2" pin="1"/>
-      <node ref="C2" pin="1"/>
       <node ref="U3" pin="26"/>
+      <node ref="C2" pin="1"/>
     </net>
-    <net code="83" name="Net-(U4-Pad6)">
+    <net code="82" name="Net-(U4-Pad6)">
       <node ref="U4" pin="6"/>
+    </net>
+    <net code="83" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="U5" pin="3"/>
     </net>
     <net code="84" name="Net-(D3-Pad2)">
       <node ref="U4" pin="1"/>
@@ -1767,14 +1824,14 @@
     </net>
     <net code="85" name="Net-(R7-Pad1)">
       <node ref="R8" pin="2"/>
-      <node ref="R7" pin="1"/>
       <node ref="U4" pin="3"/>
+      <node ref="R7" pin="1"/>
     </net>
     <net code="86" name="Net-(C13-Pad1)">
       <node ref="TP11" pin="1"/>
+      <node ref="R7" pin="2"/>
       <node ref="U5" pin="5"/>
       <node ref="C13" pin="1"/>
-      <node ref="R7" pin="2"/>
       <node ref="D3" pin="1"/>
     </net>
     <net code="87" name="Net-(J2-Pad2)">
