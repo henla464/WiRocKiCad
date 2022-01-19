@@ -1,0 +1,310 @@
+EESchema Schematic File Version 4
+LIBS:WiRocChip_1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L chip:CHIP U2
+U 1 1 5831EB02
+P 5450 3900
+F 0 "U2" H 5550 4600 60  0000 C CNN
+F 1 "CHIP" H 5300 4600 60  0000 C CNN
+F 2 "WiRoc:Chip" H 4850 4250 60  0001 C CNN
+F 3 "" H 4850 4250 60  0001 C CNN
+	1    5450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L WiRoc:JST-2PIN U1
+U 1 1 5831DE90
+P 3100 3350
+F 0 "U1" H 3300 3700 60  0000 C CNN
+F 1 "JST-2PIN" H 2950 3700 60  0000 C CNN
+F 2 "Library:JST_2.56" H 3125 3350 60  0001 C CNN
+F 3 "" H 3125 3350 60  0000 C CNN
+	1    3100 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3400 3450 3400
+Wire Wire Line
+	4600 3400 4450 3400
+Text GLabel 3450 3250 2    60   Input ~ 0
+BAT
+Wire Wire Line
+	3450 3250 3350 3250
+Text GLabel 4350 3950 0    60   Input ~ 0
+BAT
+$Comp
+L WiRocChip_1-rescue:SW_PUSH SW1
+U 1 1 5831F070
+P 3200 4050
+F 0 "SW1" H 3350 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 3200 3970 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3200 4050 50  0001 C CNN
+F 3 "" H 3200 4050 50  0000 C CNN
+	1    3200 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4050 3500 4050
+$Comp
+L power:GND #PWR01
+U 1 1 5831F139
+P 2900 4050
+F 0 "#PWR01" H 2900 3800 50  0001 C CNN
+F 1 "GND" H 2900 3900 50  0000 C CNN
+F 2 "" H 2900 4050 50  0000 C CNN
+F 3 "" H 2900 4050 50  0000 C CNN
+	1    2900 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5831F16B
+P 3450 3400
+F 0 "#PWR02" H 3450 3150 50  0001 C CNN
+F 1 "GND" H 3450 3250 50  0000 C CNN
+F 2 "" H 3450 3400 50  0000 C CNN
+F 3 "" H 3450 3400 50  0000 C CNN
+	1    3450 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5831F1FB
+P 4450 3400
+F 0 "#PWR03" H 4450 3150 50  0001 C CNN
+F 1 "GND" H 4450 3250 50  0000 C CNN
+F 2 "" H 4450 3400 50  0000 C CNN
+F 3 "" H 4450 3400 50  0000 C CNN
+	1    4450 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 4800 4600 4800
+$Comp
+L WiRocChip_1-rescue:CONN_01X07 P1
+U 1 1 5831F69C
+P 3050 4700
+F 0 "P1" H 3050 5100 50  0000 C CNN
+F 1 "Lora Conn" V 3150 4700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 3050 4700 50  0001 C CNN
+F 3 "" H 3050 4700 50  0000 C CNN
+	1    3050 4700
+	-1   0    0    1   
+$EndComp
+NoConn ~ 3250 4400
+$Comp
+L power:GND #PWR04
+U 1 1 5831F7A2
+P 4050 5000
+F 0 "#PWR04" H 4050 4750 50  0001 C CNN
+F 1 "GND" H 4050 4850 50  0000 C CNN
+F 2 "" H 4050 5000 50  0000 C CNN
+F 3 "" H 4050 5000 50  0000 C CNN
+	1    4050 5000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3550 4800 2    60   Input ~ 0
+LoraEN
+Text GLabel 6700 4750 2    60   Output ~ 0
+LoraEN
+Wire Wire Line
+	6250 4750 6700 4750
+Wire Wire Line
+	3250 4600 3400 4600
+Wire Wire Line
+	3250 4700 3350 4700
+Text GLabel 3550 4500 2    60   Output ~ 0
+LoraAUX
+Text GLabel 6450 4650 2    60   Input ~ 0
+LoraAUX
+Text GLabel 4600 3600 0    60   Output ~ 0
+VCC-3V3
+Text GLabel 3550 4900 2    60   Input ~ 0
+VCC-3V3
+Wire Wire Line
+	4600 3950 4350 3950
+$Comp
+L WiRocChip_1-rescue:R R3
+U 1 1 58334EFA
+P 6850 4450
+F 0 "R3" V 6930 4450 50  0000 C CNN
+F 1 "R" V 6850 4450 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6780 4450 50  0001 C CNN
+F 3 "" H 6850 4450 50  0000 C CNN
+	1    6850 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L WiRocChip_1-rescue:LED-RESCUE-WiRocChip_1 D1
+U 1 1 58335011
+P 6450 4450
+F 0 "D1" H 6450 4550 50  0000 C CNN
+F 1 "LED" H 6450 4350 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 6450 4450 50  0001 C CNN
+F 3 "" H 6450 4450 50  0000 C CNN
+	1    6450 4450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1150 2050
+NoConn ~ 4800 1700
+Text GLabel 7050 4450 2    60   Input ~ 0
+VCC-3V3
+$Comp
+L WiRocChip_1-rescue:CONN_01X02 P3
+U 1 1 588DF620
+P 6650 3300
+F 0 "P3" H 6650 3450 50  0000 C CNN
+F 1 "CONN_01X02" V 6750 3300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6650 3300 50  0001 C CNN
+F 3 "" H 6650 3300 50  0000 C CNN
+	1    6650 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3500 6400 3500
+Wire Wire Line
+	6400 3500 6400 3350
+Wire Wire Line
+	6400 3350 6450 3350
+Wire Wire Line
+	6450 3250 6300 3250
+Wire Wire Line
+	6300 3250 6300 3400
+Wire Wire Line
+	6300 3400 6250 3400
+$Comp
+L WiRocChip_1-rescue:CONN_01X01 P2
+U 1 1 588DFE31
+P 6950 3600
+F 0 "P2" H 6950 3700 50  0000 C CNN
+F 1 "CONN_01X01" V 7050 3600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6950 3600 50  0001 C CNN
+F 3 "" H 6950 3600 50  0000 C CNN
+	1    6950 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4450 6700 4450
+Wire Wire Line
+	7000 4450 7050 4450
+Wire Wire Line
+	4100 4600 4100 4800
+Wire Wire Line
+	6250 3600 6750 3600
+$Comp
+L WiRocChip_1-rescue:CONN_01X04 P4
+U 1 1 5A8B5E84
+P 5750 6200
+F 0 "P4" H 5750 6450 50  0000 C CNN
+F 1 "CONN_01X04" V 5850 6200 50  0000 C CNN
+F 2 "WiRoc:CONN_OLED_TWI-Socket_Strip_Straight_1x04_Pitch2.54mm" H 5750 6200 50  0001 C CNN
+F 3 "" H 5750 6200 50  0000 C CNN
+	1    5750 6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 6150 0    60   Input ~ 0
+VCC-3V3
+$Comp
+L power:GND #PWR05
+U 1 1 5A8B5F66
+P 5300 6050
+F 0 "#PWR05" H 5300 5800 50  0001 C CNN
+F 1 "GND" H 5300 5900 50  0000 C CNN
+F 2 "" H 5300 6050 50  0000 C CNN
+F 3 "" H 5300 6050 50  0000 C CNN
+	1    5300 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 6350 5350 6350
+Wire Wire Line
+	5250 6250 5550 6250
+Text GLabel 5350 6350 0    60   Input ~ 0
+TWI2-SDA
+Text GLabel 5250 6250 0    60   Input ~ 0
+TWI-SCK
+Wire Wire Line
+	5550 6050 5300 6050
+Wire Wire Line
+	4750 6150 5550 6150
+Wire Wire Line
+	6250 4650 6450 4650
+Text GLabel 6450 4100 2    60   Output ~ 0
+TWI2-SDA
+Text GLabel 6950 4200 2    60   Output ~ 0
+TWI-SCK
+Wire Wire Line
+	6250 4200 6950 4200
+Wire Wire Line
+	6450 4100 6250 4100
+NoConn ~ 6250 4550
+NoConn ~ 4600 3500
+Wire Wire Line
+	3250 5000 3300 5000
+$Comp
+L WiRocChip_1-rescue:CONN_01X05 P5
+U 1 1 5A8DF8E2
+P 2950 5500
+F 0 "P5" H 2950 5800 50  0000 C CNN
+F 1 "Lora JST Conn" V 3050 5500 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B5B-PH-K_05x2.00mm_Straight" H 2950 5500 50  0001 C CNN
+F 3 "" H 2950 5500 50  0000 C CNN
+	1    2950 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3250 4500 3500 4500
+Wire Wire Line
+	3550 4800 3250 4800
+Wire Wire Line
+	3250 4900 3550 4900
+Wire Wire Line
+	3350 5600 3150 5600
+Wire Wire Line
+	3150 5500 3400 5500
+Wire Wire Line
+	3300 5400 3150 5400
+Wire Wire Line
+	3250 5300 3150 5300
+Text Notes 7050 6700 0    60   ~ 0
+CHIP with OLED display
+Wire Wire Line
+	3150 5700 3500 5700
+Wire Wire Line
+	3250 5300 3250 4900
+Connection ~ 3250 4900
+Connection ~ 3300 5000
+Wire Wire Line
+	3300 5400 3300 5000
+Wire Wire Line
+	3400 5500 3400 4600
+Connection ~ 3400 4600
+Wire Wire Line
+	3350 5600 3350 4700
+Connection ~ 3350 4700
+Wire Wire Line
+	3500 5700 3500 4500
+Connection ~ 3500 4500
+Wire Wire Line
+	3300 5000 4050 5000
+Wire Wire Line
+	3400 4600 4100 4600
+Wire Wire Line
+	3350 4700 4600 4700
+Wire Wire Line
+	3500 4500 3550 4500
+$EndSCHEMATC

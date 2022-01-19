@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name WiRocChip_1-rescue)(type Legacy)(uri ${KIPRJMOD}/WiRocChip_1-rescue.lib)(options "")(descr ""))
+  (lib (name chip)(type Legacy)(uri ${KIPRJMOD}/chip.lib)(options "")(descr ""))
+  (lib (name WiRoc)(type Legacy)(uri ${KIPRJMOD}/Library/WiRoc.lib)(options "")(descr ""))
+)

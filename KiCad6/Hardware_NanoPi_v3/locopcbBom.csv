@@ -1,0 +1,21 @@
+Designator,MPN,Qty,Description,Description,LCSCPNr,Manufacturer,,Notes,Original,Package,WebsiteURL,WebsiteURL2
+"C13,C12,C14,C4,C5 ",CL10A106KP8NNNC,5,10uF, ,C19702,Samsung Electro-Mechanics,, ,No,603,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html, 
+C3 ,0603B475K160NT,1,4.7uF, ,C19666,Guangdong Fenghua Advanced Tech,, ,No,603,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_4-7uF-475-10-16V_C99226.html,-
+"C9,C2,C6 ",0603X105K500NT,3,1uF, ,C15849,Guangdong Fenghua Advanced Tech,, ,No,603,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1uF-105-10-50V_C157684.html, 
+C11 C10 C8 C1 ,0603B475K160NT,4,4.7uF, ,C19666,Guangdong Fenghua Advanced Tech,, ,No,603,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_4-7uF-475-10-16V_C99226.html, 
+C7 ,0603CG101J500NT,1,100pF,100pF (101) ±5% 50V,C14858,Guangdong Fenghua Advanced Tech,, ,No,603,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100pF-101-5-50V_C1635.html, 
+C15 ,GRM32ER61C476KE15L,1,47uF, ,C77101,Murata Electronics,, ,No,1210, , 
+D3 ,1N5819HW-7-F,1,IN5819,Diode Schottky 40V 1A Surface Mount SOD-123,C8597,Diodes Incorporated,, ,No,SOD-123,https://www.digikey.com/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283, 
+"D2,D5,D4 ",D-R060306L3-KS2,3,LED,Red LED,C2286,Wuxi ARK Tech Elec,, ,No,603,https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_D-R060306L3-KS2-Azarin_C118330.html, 
+J9 ,U.FL-R-SMT-1(80),1,Conn_Coaxial, ,C88374,Hirose/HRS,, , ,SMD, , 
+"L2,L1 ",SLW4018S2R2MST,2,2.2uH-DCR<0.1R-1.5A,FIXED IND 2.2UH 1.7A 55 MOHM SMD,C206341,Sunltech Tech,, ,Yes,4018,https://lcsc.com/product-detail/Power-Inductors_2-2uH-20-1-65A_C206341.html, 
+"R7,R2,R3 ",0603WAF2003T5E,3,200K-1%, ,C25811,Uniroyal Elec,, ,No,603,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF2003T5E_C25811.html, 
+R8 ,0603WAF2402T5E,1,24K-1%, ,C23352,Uniroyal Elec,, ,No,603,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF2402T5E_C23352.html, 
+R9 ,CR0603FA3601G,1,3.6K-1%, ,C22980,LIZ Elec,, ,No,603,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_3-6KR-3601-1_C100993.html, 
+R5 ,RTT05R030FTP,1,0R03,RESISTOR 0805 0.03Ω 1/8W±1%,C247605,RALEC,, ,No,805,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_0-03R-R030-1_C158159.html, 
+"R4,R6,R14,R13 ",RTT031001FTP,4,1K,1KΩ (1001) ±1%,C21190,RALEC,, ,No,603,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-1001-1_C103198.html, 
+"R1,R10 ",0603WAF1003T5E,2,100K-1%, ,C25803,Uniroyal Elec,, ,No,603,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF1003T5E_C25803.html, 
+"R11,R12 ",WR06X103JTL,2,10K,RESISTOR 0603 10KΩ,C25804,Huaxin S&T,, ,No,603,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-103-5_C108450.html, 
+U3 ,AXP209,1,AXP209,Enhanced single Cell Li-Battery and Power System Management IC,C80525,X-Powers Limited,, ,Yes,6mm x 6mm 48-pin QFN,https://lcsc.com/product-detail/PMIC-AC-DC-Converters_AXP209_C80525.html, 
+U4 ,LP6226B6F,1,LP6226_SY7208,High Efficiency Boost DC/DC Convertor,C80514,lowpowersemi,, ,Yes,SOT23-6,Ask for quote,https://lcsc.com/product-detail/DC-DC-Converters_Silergy_SY7208ABC_SY7208ABC_C80514.html
+U5 ,SY6280AAC,1,SY6280,Power Distribution Switch  1In/1Out  Act-High Enable  1A  Vin 2.4÷5.5V  80mΩ,C55136,SILERGY,, ,Yes,SOT23-5,https://lcsc.com/product-detail/PMIC-Power-Distribution-Switches_Silergy_SY6280AAC_SY6280AAC_C55136.html, 

@@ -1,0 +1,21 @@
+Designator,Comment,Footprint,Comment2,LCSC Part #,Package
+C13 C12 C14 C4 C5 ,10uF,Capacitor_SMD:C_0603_1608Metric, ,C19702,603
+C3 ,4.7uF,Capacitor_SMD:C_0603_1608Metric, ,C19666,603
+C9 C2 C6 ,1uF,Capacitor_SMD:C_0603_1608Metric, ,C15849,603
+C11 C10 C8 C1 ,4.7uF,Capacitor_SMD:C_0603_1608Metric, ,C19666,603
+C7 ,100pF,Capacitor_SMD:C_0603_1608Metric,100pF (101) ±5% 50V,C14858,603
+C15 ,47uF,Capacitor_SMD:C_1210_3225Metric, ,C77101,1210
+D3 ,IN5819,Diode_SMD:D_SOD-123,Diode Schottky 40V 1A Surface Mount SOD-123,C8597,SOD-123
+D2 D5 D4 ,LED,Diode_SMD:D_0603_1608Metric,Red LED,C2286,603
+J9 ,Conn_Coaxial,Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical, ,C88374, 
+L2 L1 ,2.2uH-DCR<0.1R-1.5A,WiRoc:Inductor_SLW4018,FIXED IND 2.2UH 1.7A 55 MOHM SMD,C206341,4018
+R7 R2 R3 ,200K-1%,Resistor_SMD:R_0603_1608Metric, ,C25811,603
+R8 ,24K-1%,Resistor_SMD:R_0603_1608Metric, ,C23352,603
+R9 ,3.6K-1%,Resistor_SMD:R_0603_1608Metric, ,C22980,603
+R5 ,0R03,Resistor_SMD:R_0805_2012Metric,RESISTOR 0805 0.03Ω 1/8W±1%,C247605,805
+R4 R6 R14 R13 ,1K,Resistor_SMD:R_0603_1608Metric,1KΩ (1001) ±1%,C21190,603
+R1 R10 ,100K-1%,Resistor_SMD:R_0603_1608Metric, ,C25803,603
+R11 R12 ,10K,Resistor_SMD:R_0603_1608Metric,RESISTOR 0603 10KΩ,C25804,603
+U3 ,AXP209,WiRoc:qfn48_6x6mm_Pitch0.4mm,Enhanced single Cell Li-Battery and Power System Management IC,C80525,6mm x 6mm 48-pin QFN
+U4 ,LP6226_SY7208,TO_SOT_Packages_SMD:SOT-23-6,High Efficiency Boost DC/DC Convertor,C80514,SOT23-6
+U5 ,SY6280,TO_SOT_Packages_SMD:SOT-23-5,Power Distribution Switch  1In/1Out  Act-High Enable  1A  Vin 2.4÷5.5V  80mΩ,C55136,SOT23-5

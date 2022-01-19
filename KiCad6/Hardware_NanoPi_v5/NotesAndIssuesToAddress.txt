@@ -1,0 +1,18 @@
+VCC-5v: how to shut it off when in power off mode?
+https://bbs.nextthing.co/t/is-ipsout-always-powered/14601
+SY6280 alternative as power switch?
+http://www.szyucan.com/upfile/IC-PDF/SY6280A.pdf (up to 2A)
+
+
+
+VBUS: capacitor and resistor etc are/seem different between nextthing and axp209 example
+APS: capacitor 4.7uF in nextthing, 0.2uF in axp209 example
+
+
+N_VBUSEN: Added pulldown, if NanoPi sets pulls high at any point* power might be cut if no battery is connected.
+Since we normally have a battery it probably wouldn't be an issue anyway, but could use <32kOhm pull down instead
+to ensure <= 0,8V.
+*the processor default value is high impedance but maybe operating systems set other during boot up
+
+
+Design for production: http://rheingoldheavy.com/design-assembly-kicad/
