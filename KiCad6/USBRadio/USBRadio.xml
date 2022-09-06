@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/henla464/Documents/WiRoc/Hardware/KiCad/KiCad5/USBRadio/USBRadio.sch</source>
+    <date>lör  7 nov 2020 16:45:36</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USBRadio.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>SP3232EEN</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1809291712_MaxLinear-SP3232EEN-L-TR_C9378.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C9378</field>
+        <field name="ManufacturerPartNumber">SP3232EEN-L/TR</field>
+        <field name="Package">SOIC-16_150mil</field>
+      </fields>
+      <libsource lib="Interface_UART" part="MAX3232" description="3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F989CF1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C49678</field>
+        <field name="ManufacturerPartNumber">CC0805KRX7R9BB104</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F99729E</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C49678</field>
+        <field name="ManufacturerPartNumber">CC0805KRX7R9BB104</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F99735C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C49678</field>
+        <field name="ManufacturerPartNumber">CC0805KRX7R9BB104</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F997392</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C49678</field>
+        <field name="ManufacturerPartNumber">CC0805KRX7R9BB104</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9971D4</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C49678</field>
+        <field name="ManufacturerPartNumber">CC0805KRX7R9BB104</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F99787B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>DB9_Male</value>
+      <footprint>Connector_Dsub:DSUB-9_Male_EdgeMount_P2.77mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811081030_CONNFLY-Elec-DS1033-09MUNSiSS_C75746.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C75746</field>
+        <field name="ManufacturerPartNumber">DS1033-09MUNSiSS</field>
+      </fields>
+      <libsource lib="Connector" part="DB9_Male" description="9-pin male D-SUB connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F997C03</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LP4054HB5F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2004271834_LOWPOWER-LP4054HB5F_C517187.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C517187</field>
+        <field name="ManufacturerPartNumber">LP4054HB5F</field>
+        <field name="Package">SOT23-5</field>
+      </fields>
+      <libsource lib="Battery_Management" part="MCP73811T-420I-OT" description="Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 85mA/450mA, 4.2V, SOT23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F998615</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>WiRoc:JST_2.56</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9B4573</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2001T5E_C17604.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C17604</field>
+        <field name="ManufacturerPartNumber">0805W8F2001T5E</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9B4ED9</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151151_Samsung-Electro-Mechanics-CL21A106KOQNNNE_C1713.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C1713</field>
+        <field name="ManufacturerPartNumber">CL21A106KOQNNNE</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9B53B0</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>WiRoc:USB_Micro-B_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2008181004_XKB-Connectivity-U254-051T-4BH83-F1S_C397452.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C397452</field>
+        <field name="ManufacturerPartNumber">U254-051T-4BH83-F1S</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9B6B1A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LN1134A332MR-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1809140320_NATLINEAR-LN1134A332MR-G_C141419.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C141419</field>
+        <field name="ManufacturerPartNumber">LN1134A332MR-G</field>
+        <field name="Package">SOT-23-5</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LD39015M33R" description="150 mA low quiescent current low noise voltage regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9BAEEF</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C28323</field>
+        <field name="ManufacturerPartNumber">CL21B105KBFNNNE</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9BC1CA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C28323</field>
+        <field name="ManufacturerPartNumber">CL21B105KBFNNNE</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9BD13E</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>HC-02</value>
+      <footprint>WiRoc:HC-02</footprint>
+      <libsource lib="WiRoc" part="HC-02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9C7062</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>7.5K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F7501T5E_C17807.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C17807</field>
+        <field name="ManufacturerPartNumber">0805W8F7501T5E</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D7DDF</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151151_Samsung-Electro-Mechanics-CL21A106KOQNNNE_C1713.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C1713</field>
+        <field name="ManufacturerPartNumber">CL21A106KOQNNNE</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA09DDC</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_SMD:SW_SPDT_PCM12</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2002271741_XKB-Connectivity-SK-3296S-01-L3_C319019.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C319019</field>
+        <field name="ManufacturerPartNumber">SK-3296S-01-L3</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA0E3B8</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_DUAL_ACCA</value>
+      <footprint>WiRoc:LED_Dual_1.7_1.6</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2005041205_HONGLITRONIC-Hongli-Zhihui-HONGLITRONIC-HL-PCB-1617S9FH203BC_C513363.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C513363</field>
+        <field name="ManufacturerPartNumber">HL-PCB-1617S9FH203BC</field>
+        <field name="Package">SMD,1.6x1.7x0.67mm</field>
+      </fields>
+      <libsource lib="WiRoc" part="LED_DUAL_ACCA" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA16E39</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F4700T5E_C17710.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C17710</field>
+        <field name="ManufacturerPartNumber">0805W8F4700T5E</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA16F9A</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F4700T5E_C17710.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C17710</field>
+        <field name="ManufacturerPartNumber">0805W8F4700T5E</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA1E9D1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F4700T5E_C17710.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C17710</field>
+        <field name="ManufacturerPartNumber">0805W8F4700T5E</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA24A2B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="MCP73812T-420I-OT">
+      <aliases>
+        <alias>MCP73812T-435I-OT</alias>
+        <alias>MCP73811T-420I-OT</alias>
+        <alias>MCP73811T-435I-OT</alias>
+      </aliases>
+      <description>Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 50mA-500mA, 4.2V, SOT23-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf</docs>
+      <footprints>
+        <fp>*SOT*23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73812T-420I-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CEN" type="input"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB9_Male">
+      <description>9-pin male D-SUB connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Male*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_UART" part="MAX232">
+      <aliases>
+        <alias>MAX232I</alias>
+        <alias>MAX202</alias>
+        <alias>ADM232A</alias>
+        <alias>MAX3232</alias>
+        <alias>ICL3232</alias>
+      </aliases>
+      <description>Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C</description>
+      <docs>http://www.ti.com/lit/ds/symlink/max232.pdf</docs>
+      <footprints>
+        <fp>SOIC*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX232</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1+" type="passive"/>
+        <pin num="2" name="VS+" type="power_out"/>
+        <pin num="3" name="C1-" type="passive"/>
+        <pin num="4" name="C2+" type="passive"/>
+        <pin num="5" name="C2-" type="passive"/>
+        <pin num="6" name="VS-" type="power_out"/>
+        <pin num="7" name="T2OUT" type="output"/>
+        <pin num="8" name="R2IN" type="input"/>
+        <pin num="9" name="R2OUT" type="output"/>
+        <pin num="10" name="T2IN" type="input"/>
+        <pin num="11" name="T1IN" type="input"/>
+        <pin num="12" name="R1OUT" type="output"/>
+        <pin num="13" name="R1IN" type="input"/>
+        <pin num="14" name="T1OUT" type="output"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LD39015M08R">
+      <aliases>
+        <alias>LD39015M10R</alias>
+        <alias>LD39015M12R</alias>
+        <alias>LD39015M125R</alias>
+        <alias>LD39015M15R</alias>
+        <alias>LD39015M18R</alias>
+        <alias>LD39015M25R</alias>
+        <alias>LD39015M33R</alias>
+      </aliases>
+      <description>150 mA low quiescent current low noise voltage regulator, Fixed Output 0.8V, SOT-23-5</description>
+      <docs>http://www.st.com/resource/en/datasheet/ld39015.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD39015M08R</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="HC-02">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HC-02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TxD" type="output"/>
+        <pin num="2" name="RxD" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="input"/>
+        <pin num="11" name="RST" type="input"/>
+        <pin num="12" name="VCC" type="input"/>
+        <pin num="13" name="GND" type="input"/>
+        <pin num="14" name="LEDCON" type="input"/>
+        <pin num="15" name="KEY-" type="input"/>
+        <pin num="16" name="LED" type="input"/>
+        <pin num="17" name="STATUS" type="input"/>
+        <pin num="18" name="KEY+" type="input"/>
+        <pin num="19" name="19" type="input"/>
+        <pin num="20" name="20" type="input"/>
+        <pin num="21" name="21" type="input"/>
+        <pin num="22" name="22" type="input"/>
+        <pin num="23" name="LED" type="input"/>
+        <pin num="24" name="STATUS" type="input"/>
+        <pin num="25" name="25" type="input"/>
+        <pin num="26" name="KEY+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="LED_DUAL_ACCA">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_DUAL_ACCA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="K1" type="input"/>
+        <pin num="3" name="K2" type="input"/>
+        <pin num="4" name="A2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>/usr/share/kicad/library/Battery_Management.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Interface_UART">
+      <uri>/usr/share/kicad/library/Interface_UART.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="WiRoc">
+      <uri>/home/henla464/Documents/WiRoc/Hardware/KiCad/KiCad5/Hardware_Library/WiRocSchemaLibrary/WiRoc.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C4" pin="1"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U3" pin="15"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="13"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad1)">
+      <node ref="U3" pin="10"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="5" name="Net-(U3-Pad11)">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="6" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="7" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="8" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="28" name="3_3V">
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="29" name="VBUS">
+      <node ref="C8" pin="2"/>
+      <node ref="D2" pin="4"/>
+      <node ref="J1" pin="1"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="30" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D2-Pad3)">
+      <node ref="D2" pin="3"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="32" name="CEN">
+      <node ref="R6" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="33" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="34" name="LED">
+      <node ref="U1" pin="23"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="35" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="36" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="37" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="38" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="39" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="40" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="41" name="SelectedPower">
+      <node ref="U2" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="42" name="Net-(C7-Pad2)">
+      <node ref="U3" pin="6"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="43" name="Net-(C6-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="44" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="45" name="Net-(R4-Pad1)">
+      <node ref="U4" pin="5"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="46" name="Net-(J2-Pad3)">
+      <node ref="U3" pin="7"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="47" name="Net-(C2-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="48" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="49" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="50" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="51" name="BatteryPower">
+      <node ref="U4" pin="3"/>
+      <node ref="C9" pin="1"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="52" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="53" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="54" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="55" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+  </nets>
+</export>

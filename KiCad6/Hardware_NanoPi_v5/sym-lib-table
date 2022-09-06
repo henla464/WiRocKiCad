@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name WiRoc_NanoPi_v1-rescue)(type Legacy)(uri ${KIPRJMOD}/WiRoc_NanoPi_v1-rescue.lib)(options "")(descr ""))
-  (lib (name WiRoc)(type Legacy)(uri /home/henla464/Documents/WiRoc/Hardware/KiCad/KiCad5/Hardware_Library/WiRocSchemaLibrary/WiRoc.lib)(options "")(descr ""))
+  (lib (name "WiRoc_NanoPi_v1-rescue")(type "Legacy")(uri "${KIPRJMOD}/WiRoc_NanoPi_v1-rescue.lib")(options "")(descr ""))
+  (lib (name "WiRoc")(type "KiCad")(uri "/home/henla464/Documents/WiRoc/Hardware/KiCad/KiCad6/Hardware_Library/WiRocSchemaLibrary/WiRoc.kicad_sym")(options "")(descr ""))
 )

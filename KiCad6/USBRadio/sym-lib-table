@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "WiRoc")(type "KiCad")(uri "/home/henla464/Documents/WiRoc/Hardware/KiCad/KiCad6/Hardware_Library/WiRocSchemaLibrary/WiRoc.kicad_sym")(options "")(descr ""))
+  (lib (name "USBRadio-rescue")(type "KiCad")(uri "${KIPRJMOD}/USBRadio-rescue.kicad_sym")(options "")(descr ""))
+)
