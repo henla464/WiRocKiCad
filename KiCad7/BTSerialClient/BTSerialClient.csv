@@ -1,0 +1,36 @@
+Title,
+Revision,
+Date,
+Generated,lör  7 nov 2020 16:45:36
+Company,
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,23
+Total Unique Parts,15
+
+
+
+Ref,Qty,Value,Footprint,LCSCPNr,ManufacturerPNr,Package,
+BT1 ,1,Battery_Cell,WiRoc:JST_2.56, , , 
+C4 C6 C2 C5 C7 ,5,100nF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C49678,CC0805KRX7R9BB104,0805
+C8 C9 ,2,10uF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C1713,CL21A106KOQNNNE,0805
+C1 C3 ,2,1uF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C28323,CL21B105KBFNNNE,0805
+D2 ,1,LED_DUAL_ACCA,WiRoc:LED_Dual_1.7_1.6,C513363,HL-PCB-1617S9FH203BC,SMD 1.6x1.7x0.67mm
+J2 ,1,DB9_Male,Connector_Dsub:DSUB-9_Male_EdgeMount_P2.77mm,C75746,DS1033-09MUNSiSS, 
+J1 ,1,USB_B_Micro,WiRoc:USB_Micro-B_Horizontal,C397452,U254-051T-4BH83-F1S, 
+R4 ,1,2K,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C17604,0805W8F2001T5E,0805
+R2 ,1,7.5K,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C17807,0805W8F7501T5E,0805
+R5 R6 R1 ,3,470,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C17710,0805W8F4700T5E,0805
+SW1 ,1,SW_SPDT,Button_Switch_SMD:SW_SPDT_PCM12,C319019,SK-3296S-01-L3, 
+U3 ,1,SP3232EEN,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,C9378,SP3232EEN-L/TR,SOIC-16_150mil
+U4 ,1,LP4054HB5F,Package_TO_SOT_SMD:SOT-23-5,C517187,LP4054HB5F,SOT23-5
+U2 ,1,LN1134A332MR-G,Package_TO_SOT_SMD:SOT-23-5,C141419,LN1134A332MR-G,SOT-23-5
+U1 ,1,HC-02,WiRoc:HC-02, , , 
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated lör  7 nov 2020 16:45:36
