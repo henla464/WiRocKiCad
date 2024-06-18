@@ -594,7 +594,7 @@
     (property "WebsiteURL" "https://www.lcsc.com/product-detail/Flip-Flops_Texas-Instruments-CD74HC73M96_C350539.html" (at 180.34 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB Rotation Offset" "-90" (at 180.34 38.1 0)
+    (property "JLCPCB Rotation Offset" "0" (at 180.34 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "10" (uuid a8f35c22-9041-49ea-b0b0-f317a2eb2fa3))
@@ -623,7 +623,7 @@
   (symbol (lib_id "power:GND") (at 101.6 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04d67d5d-2af6-4ff9-9b27-c5b397ea5f0c)
-    (property "Reference" "#PWR024" (at 101.6 86.36 0)
+    (property "Reference" "#PWR01" (at 101.6 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.727 84.4042 0)
@@ -638,9 +638,6 @@
     (pin "1" (uuid 21645b56-499b-4998-a5c6-beee81543c3d))
     (instances
       (project "WiRoc_NanoPi"
-        (path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/34a3fa8a-641a-40bf-8a99-689cdb159b8f"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/420ce888-9e08-49fd-b3f8-96e9de814cbc"
           (reference "#PWR01") (unit 1)
         )
@@ -695,7 +692,7 @@
     (property "WebsiteURL" "https://www.lcsc.com/product-detail/Flip-Flops_Texas-Instruments-CD74HC73M96_C350539.html" (at 171.45 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB Rotation Offset" "-90" (at 171.45 68.58 0)
+    (property "JLCPCB Rotation Offset" "0" (at 171.45 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "10" (uuid aebab8e0-8eda-4ae8-ac5e-be05ea299db3))
@@ -774,7 +771,7 @@
   (symbol (lib_id "power:GND") (at 124.46 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22bb6958-5d5c-4143-adbf-d53c562312f5)
-    (property "Reference" "#PWR024" (at 124.46 86.36 0)
+    (property "Reference" "#PWR02" (at 124.46 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.587 84.4042 0)
@@ -789,9 +786,6 @@
     (pin "1" (uuid 6f8f4be1-0e88-4175-8150-f47232727a27))
     (instances
       (project "WiRoc_NanoPi"
-        (path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/34a3fa8a-641a-40bf-8a99-689cdb159b8f"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/420ce888-9e08-49fd-b3f8-96e9de814cbc"
           (reference "#PWR02") (unit 1)
         )
@@ -807,7 +801,7 @@
   (symbol (lib_id "power:GND") (at 180.34 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b2387aa-a000-46a7-a718-1257f89db8b0)
-    (property "Reference" "#PWR024" (at 180.34 54.61 0)
+    (property "Reference" "#PWR037" (at 180.34 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.467 52.6542 0)
@@ -822,9 +816,6 @@
     (pin "1" (uuid 0a895731-6578-4742-b9dd-b3d15a97f727))
     (instances
       (project "WiRoc_NanoPi"
-        (path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/34a3fa8a-641a-40bf-8a99-689cdb159b8f"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/420ce888-9e08-49fd-b3f8-96e9de814cbc"
           (reference "#PWR037") (unit 1)
         )
@@ -870,7 +861,7 @@
     (property "Original" "Yes" (at 124.46 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB Rotation Offset" "-90" (at 124.46 63.5 0)
+    (property "JLCPCB Rotation Offset" "0" (at 124.46 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 67a21a9a-cda9-4e36-8b1f-2415297278d6))
@@ -982,7 +973,7 @@
     (property "WebsiteURL" "https://www.lcsc.com/product-detail/Flip-Flops_Texas-Instruments-CD74HC73M96_C350539.html" (at 161.29 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB Rotation Offset" "-90" (at 161.29 39.37 0)
+    (property "JLCPCB Rotation Offset" "0" (at 161.29 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "10" (uuid 4323bdb3-f992-41b5-bb3d-f6aa3687df1d))
@@ -1058,7 +1049,7 @@
   (symbol (lib_id "power:GND") (at 90.17 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7757dc7f-af52-4ce7-a5c5-8f070e6530ae)
-    (property "Reference" "#PWR024" (at 90.17 86.36 0)
+    (property "Reference" "#PWR03" (at 90.17 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.297 84.4042 0)
@@ -1073,9 +1064,6 @@
     (pin "1" (uuid 31368b21-27bb-4777-a71b-2dd445c1da24))
     (instances
       (project "WiRoc_NanoPi"
-        (path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/34a3fa8a-641a-40bf-8a99-689cdb159b8f"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/420ce888-9e08-49fd-b3f8-96e9de814cbc"
           (reference "#PWR03") (unit 1)
         )
@@ -1091,7 +1079,7 @@
   (symbol (lib_id "power:GND") (at 181.61 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2f6ad71-06bb-4f35-adbe-ce321f170556)
-    (property "Reference" "#PWR024" (at 181.61 97.79 0)
+    (property "Reference" "#PWR022" (at 181.61 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.737 95.8342 0)
@@ -1106,9 +1094,6 @@
     (pin "1" (uuid e27be3bb-d6d4-4c99-86ce-5e3dda60192f))
     (instances
       (project "WiRoc_NanoPi"
-        (path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/34a3fa8a-641a-40bf-8a99-689cdb159b8f"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/420ce888-9e08-49fd-b3f8-96e9de814cbc"
           (reference "#PWR022") (unit 1)
         )

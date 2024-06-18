@@ -1,7 +1,7 @@
-Designator,Footprint,Quantity,Value,LCSC Part #
-"J10, J6, J9",PinHeader_1x02_P1.27mm_Horizontal,3,Conn_01x02,
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J10,PinHeader_1x04_P1.27mm_Horizontal,1,Conn_01x04,
 J11,PinHeader_1x02_P2.54mm_Horizontal,1,Conn_01x02,
 J12,PwrBtnPads,1,Conn_01x02,
 J5,SerialConnPads3Pin,1,Conn_01x03,
-J7,PinHeader_1x06_P1.27mm_Horizontal,1,Conn_01x06,
-J8,PinHeader_1x03_P1.27mm_Horizontal,1,Conn_01x03,
+"J6, J8",PinHeader_1x09_P1.27mm_Horizontal,2,Conn_01x09,
+"U1, U2, U3",SOT-666,3,USBLC6-2P6,
