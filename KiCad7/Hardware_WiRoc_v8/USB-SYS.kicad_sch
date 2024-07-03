@@ -3148,7 +3148,7 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 146.05 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 146.05 134.62 0)
+    (property "Datasheet" "http://www.yroho.xyz/pdf/SGM809.pdf" (at 146.05 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b857924b-dd8d-42d1-adb6-48147ff2e7ce))

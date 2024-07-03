@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.09999999999999999
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -178,6 +178,8 @@
       "track_widths": [
         0.0,
         0.09,
+        0.12,
+        0.15,
         0.2032,
         0.254,
         0.381,
@@ -188,6 +190,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.35,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false,
@@ -467,7 +473,7 @@
         "name": "BGA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.0,
+        "track_width": 0.09,
         "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
@@ -485,8 +491,25 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
-        "via_diameter": 0.6,
-        "via_drill": 0.4,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.09,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power-DRAM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.381,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -554,11 +577,11 @@
         "pattern": "Net-(R9-Pad2)"
       },
       {
-        "netclass": "Signal",
+        "netclass": "BGA",
         "pattern": "UART1_RX"
       },
       {
-        "netclass": "Signal",
+        "netclass": "BGA",
         "pattern": "UART1_TX"
       },
       {
@@ -574,7 +597,7 @@
         "pattern": "Net-(U11-SZQ)"
       },
       {
-        "netclass": "BGA",
+        "netclass": "Power-DRAM",
         "pattern": "VCC-DRAM"
       },
       {
@@ -636,6 +659,114 @@
       {
         "netclass": "BGA",
         "pattern": "SDC*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "eMMC*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "WIFI*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*NAND*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*IRQ*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*SZQ*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*CPUXFB*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "VDD1V2-SYS"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "VDD_SYS_3.3V"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "VDD1V1-EPHY"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*MBIAS*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "VDD-CPUS"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(U11E-PL4*S_JTAG_MS*S_PL_EINT4)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(U11G-VCC_PLL)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(U11E-PL3*S_UART_RX*S_PL_EINT3)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "LORARS"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "GPIOL10*PWR-LED"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "UART2_*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "LORAEN"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "UART0_*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*STATUS-LED"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "GPIOL8{slash}PWR-STB"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "GPIOL6{slash}CPUX-VSET"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*PA_EINT*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "SDA"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "LORAMO"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*VDD_EFUSEBP*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "SCK"
       }
     ]
   },
@@ -700,6 +831,10 @@
       ""
     ],
     [
+      "6289dfcf-924b-4b20-ae8f-252ccdf0f467",
+      "PowerTree"
+    ],
+    [
       "34a3fa8a-641a-40bf-8a99-689cdb159b8f",
       "Serial"
     ],
@@ -734,6 +869,18 @@
     [
       "d80ebf4b-5b32-4c39-aa4f-ea56988661f2",
       "eMMC"
+    ],
+    [
+      "85a0902c-c60f-4130-a6d4-27b8a234db38",
+      "Power2"
+    ],
+    [
+      "f95e5802-8eab-4a27-a8f3-c127852cdbe7",
+      "Power1"
+    ],
+    [
+      "d48bd16b-4ef5-451f-8eb3-c0c8da928c96",
+      "Wifi-BT"
     ]
   ],
   "text_variables": {}
