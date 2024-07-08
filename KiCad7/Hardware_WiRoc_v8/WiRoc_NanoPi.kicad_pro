@@ -549,12 +549,8 @@
         "pattern": "VDD_5V"
       },
       {
-        "netclass": "Signal",
+        "netclass": "BGA",
         "pattern": "LORAAUX"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "LORAEN"
       },
       {
         "netclass": "Signal",
@@ -583,14 +579,6 @@
       {
         "netclass": "BGA",
         "pattern": "UART1_TX"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "USBHost-DM1"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "USBHost-DP1"
       },
       {
         "netclass": "BGA",
@@ -767,6 +755,34 @@
       {
         "netclass": "BGA",
         "pattern": "SCK"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(U14-NC19)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*USBHost*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "LORAEN"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "SRR_NRST"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*PWR-DRAM*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*UBOOT*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "AP-RESET"
       }
     ]
   },

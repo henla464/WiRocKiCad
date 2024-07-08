@@ -719,7 +719,7 @@
     (property "Value" "MP2143DJ" (at 125.73 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 121.92 88.9 0)
+    (property "Footprint" "WiRoc:TSOT-23-8-Thinner-Pads" (at 121.92 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 121.92 88.9 0)
