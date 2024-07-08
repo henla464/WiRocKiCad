@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.2,
-          "width": 2.8
+          "height": 0.245,
+          "width": 0.245
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -783,6 +783,10 @@
       {
         "netclass": "BGA",
         "pattern": "AP-RESET"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "VDD-CPUFB"
       }
     ]
   },
