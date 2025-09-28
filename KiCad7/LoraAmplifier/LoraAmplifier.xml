@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/henla464/Documents/WiRoc/Hardware/KiCad/KiCad7/LoraAmplifier/LoraAmplifier.kicad_sch</source>
+    <date>sön 15 sep 2024 11:33:22</date>
+    <tool>Eeschema 7.0.11-7.0.11~ubuntu23.10.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LoraAmplifier.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>WiRoc:JST_2.56</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoraAmplifier.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f9b4573</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151151_Samsung-Electro-Mechanics-CL21A106KOQNNNE_C1713.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C1713</field>
+        <field name="ManufacturerPartNumber">CL21A106KOQNNNE</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0805"/>
+      <property name="LCSCPartNumber" value="C1713"/>
+      <property name="ManufacturerPartNumber" value="CL21A106KOQNNNE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoraAmplifier.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f9b53b0</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151151_Samsung-Electro-Mechanics-CL21A106KOQNNNE_C1713.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C1713</field>
+        <field name="ManufacturerPartNumber">CL21A106KOQNNNE</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSCPartNumber" value="C1713"/>
+      <property name="ManufacturerPartNumber" value="CL21A106KOQNNNE"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoraAmplifier.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa09ddc</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED_DUAL_ACCA</value>
+      <footprint>WiRoc:LED_Dual_1.7_1.6</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2005041205_HONGLITRONIC-Hongli-Zhihui-HONGLITRONIC-HL-PCB-1617S9FH203BC_C513363.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C513363</field>
+        <field name="ManufacturerPartNumber">HL-PCB-1617S9FH203BC</field>
+        <field name="Package">SMD,1.6x1.7x0.67mm</field>
+      </fields>
+      <libsource lib="WiRoc" part="LED_DUAL_ACCA" description=""/>
+      <property name="Package" value="SMD,1.6x1.7x0.67mm"/>
+      <property name="LCSCPartNumber" value="C513363"/>
+      <property name="ManufacturerPartNumber" value="HL-PCB-1617S9FH203BC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoraAmplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa16e39</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>WiRoc:USB_Micro-B_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2008181004_XKB-Connectivity-U254-051T-4BH83-F1S_C397452.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C397452</field>
+        <field name="ManufacturerPartNumber">U254-051T-4BH83-F1S</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="LCSCPartNumber" value="C397452"/>
+      <property name="ManufacturerPartNumber" value="U254-051T-4BH83-F1S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoraAmplifier.kicad_sch"/>
+      <property name="ki_description" value="USB Micro Type B connector"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f9b6b1a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Pin</value>
+      <footprint>WiRoc:JST_2.56</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoraAmplifier.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fd3e254-6cfc-4a28-991c-bee608f0ee13</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F4700T5E_C17710.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C17710</field>
+        <field name="ManufacturerPartNumber">0805W8F4700T5E</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0805"/>
+      <property name="LCSCPartNumber" value="C17710"/>
+      <property name="ManufacturerPartNumber" value="0805W8F4700T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoraAmplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa24a2b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2001T5E_C17604.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C17604</field>
+        <field name="ManufacturerPartNumber">0805W8F2001T5E</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0805"/>
+      <property name="LCSCPartNumber" value="C17604"/>
+      <property name="ManufacturerPartNumber" value="0805W8F2001T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoraAmplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f9b4ed9</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F4700T5E_C17710.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C17710</field>
+        <field name="ManufacturerPartNumber">0805W8F4700T5E</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0805"/>
+      <property name="LCSCPartNumber" value="C17710"/>
+      <property name="ManufacturerPartNumber" value="0805W8F4700T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoraAmplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa16f9a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F4700T5E_C17710.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C17710</field>
+        <field name="ManufacturerPartNumber">0805W8F4700T5E</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0805"/>
+      <property name="LCSCPartNumber" value="C17710"/>
+      <property name="ManufacturerPartNumber" value="0805W8F4700T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoraAmplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa1e9d1</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_SMD:SW_SPDT_PCM12</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2002271741_XKB-Connectivity-SK-3296S-01-L3_C319019.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C319019</field>
+        <field name="ManufacturerPartNumber">SK-3296S-01-L3</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="LCSCPartNumber" value="C319019"/>
+      <property name="ManufacturerPartNumber" value="SK-3296S-01-L3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoraAmplifier.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa0e3b8</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>LP4054HB5F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2004271834_LOWPOWER-LP4054HB5F_C517187.pdf</datasheet>
+      <fields>
+        <field name="LCSCPartNumber">C517187</field>
+        <field name="ManufacturerPartNumber">LP4054HB5F</field>
+        <field name="Package">SOT23-5</field>
+      </fields>
+      <libsource lib="Battery_Management" part="MCP73811T-420I-OT" description="Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 85mA/450mA, 4.2V, SOT23-5"/>
+      <property name="Package" value="SOT23-5"/>
+      <property name="LCSCPartNumber" value="C517187"/>
+      <property name="ManufacturerPartNumber" value="LP4054HB5F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoraAmplifier.kicad_sch"/>
+      <property name="ki_description" value="Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 85mA/450mA, 4.2V, SOT23-5"/>
+      <property name="ki_keywords" value="Lithium-Ion Battery Charger"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f998615</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="MCP73811T-420I-OT">
+      <description>Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 85mA/450mA, 4.2V, SOT23-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73811T-420I-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CEN" type="input"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WiRoc" part="LED_DUAL_ACCA">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_DUAL_ACCA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="K1" type="input"/>
+        <pin num="3" name="K2" type="input"/>
+        <pin num="4" name="A2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>/usr/share/kicad/symbols//Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="BatteryPower">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="VBAT" pintype="power_out"/>
+    </net>
+    <net code="2" name="CEN">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="CEN" pintype="input"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="K1" pintype="input"/>
+      <node ref="J1" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J1" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="4" name="LED">
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D2-A1)">
+      <node ref="D2" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-K2)">
+      <node ref="D2" pin="3" pinfunction="K2" pintype="input"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(U4-PROG)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="9" name="SelectedPower">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="10" name="VBUS">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D2" pin="4" pinfunction="A2" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="11" name="unconnected-(J1-D+-Pad3)">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(J1-D--Pad2)">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(J1-ID-Pad4)">
+      <node ref="J1" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

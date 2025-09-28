@@ -1,0 +1,24 @@
+(version 1)
+
+(rule "target length and skew for ddr3 address (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
+      (condition "A.hasNetclass('DDR3-Address')")
+      (constraint length (min 17mm) (opt 19.62mm) (max 21.5mm))
+      (constraint skew (max 3mm)))
+
+
+(rule "target length and skew for ddr3 data (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
+      (condition "A.hasNetclass('DDR3-Data')")
+      (constraint length (min 14mm) (opt 17.41mm) (max 19mm))
+      (constraint skew (max 3mm)))
+
+
+(rule "target length and skew for ddr3 data ctrl (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
+      (condition "A.hasNetclass('DDR3-DP-SDQS0')")
+      (constraint length (min 14mm) (opt 17.41mm) (max 19mm))
+      (constraint skew (max 3mm)))
+
+
+(rule "target length and skew for ddr3 data ctrl (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
+      (condition "A.hasNetclass('DDR3-DP-SDQS1')")
+      (constraint length (min 14mm) (opt 17.41mm) (max 19mm))
+      (constraint skew (max 3mm)))

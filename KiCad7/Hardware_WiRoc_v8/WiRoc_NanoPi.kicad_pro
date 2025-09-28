@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.12
         }
       },
       "diff_pair_dimensions": [
@@ -56,7 +56,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|63480000|115450000|4106db56-94c9-4e2f-a2ea-6eea4a53dc60|a94ab71b-f685-462e-85bd-b16958223a82",
+        "copper_edge_clearance|87999525|114003046|055b13d4-1cc5-48e4-af67-2af05a88129d|0fc48314-c554-4a45-8ee9-dc35f8289b00"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -132,7 +135,7 @@
         "min_track_width": 0.09,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.35,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -787,6 +790,10 @@
       {
         "netclass": "BGA",
         "pattern": "VDD-CPUFB"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "*Processor-MEM/ZQ*"
       }
     ]
   },

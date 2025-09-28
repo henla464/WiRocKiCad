@@ -1,0 +1,14 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+80.32,-84.8,180.0,top,C18,,0603,C_0603_1608Metric,4.7uF,smt
+79.4,-86.8,0.0,top,C20,,,C_0402_1005Metric,100nF,smt
+83.4,-93.21,0.0,top,D3,,"SMD,1.6x1.7x0.67mm",LED_Dual_1.7_1.6,LED_DUAL_ACCA,smt
+96.2,-67.22,0.0,top,J1,,,PinHeader_1x08_P2.54mm_Vertical,Conn_01x08,tht
+76.82,-94.6,-90.0,top,J11,,,PinHeader_1x05_P2.54mm_Vertical,Conn_01x05,tht
+95.28,-56.6,-90.0,top,J2,,,PinHeader_1x04_P2.54mm_Vertical,Conn_01x04,tht
+56.2,-58.59,0.0,top,J7,,,PinHeader_2x05_P1.27mm_Vertical,Conn_02x05_Odd_Even,tht
+75.0,-55.0,0.0,top,J9,,,SMA_Amphenol_901-143_Horizontal,Conn_Coaxial,tht
+85.0,-96.4,0.0,top,R56,,0603,R_0603_1608Metric,1K,smt
+85.0,-98.4,0.0,top,R57,,0603,R_0603_1608Metric,1K,smt
+87.31,-92.6,0.0,top,R58,,0603,R_0603_1608Metric,1K,smt
+79.4,-88.8,180.0,top,R59,,,R_0603_1608Metric,1K,smt
+75.0,-75.0,-90.0,top,U8,,,RAK3172,RAK3172-xx-43-SM-xI,smt

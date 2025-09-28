@@ -1,0 +1,11 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,ManufacturerPartNumber,IncludeInBOM,Original,Manufacturer,WebsiteURL,ThroughHole,LCSC Part #,Description
+C18,1,4.7uF,C_0603_1608Metric,0603,,,smt,CL10A475KO8NNNC,TRUE,No,Samsung Electro-Mechanics,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_4-7uF-475-10-16V_C99226.html,FALSE,C19666,
+C20,1,100nF,C_0402_1005Metric,,,,smt,,,,,,,,Unpolarized capacitor
+D3,1,LED_DUAL_ACCA,LED_Dual_1.7_1.6,"SMD,1.6x1.7x0.67mm",,,smt,HL-PCB-1617S9FH203BC,TRUE,Yes,HONGLITRONIC(Hongli Zhihui (HONGLITRONIC)),,FALSE,C513363,
+J1,1,Conn_01x08,PinHeader_1x08_P2.54mm_Vertical,,,,tht,,,,,,,,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J11,1,Conn_01x05,PinHeader_1x05_P2.54mm_Vertical,,,,tht,,,,,,,,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J2,1,Conn_01x04,PinHeader_1x04_P2.54mm_Vertical,,,,tht,,,,,,,,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J7,1,Conn_02x05_Odd_Even,PinHeader_2x05_P1.27mm_Vertical,,,,tht,,,,,,,,
+"R56, R57, R58",3,1K,R_0603_1608Metric,0603,,,smt,0603WAJ0102T5E,TRUE,No,Uniroyal Elec,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-1001-1_C103198.html,FALSE,C21190,1KΩ (1001) ±1%
+R59,1,1K,R_0603_1608Metric,,,,smt,,,,,,,,Resistor
+U8,1,RAK3172-xx-43-SM-xI,RAK3172,,,,smt,,,,,,,,"LoRa Module, STM32WLE5, EU433, RAKwireless"

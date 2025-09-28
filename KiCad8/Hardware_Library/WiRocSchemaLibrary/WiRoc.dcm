@@ -1,0 +1,24 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LP6226_SY7208
+D SOT23-6
+$ENDCMP
+#
+$CMP TerminalBlock_USB_Host_Data_01x04
+D Generic connector, single row, 01x04
+K connector
+F ~
+$ENDCMP
+#
+$CMP TerminalBlock_USB_Power_01x04
+D Generic connector, single row, 01x04
+K connector
+F ~
+$ENDCMP
+#
+$CMP USB_OTG
+D USB mini/micro connector
+K connector USB
+$ENDCMP
+#
+#End Doc Library

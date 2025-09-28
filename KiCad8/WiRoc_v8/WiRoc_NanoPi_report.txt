@@ -1,0 +1,48 @@
+PCB statistics report
+=====================
+- Date: lör 18 maj 2024 16:37:29
+- Project: WiRoc_NanoPi
+- Board name: WiRoc_NanoPi
+
+Board
+-----
+- Width: 97,6250 mm
+- Height: 68,6500 mm
+- Area: 4661,5740 mm²
+
+Pads
+----
+- Through hole: 100
+- SMD: 691
+- Connector: 0
+- NPTH: 0
+
+Vias
+----
+- Through vias: 336
+- Blind/buried: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |          6 |         5 |    11 |
+|SMD:          |         64 |         0 |    64 |
+|Unspecified:  |          0 |         4 |     4 |
+|Total:        |         70 |         9 |    79 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|-------------|------------|
+|   194 | Round | 0,3000 mm | 0,3000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    80 | Round | 0,2000 mm | 0,2000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    62 | Round | 0,4000 mm | 0,4000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    53 | Round | 0,8000 mm | 0,8000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|    22 | Round | 0,7000 mm | 0,7000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|    20 | Round | 0,6500 mm | 0,6500 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 1,4000 mm | 1,4000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     1 | Round | 1,1000 mm | 1,1000 mm |    PTH |     Pad |        F.Cu |       B.Cu |

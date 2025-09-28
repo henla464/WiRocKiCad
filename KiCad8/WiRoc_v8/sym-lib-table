@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "WiRoc")(type "KiCad")(uri "/home/henla464/Documents/WiRoc/Hardware/KiCad/KiCad7/Hardware_Library/WiRocSchemaLibrary/WiRoc.kicad_sym")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "/home/henla464/Documents/WiRoc/Hardware/KiCad/KiCad7/Hardware_Library/Symbols/Espressif.kicad_sym")(options "")(descr ""))
+)

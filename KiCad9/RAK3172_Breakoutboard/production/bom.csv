@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C18,0603,1,4.7uF,C19666
+C20,0402,1,100nF,
+D3,LED_Dual_1.7_1.6,1,LED_DUAL_ACCA,C513363
+J1,PinHeader_1x08_P2.54mm_Vertical,1,Conn_01x08,
+J11,PinHeader_1x05_P2.54mm_Vertical,1,Conn_01x05,
+J2,PinHeader_1x04_P2.54mm_Vertical,1,Conn_01x04,
+J7,PinHeader_2x05_P1.27mm_Vertical,1,Conn_02x05_Odd_Even,
+"R56, R57, R58",0603,3,1K,C21190
+R59,0603,1,1K,
+U8,RAK3172,1,RAK3172-xx-43-SM-xI,
