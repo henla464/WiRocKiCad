@@ -8387,7 +8387,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "AllwinnerH3"
 			(at 96.52 68.58 0)
 			(effects
 				(font
@@ -9490,7 +9490,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "AllwinnerH3"
 			(at 232.41 127 0)
 			(effects
 				(font
@@ -10761,6 +10761,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25804"
+			(at 254 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 254 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "0603WAF1002T5E"
+			(at 254 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "200118f0-9f19-43d5-bc6b-7886ce4ed25e")
 		)
@@ -10964,6 +10991,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25804"
+			(at 251.46 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 251.46 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "0603WAF1002T5E"
+			(at 251.46 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ac235dbb-1b6e-4ed9-a979-c3c7a2fe5ef8")
 		)
@@ -11063,7 +11117,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "AllwinnerH3"
 			(at 231.14 67.31 0)
 			(effects
 				(font

@@ -8883,6 +8883,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C23733"
+			(at 110.49 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 110.49 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "CL05A475MP5NRNC"
+			(at 110.49 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09de34e9-b432-40a8-a7a4-a6ff56d0db8d")
 		)
@@ -9056,7 +9083,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "AllwinnerH3"
 			(at 227.33 74.93 0)
 			(effects
 				(font
@@ -10311,7 +10338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
 			(at 193.04 55.88 0)
 			(effects
 				(font
@@ -10322,6 +10349,33 @@
 		)
 		(property "Description" ""
 			(at 193.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C52923"
+			(at 193.04 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 193.04 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "CL05A105KA5NQNC"
+			(at 193.04 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10790,6 +10844,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25804"
+			(at 81.28 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 81.28 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "0603WAF1002T5E"
+			(at 81.28 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1946a027-9439-4de3-a54d-726ff7b0d18f")
 		)
@@ -10917,6 +10998,33 @@
 		)
 		(property "Description" ""
 			(at 81.28 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 81.28 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 81.28 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "0603WAF1002T5E"
+			(at 81.28 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11193,6 +11301,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25804"
+			(at 160.02 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 160.02 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "0603WAF1002T5E"
+			(at 160.02 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "905602a9-f9aa-4b27-ac7b-68060a1e1651")
 		)
@@ -11460,6 +11595,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C23733"
+			(at 130.81 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 130.81 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "CL05A475MP5NRNC"
+			(at 130.81 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f86f0ed3-acb8-4e3a-8f72-b7aae64535df")
 		)
@@ -11692,7 +11854,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "AllwinnerH3"
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -12864,7 +13026,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "AllwinnerH3"
 			(at 50.8 173.99 0)
 			(effects
 				(font
@@ -14264,6 +14426,33 @@
 		)
 		(property "Description" ""
 			(at 130.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 130.81 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 130.81 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "0603WAF1002T5E"
+			(at 130.81 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)

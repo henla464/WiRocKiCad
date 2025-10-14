@@ -3126,7 +3126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
 			(at 181.61 86.36 0)
 			(effects
 				(font
@@ -3153,7 +3153,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15849"
+		(property "LCSC Part #" "C52923"
 			(at 181.61 86.36 0)
 			(effects
 				(font
@@ -3171,7 +3171,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "CL10A105KB8NNNC"
+		(property "ManufacturerPartNumber" "CL05A105KA5NQNC"
 			(at 181.61 86.36 0)
 			(effects
 				(font
@@ -3259,7 +3259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
 			(at 90.17 64.77 0)
 			(effects
 				(font
@@ -3286,7 +3286,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15849"
+		(property "LCSC Part #" "C52923"
 			(at 90.17 64.77 0)
 			(effects
 				(font
@@ -3304,7 +3304,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "CL10A105KB8NNNC"
+		(property "ManufacturerPartNumber" "CL05A105KA5NQNC"
 			(at 90.17 64.77 0)
 			(effects
 				(font

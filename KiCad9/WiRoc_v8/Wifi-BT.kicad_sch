@@ -74,10 +74,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at -12.7 8.89 0)
 					(length 2.54)
-					(name "VDD33"
+					(name "TXD0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -95,7 +95,7 @@
 				(pin input line
 					(at -12.7 6.35 0)
 					(length 2.54)
-					(name "EN"
+					(name "RXD0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -236,10 +236,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at 11.43 6.35 180)
 					(length 2.54)
-					(name "TXD0"
+					(name "VDD33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -257,7 +257,7 @@
 				(pin input line
 					(at 11.43 3.81 180)
 					(length 2.54)
-					(name "RXD0"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -379,12 +379,12 @@
 		(uuid "200c448e-770d-4da8-8209-b9d857209527")
 	)
 	(no_connect
-		(at 161.29 82.55)
-		(uuid "35ae346d-37d5-4c40-8710-844b8887c34a")
-	)
-	(no_connect
 		(at 137.16 82.55)
 		(uuid "6d9307dc-f7f1-47ad-b407-98e204b351d5")
+	)
+	(no_connect
+		(at 137.16 80.01)
+		(uuid "e7cf1aae-6df5-42ac-b6e7-1690408d91a7")
 	)
 	(global_label "WIFI-SPI-CS0"
 		(shape input)
@@ -410,22 +410,22 @@
 	)
 	(global_label "VDD_SYS_3.3V"
 		(shape input)
-		(at 137.16 80.01 180)
+		(at 161.29 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "39719dc8-a19f-4b72-b6f2-bec89bcf295b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.5428 80.01 0)
+			(at 179.9072 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)

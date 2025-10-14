@@ -917,6 +917,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2063,6 +2212,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NOTES...Ferrite bead for 1.5Mhz supply switching, 440Mhz radio: muRata BLM31PG601SN1L\nOr TDK MPZ2012S601AT000\nhttps://www.youtube.com/watch?v=S6Uxx5PCRQY\nhttps://www.youtube.com/watch?v=TpXvac1Y3h0"
+		(exclude_from_sim no)
+		(at 65.024 15.748 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "00bdd750-28a2-4ad5-846c-731be7181622")
+	)
 	(text "Black magic probe connector"
 		(exclude_from_sim no)
 		(at 157.988 105.664 0)
@@ -2074,16 +2233,28 @@
 		(uuid "4fd220d4-d669-4a84-8945-11f43dec8a2b")
 	)
 	(junction
+		(at 66.04 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11f72453-272d-4875-bacc-7f8efa40cd00")
+	)
+	(junction
+		(at 80.01 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2813ba33-c5f5-417f-91fb-ab91af2bbb0d")
+	)
+	(junction
 		(at 44.45 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63166844-c0ce-45a3-bfaf-048f4222f8d5")
 	)
 	(junction
-		(at 87.63 45.72)
+		(at 38.1 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "667f6883-547b-4310-8616-04b430723dd2")
+		(uuid "6716d1aa-687b-410d-8102-f33239f43bea")
 	)
 	(junction
 		(at 157.48 60.96)
@@ -2178,6 +2349,16 @@
 			(type default)
 		)
 		(uuid "0a4db900-7ddc-4a57-9656-3d83ed824623")
+	)
+	(wire
+		(pts
+			(xy 87.63 30.48) (xy 87.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108ead07-2ca0-4595-81ba-999cc1d432a9")
 	)
 	(wire
 		(pts
@@ -2301,6 +2482,26 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 30.48) (xy 66.04 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4fbb51-dc2b-47f2-bf16-74b7966389ca")
+	)
+	(wire
+		(pts
+			(xy 66.04 30.48) (xy 68.58 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49713f10-238b-472e-acfe-95b8fd0a7106")
+	)
+	(wire
+		(pts
 			(xy 113.03 62.23) (xy 107.95 62.23)
 		)
 		(stroke
@@ -2341,13 +2542,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 45.72) (xy 87.63 45.72)
+			(xy 80.01 30.48) (xy 80.01 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "559a525f-9297-4c95-a943-ade12d5db50d")
+		(uuid "5a3bc470-ac20-4fe7-8175-2629aef9c014")
 	)
 	(wire
 		(pts
@@ -2358,16 +2559,6 @@
 			(type default)
 		)
 		(uuid "5bdbd394-1340-4bda-a862-80f7cccfbd27")
-	)
-	(wire
-		(pts
-			(xy 87.63 45.72) (xy 87.63 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ff8c808-7d26-4f75-89a7-5097a6be7a97")
 	)
 	(wire
 		(pts
@@ -2401,6 +2592,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 54.61) (xy 44.45 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78280c8f-6052-40f1-bd2b-9000f9ccab25")
+	)
+	(wire
+		(pts
 			(xy 142.24 55.88) (xy 113.03 55.88)
 		)
 		(stroke
@@ -2411,7 +2612,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 54.61) (xy 44.45 50.8)
+			(xy 38.1 54.61) (xy 38.1 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2431,7 +2632,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 54.61) (xy 44.45 54.61)
+			(xy 34.29 54.61) (xy 38.1 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2571,6 +2772,36 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 39.37) (xy 66.04 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9261ae1-2764-4dec-a9e3-4569c649807e")
+	)
+	(wire
+		(pts
+			(xy 62.23 30.48) (xy 66.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2e596f-44b7-4dda-8cf0-85964d9b60d1")
+	)
+	(wire
+		(pts
+			(xy 80.01 39.37) (xy 80.01 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc911bd1-d4be-449c-a727-42e66476cff3")
+	)
+	(wire
+		(pts
 			(xy 173.99 90.17) (xy 173.99 69.85)
 		)
 		(stroke
@@ -2578,16 +2809,6 @@
 			(type default)
 		)
 		(uuid "dd166163-3263-46cf-9add-4100d4c55d16")
-	)
-	(wire
-		(pts
-			(xy 87.63 34.29) (xy 87.63 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e14960c5-c28e-4348-b6d2-3433c8dbf60c")
 	)
 	(wire
 		(pts
@@ -2611,6 +2832,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 30.48) (xy 87.63 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaee86ff-8005-4649-ae0c-979cdff9d396")
+	)
+	(wire
+		(pts
 			(xy 128.27 97.79) (xy 128.27 95.25)
 		)
 		(stroke
@@ -2628,6 +2859,16 @@
 			(type default)
 		)
 		(uuid "edb75784-c637-44c1-a54e-d46155e05bd8")
+	)
+	(wire
+		(pts
+			(xy 76.2 30.48) (xy 80.01 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbd920c-7af9-43f7-a9e2-c1374e5b227b")
 	)
 	(wire
 		(pts
@@ -2771,7 +3012,7 @@
 	)
 	(global_label "VDD_SYS_3.3V"
 		(shape input)
-		(at 44.45 43.18 90)
+		(at 38.1 43.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2781,7 +3022,7 @@
 		)
 		(uuid "642b92d8-269f-4f0a-be76-bf1b97f792a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 24.5628 90)
+			(at 38.1 24.5628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,22 +3100,22 @@
 	)
 	(global_label "VDD_SYS_3.3V"
 		(shape input)
-		(at 87.63 34.29 90)
+		(at 62.23 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d4f0627a-ed5c-416f-8f09-007046ad5f1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 15.6728 90)
+			(at 43.6128 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2981,7 +3222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " "
+		(property "Datasheet" ""
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -3052,33 +3293,31 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 77.47 45.72 270)
+		(at 66.04 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005faa191f")
-		(property "Reference" "C18"
-			(at 80.01 46.355 0)
+		(uuid "00000000-0000-0000-0000-00005dc57d02")
+		(property "Reference" "C15"
+			(at 64.77 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 80.01 39.37 0)
+		(property "Value" "47uF"
+			(at 64.77 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 73.66 46.6852 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 67.0052 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3087,7 +3326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 45.72 0)
+			(at 66.04 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,7 +3335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 45.72 0)
+			(at 66.04 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,44 +3343,17 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
-			(at 77.47 45.72 0)
+		(property "Package" "1206"
+			(at 66.04 35.56 90)
 			(effects
 				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "ManufacturerPartNumber" "CL10A475KO8NNNC"
-			(at 77.47 45.72 0)
-			(effects
-				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "IncludeInBOM" "TRUE"
-			(at 77.47 45.72 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Original" "No"
-			(at 77.47 45.72 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at -12.7 -68.58 0)
+			(at 66.04 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,8 +3361,26 @@
 				(hide yes)
 			)
 		)
-		(property "WebsiteURL" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_4-7uF-475-10-16V_C99226.html"
-			(at -12.7 -68.58 0)
+		(property "Manufacturer" "Murata Electronics"
+			(at -203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "CL31A476MPHNNNE"
+			(at -203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Original" "No"
+			(at -203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3389,7 @@
 			)
 		)
 		(property "ThroughHole" "FALSE"
-			(at -12.7 -68.58 0)
+			(at -203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,8 +3397,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C19666"
-			(at 77.47 45.72 0)
+		(property "LCSC Part #" "C96123"
+			(at 66.04 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3407,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 77.47 45.72 0)
+			(at 66.04 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,15 +3416,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a83d736f-5609-419b-92a7-90bfb5ccebbd")
+			(uuid "cc2ba590-8055-4732-bb5f-42030c3cae82")
 		)
 		(pin "2"
-			(uuid "0a338e37-a18c-43b6-8035-51b2249892b5")
+			(uuid "4fd10cf4-3663-4627-b866-82ab9ad0cb22")
 		)
 		(instances
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3541f406-28e2-49e9-9564-15b380efce59"
-					(reference "C18")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3260,6 +3490,145 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3541f406-28e2-49e9-9564-15b380efce59"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 80.01 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10bbb80f-2288-4058-9ad7-1f1163b7bb43")
+		(property "Reference" "C21"
+			(at 78.74 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47uF"
+			(at 78.74 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 80.9752 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 80.01 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IncludeInBOM" "TRUE"
+			(at 80.01 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at -189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "CL31A476MPHNNNE"
+			(at -189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Original" "No"
+			(at -189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ThroughHole" "FALSE"
+			(at -189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96123"
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2f98169-51ba-44ad-b6e4-b3343c8fdce8")
+		)
+		(pin "2"
+			(uuid "23110ecc-8109-40e8-817c-1597f0b65660")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3541f406-28e2-49e9-9564-15b380efce59"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3395,6 +3764,71 @@
 			(project ""
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3541f406-28e2-49e9-9564-15b380efce59"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49c264f6-ce1f-45c5-96c1-26a54a450cca")
+		(property "Reference" "#PWR028"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccb6226e-866f-4f0a-9f88-ebe9b2f68321")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3541f406-28e2-49e9-9564-15b380efce59"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4004,7 +4438,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 45.72 270)
+		(at 80.01 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4012,7 +4446,7 @@
 		(dnp no)
 		(uuid "8d08f3c7-5133-40b8-b950-c5d766265f69")
 		(property "Reference" "#PWR0114"
-			(at 67.31 45.72 0)
+			(at 80.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +4455,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 45.72 0)
+			(at 80.01 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +4463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 45.72 0)
+			(at 80.01 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +4472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 45.72 0)
+			(at 80.01 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,7 +4481,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 45.72 0)
+			(at 80.01 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,7 +4651,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 46.99 0)
+		(at 38.1 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4226,7 +4660,7 @@
 		(fields_autoplaced yes)
 		(uuid "aba517a6-7170-4384-a2c1-1deaa5e499d9")
 		(property "Reference" "R59"
-			(at 46.99 45.7199 0)
+			(at 40.64 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +4669,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 46.99 48.2599 0)
+			(at 40.64 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4678,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 42.672 46.99 90)
+			(at 36.322 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4687,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 46.99 0)
+			(at 38.1 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4696,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 44.45 46.99 0)
+			(at 38.1 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,6 +4779,101 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3541f406-28e2-49e9-9564-15b380efce59"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 72.39 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b104f2e6-1812-4799-9665-8ca4c28ce9e9")
+		(property "Reference" "FB1"
+			(at 72.3392 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 72.3392 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 72.39 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C16902"
+			(at 72.39 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 72.39 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "BLM31PG601SN1L"
+			(at 72.39 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62ec36c7-08ca-43f1-977f-1c69e70d09ac")
+		)
+		(pin "2"
+			(uuid "c87cf90b-1097-402d-95e5-98fe2cb4eef0")
+		)
+		(instances
+			(project ""
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3541f406-28e2-49e9-9564-15b380efce59"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
