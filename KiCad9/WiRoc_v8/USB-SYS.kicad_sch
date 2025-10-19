@@ -8216,7 +8216,7 @@
 			)
 		)
 	)
-	(global_label "USBHost-DM1"
+	(global_label "USBHost1-DN"
 		(shape output)
 		(at 45.72 81.28 180)
 		(fields_autoplaced yes)
@@ -8228,7 +8228,7 @@
 		)
 		(uuid "0dae51b8-b4ec-4364-ad26-0c60a72836f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.6671 81.28 0)
+			(at 26.8122 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,7 +8326,7 @@
 			)
 		)
 	)
-	(global_label "USBHost-DP1"
+	(global_label "USBHost1-DP"
 		(shape output)
 		(at 45.72 83.82 180)
 		(fields_autoplaced yes)
@@ -8414,7 +8414,7 @@
 			)
 		)
 	)
-	(global_label "USBHost-DM2"
+	(global_label "USBHost2-DN"
 		(shape output)
 		(at 45.72 91.44 180)
 		(fields_autoplaced yes)
@@ -8426,7 +8426,7 @@
 		)
 		(uuid "859654cf-d84f-498f-89c6-e1dcf6e0bcf7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.6671 91.44 0)
+			(at 26.8122 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8678,7 +8678,7 @@
 			)
 		)
 	)
-	(global_label "USBHost-DP2"
+	(global_label "USBHost2-DP"
 		(shape output)
 		(at 45.72 93.98 180)
 		(fields_autoplaced yes)

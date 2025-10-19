@@ -386,9 +386,69 @@
 		(at 137.16 80.01)
 		(uuid "e7cf1aae-6df5-42ac-b6e7-1690408d91a7")
 	)
+	(wire
+		(pts
+			(xy 123.19 92.71) (xy 137.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5f1a4e-fcb9-4c6e-b272-2c4e2d2f9068")
+	)
+	(wire
+		(pts
+			(xy 123.19 90.17) (xy 137.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69979ed8-18f0-408d-b2c8-42d22f84eb73")
+	)
+	(wire
+		(pts
+			(xy 123.19 87.63) (xy 137.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a88804e-65dc-455f-9403-d08d8efc599f")
+	)
+	(wire
+		(pts
+			(xy 123.19 85.09) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9486c887-d3aa-4427-a31c-40c3e56f93f5")
+	)
+	(wire
+		(pts
+			(xy 123.19 97.79) (xy 137.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8543edd-0545-43ed-89f3-53ed79ba918e")
+	)
+	(wire
+		(pts
+			(xy 123.19 95.25) (xy 137.16 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb257ab-3ea9-4a63-bc1f-f5a944c9e706")
+	)
 	(global_label "WIFI-SPI-CS0"
 		(shape input)
-		(at 137.16 97.79 180)
+		(at 123.19 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -398,7 +458,7 @@
 		)
 		(uuid "2e9d0707-4327-436a-ba7f-e396be0b6974")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.9621 97.79 0)
+			(at 103.9921 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -432,7 +492,7 @@
 	)
 	(global_label "WIFI-DataReady"
 		(shape output)
-		(at 137.16 85.09 180)
+		(at 123.19 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -442,7 +502,7 @@
 		)
 		(uuid "50250af2-8b28-4139-81e9-be83c7cee1a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.075 85.09 0)
+			(at 102.105 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -454,7 +514,7 @@
 	)
 	(global_label "WIFI-SPI-SCLK"
 		(shape input)
-		(at 137.16 90.17 180)
+		(at 123.19 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -464,7 +524,7 @@
 		)
 		(uuid "76c758e5-cff2-464b-af2f-db664fee7986")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.6558 90.17 0)
+			(at 102.6858 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,7 +536,7 @@
 	)
 	(global_label "WIFI-SPI-MISO"
 		(shape output)
-		(at 137.16 92.71 180)
+		(at 123.19 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -486,7 +546,7 @@
 		)
 		(uuid "9f18b48d-1e23-4c52-9df2-37bd0a14fb01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.8735 92.71 0)
+			(at 102.9035 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -498,7 +558,7 @@
 	)
 	(global_label "WIFI-HandShake"
 		(shape output)
-		(at 137.16 87.63 180)
+		(at 123.19 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -508,7 +568,7 @@
 		)
 		(uuid "e34a468f-1d38-477b-a9c7-860493a9e490")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.4944 87.63 0)
+			(at 101.5244 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -520,7 +580,7 @@
 	)
 	(global_label "WIFI-SPI-MOSI"
 		(shape input)
-		(at 137.16 95.25 180)
+		(at 123.19 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -530,13 +590,59 @@
 		)
 		(uuid "f2b8f5c4-619e-42ec-b6ec-4ce984afac39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.8735 95.25 0)
+			(at 102.9035 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 125.73 100.965) (xy 125.73 81.28) (xy 128.27 81.28) (xy 128.27 100.965)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 5b0fabe9-fcd6-4208-9c3e-00bdfe8323f4)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 127 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8ed3079-2a58-46f2-87c6-64fe2521dfd4")
+		(property "Netclass" "WIFI"
+			(at 127.6299 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -69.85 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)
