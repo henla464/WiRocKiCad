@@ -653,7 +653,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6dcfef7e-ead8-4dfc-a87c-c15fdb8d852d")
 		(property "Reference" "U19"
 			(at 142.24 73.66 0)
@@ -690,6 +690,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" ""
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IncludeInBOM" "FALSE"
 			(at 149.86 88.9 0)
 			(effects
 				(font

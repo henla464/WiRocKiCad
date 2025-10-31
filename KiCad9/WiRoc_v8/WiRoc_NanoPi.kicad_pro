@@ -1172,7 +1172,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1202,7 +1202,7 @@
           "group_by": false,
           "label": "IncludeInBOM",
           "name": "IncludeInBOM",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1238,13 +1238,13 @@
           "group_by": false,
           "label": "Package",
           "name": "Package",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "PartNo",
           "name": "PartNo",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1292,15 +1292,27 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Note",
+          "name": "Note",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCBasicExtended",
+          "name": "JLCBasicExtended",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "JLCBasicExtended"
     },
     "connection_grid_size": 50.0,
     "drawing": {

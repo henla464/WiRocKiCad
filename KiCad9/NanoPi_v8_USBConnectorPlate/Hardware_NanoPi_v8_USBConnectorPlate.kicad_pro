@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -59,14 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|116430000|79410000|af0d9c1b-b30f-41f3-8b26-b0646a2be0ea|00000000-0000-0000-0000-000000000000",
-          "Solid Pad connection for GND"
-        ],
-        [
-          "lib_footprint_mismatch|116430000|97190000|ff25840c-135a-49e5-a596-476078d88390|00000000-0000-0000-0000-000000000000",
-          "Solid pad connection for GND"
-        ],
         [
           "starved_thermal|110500000|87460000|eaaf3eeb-c6e5-46ff-9aa2-bb666e03b28f|c985cff9-68e7-4d67-9287-2f432addbd38|F.Cu",
           ""
@@ -582,12 +574,66 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IncludeInBOM",
+          "name": "IncludeInBOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Rotation Offset",
+          "name": "JLCPCB Rotation Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PartNumber",
+          "name": "PartNumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ThroughHole",
+          "name": "ThroughHole",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

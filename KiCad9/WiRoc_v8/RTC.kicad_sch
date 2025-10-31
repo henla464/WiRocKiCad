@@ -1747,6 +1747,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" "Extended"
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "a8f35c22-9041-49ea-b0b0-f317a2eb2fa3")
 		)
@@ -2003,6 +2012,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" "Extended"
+			(at 171.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "aebab8e0-8eda-4ae8-ac5e-be05ea299db3")
 		)
@@ -2173,6 +2191,15 @@
 			)
 		)
 		(property "WebsiteURL" "https://jlcpcb.com/partdetail/749157-GRM155R71C223JA01D/C710885"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 101.6 76.2 0)
 			(effects
 				(font
@@ -2456,6 +2483,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" "Extended"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SO-8"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67a21a9a-cda9-4e36-8b1f-2415297278d6")
 		)
@@ -2553,7 +2598,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25811"
+		(property "LCSC Part #" "C25764"
 			(at 181.61 76.2 0)
 			(effects
 				(font
@@ -2571,7 +2616,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0603WAF2003T5E"
+		(property "ManufacturerPartNumber" "0402WGF2003TCE"
 			(at 181.61 76.2 0)
 			(effects
 				(font
@@ -2589,7 +2634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 181.61 76.2 0)
 			(effects
 				(font
@@ -2608,6 +2653,15 @@
 			)
 		)
 		(property "WebsiteURL" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF2003T5E_C25811.html"
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 181.61 76.2 0)
 			(effects
 				(font
@@ -2757,6 +2811,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" "-90"
+			(at 161.29 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Extended"
 			(at 161.29 39.37 0)
 			(effects
 				(font
@@ -2924,6 +2987,15 @@
 			)
 		)
 		(property "Package" "SMD3215-2P"
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 106.68 68.58 0)
 			(effects
 				(font
@@ -3189,7 +3261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 181.61 86.36 0)
 			(effects
 				(font
@@ -3199,6 +3271,15 @@
 			)
 		)
 		(property "ThroughHole" "FALSE"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 181.61 86.36 0)
 			(effects
 				(font
@@ -3322,7 +3403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 90.17 64.77 0)
 			(effects
 				(font
@@ -3332,6 +3413,15 @@
 			)
 		)
 		(property "ThroughHole" "FALSE"
+			(at 90.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 90.17 64.77 0)
 			(effects
 				(font
@@ -3419,7 +3509,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25811"
+		(property "LCSC Part #" "C25764"
 			(at 139.7 72.39 0)
 			(effects
 				(font
@@ -3437,7 +3527,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0603WAF2003T5E"
+		(property "ManufacturerPartNumber" "0402WGF2003TCE"
 			(at 139.7 72.39 0)
 			(effects
 				(font
@@ -3455,7 +3545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 139.7 72.39 0)
 			(effects
 				(font
@@ -3474,6 +3564,15 @@
 			)
 		)
 		(property "WebsiteURL" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_Uniroyal-Elec-0603WAF2003T5E_C25811.html"
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 139.7 72.39 0)
 			(effects
 				(font

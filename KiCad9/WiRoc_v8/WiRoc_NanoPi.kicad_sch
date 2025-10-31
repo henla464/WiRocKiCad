@@ -7454,6 +7454,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" "Extended"
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca223096-6926-4d20-839e-3c5197d74865")
 		)
@@ -7743,6 +7752,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" "Extended"
+			(at 248.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "906b5c66-f24b-421e-ab1e-741ce4db86ca")
 		)
@@ -7821,7 +7839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 269.24 35.56 0)
 			(effects
 				(font
@@ -7894,6 +7912,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 269.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 269.24 35.56 0)
 			(effects
 				(font
@@ -8007,7 +8034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 264.668 40.64 90)
 			(effects
 				(font
@@ -8108,6 +8135,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 262.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 262.89 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,7 +8415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 46.99 24.13 0)
 			(effects
 				(font
@@ -8452,6 +8488,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 46.99 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 46.99 24.13 0)
 			(effects
 				(font
@@ -8594,7 +8639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 46.99 88.9 0)
 			(effects
 				(font
@@ -8667,6 +8712,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 46.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 46.99 88.9 0)
 			(effects
 				(font
@@ -8888,6 +8942,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" "Basic"
+			(at 115.57 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b67f1c50-39b6-41fd-9c8a-ad31e3945c5a")
 		)
@@ -8957,7 +9020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 121.92 71.12 0)
 			(effects
 				(font
@@ -9030,6 +9093,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 121.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 121.92 71.12 0)
 			(effects
 				(font
@@ -9186,6 +9258,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" "Extended"
+			(at 110.49 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89580269-e5c7-4a63-9746-af43d02bfa82")
 		)
@@ -9255,7 +9336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 129.54 76.2 0)
 			(effects
 				(font
@@ -9328,6 +9409,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 129.54 76.2 0)
 			(effects
 				(font
@@ -9405,7 +9495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 129.54 67.31 0)
 			(effects
 				(font
@@ -9478,6 +9568,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 129.54 67.31 0)
 			(effects
 				(font
@@ -9815,7 +9914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 114.3 90.17 0)
 			(effects
 				(font
@@ -9888,6 +9987,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 114.3 90.17 0)
 			(effects
 				(font
@@ -9993,7 +10101,7 @@
 				)
 			)
 		)
-		(property "Value" "24K-1%"
+		(property "Value" "47K/1%"
 			(at 77.47 30.48 90)
 			(effects
 				(font
@@ -10028,7 +10136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 77.47 27.94 90)
 			(effects
 				(font
@@ -10037,7 +10145,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0603WAF2402T5E"
+		(property "ManufacturerPartNumber" "0402WGF4702TCE"
 			(at 77.47 27.94 90)
 			(effects
 				(font
@@ -10091,7 +10199,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23352"
+		(property "LCSC Part #" "C25792"
 			(at 77.47 27.94 0)
 			(effects
 				(font
@@ -10102,6 +10210,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 77.47 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 77.47 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10169,7 +10286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100pF (101) ±5% 50V"
+		(property "Description" ""
 			(at 81.28 33.02 90)
 			(effects
 				(font
@@ -10178,7 +10295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 81.28 33.02 90)
 			(effects
 				(font
@@ -10252,6 +10369,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 81.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 81.28 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,7 +10584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 48.26 106.68 0)
 			(effects
 				(font
@@ -10531,6 +10657,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 48.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 48.26 106.68 0)
 			(effects
 				(font
@@ -10738,7 +10873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 41.91 132.08 0)
 			(effects
 				(font
@@ -10819,6 +10954,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" "Basic"
+			(at 41.91 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56503fbb-85c3-4b38-a164-2c4681374e5e")
 		)
@@ -10886,7 +11030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 48.26 134.62 90)
 			(effects
 				(font
@@ -10895,7 +11039,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0603WAF2003T5E"
+		(property "ManufacturerPartNumber" "0402WGF2003TCE"
 			(at 48.26 134.62 90)
 			(effects
 				(font
@@ -10949,7 +11093,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25811"
+		(property "LCSC Part #" "C25764"
 			(at 48.26 134.62 0)
 			(effects
 				(font
@@ -10960,6 +11104,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 48.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 48.26 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11101,7 +11254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 33.02 139.7 0)
 			(effects
 				(font
@@ -11182,6 +11335,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" "Basic"
+			(at 33.02 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf1820da-426a-4b0b-8d24-835f1423f91b")
 		)
@@ -11251,7 +11413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 49.53 143.51 0)
 			(effects
 				(font
@@ -11325,6 +11487,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 49.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 49.53 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11594,7 +11765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 19.05 172.72 90)
 			(effects
 				(font
@@ -11603,7 +11774,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0603WAF1003T5E"
+		(property "ManufacturerPartNumber" "0402WGF1003TCE"
 			(at 19.05 172.72 90)
 			(effects
 				(font
@@ -11657,7 +11828,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25803"
+		(property "LCSC Part #" "C25741"
 			(at 19.05 172.72 0)
 			(effects
 				(font
@@ -11668,6 +11839,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 19.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 19.05 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11742,7 +11922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 44.45 165.1 90)
 			(effects
 				(font
@@ -11751,7 +11931,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0603WAF2003T5E"
+		(property "ManufacturerPartNumber" "0402WGF2003TCE"
 			(at 44.45 165.1 90)
 			(effects
 				(font
@@ -11805,7 +11985,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25811"
+		(property "LCSC Part #" "C25764"
 			(at 44.45 165.1 0)
 			(effects
 				(font
@@ -11816,6 +11996,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 44.45 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 44.45 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11992,6 +12181,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" ""
+			(at 105.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6134b4ee-2680-4114-b30c-1653a0bc9089")
 		)
@@ -12093,6 +12291,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" ""
+			(at 53.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cfaaf2b4-5fc9-4fa4-b33f-f7f9dbca59fa")
 		)
@@ -12157,7 +12364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 130.81 166.37 90)
 			(effects
 				(font
@@ -12166,7 +12373,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0603WAF1003T5E"
+		(property "ManufacturerPartNumber" "0402WGF1003TCE"
 			(at 130.81 166.37 90)
 			(effects
 				(font
@@ -12220,7 +12427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25803"
+		(property "LCSC Part #" "C25741"
 			(at 130.81 166.37 0)
 			(effects
 				(font
@@ -12231,6 +12438,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 130.81 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 130.81 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12335,7 +12551,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K/1%"
 			(at 44.45 185.42 90)
 			(effects
 				(font
@@ -12361,7 +12577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RESISTOR 0603 10KΩ"
+		(property "Description" ""
 			(at 46.99 185.42 90)
 			(effects
 				(font
@@ -12370,7 +12586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 46.99 185.42 90)
 			(effects
 				(font
@@ -12379,7 +12595,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0603WAF1002T5E"
+		(property "ManufacturerPartNumber" "0402WGF1002TCE"
 			(at 46.99 185.42 90)
 			(effects
 				(font
@@ -12433,7 +12649,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C25744"
 			(at 46.99 185.42 0)
 			(effects
 				(font
@@ -12444,6 +12660,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 46.99 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 46.99 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12483,7 +12708,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K/1%"
 			(at 50.8 185.42 90)
 			(effects
 				(font
@@ -12509,7 +12734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RESISTOR 0603 10KΩ"
+		(property "Description" ""
 			(at 53.34 185.42 90)
 			(effects
 				(font
@@ -12518,7 +12743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 53.34 185.42 90)
 			(effects
 				(font
@@ -12527,7 +12752,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0603WAF1002T5E"
+		(property "ManufacturerPartNumber" "0402WGF1002TCE"
 			(at 53.34 185.42 90)
 			(effects
 				(font
@@ -12581,7 +12806,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C25744"
 			(at 53.34 185.42 0)
 			(effects
 				(font
@@ -12592,6 +12817,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 53.34 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 53.34 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12739,6 +12973,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 236.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" ""
 			(at 236.22 99.06 0)
 			(effects
 				(font
@@ -12963,6 +13206,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" ""
+			(at 38.1 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bef89955-f5c9-4e20-93d5-b3d545b1a9e8")
 		)
@@ -13106,6 +13358,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 271.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" ""
+			(at 271.78 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13287,6 +13548,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" ""
+			(at 27.94 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c097b72f-e8fa-4310-a92b-8875f5076a67")
 		)
@@ -13379,6 +13649,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 26.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" ""
 			(at 26.67 29.21 0)
 			(effects
 				(font
@@ -13518,7 +13797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 187.96 100.33 0)
 			(effects
 				(font
@@ -13592,6 +13871,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 187.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 187.96 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13807,6 +14095,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" ""
+			(at 160.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d43f2457-c599-41f9-ad8b-640f6079342f")
 		)
@@ -13918,7 +14215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 126.238 40.64 90)
 			(effects
 				(font
@@ -14019,6 +14316,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 124.46 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14234,7 +14540,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNo" "GRM188R61A226ME15D"
+		(property "PartNo" ""
 			(at 229.87 35.56 0)
 			(effects
 				(font
@@ -14244,6 +14550,51 @@
 			)
 		)
 		(property "IncludeInBOM" "TRUE"
+			(at 229.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" " Murata Electronics"
+			(at 229.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "GRM188R61A226ME15D"
+			(at 229.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 229.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Selected this one due to the small package size"
+			(at 229.87 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Extended"
 			(at 229.87 35.56 0)
 			(effects
 				(font
@@ -14325,7 +14676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 33.02 173.99 90)
 			(effects
 				(font
@@ -14334,7 +14685,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0603WAF2003T5E"
+		(property "ManufacturerPartNumber" "0402WGF2003TCE"
 			(at 33.02 173.99 90)
 			(effects
 				(font
@@ -14388,7 +14739,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25811"
+		(property "LCSC Part #" "C25764"
 			(at 33.02 173.99 0)
 			(effects
 				(font
@@ -14399,6 +14750,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 33.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 33.02 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14482,7 +14842,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNo" "SLW4020S1R5MST"
+		(property "PartNo" ""
 			(at 190.5 27.94 0)
 			(effects
 				(font
@@ -14527,8 +14887,17 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "SMD"
+		(property "Package" ""
 			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Extended"
+			(at 190.5 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14666,7 +15035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 184.15 39.37 0)
 			(effects
 				(font
@@ -14685,6 +15054,15 @@
 			)
 		)
 		(property "WebsiteURL" ""
+			(at 184.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 184.15 39.37 0)
 			(effects
 				(font
@@ -14768,7 +15146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 128.27 35.56 0)
 			(effects
 				(font
@@ -14841,6 +15219,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
 			(at 128.27 35.56 0)
 			(effects
 				(font
@@ -14953,6 +15340,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" ""
+			(at 180.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f84ae500-8967-417b-8d2b-efd1d2f8be82")
 		)
@@ -15041,7 +15437,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e62db65-8862-4bd5-bb53-f338b72606ae")
 		(property "Reference" "R15"
-			(at 219.71 30.48 0)
+			(at 219.71 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15049,8 +15445,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470kOhm"
-			(at 219.71 33.02 0)
+		(property "Value" "680K/1%"
+			(at 219.71 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15085,7 +15481,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23178"
+		(property "LCSC Part #" "C4131"
 			(at 217.17 31.75 0)
 			(effects
 				(font
@@ -15094,7 +15490,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNo" "HPCR0603F470KK9"
+		(property "PartNo" ""
 			(at 217.17 31.75 0)
 			(effects
 				(font
@@ -15112,7 +15508,34 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "HPCR0603F470KK9"
+		(property "ManufacturerPartNumber" "0402WGF6803TCE"
+			(at 217.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Extended"
+			(at 217.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 217.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 217.17 31.75 0)
 			(effects
 				(font
@@ -15268,6 +15691,42 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" "Extended"
+			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17700132"
+			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "PM127V-11-04-H46"
+			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f5ad862-7301-401f-9b44-f994e0ceb9d6")
 		)
@@ -15300,7 +15759,7 @@
 		(fields_autoplaced yes)
 		(uuid "acffacfa-d2fe-4005-8180-c4d1b87b8d13")
 		(property "Reference" "R16"
-			(at 219.71 38.1 0)
+			(at 219.71 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15308,8 +15767,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "140kOhm"
-			(at 219.71 40.64 0)
+		(property "Value" "200K-1%"
+			(at 219.71 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15344,7 +15803,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C321721"
+		(property "LCSC Part #" "C25764"
 			(at 217.17 39.37 0)
 			(effects
 				(font
@@ -15353,7 +15812,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNo" "0603WAF140KT5E"
+		(property "PartNo" ""
 			(at 217.17 39.37 0)
 			(effects
 				(font
@@ -15371,7 +15830,34 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0603WAF140KT5E"
+		(property "ManufacturerPartNumber" "0402WGF2003TCE"
+			(at 217.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 217.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 217.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 217.17 39.37 0)
 			(effects
 				(font
@@ -15526,6 +16012,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" "-90"
+			(at 113.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Extended"
 			(at 113.03 33.02 0)
 			(effects
 				(font
@@ -15757,6 +16252,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" "Extended"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSOT-23-6"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a4458a0-bd8a-4160-bb6c-f54c64becf47")
 		)
@@ -15862,6 +16375,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" ""
+			(at 160.02 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94c16fb2-8108-4ea2-8a5f-b663f2cc87f3")
 		)
@@ -15954,6 +16476,42 @@
 			)
 		)
 		(property "ThroughHole" "TRUE"
+			(at 214.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Extended"
+			(at 214.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17700136"
+			(at 214.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 214.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "PM127V-11-09-H46"
 			(at 214.63 143.51 0)
 			(effects
 				(font
@@ -16115,6 +16673,51 @@
 				(hide yes)
 			)
 		)
+		(property "JLCBasicExtended" "Extended"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IncludeInBOM" "FALSE"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5142394"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MINTRON"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "MTP310-1205S2"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ff5cd10-fdd2-4744-afc1-2e2e9ffd06f0")
 		)
@@ -16235,6 +16838,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 226.06 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" ""
 			(at 226.06 27.94 0)
 			(effects
 				(font
@@ -16383,7 +16995,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNo" "GRM188R61A226ME15D"
+		(property "PartNo" ""
 			(at 176.53 35.56 0)
 			(effects
 				(font
@@ -16393,6 +17005,51 @@
 			)
 		)
 		(property "IncludeInBOM" "TRUE"
+			(at 176.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" " Murata Electronics"
+			(at 176.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "GRM188R61A226ME15D"
+			(at 176.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 176.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Extended"
+			(at 176.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Selected this one due to the small package size"
 			(at 176.53 35.56 0)
 			(effects
 				(font

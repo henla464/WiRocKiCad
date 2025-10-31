@@ -863,6 +863,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
@@ -994,6 +1133,130 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -2614,7 +2877,7 @@
 	)
 	(text "USB Host 1"
 		(exclude_from_sim no)
-		(at 55.626 68.58 0)
+		(at 40.894 67.056 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -2638,7 +2901,7 @@
 	)
 	(text "USB Host 2"
 		(exclude_from_sim no)
-		(at 57.15 121.412 0)
+		(at 44.196 116.078 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -2650,7 +2913,37 @@
 		(uuid "cc50db9b-9581-4ebe-87f2-8a7bd0e9bff0")
 	)
 	(junction
-		(at 45.72 147.32)
+		(at 50.8 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f597a89-b2f9-4e22-8256-e248599bf835")
+	)
+	(junction
+		(at 52.07 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3477c295-fd5e-409e-93a4-7ef850d06a88")
+	)
+	(junction
+		(at 40.64 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6414b145-a9ff-4ed0-a4b4-970f185c4385")
+	)
+	(junction
+		(at 41.91 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f5b3659-03df-4d75-935d-e3d6a3b9e5cf")
+	)
+	(junction
+		(at 52.07 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bcb6d91-351a-454a-b684-cba7b8bcf60f")
+	)
+	(junction
+		(at 39.37 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "800c84f3-e2a4-4887-bdd2-07753f5172a8")
@@ -2662,10 +2955,16 @@
 		(uuid "80acead5-47f1-4ccf-82e4-ddfcd8d19864")
 	)
 	(junction
-		(at 45.72 92.71)
+		(at 52.07 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8712c5e2-085c-44c8-aec7-40e895242c50")
+		(uuid "9b366cdc-224b-4dd3-a8bb-1d50c01b5424")
+	)
+	(junction
+		(at 50.8 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abe45293-036a-41a4-9b5b-7fe90d2d0dfa")
 	)
 	(no_connect
 		(at 224.79 92.71)
@@ -2729,17 +3028,27 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 92.71) (xy 54.61 92.71)
+			(xy 50.8 74.93) (xy 50.8 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0860c046-b350-480b-96a1-07d263737b69")
+		(uuid "00b585a9-9dec-482d-80f0-f65b4b109a1c")
 	)
 	(wire
 		(pts
-			(xy 68.58 87.63) (xy 73.66 87.63)
+			(xy 40.64 92.71) (xy 50.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0273f682-cd82-42ca-80ec-53315ea3438a")
+	)
+	(wire
+		(pts
+			(xy 88.9 87.63) (xy 93.98 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2749,7 +3058,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 97.79) (xy 111.76 97.79)
+			(xy 78.74 149.86) (xy 38.1 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a557476-1713-4ec9-adc3-8a1703d97478")
+	)
+	(wire
+		(pts
+			(xy 106.68 97.79) (xy 132.08 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2759,7 +3078,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 85.09) (xy 111.76 76.2)
+			(xy 132.08 85.09) (xy 132.08 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2769,7 +3088,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 76.2) (xy 111.76 76.2)
+			(xy 106.68 76.2) (xy 132.08 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2789,7 +3108,37 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 76.2) (xy 86.36 77.47)
+			(xy 54.61 88.9) (xy 50.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cababbf-cc02-4fdb-b58d-31b8261445bb")
+	)
+	(wire
+		(pts
+			(xy 38.1 95.25) (xy 82.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200cc086-ac10-4e76-a20b-7d23a06b6c9b")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 50.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b65a0d5-b195-462f-af44-d6884d4fdfa9")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 106.68 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2799,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 139.7) (xy 129.54 139.7)
+			(xy 144.78 139.7) (xy 149.86 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2809,7 +3158,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 77.47) (xy 81.28 76.2)
+			(xy 101.6 77.47) (xy 101.6 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2819,13 +3168,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 85.09) (xy 111.76 85.09)
+			(xy 137.16 85.09) (xy 132.08 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "345efa91-7b48-41ba-89e7-504b9103c630")
+	)
+	(wire
+		(pts
+			(xy 38.1 97.79) (xy 101.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34dfacc0-e1a2-48b4-bcae-a1a7102534b4")
 	)
 	(wire
 		(pts
@@ -2839,7 +3198,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 142.24) (xy 72.39 142.24)
+			(xy 88.9 142.24) (xy 92.71 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2859,7 +3218,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 147.32) (xy 55.88 147.32)
+			(xy 39.37 147.32) (xy 52.07 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2869,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 40.64) (xy 55.88 40.64)
+			(xy 50.8 40.64) (xy 52.07 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2879,7 +3238,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 76.2) (xy 62.23 95.25)
+			(xy 82.55 76.2) (xy 82.55 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2899,7 +3258,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 92.71) (xy 45.72 92.71)
+			(xy 38.1 92.71) (xy 40.64 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2909,7 +3268,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 129.54) (xy 85.09 132.08)
+			(xy 105.41 129.54) (xy 105.41 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2919,7 +3278,27 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 129.54) (xy 107.95 129.54)
+			(xy 41.91 40.64) (xy 43.18 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ef598f-1ac1-491d-adf3-433b15045a66")
+	)
+	(wire
+		(pts
+			(xy 52.07 40.64) (xy 55.88 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65312fc4-eb11-464a-bc9b-e9a232b31c1f")
+	)
+	(wire
+		(pts
+			(xy 105.41 129.54) (xy 128.27 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2929,7 +3308,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 152.4) (xy 107.95 152.4)
+			(xy 105.41 152.4) (xy 128.27 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2939,7 +3318,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 86.36) (xy 45.72 92.71)
+			(xy 40.64 86.36) (xy 40.64 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2949,7 +3328,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 90.17) (xy 111.76 97.79)
+			(xy 132.08 90.17) (xy 132.08 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2959,17 +3338,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 149.86) (xy 63.5 129.54)
+			(xy 55.88 128.27) (xy 52.07 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74c19f7c-229e-4109-8443-9ba75f419cd2")
+		(uuid "72ded97b-a6a6-46bb-81ed-0bec8b1cdcc6")
 	)
 	(wire
 		(pts
-			(xy 45.72 138.43) (xy 45.72 147.32)
+			(xy 39.37 138.43) (xy 39.37 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2979,7 +3358,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 139.7) (xy 107.95 129.54)
+			(xy 50.8 83.82) (xy 50.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76db88c3-bd0d-4b27-b67b-eb397a018202")
+	)
+	(wire
+		(pts
+			(xy 128.27 139.7) (xy 128.27 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2989,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 152.4) (xy 107.95 144.78)
+			(xy 128.27 152.4) (xy 128.27 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2999,7 +3388,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 76.2) (xy 62.23 76.2)
+			(xy 101.6 76.2) (xy 82.55 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3009,17 +3398,27 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 149.86) (xy 63.5 149.86)
+			(xy 50.8 72.39) (xy 50.8 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e18ecdb-2e87-4750-998f-af3c1109735d")
+		(uuid "7fff9cd7-d34f-49db-87a3-09fbbad567a0")
 	)
 	(wire
 		(pts
-			(xy 127 85.09) (xy 133.35 85.09)
+			(xy 54.61 74.93) (xy 50.8 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ce90a3-551f-4d4e-952d-e4443ec2b38b")
+	)
+	(wire
+		(pts
+			(xy 147.32 85.09) (xy 153.67 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3029,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 135.89) (xy 55.88 138.43)
+			(xy 52.07 123.19) (xy 52.07 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3039,7 +3438,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 129.54) (xy 80.01 129.54)
+			(xy 52.07 142.24) (xy 52.07 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8724c9e2-459d-455a-8e10-830c82d9289a")
+	)
+	(wire
+		(pts
+			(xy 78.74 128.27) (xy 100.33 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3049,7 +3458,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 154.94) (xy 44.45 154.94)
+			(xy 88.9 154.94) (xy 38.1 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3059,17 +3468,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 97.79) (xy 81.28 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "993ca014-9f1a-4d53-92ba-c6827e2b9e74")
-	)
-	(wire
-		(pts
-			(xy 124.46 144.78) (xy 129.54 144.78)
+			(xy 144.78 144.78) (xy 149.86 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3478,27 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 129.54) (xy 80.01 132.08)
+			(xy 55.88 142.24) (xy 52.07 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fcbe395-07c1-415a-b635-f8a8640de1a1")
+	)
+	(wire
+		(pts
+			(xy 38.1 152.4) (xy 100.33 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42375d7-aaa1-4d01-851c-97f6f4eaefe5")
+	)
+	(wire
+		(pts
+			(xy 100.33 128.27) (xy 100.33 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3089,17 +3508,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 81.28) (xy 54.61 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae46ff56-5d9b-42c2-8217-ade535b02c6e")
-	)
-	(wire
-		(pts
-			(xy 116.84 90.17) (xy 111.76 90.17)
+			(xy 137.16 90.17) (xy 132.08 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3119,17 +3528,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 147.32) (xy 55.88 146.05)
+			(xy 52.07 128.27) (xy 52.07 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdbda15d-1d65-4fa1-b717-ef4abf8e94b7")
+		(uuid "c8af1a40-27ca-4c8f-84dd-503d4ca320d1")
 	)
 	(wire
 		(pts
-			(xy 114.3 139.7) (xy 107.95 139.7)
+			(xy 134.62 139.7) (xy 128.27 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3139,7 +3548,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 90.17) (xy 133.35 90.17)
+			(xy 147.32 90.17) (xy 153.67 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3149,7 +3558,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 100.33) (xy 44.45 100.33)
+			(xy 39.37 40.64) (xy 41.91 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d629a135-2027-4b29-bef6-70c2c6563bbe")
+	)
+	(wire
+		(pts
+			(xy 74.93 100.33) (xy 38.1 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3159,17 +3578,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 152.4) (xy 80.01 152.4)
+			(xy 78.74 128.27) (xy 78.74 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9b44069-7395-41c0-8a98-e9fd3b8b99e8")
+		(uuid "dccb2f60-85e1-4f7f-8945-4bce72c2ecac")
 	)
 	(wire
 		(pts
-			(xy 44.45 147.32) (xy 45.72 147.32)
+			(xy 38.1 147.32) (xy 39.37 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3179,23 +3598,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 144.78) (xy 114.3 144.78)
+			(xy 128.27 144.78) (xy 134.62 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e9746f92-297d-48c8-8e78-11b4eab99deb")
-	)
-	(wire
-		(pts
-			(xy 54.61 92.71) (xy 54.61 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2592dbd-5b47-41a1-883f-0062cbc07436")
 	)
 	(wire
 		(pts
@@ -3209,23 +3618,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 40.64) (xy 43.18 40.64)
+			(xy 52.07 138.43) (xy 52.07 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8c437f4-643c-4b66-8ef2-73cc53d0fa75")
-	)
-	(wire
-		(pts
-			(xy 44.45 95.25) (xy 62.23 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc134fc5-2047-47b8-a4f2-2913f2e01aa0")
+		(uuid "fed9a622-27f7-4550-9925-9d3b8e9bd4f5")
 	)
 	(global_label "VBUS_IN"
 		(shape input)
@@ -3427,7 +3826,7 @@
 	)
 	(global_label "VDD_5V_OUT2"
 		(shape output)
-		(at 45.72 138.43 90)
+		(at 39.37 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3437,7 +3836,7 @@
 		)
 		(uuid "620e89cc-4423-403f-9b0a-2cc6a3dba663")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.72 119.6084 90)
+			(at 39.37 119.6084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +3870,7 @@
 	)
 	(global_label "USBHost-DM1"
 		(shape input)
-		(at 133.35 85.09 0)
+		(at 153.67 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3481,7 +3880,7 @@
 		)
 		(uuid "6b234f3e-e454-4960-9028-c87691292ac2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.1878 85.09 0)
+			(at 173.5078 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3914,7 @@
 	)
 	(global_label "VDD_5V_OUT1"
 		(shape input)
-		(at 93.98 87.63 0)
+		(at 114.3 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3525,7 +3924,7 @@
 		)
 		(uuid "7fc0773e-dd3e-4a81-b5c2-1fcd7331aa16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.8016 87.63 0)
+			(at 133.1216 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +3936,7 @@
 	)
 	(global_label "VDD_5V"
 		(shape input)
-		(at 54.61 81.28 90)
+		(at 50.8 72.39 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3547,7 +3946,7 @@
 		)
 		(uuid "81853bec-67ae-44ae-a617-471e97b8b9eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.61 69.4252 90)
+			(at 50.8 60.5352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3980,7 @@
 	)
 	(global_label "VDD_5V"
 		(shape input)
-		(at 55.88 135.89 90)
+		(at 52.07 123.19 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3591,7 +3990,7 @@
 		)
 		(uuid "9e99cdf8-4bd5-42c2-835f-a926180e28d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 124.0352 90)
+			(at 52.07 111.3352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +4002,7 @@
 	)
 	(global_label "USBHost-DP2"
 		(shape input)
-		(at 129.54 144.78 0)
+		(at 149.86 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3613,7 +4012,7 @@
 		)
 		(uuid "a5ae18e2-2d82-483f-bcb2-2f37f186ba20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.1601 144.78 0)
+			(at 169.4801 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +4046,7 @@
 	)
 	(global_label "VDD_5V_OUT2"
 		(shape input)
-		(at 92.71 142.24 0)
+		(at 113.03 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3657,7 +4056,7 @@
 		)
 		(uuid "d4ae7924-f4b2-48d8-97f6-e4fb1a93b00e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.5316 142.24 0)
+			(at 131.8516 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +4112,7 @@
 	)
 	(global_label "USBHost-DP1"
 		(shape input)
-		(at 133.35 90.17 0)
+		(at 153.67 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3723,7 +4122,7 @@
 		)
 		(uuid "e21150ac-459b-4769-bea4-7f9158ea75fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.9701 90.17 0)
+			(at 173.2901 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +4134,7 @@
 	)
 	(global_label "USBHost-DM2"
 		(shape input)
-		(at 129.54 139.7 0)
+		(at 149.86 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3745,7 +4144,7 @@
 		)
 		(uuid "f3e25781-d1e3-475f-b63c-9bf4df5c395e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.3778 139.7 0)
+			(at 169.6978 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,7 +4156,7 @@
 	)
 	(global_label "VDD_5V_OUT1"
 		(shape output)
-		(at 45.72 86.36 90)
+		(at 40.64 86.36 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3767,7 +4166,7 @@
 		)
 		(uuid "fb7c774d-986b-4cc8-bd24-ea029d634e1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.72 67.5384 90)
+			(at 40.64 67.5384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,6 +4264,282 @@
 			(project "Hardware_NanoPi_v7_ConnectorPlate"
 				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 58.42 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "175aa121-57b5-4f22-a3fd-85ad1ab4c201")
+		(property "Reference" "C5"
+			(at 58.928 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 uF"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 62.23 73.9648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "CL05A475MP5NRNC"
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23733"
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6373d2c2-8c9d-4717-8e25-1960277fb989")
+		)
+		(pin "1"
+			(uuid "23fed4f3-b7b3-4bde-912f-d8a18417fcaa")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b77d17e-c081-4106-a478-de712e5df0e6")
+		(property "Reference" "#PWR016"
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "610ff1b7-5ef1-45e1-9422-961ea810d715")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2502af17-b3a5-4f75-ad89-d282ef95ea54")
+		(property "Reference" "R2"
+			(at 44.45 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 Ohm"
+			(at 44.45 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 40.132 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0603WAF470KT5E"
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23164"
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23164"
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d80eadf7-695a-4ff4-a56f-1c2368cf1c1b")
+		)
+		(pin "2"
+			(uuid "4784f9e3-d524-4941-aa70-ecd3143472ca")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4110,7 +4785,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 142.24 270)
+		(at 88.9 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4118,7 +4793,7 @@
 		(dnp no)
 		(uuid "36ffd38b-0cf7-49bf-9665-9a742d08c523")
 		(property "Reference" "#PWR011"
-			(at 62.23 142.24 0)
+			(at 82.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +4802,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 142.24 0)
+			(at 85.09 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +4810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 142.24 0)
+			(at 88.9 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 142.24 0)
+			(at 88.9 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4828,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 142.24 0)
+			(at 88.9 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,6 +4843,172 @@
 			(project "Hardware_NanoPi_v7_ConnectorPlate"
 				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44065fe5-28ee-4f97-95f1-98491c32c0c5")
+		(property "Reference" "#PWR019"
+			(at 77.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "425f5ae8-bd30-405f-9503-9bb1979ad6d1")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Filter:Choke_CommonMode_FerriteCore_1243")
+		(at 139.7 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44d0f315-0004-45ea-9176-98abbc2bb9e1")
+		(property "Reference" "FL2"
+			(at 139.573 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Choke_CommonMode_FerriteCore_1243"
+			(at 139.573 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WiRoc:0805_CommonModeChoke"
+			(at 139.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590903681308958720"
+			(at 139.7 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic common-mode choke, ferrite core, 1243 pin order"
+			(at 143.764 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "SDCW2012L-2-900TF"
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2980700"
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4P,1.2x2mm"
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9e6b240f-67e9-4181-8ad6-d08ca6cdf596")
+		)
+		(pin "2"
+			(uuid "12bd4663-422f-43d3-acc1-a87b029d1de5")
+		)
+		(pin "1"
+			(uuid "cf20ab47-97ca-41c9-a4c4-46dde2e53208")
+		)
+		(pin "3"
+			(uuid "27278d38-4d9e-48ed-b55e-e4746489526f")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "FL2")
 					(unit 1)
 				)
 			)
@@ -4248,7 +5089,7 @@
 	)
 	(symbol
 		(lib_id "WiRoc:TerminalBlock_USB_Host_Data_01x04")
-		(at 36.83 95.25 0)
+		(at 30.48 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4256,7 +5097,7 @@
 		(dnp no)
 		(uuid "4ecfa36a-7051-4edc-b6ea-8e66c0c0090b")
 		(property "Reference" "J2"
-			(at 36.83 90.17 0)
+			(at 30.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +5105,7 @@
 			)
 		)
 		(property "Value" "USB_Host_Data_02x02"
-			(at 41.91 87.63 0)
+			(at 35.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +5113,7 @@
 			)
 		)
 		(property "Footprint" "WiRoc:USBConnPads7"
-			(at 39.37 95.25 0)
+			(at 33.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +5122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 95.25 0)
+			(at 33.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +5131,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 95.25 0)
+			(at 30.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +5140,7 @@
 			)
 		)
 		(property "IncludeInBOM" "FALSE"
-			(at -231.14 246.38 0)
+			(at -237.49 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +5149,7 @@
 			)
 		)
 		(property "ThroughHole" "TRUE"
-			(at -232.41 226.06 0)
+			(at -238.76 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +5158,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 36.83 95.25 0)
+			(at 30.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +5167,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 36.83 95.25 0)
+			(at 30.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,8 +5203,219 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 52.07 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5199237c-9e85-4a1d-9dad-11198c11ec84")
+		(property "Reference" "C3"
+			(at 49.276 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 uF"
+			(at 49.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 51.1048 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "CL05A475MP5NRNC"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23733"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72f89cf9-945a-442c-a752-a0eee0afa0c9")
+		)
+		(pin "1"
+			(uuid "1faf8dcf-9448-4c99-bb8c-ecdf8e35dd2d")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f7d370a-c123-4b17-8c63-0d6a16342d82")
+		(property "Reference" "R1"
+			(at 54.61 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 Ohm"
+			(at 54.61 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 50.292 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0603WAF470KT5E"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23164"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23164"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40cd92c6-c25c-4ad9-8e75-a998a8710956")
+		)
+		(pin "2"
+			(uuid "ab985438-aada-422d-bdf0-2e537a63481f")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 54.61 154.94 90)
+		(at 88.9 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4371,7 +5423,7 @@
 		(dnp no)
 		(uuid "5fe5d0c7-c43b-4d6a-9910-49592df41754")
 		(property "Reference" "#PWR02"
-			(at 60.96 154.94 0)
+			(at 95.25 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +5432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 154.94 0)
+			(at 92.71 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,7 +5440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 154.94 0)
+			(at 88.9 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +5449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 154.94 0)
+			(at 88.9 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +5458,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 154.94 0)
+			(at 88.9 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +5674,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 54.61 87.63 180)
+		(at 50.8 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4630,7 +5682,7 @@
 		(dnp no)
 		(uuid "680663cf-a538-4d00-824d-2b623976284a")
 		(property "Reference" "FB2"
-			(at 48.006 87.122 90)
+			(at 44.196 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,7 +5690,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 50.292 86.868 90)
+			(at 46.482 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +5698,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
-			(at 56.388 87.63 90)
+			(at 52.578 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +5707,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 87.63 0)
+			(at 50.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +5716,25 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 54.61 87.63 0)
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16902"
+			(at 50.8 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C16902"
+			(at 50.8 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,6 +5752,216 @@
 			(project "Hardware_NanoPi_v8_USBConnectorPlate"
 				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
 					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 41.91 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f623097-0ce1-4398-9e7e-e938b9019354")
+		(property "Reference" "C4"
+			(at 44.704 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 uF"
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 42.8752 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "CL05A475MP5NRNC"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23733"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d2838fc-12fc-47cb-8026-8c38ea8b9883")
+		)
+		(pin "1"
+			(uuid "cf588429-940d-4c62-be3c-b50673a10cef")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 59.69 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fa60935-5df5-47a4-9c89-4572a3d26d04")
+		(property "Reference" "C1"
+			(at 60.198 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 uF"
+			(at 62.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 63.5 127.3048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "CL05A475MP5NRNC"
+			(at 59.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 59.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 59.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23733"
+			(at 59.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f09c007-4fb8-44a0-8c30-3000ed29a730")
+		)
+		(pin "1"
+			(uuid "2de74a37-dfab-4c26-bddc-4269d672d6af")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4759,82 +6039,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Filter:Choke_CommonMode_FerriteCore_1243")
-		(at 119.38 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70eadbc0-5c37-4f54-9e5c-ff7280f3a8c5")
-		(property "Reference" "FL2"
-			(at 119.253 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Choke_CommonMode_FerriteCore_1243"
-			(at 119.253 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "WiRoc:0805_CommonModeChoke"
-			(at 119.38 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic common-mode choke, ferrite core, 1243 pin order"
-			(at 123.444 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a7f177b8-38b5-4c03-8375-bd727de495ee")
-		)
-		(pin "2"
-			(uuid "426fd545-81cd-4f8b-9958-e61b451c9b94")
-		)
-		(pin "1"
-			(uuid "3dac1133-eafb-4c73-aa93-bbb9b7260b31")
-		)
-		(pin "3"
-			(uuid "d973b640-4896-43c2-a2e2-58922ecc2da5")
-		)
-		(instances
-			(project "Hardware_NanoPi_v8_USBConnectorPlate"
-				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
-					(reference "FL2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:USBLC6-2P6")
-		(at 82.55 142.24 270)
+		(at 102.87 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4843,7 +6049,7 @@
 		(fields_autoplaced yes)
 		(uuid "727ba9fc-8476-4311-a144-c439ed432c58")
 		(property "Reference" "U1"
-			(at 97.79 135.3119 90)
+			(at 118.11 135.3119 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +6057,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2P6"
-			(at 97.79 137.8519 90)
+			(at 118.11 137.8519 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,7 +6065,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 69.85 142.24 0)
+			(at 90.17 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +6074,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 91.44 147.32 0)
+			(at 111.76 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +6083,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 142.24 0)
+			(at 102.87 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,6 +6163,24 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 46.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16902"
+			(at 46.99 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C16902"
+			(at 46.99 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,6 +6279,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 58.42 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a40dd5e-2bd5-44a2-9e61-7139da613818")
+		(property "Reference" "C2"
+			(at 58.928 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 uF"
+			(at 60.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 62.23 87.9348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "CL05A475MP5NRNC"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23733"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cad58f7-406b-4f03-9cc2-b9334ce0274e")
+		)
+		(pin "1"
+			(uuid "7ba45a1d-1633-40af-aae0-94ac4ebf5a55")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 35.56 48.26 90)
 		(unit 1)
@@ -5126,32 +6455,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 55.88 142.24 180)
+		(lib_id "Device:C")
+		(at 59.69 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "812d4ec9-21e9-4612-a30c-ee6cb201e2f9")
-		(property "Reference" "FB3"
-			(at 49.276 141.732 90)
+		(uuid "7cb8066b-8535-4d23-a9f5-05b9d8f1b02a")
+		(property "Reference" "C6"
+			(at 60.198 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "FerriteBead"
-			(at 51.562 141.478 90)
+		(property "Value" "4.7 uF"
+			(at 62.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
-			(at 57.658 142.24 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 63.5 141.2748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5160,7 +6491,110 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 142.24 0)
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "CL05A475MP5NRNC"
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23733"
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80b7e0d9-9fcd-487d-a072-0d0959482379")
+		)
+		(pin "1"
+			(uuid "3ce90c06-4d1b-400e-8e38-f39b6ee10b89")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 52.07 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "812d4ec9-21e9-4612-a30c-ee6cb201e2f9")
+		(property "Reference" "FB3"
+			(at 45.466 134.112 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 47.752 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+			(at 53.848 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,7 +6603,43 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 55.88 142.24 0)
+			(at 52.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "BLM31PG601SN1"
+			(at 52.07 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 52.07 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16902"
+			(at 52.07 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C16902"
+			(at 52.07 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,7 +6664,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 100.33 90)
+		(at 74.93 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5202,7 +6672,7 @@
 		(dnp no)
 		(uuid "82b1a942-e1f3-40a9-a3fa-51117b5c790d")
 		(property "Reference" "#PWR01"
-			(at 60.96 100.33 0)
+			(at 81.28 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +6681,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 100.33 0)
+			(at 78.74 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +6689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 100.33 0)
+			(at 74.93 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +6698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 100.33 0)
+			(at 74.93 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +6707,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 100.33 0)
+			(at 74.93 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,6 +6825,282 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 66.04 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8863dc4d-c5db-4d7d-a5d5-4ff33be3fe3a")
+		(property "Reference" "R5"
+			(at 64.7699 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 Ohm"
+			(at 67.3099 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 66.04 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0603WAF470KT5E"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23164"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23164"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e9c45a1-47e2-4c0c-bcb8-efe7d979062e")
+		)
+		(pin "2"
+			(uuid "3efea80e-970e-4571-a181-656c792deab8")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f4539f9-01ce-4c99-aa30-b97e4809ebad")
+		(property "Reference" "#PWR014"
+			(at 77.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c0cf01f-5bec-42a4-9276-ac45a4685631")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "904fcdcd-d65a-4f02-8d02-c05ddc07d333")
+		(property "Reference" "R3"
+			(at 66.0399 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 Ohm"
+			(at 68.5799 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.31 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0603WAF470KT5E"
+			(at 67.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23164"
+			(at 67.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 67.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23164"
+			(at 67.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df625831-db8a-404f-af3d-cf7cebb2efaf")
+		)
+		(pin "2"
+			(uuid "e3ab1579-f721-4677-9dfb-0d66ac8dc243")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 67.31 44.45 270)
 		(unit 1)
@@ -5421,7 +7167,7 @@
 	)
 	(symbol
 		(lib_id "Filter:Choke_CommonMode_FerriteCore_1243")
-		(at 121.92 87.63 0)
+		(at 142.24 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5430,7 +7176,7 @@
 		(fields_autoplaced yes)
 		(uuid "94fa155a-4355-4fdc-b074-9f15135ce566")
 		(property "Reference" "FL1"
-			(at 121.793 80.01 0)
+			(at 142.113 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +7184,7 @@
 			)
 		)
 		(property "Value" "Choke_CommonMode_FerriteCore_1243"
-			(at 121.793 82.55 0)
+			(at 142.113 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +7192,7 @@
 			)
 		)
 		(property "Footprint" "WiRoc:0805_CommonModeChoke"
-			(at 121.92 93.98 0)
+			(at 142.24 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,8 +7200,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 121.92 95.885 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590903681308958720"
+			(at 142.24 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +7210,34 @@
 			)
 		)
 		(property "Description" "Generic common-mode choke, ferrite core, 1243 pin order"
-			(at 125.984 88.392 0)
+			(at 146.304 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "SDCW2012L-2-900TF"
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2980700"
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4P,1.2x2mm"
+			(at 142.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,6 +7261,71 @@
 			(project ""
 				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
 					(reference "FL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95813725-cb95-4f66-9e8f-ba72933b2cd4")
+		(property "Reference" "#PWR017"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef13ff4a-20f4-4b52-8a35-708878a8c926")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5626,6 +7464,136 @@
 			(project "Hardware_NanoPi_v7_ConnectorPlate"
 				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae4dad75-245f-41e5-90ff-612ff815bed8")
+		(property "Reference" "#PWR015"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8699bc8-3f3e-4c11-9ffa-93a7520d0d12")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9464484-8d85-417d-9394-3f592ef28eb6")
+		(property "Reference" "#PWR018"
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7488d61-1f8a-421f-b1f8-4323e37b2c83")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5775,7 +7743,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2P6")
-		(at 83.82 87.63 270)
+		(at 104.14 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5784,7 +7752,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7db1bbe-f9c7-40f9-82e8-d5cac10ab345")
 		(property "Reference" "U2"
-			(at 99.06 80.7019 90)
+			(at 119.38 80.7019 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +7760,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2P6"
-			(at 99.06 83.2419 90)
+			(at 119.38 83.2419 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +7768,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 71.12 87.63 0)
+			(at 91.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +7777,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 92.71 92.71 0)
+			(at 113.03 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,7 +7786,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 87.63 0)
+			(at 104.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +7823,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 87.63 270)
+		(at 88.9 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5863,7 +7831,7 @@
 		(dnp no)
 		(uuid "c7f588c4-23b8-4f6e-b1b4-5d62f5ef5ae4")
 		(property "Reference" "#PWR012"
-			(at 62.23 87.63 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,7 +7840,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 87.63 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5880,7 +7848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 87.63 0)
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +7857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 87.63 0)
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +7866,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 87.63 0)
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +7888,7 @@
 	)
 	(symbol
 		(lib_id "WiRoc:TerminalBlock_USB_Host_Data_01x04")
-		(at 36.83 149.86 0)
+		(at 30.48 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5928,7 +7896,7 @@
 		(dnp no)
 		(uuid "cf4a8a59-793c-4621-9e56-7e929f03fa9d")
 		(property "Reference" "J3"
-			(at 36.83 144.78 0)
+			(at 30.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,7 +7904,7 @@
 			)
 		)
 		(property "Value" "USB_Host_Data_02x02"
-			(at 41.91 142.24 0)
+			(at 35.56 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +7912,7 @@
 			)
 		)
 		(property "Footprint" "WiRoc:USBConnPads8"
-			(at 39.37 149.86 0)
+			(at 33.02 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +7921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 149.86 0)
+			(at 33.02 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +7930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 149.86 0)
+			(at 30.48 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +7939,7 @@
 			)
 		)
 		(property "IncludeInBOM" "FALSE"
-			(at -231.14 300.99 0)
+			(at -237.49 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +7948,7 @@
 			)
 		)
 		(property "ThroughHole" "TRUE"
-			(at -232.41 303.53 0)
+			(at -238.76 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +7957,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 36.83 149.86 0)
+			(at 30.48 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +7966,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 36.83 149.86 0)
+			(at 30.48 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,6 +8063,218 @@
 			(project "Hardware_NanoPi_v7_ConnectorPlate"
 				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fba4c16a-68cb-4adc-a73b-1c8ef5ccba76")
+		(property "Reference" "R6"
+			(at 66.0399 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 Ohm"
+			(at 68.5799 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.31 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0603WAF470KT5E"
+			(at 67.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23164"
+			(at 67.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 67.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23164"
+			(at 67.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbe6decd-d28f-432f-b89d-6f3889e44a33")
+		)
+		(pin "2"
+			(uuid "00ca7f47-652a-4486-87eb-383caaf5eb27")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc474882-b909-47ea-884a-e39b5702d2d2")
+		(property "Reference" "R4"
+			(at 64.7699 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 Ohm"
+			(at 67.3099 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 66.04 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0603WAF470KT5E"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23164"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23164"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56d34c55-b2b8-416d-925f-3976696e93e9")
+		)
+		(pin "2"
+			(uuid "9c9db62b-9b37-45db-9b4b-019444a91973")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "R4")
 					(unit 1)
 				)
 			)
