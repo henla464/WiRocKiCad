@@ -1,0 +1,15 @@
+AXP209 används för flera syften:
+- Den hanterar power knappen (kort tryck (byt meny), längre tryck (start/stop), långt (tvinga av)
+- Den sparar bluetooth adressen så den är samma även efter att images flashas om 
+- RTCn använder sig av N_OE för att starta upp på schema
+
+Kretskortets stackup är "JLC0616H-3313(Standard/Finished thickness 1.54mm+-10%)" (i order formuläret står det 1.5384 mm tjock), 6 lager
+JLCPCB Impedance Calculator: https://jlcpcb.com/pcb-impedance-calculator
+Svårt att använda så breda traces att det blir 50ohm, eftersom det är korta traces <=20 mm så borde det inte var lika viktigt. Jag får det till
+att om vi siktar på 56 ohm istället så blir det tracebredd 0,12 på L1, 0,11 på L3 och 0,10 mm på L5.
+Men på L3 och L5 kan jag använda bredare traces. 0.15 mm bredd skulle ge 48.8 ohm på L3 och 47 ohm på L5. Bättre använda detta på dessa lager.
+Har jag räknat rätt?
+
+
+
+

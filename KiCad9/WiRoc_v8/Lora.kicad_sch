@@ -2063,16 +2063,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "NOTES...Ferrite bead for 1.5Mhz supply switching, 440Mhz radio: muRata BLM31PG601SN1L\nOr TDK MPZ2012S601AT000\nhttps://www.youtube.com/watch?v=S6Uxx5PCRQY\nhttps://www.youtube.com/watch?v=TpXvac1Y3h0"
-		(exclude_from_sim no)
-		(at 65.024 15.748 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-		)
-		(uuid "00bdd750-28a2-4ad5-846c-731be7181622")
-	)
 	(text "Black magic probe connector"
 		(exclude_from_sim no)
 		(at 157.988 105.664 0)

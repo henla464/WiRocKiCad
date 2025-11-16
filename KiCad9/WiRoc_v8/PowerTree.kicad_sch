@@ -5,6 +5,16 @@
 	(uuid "119f54e3-9ba7-4269-8689-4f3b80d9db97")
 	(paper "A4")
 	(lib_symbols)
+	(text "1.5 Mhz"
+		(exclude_from_sim no)
+		(at 175.514 28.194 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "013559d6-d073-4e9b-9764-a438695b117d")
+	)
 	(text "1.5V/1A"
 		(exclude_from_sim no)
 		(at 203.2 34.29 0)
@@ -115,6 +125,16 @@
 		)
 		(uuid "64b8a759-be9e-4436-9021-0fa1a48eac6a")
 	)
+	(text "1 Mhz"
+		(exclude_from_sim no)
+		(at 124.714 33.274 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "69b517d0-bc1c-4f75-8638-432b6d34a87b")
+	)
 	(text "LDO2"
 		(exclude_from_sim no)
 		(at 91.44 180.34 0)
@@ -136,6 +156,16 @@
 			(justify left bottom)
 		)
 		(uuid "7a5db086-b166-477d-805a-d2eb38d2c654")
+	)
+	(text "1.5 Mhz"
+		(exclude_from_sim no)
+		(at 175.26 13.716 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "7d2cfd12-48aa-4713-8ada-1b7acadf2788")
 	)
 	(text "3.3V/200mA"
 		(exclude_from_sim no)
@@ -203,6 +233,26 @@
 		)
 		(uuid "8fb4fc31-006c-4b9f-a2db-1a3f50ba3a46")
 	)
+	(text "1.5 Mhz"
+		(exclude_from_sim no)
+		(at 175.768 43.434 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "ab3eef35-22c0-49ff-b564-79987925e526")
+	)
+	(text "1.2 Mhz"
+		(exclude_from_sim no)
+		(at 175.768 66.548 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "b27dc56f-808e-49de-949b-5fc41d8e437d")
+	)
 	(text "IPSOUT"
 		(exclude_from_sim no)
 		(at 100.33 113.03 0)
@@ -257,6 +307,16 @@
 			(justify left bottom)
 		)
 		(uuid "d8cb68e5-e883-4339-af9c-04ce0aa4aab2")
+	)
+	(text "1.5 Mhz"
+		(exclude_from_sim no)
+		(at 82.296 37.592 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "dcad85e6-f142-456c-b454-6cf846931da0")
 	)
 	(text "1.1V/1.3V/3A"
 		(exclude_from_sim no)
