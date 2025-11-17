@@ -11,5 +11,58 @@ Men på L3 och L5 kan jag använda bredare traces. 0.15 mm bredd skulle ge 48.8 
 Har jag räknat rätt?
 
 
+Length-matching DDR3
+--------------------
+netclass: DDR3-Address target: 19,62 mm
+	Signals:
+		SA0,SA1,SA2,SA3,SA4,SA5,SA6,SA7,SA8,SA9,SA10,SA11,SA12,SA13,SA14,SA15
+		SCAS, SRAS (Column Address Strobe, Row Address Strobe)
+		SCKE0,SCKE1 (Clock enable rank 0 / 1) 
+		SBA0,SBA1,SBA2 (Bank address signal bit 0,1,2)
+		SCS0,SCS1 (Chip select rank 0 / 1)
+		SODT0,SODT1 (On-Die termination control signal rank 0 / 1)
+		SWE (write enable signal)
+		SRESET (chip reset)
+
+	
+netclass: DDR3-Data target: 17,41 mm
+	Singals:
+		SDQ0,SDQ1,SDQ2,SDQ3,SDQ4,SDQ5,SDQ6,SDQ7,SDQ8,SDQ9,SDQ10,SDQ11,SDQ12,SDQ13,SDQ14,SDQ15
+		SDQM0,SDQM1
+	(must also have same length as diff pair SDQS0 and SDQS1 below)
+		
+netclass: DDR3-DP-SDQS0 target: 17,41 mm
+	Signals:
+		SDQS0P, SDQS0N
+		
+netclass: DDR3-DP-SDQS1 target: 17,41 mm
+	Signals:
+		SDQS1P, SDQS1N
+	
+netclass: DD3-DP-SCK target: 19.95mm, max skew 0,13mm
+	Signals:
+		SCKP, SCKN
+========================================================
+
+Length-matching eMMC
+--------------------
+Should be enough to match within a few mm
+
+netclass: eMMC-Data target: 20,6 mm
+	Signals:
+		eMMC-D0, eMMC-D1, eMMC-D2, eMMC-D3, eMMC-D4, eMMC-D5, eMMC-D6, eMMC-D7
+	Should also match eMMC-CMD and CLK signals below
+		
+netclass: eMMC-CMD target 20,6 mm + 5.9 mm
+	Signals:
+		eMMC-CMD (has an extra 5,9 mm that should not be included in length)
+		
+netclass: eMMC-CLK-2 + eMMC-Clk + resistor; target: 20,6 mm
+	Signals:
+		eMMC-CLK, Net-(U11B-PC5/NAND_RE/SDC2_CLK)
+		
+
+
+
 
 

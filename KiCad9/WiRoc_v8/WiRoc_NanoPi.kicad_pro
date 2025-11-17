@@ -99,12 +99,12 @@
           "Removed some silkscreen"
         ],
         [
-          "lib_footprint_mismatch|73045148|104094853|a0bf1ae8-6ab3-4a94-ae35-f9e72d4f29a6|00000000-0000-0000-0000-000000000000",
-          "Error is wrong"
-        ],
-        [
           "lib_footprint_mismatch|73475000|48670000|2279d6c4-44ef-4130-9e1e-677004c6777c|00000000-0000-0000-0000-000000000000",
           "Removed silkscreen"
+        ],
+        [
+          "lib_footprint_mismatch|73525147|104035147|a0bf1ae8-6ab3-4a94-ae35-f9e72d4f29a6|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
           "lib_footprint_mismatch|74394853|104104853|36cff824-2717-4ffa-a50f-f1f2a75a9be0|00000000-0000-0000-0000-000000000000",
@@ -1138,6 +1138,10 @@
       {
         "netclass": "DDR3-DP-SCK",
         "pattern": "/Processor-MEM/SCKN_RES"
+      },
+      {
+        "netclass": "DDR3-Address",
+        "pattern": "SRST"
       }
     ]
   },

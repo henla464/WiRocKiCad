@@ -23,6 +23,11 @@
       (constraint length (min 14mm) (opt 17.41mm) (max 19mm))
       (constraint skew (max 5mm)))
 
+(rule "target length and skew for ddr3 clock (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
+      (condition "A.hasNetclass('DDR3-DP-SCK')")
+      (constraint length (min 18mm) (opt 19.95mm) (max 21mm))
+      (constraint skew (max 0.13mm)))
+
 (rule "target length and skew for emmc data (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
       (condition "A.hasNetclass('eMMC-Data')")
       (constraint length (min 16mm) (opt 20.6mm) (max 23.5mm))
