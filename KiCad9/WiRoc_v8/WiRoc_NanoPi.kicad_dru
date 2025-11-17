@@ -33,3 +33,9 @@
       (constraint length (min 16mm) (opt 20.6mm) (max 23.5mm))
       (constraint skew (max 4mm)))
 
+
+(rule "target length and skew for wifi signals (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
+      (condition "A.hasNetclass('WIFI')")
+      (constraint length (min 64mm) (opt 68mm) (max 71mm))
+      (constraint skew (max 4mm)))
+

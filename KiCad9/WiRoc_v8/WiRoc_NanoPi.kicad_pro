@@ -571,7 +571,7 @@
         "microvia_drill": 0.1,
         "name": "AntennaTrace",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.189458,
         "via_diameter": 0.6,
@@ -588,7 +588,7 @@
         "microvia_drill": 0.1,
         "name": "BGA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
         "via_diameter": 0.35,
@@ -603,7 +603,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-Address",
         "pcb_color": "rgb(148, 255, 61)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -620,7 +620,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-DP-SCK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -637,7 +637,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-DP-SDQS0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -654,7 +654,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-DP-SDQS1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -669,7 +669,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -684,7 +684,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-Other-Command-Control",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -697,7 +697,7 @@
         "microvia_drill": 0.1,
         "name": "IPSOUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
         "via_diameter": 0.6,
@@ -713,7 +713,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "via_diameter": 0.35,
@@ -730,7 +730,7 @@
         "microvia_drill": 0.1,
         "name": "Power-DRAM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "via_diameter": 0.35,
@@ -747,7 +747,7 @@
         "microvia_drill": 0.1,
         "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.6,
@@ -762,6 +762,18 @@
         "microvia_drill": 0.1,
         "name": "USB-Data",
         "pcb_color": "rgb(47, 255, 52)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.09,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.09,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "WIFI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
@@ -857,99 +869,11 @@
       },
       {
         "netclass": "BGA",
-        "pattern": "unconnected*"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "SVREF"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "*CPUXFB*"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "*STATUS-LED"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "*SZQ*"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "*UBOOT*"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "*USBHost*"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "*Processor-MEM/ZQ*"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "LORARS"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "*PWR-DRAM*"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "*VDD_EFUSEBP*"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "AP-RESET"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "GPIOL10*PWR-LED"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "GPIOL8{slash}PWR-STB"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "*IRQ*"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "*MBIAS*"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "LORAMO"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "*NAND*"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "*PA_EINT*"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "LORAEN"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "LORAAUX"
-      },
-      {
-        "netclass": "BGA",
-        "pattern": "GPIOL6{slash}CPUX-VSET"
-      },
-      {
-        "netclass": "BGA",
         "pattern": "WIFI*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected*"
       },
       {
         "netclass": "BGA",
@@ -1036,6 +960,118 @@
         "pattern": "VDD_SYS_3.3V"
       },
       {
+        "netclass": "BGA",
+        "pattern": "LORAAUX"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "GPIOL6{slash}CPUX-VSET"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "SVREF"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*CPUXFB*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*STATUS-LED"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*SZQ*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*UBOOT*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*USBHost*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*Processor-MEM/ZQ*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "LORARS"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*PWR-DRAM*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*VDD_EFUSEBP*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "AP-RESET"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "GPIOL10*PWR-LED"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "GPIOL8{slash}PWR-STB"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*IRQ*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*MBIAS*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "LORAMO"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*NAND*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*PA_EINT*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "LORAEN"
+      },
+      {
+        "netclass": "DDR3-Address",
+        "pattern": "SRST"
+      },
+      {
+        "netclass": "DDR3-Address",
+        "pattern": "*SCKE*"
+      },
+      {
+        "netclass": "DDR3-Address",
+        "pattern": "*SBA*"
+      },
+      {
+        "netclass": "DDR3-Address",
+        "pattern": "/Processor-MEM/SCS0"
+      },
+      {
+        "netclass": "DDR3-Address",
+        "pattern": "SCS1"
+      },
+      {
+        "netclass": "DDR3-Address",
+        "pattern": "*SRAS"
+      },
+      {
         "netclass": "DDR3-Address",
         "pattern": "*/SA*"
       },
@@ -1045,31 +1081,23 @@
       },
       {
         "netclass": "DDR3-Address",
-        "pattern": "*SODT*"
-      },
-      {
-        "netclass": "DDR3-Address",
-        "pattern": "*SRAS"
-      },
-      {
-        "netclass": "DDR3-Address",
         "pattern": "*SWE"
       },
       {
         "netclass": "DDR3-Address",
-        "pattern": "SCS1"
-      },
-      {
-        "netclass": "DDR3-Address",
-        "pattern": "/Processor-MEM/SCS0"
-      },
-      {
-        "netclass": "DDR3-Address",
-        "pattern": "*SBA*"
+        "pattern": "*SODT*"
       },
       {
         "netclass": "DDR3-DP-SCK",
         "pattern": "SCK[NP]"
+      },
+      {
+        "netclass": "DDR3-DP-SCK",
+        "pattern": "/Processor-MEM/SCKN_RES"
+      },
+      {
+        "netclass": "DDR3-DP-SCK",
+        "pattern": "/Processor-MEM/SCKP_RES"
       },
       {
         "netclass": "DDR3-DP-SDQS0",
@@ -1081,15 +1109,15 @@
       },
       {
         "netclass": "DDR3-Data",
-        "pattern": "SDQ[0-9]+"
-      },
-      {
-        "netclass": "DDR3-Data",
         "pattern": "SDQM[01]"
       },
       {
-        "netclass": "DDR3-Address",
-        "pattern": "*SCKE*"
+        "netclass": "DDR3-Data",
+        "pattern": "SDQ[0-9]+"
+      },
+      {
+        "netclass": "IPSOUT",
+        "pattern": "IPSOUT"
       },
       {
         "netclass": "Power",
@@ -1124,24 +1152,12 @@
         "pattern": "Net-(C13-Pad1)"
       },
       {
-        "netclass": "IPSOUT",
-        "pattern": "IPSOUT"
-      },
-      {
         "netclass": "USB-Data",
         "pattern": "USB*"
       },
       {
-        "netclass": "DDR3-DP-SCK",
-        "pattern": "/Processor-MEM/SCKP_RES"
-      },
-      {
-        "netclass": "DDR3-DP-SCK",
-        "pattern": "/Processor-MEM/SCKN_RES"
-      },
-      {
-        "netclass": "DDR3-Address",
-        "pattern": "SRST"
+        "netclass": "WIFI",
+        "pattern": "WIFI*"
       }
     ]
   },
