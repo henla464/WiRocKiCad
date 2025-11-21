@@ -375,16 +375,22 @@
 		)
 	)
 	(no_connect
-		(at 161.29 85.09)
-		(uuid "200c448e-770d-4da8-8209-b9d857209527")
-	)
-	(no_connect
 		(at 137.16 82.55)
 		(uuid "6d9307dc-f7f1-47ad-b407-98e204b351d5")
 	)
 	(no_connect
 		(at 137.16 80.01)
 		(uuid "e7cf1aae-6df5-42ac-b6e7-1690408d91a7")
+	)
+	(wire
+		(pts
+			(xy 170.18 85.09) (xy 161.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c64d535-4afe-4aff-b27f-b8ee40390834")
 	)
 	(wire
 		(pts
@@ -578,6 +584,28 @@
 			)
 		)
 	)
+	(global_label "WIFI-RST"
+		(shape input)
+		(at 170.18 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "ed4c21e9-1675-4724-924a-353e423acde1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.4996 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "WIFI-SPI-MOSI"
 		(shape input)
 		(at 123.19 95.25 180)
@@ -613,6 +641,37 @@
 				(type none)
 			)
 			(uuid 5b0fabe9-fcd6-4208-9c3e-00bdfe8323f4)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 166.37 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "182e1abe-867e-466f-8adf-3f6ee5dd7e64")
+		(property "Netclass" "WIFI"
+			(at 166.9999 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -66.04 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
 		)
 	)
 	(netclass_flag ""

@@ -1,15 +1,46 @@
+I tidigare WiRoc har jag använt en NanoPi Neo Air SBC monterat på ett kretskort med en AXP209, Lora modul etc.
+Nu försöker jag flytta över de delar från NanoPi Neo Air som jag behöver till mitt kretskort. I princip har jag utgått från
+schemat för den som finns här:  https://wiki.friendlyelec.com/wiki/images/7/70/Schematic_NanoPi-NEO-Air-V1.1_1708.pdf 
+Tagit bort saker jag inte behöver och ersatt Wifi/BT chippet med en ESP32-C5. Detta eftersom ESP32-C5 modulen är CE-märkt redan
+och ESP-Hosted drivrutiner finns och verkar fungera ganska ok. 
+
 AXP209 används för flera syften:
+- Batterihantering/laddning
 - Den hanterar power knappen (kort tryck (byt meny), längre tryck (start/stop), långt (tvinga av)
 - Den sparar bluetooth adressen så den är samma även efter att images flashas om 
 - RTCn använder sig av N_OE för att starta upp på schema
 
+AXP209 är tyvärr inte jättebra dokumenterad så vill inte försöka mig på att använda den för att skapa fler powerrails även om det förmodligen skulle gå ( i detta första skede iaf ).
+
+Min förhoppning är att det ska bli så likt NanoPi Neo Air att det ska gå att bota samma linux image och bara byta ut drivrutinen för wifi/bt för att få nuvarande mjukvara fungera.
+
+=====================================================
+Jag har använt KiCad 9.
+Allt finns i github på: https://github.com/henla464/WiRocKiCad
+1) Huvudkretskortet ligger under: KiCad9/WiRoc_v8
+2) Ett kretskort som används för att ansluta USB-sladdarna och knappen finns under: KiCad9/NanoPi_v8_USBConnectorPlate
+3) SRR mottagaren finns under: KiCad9/SRRReceiver_v5
+
+SRR mottagaren har bara minimala ändringar gjorts i och den har fungerat bra tidigare. Så den behöver du inte kolla på i ett första skede iaf.
+Kretskortet för att ansluta USB-sladdarna har common mode choke och ferrite beads för att minska radiostörningar in eller ut genom sladdarna.
+Samt TVS-diod kretsar för att skydda mot spänningspikar 
+
+=====================================================
+Kommer använda JLCPCB för att skapa och montera iaf framsidan av kretskortet. Sitter en del kondingar på baksidan också som jag kanske får
+löda dit själv :(
+
 Kretskortets stackup är "JLC0616H-3313(Standard/Finished thickness 1.54mm+-10%)" (i order formuläret står det 1.5384 mm tjock), 6 lager
 JLCPCB Impedance Calculator: https://jlcpcb.com/pcb-impedance-calculator
-Svårt att använda så breda traces att det blir 50ohm, eftersom det är korta traces <=20 mm så borde det inte var lika viktigt. Jag får det till
-att om vi siktar på 56 ohm istället så blir det tracebredd 0,12 på L1, 0,11 på L3 och 0,10 mm på L5.
-Men på L3 och L5 kan jag använda bredare traces. 0.15 mm bredd skulle ge 48.8 ohm på L3 och 47 ohm på L5. Bättre använda detta på dessa lager.
+Svårt att använda så breda traces på L1 att det blir 50ohm till DDR3, men eftersom det är korta traces <=20 mm så borde det inte var lika viktigt.
+Med kalkulatorn fick jag att med 56 ohm istället så blir det tracebredd 0,12 på L1; 0,11 på L3 och 0,10 mm på L5.
+Men på L3 och L5 kan jag använda bredare traces. 0.15 mm bredd skulle ge 48.8 ohm på L3 och 47 ohm på L5.
+
 Har jag räknat rätt?
 
+======================================================
+Tyvärr är längdmatchingsverktygen i KiCad inte helt optimala. Själva verktyget beräknar längden på ett sätt (enligt uppgift rätt sätt), DRC checkern räknar på ett annat sätt (så går inte sätta upp fungerande regler) och Net inspectorn räknar längden på ett tredje sätt (så det går inte enkelt se en lista på rätt längder). KiCad 10 som troligen släpps i februari ska ha fixat detta.
+
+Det går iaf att sätta upp netclass regler med optimala längder. Length matching verktyget använder sedan denna längd. Har satt upp det enligt nedan:
 
 Length-matching DDR3
 --------------------
@@ -61,6 +92,15 @@ netclass: eMMC-CLK-2 + eMMC-Clk + resistor; target: 20,6 mm
 	Signals:
 		eMMC-CLK, Net-(U11B-PC5/NAND_RE/SDC2_CLK)
 		
+========================================================
+
+Length-matching WIFI (SPI etc)
+------------------------------
+netclass: WIFI target 68 mm
+	Signals:
+		WIFI-DataREady, WIFI-HandShake
+		WIFI-SPI-SCLK, WIFI-SPI-CS0
+		WIFI-SPI-MISO, WIFI-SPI-MOSI
 
 
 

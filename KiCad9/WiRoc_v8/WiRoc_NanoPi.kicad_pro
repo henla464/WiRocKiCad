@@ -819,6 +819,9 @@
       "WIFI-HandShake": [
         "WIFI"
       ],
+      "WIFI-RST": [
+        "WIFI"
+      ],
       "WIFI-SPI-CS0": [
         "WIFI"
       ],
@@ -1092,11 +1095,11 @@
         "pattern": "SCK[NP]"
       },
       {
-        "netclass": "DDR3-DP-SCK",
+        "netclass": "BGA",
         "pattern": "/Processor-MEM/SCKN_RES"
       },
       {
-        "netclass": "DDR3-DP-SCK",
+        "netclass": "BGA",
         "pattern": "/Processor-MEM/SCKP_RES"
       },
       {

@@ -7030,6 +7030,17 @@
 		)
 		(uuid "5ed4619e-4e79-4ff1-8ae9-22ce4d925c7d")
 	)
+	(text "(GPIOE15=143)"
+		(exclude_from_sim no)
+		(at 178.816 144.018 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3ad592f-60bb-4025-bb05-7509fb75175e")
+	)
 	(text "GPIOG11 (was on gpio header)"
 		(exclude_from_sim no)
 		(at 258.064 74.93 0)
@@ -7248,10 +7259,6 @@
 	(no_connect
 		(at 234.95 48.26)
 		(uuid "964c5363-f86f-4827-9c8e-eca5665b5300")
-	)
-	(no_connect
-		(at 154.94 142.24)
-		(uuid "a0c5fc8b-e48c-4929-9caf-9260750e1560")
 	)
 	(no_connect
 		(at 154.94 104.14)
@@ -7639,6 +7646,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIFI-RST"
+		(shape output)
+		(at 154.94 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "1b2ab631-94df-4523-8337-2f12ad2cfa51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.2596 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
