@@ -9011,7 +9011,7 @@
 			)
 		)
 	)
-	(global_label "VDD-CPUX"
+	(global_label "1V1_1V3-CPUX"
 		(shape input)
 		(at 138.43 113.03 180)
 		(fields_autoplaced yes)
@@ -9023,7 +9023,7 @@
 		)
 		(uuid "50e0281c-00ee-4556-b26e-31ad64b6177b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.296 113.03 0)
+			(at 118.071 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9055,7 +9055,7 @@
 			)
 		)
 	)
-	(global_label "VDD-CPUX"
+	(global_label "1V1_1V3-CPUX"
 		(shape input)
 		(at 49.53 26.67 180)
 		(fields_autoplaced yes)
@@ -9067,7 +9067,7 @@
 		)
 		(uuid "9e0b0df7-331b-4b8b-877b-5f9579528d15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.396 26.67 0)
+			(at 29.171 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,7 +9099,7 @@
 			)
 		)
 	)
-	(global_label "VDD-CPUS"
+	(global_label "VDD-CPUS-1V1"
 		(shape input)
 		(at 31.75 133.35 180)
 		(fields_autoplaced yes)
@@ -9111,7 +9111,7 @@
 		)
 		(uuid "a838d589-105a-4ac5-bbbd-d29149b4bdbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.616 133.35 0)
+			(at 10.52 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9165,7 +9165,7 @@
 			)
 		)
 	)
-	(global_label "VDD-CPUS"
+	(global_label "VDD-CPUS-1V1"
 		(shape input)
 		(at 52.07 96.52 270)
 		(fields_autoplaced yes)
@@ -9177,7 +9177,7 @@
 		)
 		(uuid "f7069bac-0a84-43e4-af6f-b3a8287a9ad0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 111.654 90)
+			(at 52.07 117.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)

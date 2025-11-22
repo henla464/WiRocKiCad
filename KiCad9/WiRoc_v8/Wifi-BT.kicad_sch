@@ -156,7 +156,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -174,7 +174,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -192,7 +192,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -210,7 +210,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -228,7 +228,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -246,7 +246,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -264,7 +264,25 @@
 							)
 						)
 					)
-					(number "11"
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 1.27 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -377,6 +395,10 @@
 	(no_connect
 		(at 137.16 82.55)
 		(uuid "6d9307dc-f7f1-47ad-b407-98e204b351d5")
+	)
+	(no_connect
+		(at 161.29 87.63)
+		(uuid "a3cc139b-d2cb-463b-af21-e04185ef2fd5")
 	)
 	(no_connect
 		(at 137.16 80.01)
@@ -807,6 +829,9 @@
 		)
 		(pin "1"
 			(uuid "6636784d-7355-4f03-9467-c09f15c0b4a6")
+		)
+		(pin "12"
+			(uuid "0f5fab99-5e3d-4c2a-b36c-4c56b5f42e58")
 		)
 		(instances
 			(project "WiRoc_NanoPi"

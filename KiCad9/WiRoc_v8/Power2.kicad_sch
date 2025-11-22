@@ -735,7 +735,7 @@
 		)
 		(uuid "ac4e7725-4340-4fe8-ab5f-0d2ee6841a5b")
 	)
-	(text "Would one of the LDOs give enough current to be used for VCC-DRAM?\nThey seem to be limited to 200mA.\n"
+	(text "Would one of the LDOs give enough current to be used for VCC-DRAM-1V5?\nThey seem to be limited to 200mA.\n"
 		(exclude_from_sim no)
 		(at 21.59 187.96 0)
 		(effects
@@ -1475,7 +1475,7 @@
 			)
 		)
 	)
-	(global_label "VCC-DRAM"
+	(global_label "VCC-DRAM-1V5"
 		(shape output)
 		(at 165.1 72.39 0)
 		(fields_autoplaced yes)
@@ -1487,7 +1487,7 @@
 		)
 		(uuid "3c2fd398-efd0-4346-aafc-5bb438ca245c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.234 72.39 0)
+			(at 186.33 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

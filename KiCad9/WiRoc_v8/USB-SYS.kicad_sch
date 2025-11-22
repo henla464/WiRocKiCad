@@ -7334,6 +7334,17 @@
 		)
 		(uuid "8d2f1709-0267-4c02-8611-d4f1f91ea742")
 	)
+	(text "RTC_VIO is connected to an internal LDO output (powered from VCC_RTC?)\nDefault voltage 1.1v, controlled by register"
+		(exclude_from_sim no)
+		(at 100.838 96.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d34f2f79-2184-4c5b-8d9c-9475183eb55a")
+	)
 	(text "wifi clock,shouldn't be needed"
 		(exclude_from_sim no)
 		(at 97.79 100.33 0)
@@ -8436,8 +8447,8 @@
 			)
 		)
 	)
-	(global_label "VDD-CPUS"
-		(shape input)
+	(global_label "VDD-CPUS-1V1"
+		(shape output)
 		(at 127 88.9 90)
 		(fields_autoplaced yes)
 		(effects
@@ -8448,7 +8459,7 @@
 		)
 		(uuid "8b0ae739-a79f-4d64-99f3-ace67d64a1a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 73.766 90)
+			(at 127 67.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)

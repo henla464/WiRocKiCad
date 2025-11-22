@@ -393,10 +393,10 @@
 		)
 		(uuid "0453ecec-593d-4983-9a96-36afd6a59d1d")
 	)
-	(text_box "VDD-CPUX"
+	(text_box "1V1_1V3-CPUX"
 		(exclude_from_sim no)
 		(at 219.71 105.41 0)
-		(size 31.75 7.62)
+		(size 38.1 7.62)
 		(margins 2.25 2.25 2.25 2.25)
 		(stroke
 			(width 0)
@@ -413,10 +413,10 @@
 		)
 		(uuid "0f10ce20-7730-4d62-827d-cf2c3e9d60d2")
 	)
-	(text_box "VDD-CPUX"
+	(text_box "1V1_1V3-CPUX"
 		(exclude_from_sim no)
 		(at 220.98 69.85 0)
-		(size 31.75 7.62)
+		(size 38.1 7.62)
 		(margins 2.25 2.25 2.25 2.25)
 		(stroke
 			(width 0)
@@ -753,10 +753,10 @@
 		)
 		(uuid "72dfaad2-ff89-48da-beb0-5f32c9dcbc1d")
 	)
-	(text_box "VCC-DRAM"
+	(text_box "VCC-DRAM-1V5"
 		(exclude_from_sim no)
 		(at 118.11 166.37 0)
-		(size 35.56 7.62)
+		(size 40.64 7.62)
 		(margins 2.25 2.25 2.25 2.25)
 		(stroke
 			(width 0)
@@ -913,10 +913,10 @@
 		)
 		(uuid "d6ba7de8-3a9e-44dd-9cf2-d4d3c57b6804")
 	)
-	(text_box "VCC-DRAM"
+	(text_box "VCC-DRAM-1V5"
 		(exclude_from_sim no)
 		(at 217.17 30.48 0)
-		(size 35.56 7.62)
+		(size 40.64 7.62)
 		(margins 2.25 2.25 2.25 2.25)
 		(stroke
 			(width 0)

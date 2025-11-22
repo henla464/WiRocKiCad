@@ -1041,7 +1041,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "GPIOL6/CPUX-VSET = 0, VDD-CPUX=1.1V\nGPIOL6/CPUX-VSET = 1, VDD-CPUX=1.3V"
+	(text "GPIOL6/CPUX-VSET = 0, 1V1_1V3-CPUX=1.1V\nGPIOL6/CPUX-VSET = 1, 1V1_1V3-CPUX=1.3V"
 		(exclude_from_sim no)
 		(at 203.2 130.81 0)
 		(effects
@@ -1602,7 +1602,7 @@
 			)
 		)
 	)
-	(global_label "VDD-CPUX"
+	(global_label "1V1_1V3-CPUX"
 		(shape output)
 		(at 217.17 82.55 0)
 		(fields_autoplaced yes)
@@ -1614,7 +1614,7 @@
 		)
 		(uuid "b01b9359-2fa4-470b-8579-e9a2d482ff7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.304 82.55 0)
+			(at 237.529 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

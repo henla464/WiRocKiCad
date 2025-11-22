@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.245,
-          "width": 0.245
+          "height": 0.7,
+          "width": 1.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.1
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -70,6 +70,10 @@
         }
       ],
       "drc_exclusions": [
+        [
+          "clearance|79670000|85310500|63cfe0ff-fd47-450c-a30e-d34619300482|c8d88932-b12d-4620-86e4-bd12c59dcbc5",
+          "Between BGA, allow smaller clearance"
+        ],
         [
           "copper_edge_clearance|63585000|111950000|216baf04-62a3-4093-b4f0-458b3322264b|a94ab71b-f685-462e-85bd-b16958223a82",
           ""
@@ -739,7 +743,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2032,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2032,
         "line_style": 0,
@@ -749,9 +753,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 13,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "via_diameter": 0.6,
-        "via_drill": 0.4,
+        "track_width": 0.15,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -899,7 +903,7 @@
         "pattern": "Net-(U14-NC19)"
       },
       {
-        "netclass": "BGA",
+        "netclass": "Signal",
         "pattern": "SCK"
       },
       {
@@ -944,11 +948,11 @@
       },
       {
         "netclass": "BGA",
-        "pattern": "VDD-CPUS"
+        "pattern": "VDD-CPUS*"
       },
       {
         "netclass": "BGA",
-        "pattern": "VDD-CPUX"
+        "pattern": "1V1_1V3-CPUX"
       },
       {
         "netclass": "BGA",
@@ -1132,7 +1136,7 @@
       },
       {
         "netclass": "Power-DRAM",
-        "pattern": "VCC-DRAM"
+        "pattern": "VCC-DRAM*"
       },
       {
         "netclass": "Signal",

@@ -11430,7 +11430,7 @@
 			)
 		)
 	)
-	(global_label "VCC-DRAM"
+	(global_label "VCC-DRAM-1V5"
 		(shape input)
 		(at 203.2 58.42 180)
 		(fields_autoplaced yes)
@@ -11442,7 +11442,7 @@
 		)
 		(uuid "0a66dcdd-2adb-4abe-8b43-c0cafa48f541")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.066 58.42 0)
+			(at 181.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11870,7 +11870,7 @@
 			)
 		)
 	)
-	(global_label "VCC-DRAM"
+	(global_label "VCC-DRAM-1V5"
 		(shape input)
 		(at 73.66 167.64 180)
 		(fields_autoplaced yes)
@@ -11882,7 +11882,7 @@
 		)
 		(uuid "6d54d5c5-bd20-4073-9f82-6f15899140e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.526 167.64 0)
+			(at 52.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12200,7 +12200,7 @@
 			)
 		)
 	)
-	(global_label "VCC-DRAM"
+	(global_label "VCC-DRAM-1V5"
 		(shape input)
 		(at 203.2 82.55 180)
 		(fields_autoplaced yes)
@@ -12212,7 +12212,7 @@
 		)
 		(uuid "9c503f50-783a-4efa-9059-fb3030b371f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.066 82.55 0)
+			(at 181.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12266,7 +12266,7 @@
 			)
 		)
 	)
-	(global_label "VCC-DRAM"
+	(global_label "VCC-DRAM-1V5"
 		(shape input)
 		(at 204.47 34.29 180)
 		(fields_autoplaced yes)
@@ -12278,7 +12278,7 @@
 		)
 		(uuid "a56d598a-4b1f-4d31-8d6e-3c1cb79a5a62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.336 34.29 0)
+			(at 183.24 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12552,7 +12552,7 @@
 			)
 		)
 	)
-	(global_label "VCC-DRAM"
+	(global_label "VCC-DRAM-1V5"
 		(shape input)
 		(at 200.66 115.57 180)
 		(fields_autoplaced yes)
@@ -12564,7 +12564,7 @@
 		)
 		(uuid "de2b1af4-a5c9-4cb6-874c-4a78d98ed778")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.526 115.57 0)
+			(at 179.43 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15821,7 +15821,7 @@
 		(dnp no)
 		(uuid "bf2cf86f-82d1-42cd-9476-f74343784fd8")
 		(property "Reference" "U12"
-			(at 104.14 25.4 0)
+			(at 108.204 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -20,6 +20,7 @@ Allt finns i github på: https://github.com/henla464/WiRocKiCad
 1) Huvudkretskortet ligger under: KiCad9/WiRoc_v8
 2) Ett kretskort som används för att ansluta USB-sladdarna och knappen finns under: KiCad9/NanoPi_v8_USBConnectorPlate
 3) SRR mottagaren finns under: KiCad9/SRRReceiver_v5
+4) Wifimodulkortet: KiCad9/WifiModuleBoard (ej klart)
 
 SRR mottagaren har bara minimala ändringar gjorts i och den har fungerat bra tidigare. Så den behöver du inte kolla på i ett första skede iaf.
 Kretskortet för att ansluta USB-sladdarna har common mode choke och ferrite beads för att minska radiostörningar in eller ut genom sladdarna.
