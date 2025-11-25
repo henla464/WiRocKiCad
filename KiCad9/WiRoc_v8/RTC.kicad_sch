@@ -1143,7 +1143,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "/INT is pulled up to LDO1\nWhen the RTC sends an interrupt it lowers /INT\nThis creates a puls on N_OE (N_OE output enable, \nN_OE is normally low, the C19/R7 ensures N_OE returns to low)\nWhen AXP209 sees N_OE goes back to low it enables it's outputs\nand everything boots.\nNothing happens to N_OE when /INT goes back to high again after interrupt\nis cleared after boot."
+	(text "/INT is pulled up to LDO1\nWhen the RTC sends an interrupt it lowers /INT\nThis creates a pulse on N_OE \n(N_OE is normally low, the C19/R7 ensures N_OE returns to low)\nWhen AXP209 sees N_OE going back to low it enables it's outputs\nand everything boots.\nNothing happens to N_OE when /INT goes back to high again after interrupt\nis cleared after boot."
 		(exclude_from_sim no)
 		(at 199.136 38.862 0)
 		(effects
@@ -1177,6 +1177,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "866cdac4-2b9d-49b1-9b21-d6cb9e1cd5da")
+	)
+	(no_connect
+		(at 168.91 41.91)
+		(uuid "30a1ccee-949a-440c-837b-1d7fafdd3cac")
+	)
+	(no_connect
+		(at 232.41 40.64)
+		(uuid "5e429880-5573-4aa8-9f5d-eb86164188c6")
+	)
+	(no_connect
+		(at 168.91 36.83)
+		(uuid "7b0fc297-b336-41d6-8b3b-73817e84b793")
+	)
+	(no_connect
+		(at 233.68 40.64)
+		(uuid "8f4b6ed3-f924-414c-b1cc-3b410e795b68")
 	)
 	(no_connect
 		(at 134.62 66.04)
@@ -2316,71 +2332,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 168.91 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11572c3e-4134-4cab-8955-64f79792ab62")
-		(property "Reference" "#PWR0115"
-			(at 175.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.3042 41.783 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8a0e3f3-581b-4ea0-98c7-55bfcb534c01")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/420ce888-9e08-49fd-b3f8-96e9de814cbc"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LS73")
 		(at 171.45 68.58 0)
 		(unit 1)
@@ -2927,71 +2878,6 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/420ce888-9e08-49fd-b3f8-96e9de814cbc"
 					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33942020-bfad-4b9b-a58f-1559f8f50789")
-		(property "Reference" "#PWR0117"
-			(at 175.26 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.3042 36.703 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3df9837-bcd3-4e89-867a-793146102557")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/420ce888-9e08-49fd-b3f8-96e9de814cbc"
-					(reference "#PWR0117")
 					(unit 1)
 				)
 			)

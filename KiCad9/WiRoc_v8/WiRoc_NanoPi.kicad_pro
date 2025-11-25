@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.7,
-          "width": 1.8
+          "height": 0.4,
+          "width": 0.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -70,10 +70,6 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "clearance|79670000|85310500|63cfe0ff-fd47-450c-a30e-d34619300482|c8d88932-b12d-4620-86e4-bd12c59dcbc5",
-          "Between BGA, allow smaller clearance"
-        ],
         [
           "copper_edge_clearance|63585000|111950000|216baf04-62a3-4093-b4f0-458b3322264b|a94ab71b-f685-462e-85bd-b16958223a82",
           ""

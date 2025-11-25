@@ -724,6 +724,16 @@
 		)
 		(uuid "6fc43460-d395-485f-ac4d-a253ec074558")
 	)
+	(text "Added due to DC bias derating"
+		(exclude_from_sim no)
+		(at 186.436 37.592 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "9557aace-82d9-46bd-97c2-76eb6a6f97c3")
+	)
 	(text "Maybe create VCC_SYS_3.3V with AXP209 DCDC3 but unsure about if it\ncan provide enough current and how to set correct voltage.\n\nhttps://github.com/Squonk42/V3s_Documentation/\nhttps://github.com/Squonk42/V3s_Documentation/blob/master/V3S_CDR_STD_V1_0_20150514.pdf\nSeem to indicate setting VIN3 and DC3SET to APS"
 		(exclude_from_sim no)
 		(at 21.59 162.56 0)
@@ -820,6 +830,12 @@
 		(uuid "2913ce1d-fe72-4bed-b22e-c70dd2e8ea4f")
 	)
 	(junction
+		(at 163.83 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "317b5002-0a50-444f-a2cf-211deeb37582")
+	)
+	(junction
 		(at 66.04 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -830,12 +846,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "493e6716-0ff0-465e-a70f-fdd52fadf090")
-	)
-	(junction
-		(at 82.55 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5207f28e-5f48-4163-ad1c-ebe6a0435fcd")
 	)
 	(junction
 		(at 113.03 77.47)
@@ -913,6 +923,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 33.02) (xy 82.55 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018a0cea-78d2-4ef6-af88-4ed9dd71520b")
+	)
+	(wire
+		(pts
 			(xy 115.57 26.67) (xy 123.19 26.67)
 		)
 		(stroke
@@ -983,16 +1003,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 27.94) (xy 82.55 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "236aed87-ca52-4de1-a716-78d95b52afdb")
-	)
-	(wire
-		(pts
 			(xy 176.53 118.11) (xy 182.88 118.11)
 		)
 		(stroke
@@ -1020,6 +1030,16 @@
 			(type default)
 		)
 		(uuid "3b66d0f9-df20-4a41-b2da-8424f23587ec")
+	)
+	(wire
+		(pts
+			(xy 163.83 26.67) (xy 171.45 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce5fcb6-6cc6-4a81-9c6a-c31cdc510202")
 	)
 	(wire
 		(pts
@@ -1213,7 +1233,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 27.94) (xy 91.44 27.94)
+			(xy 66.04 27.94) (xy 91.44 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1333,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 26.67) (xy 153.67 26.67)
+			(xy 147.32 26.67) (xy 163.83 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1393,16 +1413,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 27.94) (xy 82.55 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f59997d2-e8a3-4893-863d-b8522eaacbcb")
-	)
-	(wire
-		(pts
 			(xy 130.81 72.39) (xy 138.43 72.39)
 		)
 		(stroke
@@ -1430,6 +1440,28 @@
 			(type default)
 		)
 		(uuid "fe18b3ca-14d9-44f6-8b59-1c390c61563e")
+	)
+	(global_label "IPSOUT"
+		(shape input)
+		(at 60.96 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "1c74c1d1-5bed-4e15-8c5c-b18a35514e00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.2032 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VDD1V2-SYS"
 		(shape output)
@@ -1497,9 +1529,9 @@
 			)
 		)
 	)
-	(global_label "VDD_5V"
+	(global_label "EXTEN"
 		(shape input)
-		(at 60.96 119.38 180)
+		(at 82.55 36.83 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1507,9 +1539,9 @@
 			)
 			(justify right)
 		)
-		(uuid "677e1963-14ee-4589-95c2-c251fd8e5347")
+		(uuid "59b7b660-e271-400b-af79-4f3226e654b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.9855 119.38 0)
+			(at 82.55 46.5937 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,9 +1551,9 @@
 			)
 		)
 	)
-	(global_label "VDD_5V"
+	(global_label "IPSOUT"
 		(shape input)
-		(at 60.96 73.66 180)
+		(at 60.96 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1529,9 +1561,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a7297e3c-b9b3-47e8-a265-e2a8de8ba60d")
+		(uuid "65d3c741-43a3-4217-9f1a-0c9ab91dbb17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.9855 73.66 0)
+			(at 50.2032 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +1641,7 @@
 	)
 	(global_label "VDD_SYS_3.3V"
 		(shape output)
-		(at 153.67 26.67 0)
+		(at 171.45 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1619,7 +1651,7 @@
 		)
 		(uuid "c1427352-3ca7-4f6f-bc0a-53ef85d3bd98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.2872 26.67 0)
+			(at 190.0672 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,6 +3690,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 163.83 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a397463-bd43-4e0b-a3d8-f577257b1f6b")
+		(property "Reference" "C22"
+			(at 167.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF/6.3V"
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 164.7952 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IncludeInBOM" "TRUE"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15525"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "545b8a23-816a-4497-83ae-c0e686b7c7a8")
+		)
+		(pin "2"
+			(uuid "4ea3b64e-9506-4604-9a4c-ed0658b47c8f")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/85a0902c-c60f-4130-a6d4-27b8a234db38"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 113.03 127 0)
 		(unit 1)
@@ -4673,6 +4828,71 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/85a0902c-c60f-4130-a6d4-27b8a234db38"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce818c73-cf7d-40c7-9c7f-985006aa62c9")
+		(property "Reference" "#PWR0115"
+			(at 163.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.957 38.6842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14a5a04f-fdd9-4dfe-bec8-0293c3fda9b0")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/85a0902c-c60f-4130-a6d4-27b8a234db38"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)

@@ -8925,34 +8925,16 @@
 		(uuid "8bc78695-fc93-477e-a1ac-2bce2ba77d10")
 	)
 	(junction
-		(at 252.73 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02fe2504-d61f-4c14-b33e-c3a64ae124f9")
-	)
-	(junction
 		(at 62.23 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "079c98f3-a694-45bb-89b5-8458770db260")
 	)
 	(junction
-		(at 241.3 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07b4169e-18dd-4b9c-a9d0-0125904fc668")
-	)
-	(junction
 		(at 204.47 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a5d5ba9-fe0f-4ff8-b6ab-1fd4df494d9c")
-	)
-	(junction
-		(at 229.87 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ea9c4bd-036f-453a-9944-9b4c23a0b53f")
 	)
 	(junction
 		(at 62.23 143.51)
@@ -8985,10 +8967,10 @@
 		(uuid "1bb0bb33-bccd-4f90-b83c-64fb0a09d91c")
 	)
 	(junction
-		(at 252.73 39.37)
+		(at 242.57 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2066b3e8-1f32-4fc5-9320-2e6c166b8712")
+		(uuid "240a0ad5-b321-415c-9294-3a242fc87ee8")
 	)
 	(junction
 		(at 207.01 39.37)
@@ -9003,28 +8985,10 @@
 		(uuid "269c2b1f-7ca2-4926-a65a-30eff8b204bf")
 	)
 	(junction
-		(at 229.87 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27a21f9b-9905-45f7-ac70-930acc3fe732")
-	)
-	(junction
-		(at 218.44 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f2efd72-4e11-417d-bbca-ec13f6c09451")
-	)
-	(junction
 		(at 133.35 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ffa925e-b082-44f3-99ff-995f570c76bd")
-	)
-	(junction
-		(at 218.44 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "324bbe5b-4655-4699-bd2f-cde58120d4f9")
 	)
 	(junction
 		(at 96.52 113.03)
@@ -9033,16 +8997,22 @@
 		(uuid "329767bd-5c86-4748-a7bc-0f3a0fdf07ae")
 	)
 	(junction
-		(at 229.87 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33651296-8142-44f5-967a-f7fe3cd23a79")
-	)
-	(junction
 		(at 96.52 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3366ab69-5900-4dcd-9b59-2cdb3985b2b7")
+	)
+	(junction
+		(at 219.71 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "349b620f-db76-4e26-a837-1c906db62aad")
+	)
+	(junction
+		(at 231.14 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "370b4a2f-086f-4f37-9f4c-2e7c38464fc3")
 	)
 	(junction
 		(at 133.35 123.19)
@@ -9051,16 +9021,10 @@
 		(uuid "3835cbbd-fe0a-4fb5-88a7-6ad91de88972")
 	)
 	(junction
-		(at 207.01 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3920b3e5-ee09-4a71-952c-8be5faadd980")
-	)
-	(junction
 		(at 229.87 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39385aed-78b5-4d38-bc02-50a1248de576")
+		(uuid "3f94accc-5edf-4913-8934-fba6802f3288")
 	)
 	(junction
 		(at 87.63 106.68)
@@ -9081,6 +9045,12 @@
 		(uuid "475dc60a-93b7-48ad-89b3-c334ff2ab261")
 	)
 	(junction
+		(at 241.3 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a5c31f3-69b8-4718-ace1-222c2c7f8b5f")
+	)
+	(junction
 		(at 96.52 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9091,6 +9061,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fa034b2-c3e7-402b-9bc5-39e432e15905")
+	)
+	(junction
+		(at 212.09 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "543f22e9-7c86-4cdb-9e35-77c3065f4879")
 	)
 	(junction
 		(at 96.52 130.81)
@@ -9141,58 +9117,16 @@
 		(uuid "6900a5d0-1b13-454f-8d65-10f85a6c1d44")
 	)
 	(junction
-		(at 218.44 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6beed475-d29c-4908-ae19-4ac9aad54411")
-	)
-	(junction
-		(at 218.44 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76315937-c284-42f7-89c7-f051c9534fc2")
-	)
-	(junction
 		(at 87.63 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bd79bc4-2fde-490e-b788-206bfff10854")
 	)
 	(junction
-		(at 229.87 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f8831e4-09d4-42e4-931f-d3cb6eb69710")
-	)
-	(junction
-		(at 218.44 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "811d692e-355d-4e5a-8d2d-7d5704964e81")
-	)
-	(junction
-		(at 218.44 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86745dc0-2059-449f-a84d-bfcf02fa0541")
-	)
-	(junction
 		(at 133.35 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86c127af-c94b-4b3b-9dc6-57d670a20487")
-	)
-	(junction
-		(at 252.73 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bc04a4f-f239-4429-99a8-fdf2d677b273")
-	)
-	(junction
-		(at 229.87 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c758e69-5f9e-411b-acfc-d12c96bd4ed8")
 	)
 	(junction
 		(at 96.52 120.65)
@@ -9243,10 +9177,10 @@
 		(uuid "980f2e02-85dc-42c5-926e-396bc8793c11")
 	)
 	(junction
-		(at 241.3 71.12)
+		(at 231.14 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9849a492-c06b-45e3-9bb0-954f75874736")
+		(uuid "98954aa4-9232-4009-b170-8dcb40416c70")
 	)
 	(junction
 		(at 133.35 130.81)
@@ -9303,10 +9237,28 @@
 		(uuid "ad7304ae-0c36-4e6b-b745-37245d4ba6bd")
 	)
 	(junction
+		(at 242.57 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b12c9c44-31e8-4174-beaa-a943a73196fa")
+	)
+	(junction
 		(at 133.35 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1fb0b1b-5f38-4392-b27b-2e6c1728ca07")
+	)
+	(junction
+		(at 231.14 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3e65abb-97a6-421f-8823-2919a192ff72")
+	)
+	(junction
+		(at 231.14 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b432bf53-b32e-4307-9d2d-a190665d9f6d")
 	)
 	(junction
 		(at 207.01 71.12)
@@ -9321,16 +9273,22 @@
 		(uuid "b81f77e9-97b2-49a0-bfd3-03a3035cca28")
 	)
 	(junction
+		(at 218.44 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc4eb82f-2657-430b-9807-da081c9cca2f")
+	)
+	(junction
+		(at 212.09 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beec2cbf-36f2-40d8-8d05-95eceada6815")
+	)
+	(junction
 		(at 96.52 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1a467eb-6a02-46fc-9568-7361caa48e1e")
-	)
-	(junction
-		(at 241.3 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d443fbb9-fcec-44da-913b-22089a649ed6")
 	)
 	(junction
 		(at 133.35 151.13)
@@ -9345,16 +9303,22 @@
 		(uuid "d7981e87-b18d-42bc-8b8f-b26035b74f75")
 	)
 	(junction
+		(at 219.71 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7a17e2c-3a1f-4fdf-a721-c6dc768220ee")
+	)
+	(junction
 		(at 133.35 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db3c19a3-ab60-4c5a-bccf-b54e7552d667")
 	)
 	(junction
-		(at 252.73 63.5)
+		(at 218.44 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e2957923-c1fc-436e-a739-f12a110ecb10")
+		(uuid "e2ec47ae-0344-4837-ae36-8952f8835b4d")
 	)
 	(junction
 		(at 96.52 123.19)
@@ -9363,16 +9327,16 @@
 		(uuid "e7495c86-3ce0-43d8-ba07-343b1eece1f9")
 	)
 	(junction
+		(at 241.3 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9aad36e-3944-46dc-9725-2e1f2c5ca7af")
+	)
+	(junction
 		(at 133.35 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed73c66d-3e73-4dc4-a07e-580bfdfd5bfb")
-	)
-	(junction
-		(at 207.01 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f05b102a-c4b0-43c0-adbf-05f88e4aa2d3")
 	)
 	(junction
 		(at 210.82 147.32)
@@ -9381,10 +9345,10 @@
 		(uuid "f084c396-0a76-4d3b-9ec5-8593e17a3ab1")
 	)
 	(junction
-		(at 241.3 63.5)
+		(at 229.87 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f32c9126-5d26-4cb0-a32e-0e1796b6ed05")
+		(uuid "f96b4e8e-9d76-4504-bf44-308cd4abf8eb")
 	)
 	(junction
 		(at 96.52 138.43)
@@ -9494,7 +9458,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 63.5) (xy 252.73 63.5)
+			(xy 219.71 63.5) (xy 231.14 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9574,6 +9538,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 46.99) (xy 229.87 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd4a87b-ce8a-44ca-aed1-adc9069ab909")
+	)
+	(wire
+		(pts
 			(xy 133.35 156.21) (xy 133.35 158.75)
 		)
 		(stroke
@@ -9591,16 +9565,6 @@
 			(type default)
 		)
 		(uuid "11fe1639-f60d-48af-bad9-d7d6202dad66")
-	)
-	(wire
-		(pts
-			(xy 218.44 71.12) (xy 229.87 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1318dbb0-c94a-49e3-a962-84938c5ca3c6")
 	)
 	(wire
 		(pts
@@ -9714,16 +9678,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 71.12) (xy 264.16 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23025730-628c-4924-97c4-f4db720b11f9")
-	)
-	(wire
-		(pts
 			(xy 62.23 59.69) (xy 96.52 59.69)
 		)
 		(stroke
@@ -9764,13 +9718,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 39.37) (xy 229.87 39.37)
+			(xy 229.87 39.37) (xy 241.3 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2bcc72a0-4ebf-4d76-84d7-0b7896400318")
+		(uuid "26bdadb9-a24b-48e5-8d56-defb92487808")
 	)
 	(wire
 		(pts
@@ -9794,23 +9748,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 63.5) (xy 241.3 63.5)
+			(xy 207.01 71.12) (xy 219.71 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34d98727-69d2-42af-abc5-51be0bb44373")
-	)
-	(wire
-		(pts
-			(xy 229.87 39.37) (xy 241.3 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37ba9380-be83-42a2-ac9c-4fc7a7aec614")
+		(uuid "3233a2fa-c35a-4f2c-9f35-04037a674994")
 	)
 	(wire
 		(pts
@@ -9824,7 +9768,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 71.12) (xy 252.73 71.12)
+			(xy 219.71 71.12) (xy 231.14 71.12)
 		)
 		(stroke
 			(width 0)
@@ -9864,13 +9808,33 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 87.63) (xy 218.44 87.63)
+			(xy 242.57 71.12) (xy 254 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46005b6f-5676-42bf-b590-73d336a167e1")
+	)
+	(wire
+		(pts
+			(xy 207.01 87.63) (xy 212.09 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "47dd2849-171b-4ada-a2d4-c691594d4c26")
+	)
+	(wire
+		(pts
+			(xy 241.3 39.37) (xy 252.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6c3beb-97ff-4003-99c5-f118597b496b")
 	)
 	(wire
 		(pts
@@ -9904,13 +9868,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 87.63) (xy 241.3 87.63)
+			(xy 207.01 63.5) (xy 219.71 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56761349-4334-4add-a50b-632984dbca21")
+		(uuid "56d79dad-516d-4547-8f3e-4bd30ed8104b")
 	)
 	(wire
 		(pts
@@ -9964,7 +9928,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 95.25) (xy 229.87 95.25)
+			(xy 212.09 95.25) (xy 231.14 95.25)
 		)
 		(stroke
 			(width 0)
@@ -10104,6 +10068,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 63.5) (xy 254 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78749979-10c1-4063-919c-8ce1d7641f16")
+	)
+	(wire
+		(pts
 			(xy 207.01 46.99) (xy 218.44 46.99)
 		)
 		(stroke
@@ -10154,33 +10128,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 87.63) (xy 229.87 87.63)
+			(xy 212.09 87.63) (xy 231.14 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "819bbd86-2e53-4652-813a-1d4c7c054563")
-	)
-	(wire
-		(pts
-			(xy 252.73 63.5) (xy 264.16 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82a13168-8ecc-4cc5-bb4f-bfb914cf1d4f")
-	)
-	(wire
-		(pts
-			(xy 252.73 39.37) (xy 264.16 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85bc02db-1939-4965-ae6e-407b6b549a8e")
 	)
 	(wire
 		(pts
@@ -10194,16 +10148,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 71.12) (xy 218.44 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "880d1ec3-dee7-40ca-afa4-13ab6c394613")
-	)
-	(wire
-		(pts
 			(xy 133.35 130.81) (xy 133.35 133.35)
 		)
 		(stroke
@@ -10211,26 +10155,6 @@
 			(type default)
 		)
 		(uuid "8cd0a4a9-5b12-40ff-b38e-8f4fbbce087e")
-	)
-	(wire
-		(pts
-			(xy 241.3 39.37) (xy 252.73 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e8a3491-bf7b-4f34-9243-d4ff171320c5")
-	)
-	(wire
-		(pts
-			(xy 229.87 71.12) (xy 241.3 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f8dc6ed-eed7-42d7-80aa-86e2e7fae7b3")
 	)
 	(wire
 		(pts
@@ -10344,6 +10268,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 39.37) (xy 229.87 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f03135f-e365-4e43-841a-0d568981b985")
+	)
+	(wire
+		(pts
 			(xy 87.63 97.79) (xy 92.71 97.79)
 		)
 		(stroke
@@ -10381,16 +10315,6 @@
 			(type default)
 		)
 		(uuid "a4db8d56-79be-4290-9653-0936d3f02f2f")
-	)
-	(wire
-		(pts
-			(xy 218.44 63.5) (xy 229.87 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a59ea4cd-b52b-41fc-a1b9-4a81eb420447")
 	)
 	(wire
 		(pts
@@ -10451,16 +10375,6 @@
 			(type default)
 		)
 		(uuid "aa4270d7-59f4-435c-9e09-a16a9bd62444")
-	)
-	(wire
-		(pts
-			(xy 229.87 46.99) (xy 241.3 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaf6d0c0-5578-4b82-a8c7-1319caeda734")
 	)
 	(wire
 		(pts
@@ -10534,6 +10448,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 46.99) (xy 241.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c00cf6-4fa2-4ae4-aa8b-c60a6d8183b9")
+	)
+	(wire
+		(pts
 			(xy 62.23 29.21) (xy 96.52 29.21)
 		)
 		(stroke
@@ -10584,26 +10508,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 95.25) (xy 241.3 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be1895ad-37c7-46ec-a8ac-82724a2e0f08")
-	)
-	(wire
-		(pts
-			(xy 252.73 46.99) (xy 264.16 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c199759b-3254-442b-a929-20f457243538")
-	)
-	(wire
-		(pts
 			(xy 62.23 97.79) (xy 64.77 97.79)
 		)
 		(stroke
@@ -10624,6 +10528,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 95.25) (xy 245.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8d09f7-8576-4f55-a5b6-e9e917cbdbcf")
+	)
+	(wire
+		(pts
 			(xy 133.35 148.59) (xy 133.35 151.13)
 		)
 		(stroke
@@ -10631,6 +10545,16 @@
 			(type default)
 		)
 		(uuid "cbecd3b0-ebb3-4573-acc9-462567f55d8c")
+	)
+	(wire
+		(pts
+			(xy 231.14 87.63) (xy 245.11 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5432ff-ed2d-4654-a6fd-af9766c28395")
 	)
 	(wire
 		(pts
@@ -10644,7 +10568,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 95.25) (xy 218.44 95.25)
+			(xy 231.14 71.12) (xy 242.57 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3720446-24c5-45e1-8800-507e0e31b3c1")
+	)
+	(wire
+		(pts
+			(xy 207.01 95.25) (xy 212.09 95.25)
 		)
 		(stroke
 			(width 0)
@@ -10784,6 +10718,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 46.99) (xy 252.73 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e494f431-070d-47f0-a5f1-52551b29bb1c")
+	)
+	(wire
+		(pts
 			(xy 82.55 143.51) (xy 82.55 167.64)
 		)
 		(stroke
@@ -10834,16 +10778,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 63.5) (xy 218.44 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebac2dee-c66e-4d3e-87bb-391947c75432")
-	)
-	(wire
-		(pts
 			(xy 204.47 115.57) (xy 217.17 115.57)
 		)
 		(stroke
@@ -10874,16 +10808,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 46.99) (xy 229.87 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0831e44-d81c-430c-b335-535197003bcf")
-	)
-	(wire
-		(pts
 			(xy 140.97 110.49) (xy 140.97 111.76)
 		)
 		(stroke
@@ -10901,16 +10825,6 @@
 			(type default)
 		)
 		(uuid "f2d687f2-400e-4cb1-9300-4abb13f2f9cb")
-	)
-	(wire
-		(pts
-			(xy 241.3 46.99) (xy 252.73 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3e71175-9b09-44c4-b6b9-9ab6aa47cd87")
 	)
 	(wire
 		(pts
@@ -10961,6 +10875,16 @@
 			(type default)
 		)
 		(uuid "f87aecea-c53b-496e-9823-b1fd02d51559")
+	)
+	(wire
+		(pts
+			(xy 231.14 63.5) (xy 242.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9102392-513f-4408-a9d5-2ed413ede09d")
 	)
 	(wire
 		(pts
@@ -12919,130 +12843,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 218.44 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "045966af-a227-40ce-b030-b6e7b2280365")
-		(property "Reference" "C47"
-			(at 222.25 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 222.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 219.4052 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
-			(at 218.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C52923"
-			(at 218.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 218.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ManufacturerPartNumber" "CL05A105KA5NQNC"
-			(at 218.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IncludeInBOM" "TRUE"
-			(at 218.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 218.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCBasicExtended" "Basic"
-			(at 218.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5cb7dba1-6ef5-4e99-8a15-33054bf41285")
-		)
-		(pin "1"
-			(uuid "acf0b57b-bd41-4a9e-bde8-7ff60f7391b5")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 140.97 121.92 0)
 		(unit 1)
@@ -13242,15 +13042,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 229.87 91.44 0)
+		(at 241.3 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1f394aa3-dd49-4211-8a6e-bab2ea6e2ed1")
-		(property "Reference" "C60"
-			(at 233.68 90.17 0)
+		(fields_autoplaced yes)
+		(uuid "25f7df03-bf2a-4e66-aa18-4e17bbbc22ac")
+		(property "Reference" "C48"
+			(at 245.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13258,8 +13059,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 232.41 93.98 0)
+		(property "Value" "10uF"
+			(at 245.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13268,7 +13069,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 230.8352 95.25 0)
+			(at 242.2652 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13277,7 +13078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 91.44 0)
+			(at 241.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13286,7 +13087,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 91.44 0)
+			(at 241.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13294,17 +13095,8 @@
 				(hide yes)
 			)
 		)
-		(property "IncludeInBOM" "TRUE"
-			(at 229.87 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 229.87 91.44 0)
+		(property "LCSC Part #" "C15525"
+			(at 241.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13313,7 +13105,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 229.87 91.44 0)
+			(at 241.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13321,8 +13113,8 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "CL05B104KO5NNNC"
-			(at 229.87 91.44 0)
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
+			(at 241.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13330,8 +13122,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCBasicExtended" "Basic"
-			(at 229.87 91.44 0)
+		(property "IncludeInBOM" "TRUE"
+			(at 241.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13340,7 +13132,16 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 229.87 91.44 0)
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 241.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13349,15 +13150,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4939d731-1852-4f97-b743-493df580cd03")
+			(uuid "9f43a8bf-f424-412a-88bd-0a4fdfa43cf8")
 		)
 		(pin "1"
-			(uuid "daacad1e-ec1a-4a42-b6c9-ec9e7728df58")
+			(uuid "9ff5105a-116d-4eb4-a613-0c90f448fa7b")
 		)
 		(instances
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C60")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -13431,16 +13232,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 207.01 91.44 0)
+		(at 242.57 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "34099c3b-0fa8-4336-a38b-e59cf3cec136")
-		(property "Reference" "C58"
-			(at 210.82 90.17 0)
+		(uuid "390ae1d7-5ac7-4b5f-97e8-47eeaf143f4d")
+		(property "Reference" "C51"
+			(at 246.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13448,8 +13249,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 210.82 92.71 0)
+		(property "Value" "10uF"
+			(at 246.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13458,7 +13259,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 207.9752 95.25 0)
+			(at 243.5352 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13466,132 +13267,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
-			(at 207.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C52923"
-			(at 207.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 207.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ManufacturerPartNumber" "CL05A105KA5NQNC"
-			(at 207.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IncludeInBOM" "TRUE"
-			(at 207.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 207.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCBasicExtended" "Basic"
-			(at 207.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "896af3e2-c71c-4fc4-815a-d456d8cf871f")
-		)
-		(pin "1"
-			(uuid "a2ced3a9-91d9-409d-9344-299f1ede2f82")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 229.87 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cf49b51-e8d4-4ea4-8d6c-175a6dd8dd5b")
-		(property "Reference" "C48"
-			(at 233.68 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 233.68 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 230.8352 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
-			(at 229.87 43.18 0)
+		(property "Datasheet" "~"
+			(at 242.57 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13600,7 +13277,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 43.18 0)
+			(at 242.57 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13608,8 +13285,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C52923"
-			(at 229.87 43.18 0)
+		(property "LCSC Part #" "C15525"
+			(at 242.57 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13618,7 +13295,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 229.87 43.18 0)
+			(at 242.57 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13626,8 +13303,8 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "CL05A105KA5NQNC"
-			(at 229.87 43.18 0)
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
+			(at 242.57 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13636,7 +13313,7 @@
 			)
 		)
 		(property "IncludeInBOM" "TRUE"
-			(at 229.87 43.18 0)
+			(at 242.57 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13645,7 +13322,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 229.87 43.18 0)
+			(at 242.57 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13654,7 +13331,7 @@
 			)
 		)
 		(property "JLCBasicExtended" "Basic"
-			(at 229.87 43.18 0)
+			(at 242.57 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13663,15 +13340,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "300b0742-540e-4a09-aa67-cf926e57186d")
+			(uuid "210d4491-af63-4e55-a66c-94a0d208e1d4")
 		)
 		(pin "1"
-			(uuid "74c93d4d-3fb0-48b3-a9bc-9578512c84ca")
+			(uuid "165d5240-2b28-4b6c-a7e9-4d3d5a089f5a")
 		)
 		(instances
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C48")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -13803,16 +13480,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 252.73 67.31 0)
+		(at 212.09 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "534a39d1-aad4-4a5b-9e6f-2dd0f3329f8a")
-		(property "Reference" "C56"
-			(at 256.54 66.04 0)
+		(uuid "4a142615-bb33-404c-8a85-e43b176355eb")
+		(property "Reference" "C54"
+			(at 215.9 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13820,8 +13497,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 256.54 68.58 0)
+		(property "Value" "10uF"
+			(at 215.9 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13830,7 +13507,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 253.6952 71.12 0)
+			(at 213.0552 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13839,7 +13516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 67.31 0)
+			(at 212.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13848,7 +13525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 67.31 0)
+			(at 212.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13856,17 +13533,8 @@
 				(hide yes)
 			)
 		)
-		(property "IncludeInBOM" "TRUE"
-			(at 252.73 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 252.73 67.31 0)
+		(property "LCSC Part #" "C15525"
+			(at 212.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13875,7 +13543,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 252.73 67.31 0)
+			(at 212.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13883,8 +13551,8 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "CL05B104KO5NNNC"
-			(at 252.73 67.31 0)
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
+			(at 212.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13892,8 +13560,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCBasicExtended" "Basic"
-			(at 252.73 67.31 0)
+		(property "IncludeInBOM" "TRUE"
+			(at 212.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13902,7 +13570,16 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 252.73 67.31 0)
+			(at 212.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 212.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13911,15 +13588,139 @@
 			)
 		)
 		(pin "2"
-			(uuid "52430203-bd87-421f-a07d-40005307b22f")
+			(uuid "7f4ff4e8-774a-42d7-ba0f-edf6547141fe")
 		)
 		(pin "1"
-			(uuid "0b45e358-334a-4da8-be2f-84a52ec08ba3")
+			(uuid "43ba2eb7-419f-4aa3-9886-559dbcb0b6b4")
 		)
 		(instances
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C56")
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 254 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59ad40cd-52ff-43ef-8b41-f35f6882b074")
+		(property "Reference" "C53"
+			(at 257.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 257.81 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 254.9652 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15525"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IncludeInBOM" "TRUE"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c6d06a1-c7bc-4b58-af3c-6546fd9dc8f9")
+		)
+		(pin "1"
+			(uuid "74f60578-ea46-4524-856a-48a792cf72af")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -14050,130 +13851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 241.3 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fc9e114-28ec-49f1-93e2-4ed1019463a0")
-		(property "Reference" "C55"
-			(at 245.11 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 245.11 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 242.2652 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IncludeInBOM" "TRUE"
-			(at 241.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 241.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 241.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ManufacturerPartNumber" "CL05B104KO5NNNC"
-			(at 241.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCBasicExtended" "Basic"
-			(at 241.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 241.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d47d34ee-6b34-4a68-8a71-14b4d9bd0606")
-		)
-		(pin "1"
-			(uuid "d859ccc8-1494-4d80-bf9a-1ead6702a50b")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 204.47 138.43 0)
 		(unit 1)
@@ -14292,130 +13969,6 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 229.87 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61887603-860c-4b9e-9c48-ace84bbd6d46")
-		(property "Reference" "C54"
-			(at 233.68 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 233.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 230.8352 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
-			(at 229.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C52923"
-			(at 229.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 229.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ManufacturerPartNumber" "CL05A105KA5NQNC"
-			(at 229.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IncludeInBOM" "TRUE"
-			(at 229.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 229.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCBasicExtended" "Basic"
-			(at 229.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5624a02b-c825-4e6e-bb7b-491ee33b866f")
-		)
-		(pin "1"
-			(uuid "ca950d14-9a9b-438d-a6e2-9a5028509277")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -14607,130 +14160,6 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 241.3 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "803a808a-f7b8-4d32-9272-bedb94bc6eb6")
-		(property "Reference" "C61"
-			(at 245.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 245.11 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 242.2652 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IncludeInBOM" "TRUE"
-			(at 241.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 241.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 241.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ManufacturerPartNumber" "CL05B104KO5NNNC"
-			(at 241.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCBasicExtended" "Basic"
-			(at 241.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 241.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "66a452c2-5496-440f-9ec7-0c856ebe299e")
-		)
-		(pin "1"
-			(uuid "c301b32e-57a1-43e6-814c-a57b778f0e2f")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -15248,6 +14677,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 245.11 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b1120b2-7f0f-4e6e-975f-2bf84c0c0eec")
+		(property "Reference" "C56"
+			(at 248.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 248.92 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 246.0752 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15525"
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IncludeInBOM" "TRUE"
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cce38413-7bd8-48da-8bbf-e5aeb4763da2")
+		)
+		(pin "1"
+			(uuid "7c5ebf41-26f2-40d2-bc82-5812067d8f03")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 154.94 115.57 180)
 		(unit 1)
@@ -15366,130 +14919,6 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 218.44 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a23d99e4-cd14-40cf-825a-9b83f3f73a39")
-		(property "Reference" "C59"
-			(at 222.25 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 222.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 219.4052 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
-			(at 218.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C52923"
-			(at 218.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 218.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ManufacturerPartNumber" "CL05A105KA5NQNC"
-			(at 218.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IncludeInBOM" "TRUE"
-			(at 218.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 218.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCBasicExtended" "Basic"
-			(at 218.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98a166b7-1400-40da-9358-b13d10358652")
-		)
-		(pin "1"
-			(uuid "991a6d28-4f11-4590-a28a-3979a4232d2d")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -15620,130 +15049,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 218.44 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7d96aa4-c399-473a-a88a-5f1643ffb789")
-		(property "Reference" "C53"
-			(at 222.25 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 222.25 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 219.4052 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
-			(at 218.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C52923"
-			(at 218.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 218.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ManufacturerPartNumber" "CL05A105KA5NQNC"
-			(at 218.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IncludeInBOM" "TRUE"
-			(at 218.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 218.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCBasicExtended" "Basic"
-			(at 218.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4a3886a8-a9d1-4b75-bfe8-7bb851c311ec")
-		)
-		(pin "1"
-			(uuid "d434d499-adfd-4a82-9b92-4f5c1a3b8109")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:NetTie_2")
 		(at 231.14 161.29 0)
 		(unit 1)
@@ -15806,6 +15111,130 @@
 			(project ""
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
 					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 252.73 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b478b7fa-cec0-465c-b623-056e3e5ebe05")
+		(property "Reference" "C49"
+			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 256.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 253.6952 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15525"
+			(at 252.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 252.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
+			(at 252.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IncludeInBOM" "TRUE"
+			(at 252.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 252.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 252.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2972b7b-6da7-474b-8e6a-55322d10af13")
+		)
+		(pin "1"
+			(uuid "6dedfa15-bdbb-4fc4-8634-67e8e56233fb")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -16225,16 +15654,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 264.16 67.31 0)
+		(at 218.44 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0b4572d-1b3a-4580-8d97-a9dd989560e6")
-		(property "Reference" "C57"
-			(at 267.97 66.04 0)
+		(uuid "c01d448e-5627-4f67-a20f-b59a4931559e")
+		(property "Reference" "C23"
+			(at 222.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16242,8 +15671,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 267.97 68.58 0)
+		(property "Value" "10uF"
+			(at 222.25 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16252,7 +15681,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 265.1252 71.12 0)
+			(at 219.4052 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16261,7 +15690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 67.31 0)
+			(at 218.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16270,7 +15699,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 67.31 0)
+			(at 218.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16278,17 +15707,8 @@
 				(hide yes)
 			)
 		)
-		(property "IncludeInBOM" "TRUE"
-			(at 264.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 264.16 67.31 0)
+		(property "LCSC Part #" "C15525"
+			(at 218.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16297,7 +15717,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 264.16 67.31 0)
+			(at 218.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16305,8 +15725,8 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "CL05B104KO5NNNC"
-			(at 264.16 67.31 0)
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
+			(at 218.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16314,8 +15734,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCBasicExtended" "Basic"
-			(at 264.16 67.31 0)
+		(property "IncludeInBOM" "TRUE"
+			(at 218.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16324,7 +15744,16 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 264.16 67.31 0)
+			(at 218.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 218.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16333,15 +15762,263 @@
 			)
 		)
 		(pin "2"
-			(uuid "9bb0541d-0e8f-4cd5-a522-bd2d20b3f7fa")
+			(uuid "d36c83bf-b2d3-4106-9470-4c65f7b0c25f")
 		)
 		(pin "1"
-			(uuid "a446656b-4fdf-4a7e-8466-3f217e07c27d")
+			(uuid "a5d31aec-303c-48e4-8c7b-fe798fa538ed")
 		)
 		(instances
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C57")
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c03d1c78-a6d6-47a8-b810-7c63274dba38")
+		(property "Reference" "C50"
+			(at 234.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 234.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.1052 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15525"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IncludeInBOM" "TRUE"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8d2bed1-0de3-4c0c-acb9-3189a16fdb33")
+		)
+		(pin "1"
+			(uuid "28b7b1ed-f3ba-4c68-b2bf-ffdff1522caa")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cad5556b-ebe2-4601-92dc-76df9d7a0e98")
+		(property "Reference" "C24"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 223.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 220.6752 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15525"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IncludeInBOM" "TRUE"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0eb3b63b-8a2c-4bc1-a1f5-475bd94a5184")
+		)
+		(pin "1"
+			(uuid "27de093f-86e8-40d7-bbaf-05f38c148020")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -17628,16 +17305,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 264.16 43.18 0)
+		(at 231.14 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da599970-da73-4ec6-99a7-14e5d621c354")
-		(property "Reference" "C51"
-			(at 267.97 41.91 0)
+		(uuid "d80d6c95-5c80-4cfd-80cc-097b77fce1cb")
+		(property "Reference" "C55"
+			(at 234.95 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17645,8 +17321,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 267.97 44.45 0)
+		(property "Value" "10uF"
+			(at 233.934 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17655,7 +17331,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 265.1252 46.99 0)
+			(at 232.1052 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17664,7 +17340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 43.18 0)
+			(at 231.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17673,7 +17349,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 43.18 0)
+			(at 231.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17681,17 +17357,8 @@
 				(hide yes)
 			)
 		)
-		(property "IncludeInBOM" "TRUE"
-			(at 264.16 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 264.16 43.18 0)
+		(property "LCSC Part #" "C15525"
+			(at 231.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17700,7 +17367,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 264.16 43.18 0)
+			(at 231.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17708,8 +17375,8 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "CL05B104KO5NNNC"
-			(at 264.16 43.18 0)
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
+			(at 231.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17717,8 +17384,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCBasicExtended" "Basic"
-			(at 264.16 43.18 0)
+		(property "IncludeInBOM" "TRUE"
+			(at 231.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17727,7 +17394,16 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 264.16 43.18 0)
+			(at 231.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 231.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17736,15 +17412,139 @@
 			)
 		)
 		(pin "2"
-			(uuid "1c38c134-93bb-4173-9d4a-2b86df3a9cbc")
+			(uuid "d96721b2-0e5b-4914-96a2-99114f8b07bf")
 		)
 		(pin "1"
-			(uuid "7cd3b9a8-c7dd-48a6-be0c-717fc79c6ea7")
+			(uuid "6708d7ce-aa3b-4213-9725-c499d98129f2")
 		)
 		(instances
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C51")
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4a2b531-529f-455d-953e-73760e5c4c43")
+		(property "Reference" "C47"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 230.8352 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15525"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IncludeInBOM" "TRUE"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "923acfff-1ef4-4d45-9ef0-12826ff06e75")
+		)
+		(pin "1"
+			(uuid "2cb42a29-c18c-4cc1-a828-7a3b683f0fdb")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -18057,252 +17857,6 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 252.73 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa9324da-3ade-4a14-aacb-07874d22445d")
-		(property "Reference" "C50"
-			(at 256.54 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 253.6952 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IncludeInBOM" "TRUE"
-			(at 252.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 252.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 252.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ManufacturerPartNumber" "CL05B104KO5NNNC"
-			(at 252.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCBasicExtended" "Basic"
-			(at 252.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 252.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bc92d53c-20d4-46ff-b7cc-d69e8674323f")
-		)
-		(pin "1"
-			(uuid "baed11fb-043f-43ce-bd8c-71642a48943c")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 241.3 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff581dd2-04b5-4152-80af-17489322f424")
-		(property "Reference" "C49"
-			(at 245.11 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 243.84 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 242.2652 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IncludeInBOM" "TRUE"
-			(at 241.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 241.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 241.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ManufacturerPartNumber" "CL05B104KO5NNNC"
-			(at 241.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCBasicExtended" "Basic"
-			(at 241.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 241.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53810d28-5126-40cb-9076-9a48ad9e773f")
-		)
-		(pin "1"
-			(uuid "65ebfaf7-bd33-4ff8-991a-b534d5659696")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/3131bab2-0774-414a-a557-ba7c663eebf6"
-					(reference "C49")
 					(unit 1)
 				)
 			)
