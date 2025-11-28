@@ -30,12 +30,12 @@
 
 (rule "target length and skew for emmc data (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
       (condition "A.hasNetclass('eMMC-Data')")
-      (constraint length (min 16mm) (opt 20.6mm) (max 23.5mm))
+      (constraint length (min 16mm) (opt 18mm) (max 23.5mm))
       (constraint skew (max 4mm)))
 
 
 (rule "target length and skew for wifi signals (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
-      (condition "A.hasNetclass('WIFI')")
-      (constraint length (min 64mm) (opt 68mm) (max 71mm))
-      (constraint skew (max 4mm)))
+      (condition "A.hasNetclass('WIFI-SPI')")
+      (constraint length (min 49.8mm) (opt 52mm) (max 56.3mm))
+      (constraint skew (max 400mm)))
 

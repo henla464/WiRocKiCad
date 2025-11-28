@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "min_clearance": 0.12
         }
       },
       "diff_pair_dimensions": [
@@ -101,14 +101,6 @@
         [
           "lib_footprint_mismatch|73475000|48670000|2279d6c4-44ef-4130-9e1e-677004c6777c|00000000-0000-0000-0000-000000000000",
           "Removed silkscreen"
-        ],
-        [
-          "lib_footprint_mismatch|73525147|104035147|a0bf1ae8-6ab3-4a94-ae35-f9e72d4f29a6|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|74394853|104104853|36cff824-2717-4ffa-a50f-f1f2a75a9be0|00000000-0000-0000-0000-000000000000",
-          "Error is wrong"
         ]
       ],
       "meta": {
@@ -571,7 +563,7 @@
         "microvia_drill": 0.1,
         "name": "AntennaTrace",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.189458,
         "via_diameter": 0.6,
@@ -588,7 +580,7 @@
         "microvia_drill": 0.1,
         "name": "BGA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
         "via_diameter": 0.35,
@@ -603,7 +595,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-Address",
         "pcb_color": "rgb(148, 255, 61)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -620,7 +612,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-DP-SCK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -637,7 +629,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-DP-SDQS0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -654,7 +646,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-DP-SDQS1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -669,7 +661,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -684,7 +676,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-Other-Command-Control",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -697,7 +689,7 @@
         "microvia_drill": 0.1,
         "name": "IPSOUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
         "via_diameter": 0.6,
@@ -713,7 +705,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "via_diameter": 0.35,
@@ -730,7 +722,7 @@
         "microvia_drill": 0.1,
         "name": "Power-DRAM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "via_diameter": 0.35,
@@ -747,7 +739,7 @@
         "microvia_drill": 0.1,
         "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 13,
+        "priority": 14,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.35,
@@ -762,7 +754,7 @@
         "microvia_drill": 0.1,
         "name": "USB-Data",
         "pcb_color": "rgb(47, 255, 52)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
         "via_diameter": 0.35,
@@ -772,9 +764,21 @@
         "clearance": 0.09,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "WIFI",
+        "name": "WIFI-NONSPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.09,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.09,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "WIFI-SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
         "via_diameter": 0.35,
@@ -1159,8 +1163,20 @@
         "pattern": "USB*"
       },
       {
-        "netclass": "WIFI",
-        "pattern": "WIFI*"
+        "netclass": "WIFI-SPI",
+        "pattern": "WIFI-SPI*"
+      },
+      {
+        "netclass": "WIFI-NONSPI",
+        "pattern": "WIFI-DataReady*"
+      },
+      {
+        "netclass": "WIFI-NONSPI",
+        "pattern": "WIFI-HandShake"
+      },
+      {
+        "netclass": "WIFI-NONSPI",
+        "pattern": "WIFI-RST"
       }
     ]
   },
