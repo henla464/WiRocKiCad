@@ -1369,8 +1369,8 @@
 				)
 			)
 		)
-		(property "Value" "33R"
-			(at 60.96 73.66 90)
+		(property "Value" "22R"
+			(at 64.77 71.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)

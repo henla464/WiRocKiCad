@@ -605,7 +605,7 @@
       {
         "bus_width": 12,
         "clearance": 0.09,
-        "diff_pair_gap": 0.16,
+        "diff_pair_gap": 0.14,
         "diff_pair_width": 0.11,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -622,7 +622,7 @@
       {
         "bus_width": 12,
         "clearance": 0.09,
-        "diff_pair_gap": 0.16,
+        "diff_pair_gap": 0.14,
         "diff_pair_width": 0.11,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -639,7 +639,7 @@
       {
         "bus_width": 12,
         "clearance": 0.09,
-        "diff_pair_gap": 0.16,
+        "diff_pair_gap": 0.14,
         "diff_pair_width": 0.11,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -1366,8 +1366,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "JLCBasicExtended"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

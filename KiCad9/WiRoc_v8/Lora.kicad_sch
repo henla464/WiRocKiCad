@@ -3249,7 +3249,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 81.28 30.48 90)
 			(effects
 				(font
@@ -5377,7 +5377,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 68.58 30.48 90)
 			(effects
 				(font

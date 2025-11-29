@@ -2598,7 +2598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 101.6 76.2 0)
 			(effects
 				(font
@@ -2607,7 +2607,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "GRM155R71C223JA01D"
+		(property "ManufacturerPartNumber" "0402CG220J500NT"
 			(at 101.6 76.2 0)
 			(effects
 				(font

@@ -9375,7 +9375,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 106.934 176.53 0)
 			(effects
 				(font
@@ -9498,7 +9498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 128.27 127 0)
 			(effects
 				(font
@@ -9754,7 +9754,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 54.61 142.24 0)
 			(effects
 				(font
@@ -9944,7 +9944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 43.18 170.18 0)
 			(effects
 				(font
@@ -10067,7 +10067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 166.37 127 0)
 			(effects
 				(font
@@ -11480,7 +11480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 128.27 176.53 0)
 			(effects
 				(font
@@ -11603,7 +11603,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 152.4 127 0)
 			(effects
 				(font
@@ -11726,7 +11726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 105.41 127 0)
 			(effects
 				(font
@@ -11916,7 +11916,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 41.91 142.24 0)
 			(effects
 				(font
@@ -12039,7 +12039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 130.81 153.67 0)
 			(effects
 				(font
@@ -12162,7 +12162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 116.84 153.67 0)
 			(effects
 				(font
@@ -12286,7 +12286,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 139.7 176.53 0)
 			(effects
 				(font
@@ -13566,7 +13566,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 142.24 153.67 0)
 			(effects
 				(font
@@ -13689,7 +13689,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 139.7 127 0)
 			(effects
 				(font
@@ -13812,7 +13812,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 116.84 127 0)
 			(effects
 				(font
@@ -13935,7 +13935,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 116.84 176.53 0)
 			(effects
 				(font
@@ -14124,7 +14124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 156.21 153.67 0)
 			(effects
 				(font
@@ -14247,7 +14247,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 104.14 153.67 0)
 			(effects
 				(font

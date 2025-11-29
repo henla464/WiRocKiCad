@@ -268,7 +268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WiRoc:KLM8G1YEMD-B031"
+		(symbol "WiRoc:KLM8G1GETF-B041"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -280,7 +280,7 @@
 					)
 				)
 			)
-			(property "Value" "KLM8G1WEPD-B031"
+			(property "Value" "KLM8G1GETF-B041"
 				(at -11.43 30.48 0)
 				(effects
 					(font
@@ -315,7 +315,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "KLM8G1YEMD-B031_0_1"
+			(symbol "KLM8G1GETF-B041_0_1"
 				(rectangle
 					(start -44.45 87.63)
 					(end 38.1 -76.2)
@@ -328,15 +328,7 @@
 					)
 				)
 			)
-			(symbol "KLM8G1YEMD-B031_1_1"
-				(text "\nKLM8G1YEMD-B031\nKLM8G1WEPD-B031"
-					(at -5.08 -29.21 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
+			(symbol "KLM8G1GETF-B041_1_1"
 				(pin bidirectional line
 					(at -46.99 78.74 0)
 					(length 2.54)
@@ -3217,6 +3209,17 @@
 	)
 	(text "*"
 		(exclude_from_sim no)
+		(at 107.696 17.526 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "746095fb-8686-47dd-ae81-c2ebb9663801")
+	)
+	(text "*"
+		(exclude_from_sim no)
 		(at 125.73 19.05 0)
 		(effects
 			(font
@@ -3228,6 +3231,17 @@
 	)
 	(text "*"
 		(exclude_from_sim no)
+		(at 87.884 14.224 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cb8bde7-1825-4f2e-bd60-7f2b12602215")
+	)
+	(text "*"
+		(exclude_from_sim no)
 		(at 100.33 193.04 0)
 		(effects
 			(font
@@ -3236,17 +3250,6 @@
 			(justify left bottom)
 		)
 		(uuid "b916b8c8-58a6-4661-a18e-0f32806b5460")
-	)
-	(text "*"
-		(exclude_from_sim no)
-		(at 62.23 76.2 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4eb1503-2865-4ae1-b08b-122fa93db4df")
 	)
 	(text "* Connected to simplify fanout from the eMMC chip"
 		(exclude_from_sim no)
@@ -3596,6 +3599,10 @@
 		(uuid "315370e6-e1eb-4fef-93a5-768008f28925")
 	)
 	(no_connect
+		(at 72.39 76.2)
+		(uuid "3601a832-b669-4e59-91d1-a3a5789ed3e1")
+	)
+	(no_connect
 		(at 124.46 189.23)
 		(uuid "36654f3d-0d77-425f-a505-6583667d86f4")
 	)
@@ -3796,10 +3803,6 @@
 		(uuid "a5ad7757-f402-445b-95a1-a00411f2ff01")
 	)
 	(no_connect
-		(at 109.22 20.32)
-		(uuid "a6d37418-5af9-4ae1-8548-25847267e821")
-	)
-	(no_connect
 		(at 116.84 20.32)
 		(uuid "ac208107-17f3-4561-a762-d26dcbeb9b1f")
 	)
@@ -3874,10 +3877,6 @@
 	(no_connect
 		(at 147.32 20.32)
 		(uuid "d84c22f9-a2d8-4680-bf11-0e00adf5c55a")
-	)
-	(no_connect
-		(at 88.9 20.32)
-		(uuid "d9c4a1f1-35ca-43a8-998c-546f91528968")
 	)
 	(no_connect
 		(at 160.02 96.52)
@@ -4055,16 +4054,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 76.2) (xy 72.39 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39929d28-cd61-418c-9eb2-ca59d50301e8")
-	)
-	(wire
-		(pts
 			(xy 62.23 36.83) (xy 72.39 36.83)
 		)
 		(stroke
@@ -4145,7 +4134,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 20.32) (xy 106.68 15.24)
+			(xy 106.68 20.32) (xy 106.68 16.51)
 		)
 		(stroke
 			(width 0)
@@ -4312,6 +4301,16 @@
 			(type default)
 		)
 		(uuid "7e2a5a3d-9066-464c-be3f-a27e357f0d86")
+	)
+	(wire
+		(pts
+			(xy 107.95 13.97) (xy 109.22 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e464760-f4ab-47aa-a648-3c1671d1a69d")
 	)
 	(wire
 		(pts
@@ -4505,7 +4504,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 15.24) (xy 102.87 15.24)
+			(xy 106.68 16.51) (xy 102.87 16.51)
 		)
 		(stroke
 			(width 0)
@@ -4542,6 +4541,16 @@
 			(type default)
 		)
 		(uuid "be88461b-e3e3-4cdf-9bdd-f5e53d93ebc2")
+	)
+	(wire
+		(pts
+			(xy 109.22 13.97) (xy 109.22 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1c02d4-8a52-45d4-9b86-0366e531f671")
 	)
 	(wire
 		(pts
@@ -4675,6 +4684,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 19.05) (xy 88.9 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a2870e-fbe8-4cc2-8244-0c2ea2a6fc3b")
+	)
+	(wire
+		(pts
 			(xy 63.5 118.11) (xy 72.39 118.11)
 		)
 		(stroke
@@ -4762,6 +4781,26 @@
 			(type default)
 		)
 		(uuid "dc418c8f-41eb-4e26-b234-85cb354c6d2b")
+	)
+	(wire
+		(pts
+			(xy 87.63 12.7) (xy 87.63 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de23c0af-f5bb-4f99-8902-ab9c3a1fcf4a")
+	)
+	(wire
+		(pts
+			(xy 87.63 19.05) (xy 88.9 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9b917c-ced3-47b1-8561-a58d353c4a4a")
 	)
 	(wire
 		(pts
@@ -5029,6 +5068,28 @@
 			)
 		)
 	)
+	(global_label "eMMC-D7"
+		(shape bidirectional)
+		(at 107.95 13.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "87a4e7f0-6cdf-44ec-aef5-339f1b58a897")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8342 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "eMMC-D4"
 		(shape bidirectional)
 		(at 74.93 15.24 180)
@@ -5053,7 +5114,7 @@
 	)
 	(global_label "eMMC-D3"
 		(shape bidirectional)
-		(at 102.87 15.24 180)
+		(at 102.87 16.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5063,7 +5124,7 @@
 		)
 		(uuid "93f76fe1-07b7-4ed4-9b2b-ae5a5f9b0011")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.7542 15.24 0)
+			(at 87.7542 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +5356,7 @@
 	)
 	(global_label "eMMC-D7"
 		(shape bidirectional)
-		(at 62.23 76.2 180)
+		(at 87.63 12.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5305,7 +5366,7 @@
 		)
 		(uuid "ea5bc64f-d6dd-4a65-9d5c-5f8c31463a8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.1142 76.2 0)
+			(at 72.5142 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +5523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 249.174 83.312 0)
 			(effects
 				(font
@@ -5650,7 +5711,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 263.144 52.832 0)
 			(effects
 				(font
@@ -5962,7 +6023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 241.554 52.832 0)
 			(effects
 				(font
@@ -6068,14 +6129,13 @@
 		)
 	)
 	(symbol
-		(lib_id "WiRoc:KLM8G1YEMD-B031")
+		(lib_id "WiRoc:KLM8G1GETF-B041")
 		(at 119.38 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c182671-0eed-4c58-a5f3-11eeef940475")
 		(property "Reference" "U14"
 			(at 152.0541 189.23 0)
@@ -6086,8 +6146,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KLM8G1WEPD-B031"
-			(at 107.95 80.01 0)
+		(property "Value" "KLM8G1GETF-B041"
+			(at 106.934 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588886742133194752"
 			(at 107.95 80.01 0)
 			(effects
 				(font
@@ -6112,7 +6172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "There is also a cheaper alternative: MK MKEV008GCB-SC510 / C2987689"
 			(at 119.38 110.49 0)
 			(effects
 				(font
@@ -6139,7 +6199,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2874142"
+		(property "LCSC Part #" "C499918"
 			(at 119.38 110.49 0)
 			(effects
 				(font
@@ -6157,7 +6217,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "KLM8G1WEPD-B031"
+		(property "ManufacturerPartNumber" "KLM8G1GETF-B041"
 			(at 119.38 110.49 0)
 			(effects
 				(font
@@ -7045,7 +7105,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 230.124 52.832 0)
 			(effects
 				(font
@@ -7292,7 +7352,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 260.604 83.312 0)
 			(effects
 				(font
@@ -7415,7 +7475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 251.714 52.832 0)
 			(effects
 				(font

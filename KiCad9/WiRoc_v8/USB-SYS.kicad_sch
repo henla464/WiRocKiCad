@@ -7323,17 +7323,6 @@
 		)
 		(uuid "48dc98d7-7fad-4091-949c-3c9f9affe4f7")
 	)
-	(text "Note: ZeroPi used 22pF capacitor and \ncrystal has value \"XTAL-2520-4P\""
-		(exclude_from_sim no)
-		(at 57.15 146.05 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d2f1709-0267-4c02-8611-d4f1f91ea742")
-	)
 	(text "RTC_VIO is connected to an internal LDO output (powered from VCC_RTC?)\nDefault voltage 1.1v, controlled by register"
 		(exclude_from_sim no)
 		(at 100.838 96.266 0)
@@ -8859,7 +8848,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3V"
 			(at 109.22 66.04 90)
 			(effects
 				(font
@@ -8894,7 +8883,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23733"
+		(property "LCSC Part #" "C15525"
 			(at 110.49 69.85 90)
 			(effects
 				(font
@@ -8912,7 +8901,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "CL05A475MP5NRNC"
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
 			(at 110.49 69.85 90)
 			(effects
 				(font
@@ -10576,7 +10565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 40.64 57.15 0)
 			(effects
 				(font
@@ -11081,7 +11070,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "22pF"
 			(at 95.25 138.43 0)
 			(effects
 				(font
@@ -11135,7 +11124,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1549"
+		(property "LCSC Part #" "C1555"
 			(at 92.71 138.43 0)
 			(effects
 				(font
@@ -11153,7 +11142,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0402CG180J500NT"
+		(property "ManufacturerPartNumber" "0402CG220J500NT"
 			(at 92.71 138.43 0)
 			(effects
 				(font
@@ -12262,7 +12251,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 133.096 87.122 90)
 			(effects
 				(font
@@ -12449,7 +12438,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "22pF"
 			(at 95.25 121.92 0)
 			(effects
 				(font
@@ -12503,7 +12492,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1549"
+		(property "LCSC Part #" "C1555"
 			(at 92.71 121.92 0)
 			(effects
 				(font
@@ -12521,7 +12510,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0402CG180J500NT"
+		(property "ManufacturerPartNumber" "0402CG220J500NT"
 			(at 92.71 121.92 0)
 			(effects
 				(font
@@ -15448,7 +15437,7 @@
 				)
 			)
 		)
-		(property "Value" "24MHz/18pF"
+		(property "Value" "24MHz/CL=12pF"
 			(at 68.58 130.81 0)
 			(effects
 				(font

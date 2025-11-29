@@ -878,6 +878,12 @@
 		(uuid "a3800e3f-cd75-48fb-b32e-d1a1f21f4b3e")
 	)
 	(junction
+		(at 157.48 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae09e7d3-2325-428e-9a74-134b868823ae")
+	)
+	(junction
 		(at 81.28 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1113,6 +1119,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 72.39) (xy 165.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568ccddb-26f4-4fcc-bafa-1f161d6476c1")
+	)
+	(wire
+		(pts
 			(xy 60.96 27.94) (xy 66.04 27.94)
 		)
 		(stroke
@@ -1343,7 +1359,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 72.39) (xy 165.1 72.39)
+			(xy 147.32 72.39) (xy 157.48 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2349,7 +2365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 151.13 80.01 0)
 			(effects
 				(font
@@ -3619,6 +3635,129 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/85a0902c-c60f-4130-a6d4-27b8a234db38"
 					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67fde310-9ca7-46c5-a40c-ae8ce17a8419")
+		(property "Reference" "C62"
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF/6.3V"
+			(at 161.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 158.4452 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15525"
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IncludeInBOM" "TRUE"
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3952703-79a5-482f-8853-672bd2b432af")
+		)
+		(pin "2"
+			(uuid "1e7fa640-7252-4b15-83f0-4c775f6f238a")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/85a0902c-c60f-4130-a6d4-27b8a234db38"
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -5268,6 +5407,71 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/85a0902c-c60f-4130-a6d4-27b8a234db38"
 					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea799172-8cb9-438b-adb9-99e85d976ab1")
+		(property "Reference" "#PWR048"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.607 84.4042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5230e31-4b5f-4248-ba62-c160cbad4503")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/85a0902c-c60f-4130-a6d4-27b8a234db38"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)

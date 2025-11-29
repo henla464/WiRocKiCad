@@ -2,35 +2,35 @@
 
 (rule "target length and skew for ddr3 address (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
       (condition "A.hasNetclass('DDR3-Address')")
-      (constraint length (min 16mm) (opt 19.62mm) (max 22.5mm))
+      (constraint length (min 16mm) (opt 18.92mm) (max 22.5mm))
       (constraint skew (max 5mm)))
 
 
 (rule "target length and skew for ddr3 data (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
       (condition "A.hasNetclass('DDR3-Data')")
-      (constraint length (min 14mm) (opt 17.41mm) (max 19mm))
+      (constraint length (min 14mm) (opt 16.12mm) (max 19mm))
       (constraint skew (max 5mm)))
 
 
 (rule "target length and skew for ddr3 data ctrl (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
       (condition "A.hasNetclass('DDR3-DP-SDQS0')")
-      (constraint length (min 14mm) (opt 17.41mm) (max 19mm))
+      (constraint length (min 14mm) (opt 16.12mm) (max 19mm))
       (constraint skew (max 5mm)))
 
 
 (rule "target length and skew for ddr3 data ctrl (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
       (condition "A.hasNetclass('DDR3-DP-SDQS1')")
-      (constraint length (min 14mm) (opt 17.41mm) (max 19mm))
+      (constraint length (min 14mm) (opt 16.12mm) (max 19mm))
       (constraint skew (max 5mm)))
 
 (rule "target length and skew for ddr3 clock (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
       (condition "A.hasNetclass('DDR3-DP-SCK')")
-      (constraint length (min 17.5mm) (opt 19.95mm) (max 21mm))
+      (constraint length (min 17.5mm) (opt 19.95mm) (max 22.5mm))
       (constraint skew (max 0.13mm)))
 
 (rule "target length and skew for emmc data (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
       (condition "A.hasNetclass('eMMC-Data')")
-      (constraint length (min 16mm) (opt 18mm) (max 23.5mm))
+      (constraint length (min 15mm) (opt 18mm) (max 22mm))
       (constraint skew (max 4mm)))
 
 

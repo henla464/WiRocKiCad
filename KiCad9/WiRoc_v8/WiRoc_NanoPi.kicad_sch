@@ -6003,16 +6003,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 36.83) (xy 262.89 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db15fe63-4b88-4cde-bcf0-b280d11a1082")
-	)
-	(wire
-		(pts
 			(xy 152.4 48.26) (xy 154.94 48.26)
 		)
 		(stroke
@@ -7803,7 +7793,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 269.875 38.1 0)
 			(effects
 				(font
@@ -8011,7 +8001,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 262.89 40.64 180)
+		(at 262.89 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8019,23 +8009,23 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ac0eab5")
 		(property "Reference" "R9"
-			(at 260.858 40.64 90)
+			(at 260.858 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3.6K-1%"
-			(at 265.43 40.64 90)
+		(property "Value" "2K/1%"
+			(at 265.43 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 264.668 40.64 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 264.668 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8044,7 +8034,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 40.64 0)
+			(at 262.89 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8053,7 +8043,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 40.64 0)
+			(at 262.89 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,8 +8051,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
-			(at 262.89 40.64 90)
+		(property "Package" "0402"
+			(at 262.89 38.1 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8070,8 +8060,8 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0603WAF3601T5E"
-			(at 262.89 40.64 90)
+		(property "ManufacturerPartNumber" "0402WGF2001TCE"
+			(at 262.89 38.1 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8080,7 +8070,7 @@
 			)
 		)
 		(property "Original" "No"
-			(at 262.89 40.64 90)
+			(at 262.89 38.1 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8089,7 +8079,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 525.78 -6.35 0)
+			(at 525.78 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8088,7 @@
 			)
 		)
 		(property "WebsiteURL" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_3-6KR-3601-1_C100993.html"
-			(at 525.78 -6.35 0)
+			(at 525.78 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +8097,7 @@
 			)
 		)
 		(property "IncludeInBOM" "TRUE"
-			(at 262.89 40.64 90)
+			(at 262.89 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +8106,7 @@
 			)
 		)
 		(property "ThroughHole" "FALSE"
-			(at 525.78 -6.35 0)
+			(at 525.78 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,8 +8114,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22980"
-			(at 262.89 40.64 0)
+		(property "LCSC Part #" "C4109"
+			(at 262.89 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,7 +8124,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 262.89 40.64 0)
+			(at 262.89 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +8133,7 @@
 			)
 		)
 		(property "JLCBasicExtended" "Basic"
-			(at 262.89 40.64 90)
+			(at 262.89 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +8223,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 44.45 0)
+		(at 262.89 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8241,7 +8231,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ac0eb94")
 		(property "Reference" "#PWR06"
-			(at 262.89 50.8 0)
+			(at 262.89 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,7 +8240,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 48.26 0)
+			(at 262.89 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8258,7 +8248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 44.45 0)
+			(at 262.89 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,7 +8257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 44.45 0)
+			(at 262.89 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,7 +8266,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 44.45 0)
+			(at 262.89 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8603,7 +8593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 44.45 89.535 0)
 			(effects
 				(font
@@ -10548,7 +10538,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 45.72 107.315 0)
 			(effects
 				(font
@@ -14207,7 +14197,7 @@
 				)
 			)
 		)
-		(property "Value" "3.6K-1%"
+		(property "Value" "10K/1%"
 			(at 126.492 41.148 90)
 			(effects
 				(font
@@ -14215,7 +14205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 126.238 40.64 90)
 			(effects
 				(font
@@ -14242,7 +14232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 124.46 40.64 90)
 			(effects
 				(font
@@ -14251,7 +14241,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "0603WAF3601T5E"
+		(property "ManufacturerPartNumber" "0402WGF1002TCE"
 			(at 124.46 40.64 90)
 			(effects
 				(font
@@ -14305,7 +14295,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22980"
+		(property "LCSC Part #" "C25744"
 			(at 124.46 40.64 0)
 			(effects
 				(font
@@ -15110,7 +15100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3V"
 			(at 123.444 33.782 0)
 			(effects
 				(font
@@ -16927,6 +16917,163 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.89 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb9007be-c352-458d-a782-1fd0e493bdb2")
+		(property "Reference" "R13"
+			(at 260.858 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 265.43 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 264.668 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1KΩ (1001) ±1%"
+			(at 262.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 262.89 45.72 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "0402WGF1001TCE"
+			(at 262.89 45.72 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Original" "No"
+			(at 262.89 45.72 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 525.78 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WebsiteURL" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_3-6KR-3601-1_C100993.html"
+			(at 525.78 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IncludeInBOM" "TRUE"
+			(at 262.89 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ThroughHole" "FALSE"
+			(at 525.78 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C11702"
+			(at 262.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 262.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 262.89 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "849c2e09-6fdc-4f7c-a868-d52bb220c0d8")
+		)
+		(pin "2"
+			(uuid "2e1b33b9-e16f-4126-b6b0-12b6533ba3b9")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c"
+					(reference "R13")
 					(unit 1)
 				)
 			)

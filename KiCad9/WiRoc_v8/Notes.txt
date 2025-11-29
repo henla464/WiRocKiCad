@@ -99,11 +99,35 @@ Length-matching WIFI (SPI etc)
 ------------------------------
 netclass: WIFI target 68 mm
 	Signals:
-		WIFI-DataREady, WIFI-HandShake
 		WIFI-SPI-SCLK, WIFI-SPI-CS0
 		WIFI-SPI-MISO, WIFI-SPI-MOSI
 
+		Ej matchade: WIFI-DataREady, WIFI-HandShake
 
+=====================
+eMMC
+Orig: KLM8G1WEPD-B031
+EOL
+Interface: HS400
+11.5 x 13 x 0.8 mm
+1.8 / 3.3 V
+eMMC 5.0
 
+Alternativ
+Samsung KLM8G1GETF-B041 / C499918
+Mass Production
+Interface: HS400
+11.5 x 13 x 0.8 mm
+1.8 / 3.3 V
+https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588886742133194752
+eMMC 5.1
+153FBGA
 
+Alternativ (billigare)
+MK MKEV008GCB-SC510 / C2987689
+interface: HS400
+signal level 1.8V
+file:///home/henla464/Downloads/C2987689.pdf
+eMMC 5.1
+FBGA153
 
