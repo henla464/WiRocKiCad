@@ -58,7 +58,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|101350000|88455000|c8b8c466-0b16-4e61-8fb8-769a4473ac6d|19ca1fe7-8729-44ef-bed1-b4b2c5d0c9f6",
+          ""
+        ],
+        [
+          "copper_edge_clearance|101350000|90995000|c8b8c466-0b16-4e61-8fb8-769a4473ac6d|6edae084-5799-49b8-9806-7b54d32580be",
+          ""
+        ],
+        [
+          "copper_edge_clearance|127800000|90620200|eaaffa6f-830d-4072-a019-47999e06bf40|625a8e6c-3d41-4e34-95b5-6336beb99b5f",
+          "Pad not used"
+        ],
+        [
+          "copper_edge_clearance|127800000|91890200|eaaffa6f-830d-4072-a019-47999e06bf40|042c1f51-00af-4f3c-b6c2-d36f0e40804d",
+          "Pad not used"
+        ],
+        [
+          "copper_edge_clearance|127800000|93160200|eaaffa6f-830d-4072-a019-47999e06bf40|aecb5eaf-d24d-43ca-a1ae-1a112ad106be",
+          "Pad not used"
+        ],
+        [
+          "courtyards_overlap|106745000|93005000|6d488df6-cda1-4d88-93e1-1171ddc9a351|b2810324-7d41-4c06-bdb1-6676fcb3d9e9",
+          "Only courtyards overlap, its fine"
+        ],
+        [
+          "starved_thermal|127350000|91070200|dcf0fd9d-8279-4772-be1b-1e778c8eeae1|625a8e6c-3d41-4e34-95b5-6336beb99b5f|F.Cu",
+          "Not used pad"
+        ],
+        [
+          "starved_thermal|127350000|93610200|dcf0fd9d-8279-4772-be1b-1e778c8eeae1|aecb5eaf-d24d-43ca-a1ae-1a112ad106be|F.Cu",
+          "Not used pad"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -507,7 +540,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "WifiModuleBoard.step",
       "svg": "",
       "vrml": ""
     },
@@ -577,12 +610,126 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part#",
+          "name": "LCSC Part#",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "ManufacturerPartNumber",
+          "name": "ManufacturerPartNumber",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

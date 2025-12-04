@@ -3208,6 +3208,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 33.02) (xy 115.57 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b22a595-34c5-481c-a7a0-44fe42abb82c")
+	)
+	(wire
+		(pts
 			(xy 130.81 52.07) (xy 137.16 52.07)
 		)
 		(stroke
@@ -3605,6 +3615,16 @@
 			(type default)
 		)
 		(uuid "e9746f92-297d-48c8-8e78-11b4eab99deb")
+	)
+	(wire
+		(pts
+			(xy 116.84 29.21) (xy 115.57 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec54728b-90d2-4898-8bde-309a42d2ea1f")
 	)
 	(wire
 		(pts
@@ -4123,6 +4143,28 @@
 		(uuid "e21150ac-459b-4769-bea4-7f9158ea75fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 173.2901 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_IN"
+		(shape output)
+		(at 116.84 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "eb922a1b-7164-4520-a6a8-20171e314b28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.7834 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,6 +4885,71 @@
 			(project "Hardware_NanoPi_v7_ConnectorPlate"
 				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b1083a6-2650-4707-8e4b-9f0561a34ce1")
+		(property "Reference" "#PWR020"
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33c6dbc8-04c5-45ad-9448-cc37db92795a")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7464,6 +7571,73 @@
 			(project "Hardware_NanoPi_v7_ConnectorPlate"
 				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 110.49 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3a50f03-2a8c-43ba-a580-39e65267a203")
+		(property "Reference" "J1"
+			(at 105.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 107.95 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7513bea1-ac4d-4163-ac05-0bca10b7840a")
+		)
+		(pin "2"
+			(uuid "49fe99ba-a119-44bb-90bc-4224e1752417")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "J1")
 					(unit 1)
 				)
 			)
