@@ -2732,12 +2732,6 @@
 		(uuid "1fdf68c2-1773-452d-80a0-28a295b76dbd")
 	)
 	(junction
-		(at 79.375 135.255)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b24e7af-de44-4a11-91df-e08e600f72ae")
-	)
-	(junction
 		(at 187.96 103.505)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2762,12 +2756,6 @@
 		(uuid "4155dbc6-d133-4902-b770-38df18c815d8")
 	)
 	(junction
-		(at 182.88 102.235)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47e6c9b6-9b76-4969-97ea-e596417d18e9")
-	)
-	(junction
 		(at 48.26 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2786,12 +2774,6 @@
 		(uuid "75b5e823-a15a-489e-8b31-67d6e1527b81")
 	)
 	(junction
-		(at 187.96 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b9b2dd6-fca3-4aef-ae62-568489dfc0ee")
-	)
-	(junction
 		(at 26.67 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2808,24 +2790,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a7066f9-8a52-4bcb-9908-9631dfacf369")
-	)
-	(junction
-		(at 79.375 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91022ba1-2068-4267-963e-1fe670375f1c")
-	)
-	(junction
-		(at 40.64 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94a809a0-c690-4aaa-b6fd-c0078572fd27")
-	)
-	(junction
-		(at 74.295 145.415)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a019b3b4-e26d-4bc1-a035-3911d9f57947")
 	)
 	(junction
 		(at 182.88 95.885)
@@ -2850,12 +2814,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aed74aad-70a6-4409-b18c-e82e75eb57ea")
-	)
-	(junction
-		(at 48.26 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b309e6fb-abbd-41ae-bf86-43e2c4dd2eda")
 	)
 	(junction
 		(at 146.685 165.1)
@@ -2912,12 +2870,6 @@
 		(uuid "e046326e-5ff4-4159-8e25-ca90b30043ff")
 	)
 	(junction
-		(at 187.96 92.075)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5c14aae-dda3-466c-b29a-b570801d9a15")
-	)
-	(junction
 		(at 43.815 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2963,16 +2915,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 145.415) (xy 74.295 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05038bde-f69f-46c7-8d35-daf78f159d23")
-	)
-	(wire
-		(pts
 			(xy 156.21 120.65) (xy 165.1 120.65)
 		)
 		(stroke
@@ -3000,16 +2942,6 @@
 			(type default)
 		)
 		(uuid "0854451b-269f-47aa-bb33-1e337aff818f")
-	)
-	(wire
-		(pts
-			(xy 187.96 92.075) (xy 187.96 98.425)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "093d117b-4b20-4cfd-b0c5-28a6f9dcd18a")
 	)
 	(wire
 		(pts
@@ -3163,23 +3095,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 99.06) (xy 40.64 93.98)
+			(xy 40.64 85.09) (xy 40.64 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3b1ba0fa-6cc2-4cc2-84cf-f44341379d80")
-	)
-	(wire
-		(pts
-			(xy 182.88 95.885) (xy 182.88 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e02e687-9de5-4a69-9b34-3eac1fc81308")
 	)
 	(wire
 		(pts
@@ -3253,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 93.98) (xy 48.26 85.09)
+			(xy 48.26 85.09) (xy 48.26 98.425)
 		)
 		(stroke
 			(width 0)
@@ -3303,16 +3225,6 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 128.27) (xy 79.375 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69b57e3a-52c8-4409-92ed-c555b8e3dc0f")
-	)
-	(wire
-		(pts
 			(xy 76.835 128.27) (xy 76.835 129.54)
 		)
 		(stroke
@@ -3333,23 +3245,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 102.235) (xy 182.88 107.95)
+			(xy 182.88 95.885) (xy 182.88 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "753dc862-a980-4bdf-8ecb-1870241a96c9")
-	)
-	(wire
-		(pts
-			(xy 79.375 129.54) (xy 79.375 135.255)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "756b1a88-cfa4-47cf-b035-79809d9b2704")
 	)
 	(wire
 		(pts
@@ -3563,16 +3465,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 98.425) (xy 48.26 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7fd5a58-e4e8-4e44-bf59-df94a4700534")
-	)
-	(wire
-		(pts
 			(xy 209.55 119.38) (xy 212.725 119.38)
 		)
 		(stroke
@@ -3673,7 +3565,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 139.065) (xy 74.295 145.415)
+			(xy 74.295 139.065) (xy 74.295 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3710,16 +3602,6 @@
 			(type default)
 		)
 		(uuid "c33e050e-bde2-4cf1-a3bb-f3f985167fbe")
-	)
-	(wire
-		(pts
-			(xy 187.96 86.36) (xy 187.96 92.075)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3ae1b41-31b3-4ec4-b686-ccf1e6005485")
 	)
 	(wire
 		(pts
@@ -3800,16 +3682,6 @@
 			(type default)
 		)
 		(uuid "d2465d72-db80-451c-beeb-0b927c62c8ba")
-	)
-	(wire
-		(pts
-			(xy 40.64 93.98) (xy 40.64 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4224cca-6dd5-4d51-9ed3-6ba5d18ae9d9")
 	)
 	(wire
 		(pts
@@ -3923,7 +3795,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 135.255) (xy 79.375 141.605)
+			(xy 79.375 128.27) (xy 79.375 141.605)
 		)
 		(stroke
 			(width 0)
@@ -3933,7 +3805,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 85.09) (xy 187.96 86.36)
+			(xy 187.96 85.09) (xy 187.96 98.425)
 		)
 		(stroke
 			(width 0)
@@ -4760,7 +4632,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10uF"
 			(at 82.55 144.145 90)
 			(effects
 				(font
@@ -4795,7 +4667,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C15525"
 			(at 86.36 147.955 0)
 			(effects
 				(font
@@ -5171,82 +5043,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.185 135.255 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17408b18-9c11-4e86-ba80-96bde07e9cea")
-		(property "Reference" "C4"
-			(at 86.36 136.525 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220pF"
-			(at 82.55 132.715 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 79.375 136.2202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.185 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.185 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C16772"
-			(at 86.36 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d390ff05-ebce-45d1-af0c-c33dbe8c0ce8")
-		)
-		(pin "2"
-			(uuid "f05b20e8-eacc-44d3-aa06-ee0d1b0c0197")
-		)
-		(instances
-			(project "SRRReceiver"
-				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 241.3 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5464,72 +5260,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 195.58 92.075 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1fbaf083-95c3-4e5e-b79c-63dd4e4f8966")
-		(property "Reference" "#PWR0135"
-			(at 201.93 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c2854f9-38f4-4317-9da2-b2b1dff61d45")
-		)
-		(instances
-			(project "SRRReceiver"
-				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
-					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 236.22 58.42 90)
 		(unit 1)
@@ -5741,82 +5471,6 @@
 			(project "SRRReceiver"
 				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 191.77 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "290bb2ae-a433-433c-9e24-75ac7bbe9e80")
-		(property "Reference" "C24"
-			(at 194.945 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220pF"
-			(at 191.135 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 187.96 87.3252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C16772"
-			(at 194.945 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46e4b436-797e-4998-a567-44c8c9369d2d")
-		)
-		(pin "2"
-			(uuid "dd1c9946-7497-4957-bc62-b01b49938f82")
-		)
-		(instances
-			(project "SRRReceiver"
-				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -6066,8 +5720,8 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 191.135 95.885 90)
+		(property "Value" "10uF"
+			(at 194.564 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +5755,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C15525"
 			(at 194.945 99.695 0)
 			(effects
 				(font
@@ -6475,7 +6129,7 @@
 				)
 			)
 		)
-		(property "Value" "220pF"
+		(property "Value" "10uF"
 			(at 72.39 125.73 90)
 			(effects
 				(font
@@ -6510,7 +6164,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC" "C15525"
 			(at 69.85 128.27 0)
 			(effects
 				(font
@@ -7179,82 +6833,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 83.185 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e38eef8-5b52-4eef-94c7-37edbd511477")
-		(property "Reference" "C3"
-			(at 86.36 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220pF"
-			(at 82.55 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 79.375 130.5052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.185 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.185 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C16772"
-			(at 86.36 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb2c08d6-11bc-4730-9573-e836f22edf8c")
-		)
-		(pin "2"
-			(uuid "c150cd42-e084-4a6c-8317-7b0cdda50e1e")
-		)
-		(instances
-			(project "SRRReceiver"
-				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 225.425 130.81 0)
 		(unit 1)
@@ -7344,82 +6922,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "729b6ada-14bd-4e02-a15e-e9192e83eb26")
-		(property "Reference" "C8"
-			(at 47.625 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 45.085 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 40.64 94.9452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 47.625 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4345fb13-b4d6-43f5-9d14-5ebf536932f5")
-		)
-		(pin "2"
-			(uuid "f1e8b215-1943-4032-b311-f650d88459d7")
-		)
-		(instances
-			(project "SRRReceiver"
-				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 179.07 95.885 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7435,8 +6937,8 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 179.705 98.425 90)
+		(property "Value" "10uF"
+			(at 178.054 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,7 +6972,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C15525"
 			(at 175.895 94.615 0)
 			(effects
 				(font
@@ -7489,72 +6991,6 @@
 			(project "SRRReceiver"
 				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.995 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77b60bb0-a1bc-49eb-a634-7ae861c30fe7")
-		(property "Reference" "#PWR0102"
-			(at 93.345 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.805 127.635 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.995 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.995 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.995 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75fcdf5f-c809-4baa-ab56-ad629a6fc897")
-		)
-		(instances
-			(project "SRRReceiver"
-				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -7700,72 +7136,6 @@
 			(project "SRRReceiver"
 				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
 					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.675 145.415 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "813270f4-4584-40de-818e-b4f1c3ebdc79")
-		(property "Reference" "#PWR0106"
-			(at 60.325 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.865 147.955 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.675 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.675 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.675 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c82169d7-c063-47db-9172-12b809f638a2")
-		)
-		(instances
-			(project "SRRReceiver"
-				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
-					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -8328,7 +7698,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10uF"
 			(at 82.55 139.065 90)
 			(effects
 				(font
@@ -8363,7 +7733,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C15525"
 			(at 86.36 142.875 0)
 			(effects
 				(font
@@ -8448,72 +7818,6 @@
 			(project "SRRReceiver"
 				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
 					(reference "#PWR0137")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97d22016-da10-43a6-91f5-a19440301314")
-		(property "Reference" "#PWR0134"
-			(at 201.93 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 84.455 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d720d7fe-19ea-4291-b2d8-a29073520b17")
-		)
-		(instances
-			(project "SRRReceiver"
-				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
-					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -8853,14 +8157,14 @@
 		(dnp no)
 		(uuid "9e87a255-467e-493a-b540-3a7aae6cb991")
 		(property "Reference" "C9"
-			(at 47.625 86.36 90)
+			(at 44.45 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7nF"
+		(property "Value" "10uF"
 			(at 45.085 88.9 90)
 			(effects
 				(font
@@ -8895,7 +8199,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1538"
+		(property "LCSC" "C15525"
 			(at 47.625 86.36 0)
 			(effects
 				(font
@@ -9052,82 +8356,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 70.485 145.415 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9d5d0e2-8650-4b4d-9a72-3cd34de3218e")
-		(property "Reference" "C2"
-			(at 67.31 144.145 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47pF"
-			(at 70.485 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 74.295 144.4498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 70.485 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 70.485 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1567"
-			(at 67.31 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49bbc67a-d2f8-4b4b-9a85-259151514375")
-		)
-		(pin "2"
-			(uuid "1a904bf8-31e8-4f86-b3f6-dc9ca4fd2425")
-		)
-		(instances
-			(project "SRRReceiver"
-				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 139.7 165.1 270)
 		(unit 1)
@@ -9208,72 +8436,6 @@
 			(project "SRRReceiver"
 				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
 					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.995 135.255 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae76c016-3ea2-44ac-b6c1-a65cb39cfe34")
-		(property "Reference" "#PWR0103"
-			(at 93.345 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.805 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.995 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.995 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.995 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea338fbf-f39b-4734-87f4-41b61cc613c8")
-		)
-		(instances
-			(project "SRRReceiver"
-				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
-					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -9372,8 +8534,8 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 191.135 100.965 90)
+		(property "Value" "10uF"
+			(at 195.58 107.442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9407,7 +8569,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C15525"
 			(at 194.945 104.775 0)
 			(effects
 				(font
@@ -9700,82 +8862,6 @@
 			(project "SRRReceiver"
 				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
 					(reference "#PWR0143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 191.77 92.075 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bec32610-3bac-4bdd-94f5-331ab46334ab")
-		(property "Reference" "C25"
-			(at 194.945 93.345 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220pF"
-			(at 191.135 89.535 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 187.96 93.0402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C16772"
-			(at 194.945 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "671b488b-a6fe-400a-ac54-dde5b0549a06")
-		)
-		(pin "2"
-			(uuid "96bb12c8-39ce-4683-a485-419b1fb982a7")
-		)
-		(instances
-			(project "SRRReceiver"
-				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10310,82 +9396,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.07 102.235 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9ffc908-ff5a-4883-99c7-d2d9425c684e")
-		(property "Reference" "C22"
-			(at 175.895 100.965 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47pF"
-			(at 179.07 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 182.88 101.2698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1567"
-			(at 175.895 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86eef18b-68dd-4265-88f2-4793eaec5beb")
-		)
-		(pin "2"
-			(uuid "464d4440-e5bc-4ea4-b1d4-57369da9752b")
-		)
-		(instances
-			(project "SRRReceiver"
-				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 132.715 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10531,72 +9541,6 @@
 			(project "SRRReceiver"
 				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 175.26 102.235 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "def4e4c3-92e3-4115-8ab3-66c150721b11")
-		(property "Reference" "#PWR0130"
-			(at 168.91 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 104.775 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7077aee-837f-4da6-92ad-fab41c05828f")
-		)
-		(instances
-			(project "SRRReceiver"
-				(path "/dc40940d-d4d0-4819-a019-1bb6be0857a0"
-					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -11035,8 +9979,8 @@
 				)
 			)
 		)
-		(property "Value" "220pF"
-			(at 180.975 82.55 90)
+		(property "Value" "10uF"
+			(at 177.038 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11070,7 +10014,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC" "C15525"
 			(at 178.435 85.09 0)
 			(effects
 				(font
@@ -11611,7 +10555,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10uF"
 			(at 71.12 141.605 90)
 			(effects
 				(font
@@ -11646,7 +10590,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C15525"
 			(at 67.31 137.795 0)
 			(effects
 				(font

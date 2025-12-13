@@ -131,3 +131,108 @@ file:///home/henla464/Downloads/C2987689.pdf
 eMMC 5.1
 FBGA153
 
+=======================
+
+Pins for Wifi board
+
+Alternativ A - SMD male on Wifi, Female throughole
+-------
+SMD:
+//Male pin 1.27 SMD
+//Insulation height 1mm
+//Mating pin: 4mm
+//Total höjd: 5,5mm
+//1x5
+//C51823025
+
+//Male pin 1.27 SMD
+//Insulation height 1mm
+//Mating pin: 4mm
+//Total höjd: 5,5mm
+//C51823027
+
+Should use with shorter mating pins...
+Male pin 1.27 SMD
+Insulation height 1mm
+Mating pin: 2mm
+Total höjd: 3.5mm
+1x12 should be possible to cut it
+C6800617
+
+Male pin 1.27 SMD
+Insulation height 1mm
+Mating pin: 3mm
+Total höjd: 4.5mm
+1x10
+C20750934
+
+
+
+Female 1.27 Throughhole
+1x7
+3.4 mm insulation height
+C2935877
+
+Female 1.27 Throughole
+1x5
+3.4 mm insulation height
+C2935875
+
+Höjd: 3.4+1.5+1+3.3=9.2
+
+
+--------------
+Alternativ B - SMD female on Wifi, Male throughhole 
+
+Female 1,27 SMD
+1x5
+Insulation height 4,3mm
+Total height 4,6mm
+C41397105
+
+Female 1,27 SMD
+1x7
+Insulation height 4,3mm
+Total height: 4,6mm
+C41370663
+
+
+Female 1,27 SMD
+1x5
+Insulation height 3,4mm
+Total height: 3,7mm
+C46061714
+
+
+
+
+Male 1.27 Throughhole
+1x5
+C47278492
+2mm pin
+
+Male 1.27 Throughhole
+1x7
+C47278494
+2mm pin
+
+Male 1.27mm Throughhole
+1x5
+C2935945
+3mm pin
+
+Male 1.27mm Throughhole
+1x7
+C2935947
+3mm pin
+
+
+
+
+PCB: 1 mm
+ESPRESSIF: 3,3mm
+=> 3.7+1+3.3=8mm
+4,6+1+3.3=8.9
+
+===============
+

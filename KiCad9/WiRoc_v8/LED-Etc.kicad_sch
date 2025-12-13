@@ -807,15 +807,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 88.9 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLCBasicExtended" "Basic"
 			(at 88.9 55.88 90)
 			(effects
@@ -964,15 +955,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 80.01 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLCBasicExtended" "Basic"
 			(at 80.01 40.64 90)
 			(effects
@@ -1112,7 +1094,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
+		(property "JLCBasicExtended" "Extended"
 			(at 105.41 53.34 0)
 			(effects
 				(font
@@ -1121,7 +1103,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCBasicExtended" "Extended"
+		(property "FT Rotation Offset" ""
 			(at 105.41 53.34 0)
 			(effects
 				(font
@@ -1267,15 +1249,6 @@
 			)
 		)
 		(property "LCSC Part #" "C11702"
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
 			(at 88.9 50.8 0)
 			(effects
 				(font

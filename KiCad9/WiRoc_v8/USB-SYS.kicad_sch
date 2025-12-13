@@ -7301,17 +7301,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "ZeroPi uses a ferrite bead"
-		(exclude_from_sim no)
-		(at 114.3 73.66 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f27003d-f107-4729-a4d7-284687e4432d")
-	)
 	(text "Close to IC"
 		(exclude_from_sim no)
 		(at 95.25 69.85 0)
@@ -8014,16 +8003,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 74.93) (xy 121.92 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c979b66c-9984-4b53-a8ca-14aff823a03b")
-	)
-	(wire
-		(pts
 			(xy 127 91.44) (xy 127 88.9)
 		)
 		(stroke
@@ -8164,7 +8143,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 74.93) (xy 113.03 74.93)
+			(xy 109.22 74.93) (xy 121.92 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11363,127 +11342,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 116.84 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7861c0dd-4944-424d-9bf3-17c4aa5c3387")
-		(property "Reference" "R43"
-			(at 116.84 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 119.38 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 116.84 76.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCBasicExtended" "Basic"
-			(at 116.84 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IncludeInBOM" "TRUE"
-			(at 116.84 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C17168"
-			(at 116.84 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uniroyal Elec"
-			(at 116.84 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ManufacturerPartNumber" "0402WGF0000TCE"
-			(at 116.84 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 116.84 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c0f898b9-964c-4148-a6c2-d1fa9926b543")
-		)
-		(pin "1"
-			(uuid "c5d9c225-64a8-4d55-97fc-2c6f166ae846")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/eeca7bc5-9dbc-4a35-98ab-67f992cd7f55"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 81.28 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13783,7 +13641,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10uF/6.3V"
 			(at 109.22 81.28 0)
 			(effects
 				(font
@@ -13828,7 +13686,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C15525"
 			(at 109.22 78.74 0)
 			(effects
 				(font
@@ -13846,7 +13704,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" "CL05B104KO5NNNC"
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
 			(at 109.22 78.74 0)
 			(effects
 				(font

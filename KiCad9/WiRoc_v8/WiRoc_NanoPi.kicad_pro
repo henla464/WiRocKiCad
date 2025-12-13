@@ -1261,9 +1261,9 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB Rotation Offset",
-          "name": "JLCPCB Rotation Offset",
-          "show": false
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": true
         },
         {
           "group_by": false,
@@ -1362,12 +1362,12 @@
           "show": true
         }
       ],
-      "filter_string": "C20",
+      "filter_string": "u10",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

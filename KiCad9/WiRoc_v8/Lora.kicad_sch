@@ -3134,15 +3134,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 106.68 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLCBasicExtended" ""
 			(at 106.68 34.29 0)
 			(effects
@@ -3339,15 +3330,6 @@
 			)
 		)
 		(property "LCSC Part #" "C15525"
-			(at 82.55 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
 			(at 82.55 34.29 0)
 			(effects
 				(font
@@ -3823,15 +3805,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 161.29 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLCBasicExtended" "Basic"
 			(at 161.29 59.69 90)
 			(effects
@@ -3861,7 +3834,7 @@
 		(at 210.82 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4104,15 +4077,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 161.29 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLCBasicExtended" "Basic"
 			(at 161.29 62.23 90)
 			(effects
@@ -4207,7 +4171,7 @@
 		(at 87.63 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -4571,15 +4535,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 161.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLCBasicExtended" "Basic"
 			(at 161.29 55.88 90)
 			(effects
@@ -4797,7 +4752,7 @@
 		(at 160.02 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b9d1b87c-c393-4ffb-ae9a-0be25423f2a1")
@@ -5043,7 +4998,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
+		(property "JLCBasicExtended" "Extended"
 			(at 149.86 58.42 0)
 			(effects
 				(font
@@ -5052,7 +5007,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCBasicExtended" "Extended"
+		(property "FT Rotation Offset" ""
 			(at 149.86 58.42 0)
 			(effects
 				(font
@@ -5087,7 +5042,7 @@
 		(at 63.5 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "e0a43c83-64db-4869-9366-48e32c1cdee7")
@@ -5189,15 +5144,6 @@
 			)
 		)
 		(property "LCSC Part #" "C96123"
-			(at 63.5 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
 			(at 63.5 30.48 0)
 			(effects
 				(font
@@ -5467,15 +5413,6 @@
 			)
 		)
 		(property "LCSC Part #" "C15525"
-			(at 69.85 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
 			(at 69.85 34.29 0)
 			(effects
 				(font

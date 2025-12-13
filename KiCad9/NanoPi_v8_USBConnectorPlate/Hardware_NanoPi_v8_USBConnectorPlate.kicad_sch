@@ -1275,7 +1275,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Filter:Choke_CommonMode_FerriteCore_1243"
+		(symbol "Filter:Choke_CommonMode_FerriteCore_1423"
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -1291,7 +1291,7 @@
 					)
 				)
 			)
-			(property "Value" "Choke_CommonMode_FerriteCore_1243"
+			(property "Value" "Choke_CommonMode_FerriteCore_1423"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -1317,8 +1317,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic common-mode choke, ferrite core, 1243 pin order"
-				(at 4.064 -0.762 0)
+			(property "Description" "Generic common-mode choke, ferrite core, 1423 pin order"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1335,7 +1335,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Choke_CommonMode_FerriteCore_1243_0_1"
+			(symbol "Choke_CommonMode_FerriteCore_1423_0_1"
 				(circle
 					(center -2.794 1.27)
 					(radius 0.254)
@@ -1671,7 +1671,7 @@
 					)
 				)
 			)
-			(symbol "Choke_CommonMode_FerriteCore_1243_1_1"
+			(symbol "Choke_CommonMode_FerriteCore_1423_1_1"
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 2.54)
@@ -1693,14 +1693,14 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 2.54)
-					(name "4"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1711,14 +1711,14 @@
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "2"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5021,107 +5021,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Filter:Choke_CommonMode_FerriteCore_1243")
-		(at 139.7 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44d0f315-0004-45ea-9176-98abbc2bb9e1")
-		(property "Reference" "FL2"
-			(at 139.573 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Choke_CommonMode_FerriteCore_1243"
-			(at 139.573 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "WiRoc:0805_CommonModeChoke"
-			(at 139.7 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590903681308958720"
-			(at 139.7 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic common-mode choke, ferrite core, 1243 pin order"
-			(at 143.764 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "SDCW2012L-2-900TF"
-			(at 139.7 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2980700"
-			(at 139.7 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD-4P,1.2x2mm"
-			(at 139.7 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9e6b240f-67e9-4181-8ad6-d08ca6cdf596")
-		)
-		(pin "2"
-			(uuid "12bd4663-422f-43d3-acc1-a87b029d1de5")
-		)
-		(pin "1"
-			(uuid "cf20ab47-97ca-41c9-a4c4-46dde2e53208")
-		)
-		(pin "3"
-			(uuid "27278d38-4d9e-48ed-b55e-e4746489526f")
-		)
-		(instances
-			(project "Hardware_NanoPi_v8_USBConnectorPlate"
-				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
-					(reference "FL2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 142.24 54.61 0)
 		(unit 1)
@@ -7273,107 +7172,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Filter:Choke_CommonMode_FerriteCore_1243")
-		(at 142.24 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94fa155a-4355-4fdc-b074-9f15135ce566")
-		(property "Reference" "FL1"
-			(at 142.113 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Choke_CommonMode_FerriteCore_1243"
-			(at 142.113 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "WiRoc:0805_CommonModeChoke"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590903681308958720"
-			(at 142.24 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic common-mode choke, ferrite core, 1243 pin order"
-			(at 146.304 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "SDCW2012L-2-900TF"
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2980700"
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD-4P,1.2x2mm"
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c7402f65-5d3b-43d8-9fc1-db16644ea6d3")
-		)
-		(pin "2"
-			(uuid "fec24cde-ee65-4c8e-915c-d795183e6de1")
-		)
-		(pin "1"
-			(uuid "969cee4c-a0d0-49d4-8c60-5028c0594d97")
-		)
-		(pin "3"
-			(uuid "06508f03-9491-4efc-ac39-ac4641c5f926")
-		)
-		(instances
-			(project ""
-				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
-					(reference "FL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 41.91 55.88 0)
 		(unit 1)
@@ -7638,6 +7436,98 @@
 			(project "Hardware_NanoPi_v8_USBConnectorPlate"
 				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Filter:Choke_CommonMode_FerriteCore_1423")
+		(at 139.7 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a78243f9-7f94-4490-b43a-1a768a151047")
+		(property "Reference" "FL4"
+			(at 139.573 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Choke_CommonMode_FerriteCore_1423"
+			(at 139.573 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WiRoc:0805_CommonModeChoke_1423"
+			(at 139.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic common-mode choke, ferrite core, 1423 pin order"
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49023314"
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C49023314"
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7f148618-0380-4ebe-b0a4-bd09f3dcd028")
+		)
+		(pin "1"
+			(uuid "1ac4fbf0-6e8a-4cf3-a136-dabc466fadd3")
+		)
+		(pin "2"
+			(uuid "711bb9d1-5215-49f5-83b2-0ed170c2c7d3")
+		)
+		(pin "3"
+			(uuid "bf6c9afe-a53a-47d9-a90b-4c41053d8dd9")
+		)
+		(instances
+			(project "Hardware_NanoPi_v8_USBConnectorPlate"
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "FL4")
 					(unit 1)
 				)
 			)
@@ -8237,6 +8127,98 @@
 			(project "Hardware_NanoPi_v7_ConnectorPlate"
 				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Filter:Choke_CommonMode_FerriteCore_1423")
+		(at 142.24 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec56ae5d-078f-40b3-b421-0fe59a947d24")
+		(property "Reference" "FL3"
+			(at 142.113 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Choke_CommonMode_FerriteCore_1423"
+			(at 142.113 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WiRoc:0805_CommonModeChoke_1423"
+			(at 142.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic common-mode choke, ferrite core, 1423 pin order"
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49023314"
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C49023314"
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6944dab8-9018-4c69-852c-7304e1b5fa42")
+		)
+		(pin "1"
+			(uuid "cc2cb2c2-5611-47f8-81d5-7bdbe1f11b1b")
+		)
+		(pin "2"
+			(uuid "d4f10bfb-6f2f-4998-a5f6-0aa592143e58")
+		)
+		(pin "3"
+			(uuid "6fe7d33f-b042-4a2e-aee1-7c4b36d13436")
+		)
+		(instances
+			(project ""
+				(path "/9af3723b-dbaa-4340-b307-945f921ae404"
+					(reference "FL3")
 					(unit 1)
 				)
 			)
