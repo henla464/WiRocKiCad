@@ -1,7 +1,7 @@
 (footprint "PinHeader_1x04_P1.27mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole angled pin header, 1x04, 1.27mm pitch, 4.0mm pin length, single row")
 	(tags "Through hole angled pin header THT 1x04 1.27mm single row")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9fc70eef-e679-4e99-af1a-4fd52ea64e32")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -308,7 +296,7 @@
 	(pad "1" thru_hole rect
 		(at 0 0)
 		(size 1 1)
-		(drill 0.65)
+		(drill 0.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "bda9ddb2-8b62-4a5f-90d6-5cde570949e9")
@@ -316,7 +304,7 @@
 	(pad "2" thru_hole oval
 		(at 0 1.27)
 		(size 1 1)
-		(drill 0.65)
+		(drill 0.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f6f6f71a-2ae6-4a93-a9d3-c689bdd0eb3d")
@@ -324,7 +312,7 @@
 	(pad "3" thru_hole oval
 		(at 0 2.54)
 		(size 1 1)
-		(drill 0.65)
+		(drill 0.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "d875bfdf-4f50-4121-90c0-988956ddc26f")
@@ -332,11 +320,12 @@
 	(pad "4" thru_hole oval
 		(at 0 3.81)
 		(size 1 1)
-		(drill 0.65)
+		(drill 0.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "ac58deae-aafc-4f73-b673-39c14be42dc7")
 	)
+	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x04_P1.27mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
