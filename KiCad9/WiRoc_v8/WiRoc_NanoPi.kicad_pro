@@ -1362,7 +1362,7 @@
           "show": true
         }
       ],
-      "filter_string": "u10",
+      "filter_string": "u",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
