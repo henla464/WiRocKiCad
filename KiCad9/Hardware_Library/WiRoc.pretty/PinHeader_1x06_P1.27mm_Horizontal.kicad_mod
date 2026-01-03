@@ -1,7 +1,7 @@
 (footprint "PinHeader_1x06_P1.27mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole angled pin header, 1x06, 1.27mm pitch, 4.0mm pin length, single row")
 	(tags "Through hole angled pin header THT 1x06 1.27mm single row")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "61444304-f09d-40be-8a68-fa9f8f0e6f61")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -418,7 +406,7 @@
 	(pad "1" thru_hole rect
 		(at 0 0)
 		(size 1 1)
-		(drill 0.65)
+		(drill 0.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f38bee70-c2bf-44a2-9f1d-8e8f39d995b3")
@@ -426,7 +414,7 @@
 	(pad "2" thru_hole oval
 		(at 0 1.27)
 		(size 1 1)
-		(drill 0.65)
+		(drill 0.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9cbd91d6-3449-4cf5-878c-a68a6f2b4d86")
@@ -434,7 +422,7 @@
 	(pad "3" thru_hole oval
 		(at 0 2.54)
 		(size 1 1)
-		(drill 0.65)
+		(drill 0.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "39b41540-f44b-44a1-a14a-98c3f0c3d31f")
@@ -442,7 +430,7 @@
 	(pad "4" thru_hole oval
 		(at 0 3.81)
 		(size 1 1)
-		(drill 0.65)
+		(drill 0.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "884e572e-57e5-4bec-8df4-c6cec069245c")
@@ -450,7 +438,7 @@
 	(pad "5" thru_hole oval
 		(at 0 5.08)
 		(size 1 1)
-		(drill 0.65)
+		(drill 0.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "13843743-6c42-4332-b678-5aadf4374d77")
@@ -458,11 +446,12 @@
 	(pad "6" thru_hole oval
 		(at 0 6.35)
 		(size 1 1)
-		(drill 0.65)
+		(drill 0.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "004e0793-6ebc-4a21-a150-7b972d80efe7")
 	)
+	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x06_P1.27mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
