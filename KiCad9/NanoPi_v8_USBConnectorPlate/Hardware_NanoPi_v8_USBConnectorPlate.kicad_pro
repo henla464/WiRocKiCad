@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.65,
-          "height": 1.0,
-          "width": 1.0
+          "drill": 0.8,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -60,7 +60,35 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|106643099|95804000|fa8144d1-909f-4368-9fdd-09a5806c53cf|bda22e73-23d6-4490-ace3-1c3dc5b2d9de",
+          ""
+        ],
+        [
+          "clearance|110623101|97996000|3e0a55f7-3659-43ac-84e7-83b7511852e9|ac22a495-f897-432e-95c4-07bddd262dc1",
+          ""
+        ],
+        [
+          "clearance|111713099|104324000|09e8ea06-0e08-4145-a7ef-c33344515625|8bf0ec32-0575-4153-bd05-e683619bc780",
+          ""
+        ],
+        [
+          "clearance|112229999|104324000|09e8ea06-0e08-4145-a7ef-c33344515625|a467a6dc-13a1-4a2d-8146-6d0da0e37013",
+          ""
+        ],
+        [
+          "clearance|115693101|106516000|9c7acb2a-7437-4249-963e-aac3e4e43c20|e2ea46de-d182-466e-b2ff-43db1d0d9bc5",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|105465000|53505000|1dc6ffd5-2366-4538-829a-5d9151e34256|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "starved_thermal|110500000|87460000|eaaf3eeb-c6e5-46ff-9aa2-bb666e03b28f|c985cff9-68e7-4d67-9287-2f432addbd38|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|111642500|95295000|eaaf3eeb-c6e5-46ff-9aa2-bb666e03b28f|a6e2e9e7-4f79-430c-8ca3-661eecd0c461|F.Cu",
           ""
         ]
       ],
@@ -203,10 +231,10 @@
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 60,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.15,
           "single_sided": false,
           "spacing": 1.0
         },
@@ -499,6 +527,20 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.18,
+        "diff_pair_width": 0.25,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Ethernet",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -506,7 +548,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Ethernet",
+        "pattern": "EPHY*"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "CABLE*"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/ETH*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -627,6 +682,24 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ManufacturerPartNumber",
+          "name": "ManufacturerPartNumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCBBasic",
+          "name": "JLCPCBBasic",
           "show": false
         }
       ],

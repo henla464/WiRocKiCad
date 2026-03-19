@@ -745,22 +745,14 @@
 		(uuid "42eb3478-b33e-4f77-90ce-10d0d3f48aee")
 	)
 	(junction
-		(at 85.09 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72bafeb8-ca80-45a6-8620-890b6f89ac24")
-	)
-	(junction
-		(at 85.09 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac0ded33-7c9d-43f7-bbb2-a461920a78a9")
-	)
-	(junction
 		(at 78.74 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e71ce49a-1686-49f8-a89d-c68f57812177")
+	)
+	(no_connect
+		(at 125.73 83.82)
+		(uuid "967f8c83-8509-4483-92eb-c1dc1fe0f400")
 	)
 	(wire
 		(pts
@@ -824,16 +816,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 41.91) (xy 115.57 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "445ec1a7-978a-4e96-b6ab-3cb847dfcd3e")
-	)
-	(wire
-		(pts
 			(xy 63.5 41.91) (xy 78.74 41.91)
 		)
 		(stroke
@@ -844,27 +826,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 53.34) (xy 85.09 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c28b01c-7f81-408d-99d1-2ad9465331ff")
-	)
-	(wire
-		(pts
-			(xy 85.09 83.82) (xy 125.73 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60f54db5-af6e-4221-aa57-4e08d3ca6b7b")
-	)
-	(wire
-		(pts
-			(xy 78.74 41.91) (xy 85.09 41.91)
+			(xy 78.74 41.91) (xy 115.57 41.91)
 		)
 		(stroke
 			(width 0)
@@ -904,16 +866,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 41.91) (xy 85.09 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bba74a3c-f8cf-467c-9e6d-404c3f133a24")
-	)
-	(wire
-		(pts
 			(xy 63.5 78.74) (xy 125.73 78.74)
 		)
 		(stroke
@@ -944,13 +896,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 85.09 83.82)
+			(xy 63.5 83.82) (xy 88.9 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ed24031d-68b9-4dda-988f-cf5af14f5ee8")
+	)
+	(wire
+		(pts
+			(xy 88.9 87.63) (xy 88.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36a377e-1a45-44f8-9a85-b3b5d26a1649")
 	)
 	(label "SDC0-CLK-2"
 		(at 90.17 71.12 0)
@@ -1141,7 +1103,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 69.85 58.42) (xy 69.85 86.36) (xy 72.39 86.36) (xy 72.39 58.42)
+				(xy 69.85 58.42) (xy 69.85 81.28) (xy 72.39 81.28) (xy 72.39 58.42)
 			)
 			(stroke
 				(width 0)
@@ -1475,7 +1437,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 49.53 180)
+		(at 88.9 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1483,7 +1445,7 @@
 		(dnp no)
 		(uuid "1458b50d-31a7-4ce9-a897-46db5a6c2673")
 		(property "Reference" "R24"
-			(at 87.63 44.45 90)
+			(at 91.44 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1453,7 @@
 			)
 		)
 		(property "Value" "47K/1%"
-			(at 87.63 53.34 90)
+			(at 91.44 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +1461,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 86.868 49.53 90)
+			(at 90.678 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 49.53 0)
+			(at 88.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 49.53 0)
+			(at 88.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,7 +1488,7 @@
 			)
 		)
 		(property "JLCBasicExtended" "Basic"
-			(at 85.09 49.53 90)
+			(at 88.9 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,7 +1497,7 @@
 			)
 		)
 		(property "IncludeInBOM" "TRUE"
-			(at 85.09 49.53 90)
+			(at 88.9 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1544,7 +1506,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25792"
-			(at 85.09 49.53 90)
+			(at 88.9 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +1515,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 85.09 49.53 90)
+			(at 88.9 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +1524,7 @@
 			)
 		)
 		(property "ManufacturerPartNumber" "0402WGF4702TCE"
-			(at 85.09 49.53 90)
+			(at 88.9 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,7 +1533,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 85.09 49.53 90)
+			(at 88.9 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,6 +1551,72 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/d4d2b4ff-c69b-4368-8319-409c337f9058"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34ce2bfb-b1d6-4c5b-9cda-8223913142bb")
+		(property "Reference" "#PWR0117"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c4b5bdb-a641-4e61-a850-8a5429b7f14c")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/d4d2b4ff-c69b-4368-8319-409c337f9058"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)

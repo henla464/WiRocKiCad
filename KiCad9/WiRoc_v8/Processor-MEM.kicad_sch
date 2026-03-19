@@ -15175,7 +15175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WiRoc:BGA-96_8.0x14.0mm_Layout2x3x16_P0.8mm"
+		(property "Footprint" "Package_BGA:FBGA-96_7.5x13mm_Layout9x16_P0.8mm"
 			(at 102.87 25.4 0)
 			(effects
 				(font
@@ -15193,7 +15193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Previous 256MB: C2841151 Micron Tech  MT41K128M16JT-107:K"
 			(at 102.87 25.4 0)
 			(effects
 				(font
@@ -15220,7 +15220,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2841151"
+		(property "LCSC Part #" "C2803259"
 			(at 102.87 25.4 0)
 			(effects
 				(font
@@ -15229,7 +15229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " Micron Tech"
+		(property "Manufacturer" "SK Hynix"
 			(at 102.87 25.4 0)
 			(effects
 				(font
@@ -15238,7 +15238,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNumber" " MT41K128M16JT-107:K"
+		(property "ManufacturerPartNumber" "H5TQ4G63EFR-RDC"
 			(at 102.87 25.4 0)
 			(effects
 				(font

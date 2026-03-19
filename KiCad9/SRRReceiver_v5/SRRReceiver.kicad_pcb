@@ -2849,7 +2849,7 @@
 			(uuid "72241fe9-144b-4f6e-a9a5-4adf620c73ea")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_S-PVQFN-N20_EP2.4x2.4mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_S-PWQFN-N20.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4002,7 +4002,7 @@
 			(uuid "7a6ffd68-4684-4f65-8186-510899b370f6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_S-PVQFN-N20_EP2.4x2.4mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_S-PWQFN-N20.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9764,7 +9764,7 @@
 			(uuid "87eca1f4-9c70-4311-84b3-df8dd05d2baf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x04_P1.27mm_Vertical.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x04_P1.27mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10870,7 +10870,7 @@
 			(uuid "a9602a3e-ee56-4df8-9f63-2fdbc40b8c60")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x06_P1.27mm_Vertical.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x06_P1.27mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11351,23 +11351,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "4.7nF"
-		(at 128.8 87.8 315)
+	(gr_text "10uF"
+		(at 128.1 88.47 315)
 		(layer "B.SilkS")
 		(uuid "58974df6-63c0-466e-b278-d90e793ccd13")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.15)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "100nF"
-		(at 128.2 88.4 -45)
-		(layer "B.SilkS")
-		(uuid "6347e696-0b47-437a-88d3-be3c73d194a6")
 		(effects
 			(font
 				(size 0.6 0.6)

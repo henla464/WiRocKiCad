@@ -268,6 +268,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GND_1"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WiRoc:AllwinnerH3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7019,6 +7120,27 @@
 		)
 		(uuid "225ffb52-5e10-40a1-ac43-695f0d4bf4f5")
 	)
+	(text "(GPIOA18=18)"
+		(exclude_from_sim no)
+		(at 15.494 88.646 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "34658eaa-4ffc-4893-aae2-4b6e107cdcc8")
+	)
+	(text "Was DataReady\n"
+		(exclude_from_sim no)
+		(at 168.402 138.938 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "582cf29f-7d9d-46be-9e17-9d282b23002a")
+	)
 	(text "PC1 was connected to N_VBUSEN\nbut I don't think it was used."
 		(exclude_from_sim no)
 		(at 241.3 99.06 0)
@@ -7141,6 +7263,10 @@
 		(uuid "08ad04bc-5dbd-4a86-a7b3-1f3b086cd6b0")
 	)
 	(no_connect
+		(at 154.94 139.7)
+		(uuid "09927491-8555-4150-8d3c-62b36d13228e")
+	)
+	(no_connect
 		(at 154.94 54.61)
 		(uuid "0ac7af9d-7f0c-45a8-a873-3e6504686225")
 	)
@@ -7225,12 +7351,12 @@
 		(uuid "7bddd8c6-f4f5-4f60-bc5c-995dfc10e189")
 	)
 	(no_connect
-		(at 55.88 87.63)
-		(uuid "7be53ac5-91cf-4506-8903-b9a7ccbd794e")
-	)
-	(no_connect
 		(at 154.94 85.09)
 		(uuid "7df32a2c-9e6a-4774-9bd9-8345f2fe1ffb")
+	)
+	(no_connect
+		(at 55.88 85.09)
+		(uuid "7e823676-ffb8-4e5b-a52d-c47ca7710384")
 	)
 	(no_connect
 		(at 154.94 57.15)
@@ -7597,28 +7723,6 @@
 		(uuid "13121a73-d321-4ba8-936e-0b805cddc765")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.1271 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LORAMO"
-		(shape output)
-		(at 55.88 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "153966b2-f1d9-4e5b-8e53-9e2048d92a00")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.0843 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,22 +8174,22 @@
 	)
 	(global_label "WIFI-DataReady"
 		(shape input)
-		(at 154.94 139.7 0)
+		(at 55.88 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8aa8ea63-50e5-4f1b-87d7-4c2d2dbc8324")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.025 139.7 0)
+			(at 34.795 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9593,7 +9697,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a213732-108d-43c7-a00a-dbddbd1005db")
 		(property "Reference" "U11"
 			(at 215.265 95.25 0)
@@ -9604,7 +9707,7 @@
 			)
 		)
 		(property "Value" "AllwinnerH3"
-			(at 232.41 127 0)
+			(at 215.646 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11417,6 +11520,7 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 256.54 50.8 0)
 		(unit 1)
@@ -11461,7 +11565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 256.54 50.8 0)
 			(effects
 				(font
@@ -11490,7 +11594,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "efe165a6-3aea-49e5-8fd4-03f9ba001cd9")
 		(property "Reference" "U11"
 			(at 215.265 34.29 0)
@@ -11501,7 +11604,7 @@
 			)
 		)
 		(property "Value" "AllwinnerH3"
-			(at 231.14 67.31 0)
+			(at 213.868 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)

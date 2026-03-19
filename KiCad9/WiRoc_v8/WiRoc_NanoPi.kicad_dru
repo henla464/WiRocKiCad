@@ -39,3 +39,6 @@
       (constraint length (min 49.8mm) (opt 52mm) (max 56.3mm))
       (constraint skew (max 400mm)))
 
+(rule "target skew for ethernet signals (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
+      (condition "A.hasNetclass('Ethernet-DP')")
+      (constraint skew (max 400mm)))

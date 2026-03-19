@@ -7312,6 +7312,16 @@
 		)
 		(uuid "48dc98d7-7fad-4091-949c-3c9f9affe4f7")
 	)
+	(text "Close to IC"
+		(exclude_from_sim no)
+		(at 177.8 107.95 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "96f7b5da-d9e9-4d8d-b691-7690d9d07421")
+	)
 	(text "RTC_VIO is connected to an internal LDO output (powered from VCC_RTC?)\nDefault voltage 1.1v, controlled by register"
 		(exclude_from_sim no)
 		(at 100.838 96.266 0)
@@ -7454,10 +7464,6 @@
 		(uuid "25931018-76f5-42df-b922-c4f0fed165c7")
 	)
 	(no_connect
-		(at 196.85 97.79)
-		(uuid "2e24c96b-4ddc-4245-b6b1-63183440c761")
-	)
-	(no_connect
 		(at 245.11 88.9)
 		(uuid "3223ddc4-0605-4c8d-bbfe-1c10523b8adc")
 	)
@@ -7490,10 +7496,6 @@
 		(uuid "667d1fad-f72f-4c78-a923-f27282a238a9")
 	)
 	(no_connect
-		(at 196.85 105.41)
-		(uuid "754f242e-7f64-4c82-a05e-024aef2322a8")
-	)
-	(no_connect
 		(at 95.25 45.72)
 		(uuid "772806e9-386a-4af0-878d-7ed4a0e039fe")
 	)
@@ -7518,14 +7520,6 @@
 		(uuid "82745757-a503-4ba3-9855-1b48b573cd65")
 	)
 	(no_connect
-		(at 196.85 102.87)
-		(uuid "82fd2097-8230-4b40-8ec7-83a7d8d5df46")
-	)
-	(no_connect
-		(at 196.85 95.25)
-		(uuid "867fe771-0034-4e24-9528-d843511a7de0")
-	)
-	(no_connect
 		(at 72.39 160.02)
 		(uuid "885dbf0f-37b2-40e8-a5b1-ad63e9345654")
 	)
@@ -7548,10 +7542,6 @@
 	(no_connect
 		(at 245.11 91.44)
 		(uuid "a070a23b-9343-4406-9945-e45552729352")
-	)
-	(no_connect
-		(at 196.85 100.33)
-		(uuid "b03ebc7f-163c-4fcf-b227-3be17b5ce13d")
 	)
 	(no_connect
 		(at 95.25 96.52)
@@ -7620,6 +7610,16 @@
 	(no_connect
 		(at 95.25 77.47)
 		(uuid "feda51ec-7b2c-4d61-863a-9c3c567ae2a9")
+	)
+	(wire
+		(pts
+			(xy 180.34 105.41) (xy 196.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0260a612-edb1-4210-a48d-3916d48aff3e")
 	)
 	(wire
 		(pts
@@ -8349,6 +8349,28 @@
 			)
 		)
 	)
+	(global_label "EPHY_TXN"
+		(shape output)
+		(at 196.85 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "71397f73-a61c-4480-a45d-dcdef1b9029a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.8772 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD_SYS_3.3V"
 		(shape input)
 		(at 125.73 125.73 90)
@@ -8437,8 +8459,52 @@
 			)
 		)
 	)
-	(global_label "LORARS"
+	(global_label "EPHY_TXP"
 		(shape output)
+		(at 196.85 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "8e725681-b063-474a-aa84-24740f46a438")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.9498 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPHY_RXN"
+		(shape input)
+		(at 196.85 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "a0deaa29-7c8e-41ca-80d7-c6f6a138b73e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.5143 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LORAIRQ"
+		(shape input)
 		(at 72.39 185.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8449,7 +8515,7 @@
 		)
 		(uuid "a90ce0ab-128c-4538-aa8a-74fc2f1b8f3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.7274 185.42 0)
+			(at 84.6937 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8609,6 +8675,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPHY_RXP"
+		(shape input)
+		(at 196.85 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "e525cc5c-29c2-4c30-8060-45969c327788")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.5869 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11341,6 +11429,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 172.72 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7263611e-ded2-4410-a2df-fd55da5e5d11")
+		(property "Reference" "#PWR014"
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be1d1318-13fa-4b48-95a4-fa6a728c7f74")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/eeca7bc5-9dbc-4a35-98ab-67f992cd7f55"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 81.28 167.64 90)
 		(unit 1)
@@ -12022,6 +12175,74 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/eeca7bc5-9dbc-4a35-98ab-67f992cd7f55"
 					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b29f0d0a-ceff-4c9f-b16c-97fb19d500d7")
+		(property "Reference" "R19"
+			(at 176.53 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6K/1%"
+			(at 176.53 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "815b69c3-e94d-4313-8793-8b1ed9e0a146")
+		)
+		(pin "1"
+			(uuid "dfc6f031-e853-4d13-815b-6bc2b48c6d7f")
+		)
+		(instances
+			(project ""
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/eeca7bc5-9dbc-4a35-98ab-67f992cd7f55"
+					(reference "R19")
 					(unit 1)
 				)
 			)

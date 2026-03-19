@@ -71,36 +71,12 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|63585000|111950000|216baf04-62a3-4093-b4f0-458b3322264b|a94ab71b-f685-462e-85bd-b16958223a82",
+          "copper_edge_clearance|62585000|111950000|216baf04-62a3-4093-b4f0-458b3322264b|a94ab71b-f685-462e-85bd-b16958223a82",
           ""
         ],
         [
-          "copper_edge_clearance|87990000|114000000|055b13d4-1cc5-48e4-af67-2af05a88129d|0fc48314-c554-4a45-8ee9-dc35f8289b00",
-          "Battery pad to edge violation, can be ignored"
-        ],
-        [
-          "lib_footprint_mismatch|51025000|57305000|bbad276e-af12-46e6-90c2-2017d38d6442|00000000-0000-0000-0000-000000000000",
+          "copper_edge_clearance|86500000|115450000|4106db56-94c9-4e2f-a2ea-6eea4a53dc60|0fc48314-c554-4a45-8ee9-dc35f8289b00",
           ""
-        ],
-        [
-          "lib_footprint_mismatch|51025000|82070000|2ccdf431-56fc-44b3-8361-2502a17d1993|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|51025000|99850000|b2699267-be27-40d5-a865-bd76b8a86c6a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|51790000|61875000|4ff35db3-b5e7-4bd4-9673-f553bed93f63|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|59505000|48670000|b6514f9b-5da2-49e3-85fb-c0b06a64966b|00000000-0000-0000-0000-000000000000",
-          "Removed some silkscreen"
-        ],
-        [
-          "lib_footprint_mismatch|73475000|48670000|2279d6c4-44ef-4130-9e1e-677004c6777c|00000000-0000-0000-0000-000000000000",
-          "Removed silkscreen"
         ]
       ],
       "meta": {
@@ -183,7 +159,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.6,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.09,
@@ -563,7 +539,7 @@
         "microvia_drill": 0.1,
         "name": "AntennaTrace",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.189458,
         "via_diameter": 0.6,
@@ -580,7 +556,7 @@
         "microvia_drill": 0.1,
         "name": "BGA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
         "via_diameter": 0.35,
@@ -595,7 +571,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-Address",
         "pcb_color": "rgb(148, 255, 61)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -612,7 +588,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-DP-SCK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -629,7 +605,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-DP-SDQS0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -646,7 +622,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-DP-SDQS1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -661,7 +637,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -676,7 +652,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-Other-Command-Control",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.35,
@@ -685,11 +661,25 @@
       },
       {
         "clearance": 0.09,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.12,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Ethernet-DP",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.09,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.09,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "IPSOUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
         "via_diameter": 0.6,
@@ -705,7 +695,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "via_diameter": 0.35,
@@ -722,7 +712,7 @@
         "microvia_drill": 0.1,
         "name": "Power-DRAM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 13,
+        "priority": 14,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "via_diameter": 0.35,
@@ -739,7 +729,7 @@
         "microvia_drill": 0.1,
         "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 14,
+        "priority": 15,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.35,
@@ -754,7 +744,7 @@
         "microvia_drill": 0.1,
         "name": "USB-Data",
         "pcb_color": "rgb(47, 255, 52)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
         "via_diameter": 0.35,
@@ -766,7 +756,7 @@
         "microvia_drill": 0.1,
         "name": "WIFI-NONSPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
         "via_diameter": 0.35,
@@ -778,7 +768,7 @@
         "microvia_drill": 0.1,
         "name": "WIFI-SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
         "via_diameter": 0.35,
@@ -1177,6 +1167,10 @@
       {
         "netclass": "WIFI-NONSPI",
         "pattern": "WIFI-RST"
+      },
+      {
+        "netclass": "Ethernet-DP",
+        "pattern": "EPHY*"
       }
     ]
   },
@@ -1362,7 +1356,7 @@
           "show": true
         }
       ],
-      "filter_string": "u",
+      "filter_string": "U12",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
