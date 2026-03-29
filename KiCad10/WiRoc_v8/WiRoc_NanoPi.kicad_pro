@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.12
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -77,7 +77,7 @@
           ""
         ],
         [
-          "copper_edge_clearance|86500000|115450000|4106db56-94c9-4e2f-a2ea-6eea4a53dc60|0fc48314-c554-4a45-8ee9-dc35f8289b00",
+          "copper_edge_clearance|81050000|111950000|da50513e-e9fe-491c-bcf4-356fa2e6bdda|0fc48314-c554-4a45-8ee9-dc35f8289b00",
           ""
         ]
       ],
@@ -613,7 +613,7 @@
         "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
-        "tuning_profile": "",
+        "tuning_profile": "DDR3-DP",
         "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
@@ -631,7 +631,7 @@
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
-        "tuning_profile": "",
+        "tuning_profile": "DDR3-DP",
         "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
@@ -649,7 +649,7 @@
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
-        "tuning_profile": "",
+        "tuning_profile": "DDR3-DP",
         "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
@@ -665,7 +665,7 @@
         "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
-        "tuning_profile": "",
+        "tuning_profile": "DDR3",
         "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
@@ -1584,27 +1584,27 @@
         "enable_time_domain_tuning": true,
         "layer_entries": [
           {
-            "bottom_reference_layer": "In1.Cu",
-            "delay": 0,
-            "diff_pair_gap": 0,
-            "signal_layer": "F.Cu",
-            "top_reference_layer": "UNDEFINED",
-            "width": 0
-          },
-          {
             "bottom_reference_layer": "In4.Cu",
-            "delay": 0,
+            "delay": 7100000,
             "diff_pair_gap": 140000,
             "signal_layer": "In2.Cu",
             "top_reference_layer": "In1.Cu",
             "width": 110000
+          },
+          {
+            "bottom_reference_layer": "B.Cu",
+            "delay": 7100000,
+            "diff_pair_gap": 110000,
+            "signal_layer": "In4.Cu",
+            "top_reference_layer": "In3.Cu",
+            "width": 100000
           }
         ],
         "profile_name": "DDR3-DP",
-        "target_impedance": 0.0,
+        "target_impedance": 100.0,
         "type": 1,
         "via_overrides": [],
-        "via_prop_delay": 0
+        "via_prop_delay": 6500000
       }
     ]
   }

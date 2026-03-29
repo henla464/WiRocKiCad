@@ -1,27 +1,5 @@
 (version 1)
 
-(rule "target length and skew for ddr3 data)"
-      (condition "A.hasNetclass('DDR3-Data')")
-      (constraint length (min 14mm) (opt 16.12mm) (max 19mm))
-      (constraint skew (max 5mm)))
-
-
-(rule "target length and skew for ddr3 data ctrl"
-      (condition "A.hasNetclass('DDR3-DP-SDQS0')")
-      (constraint length (min 14mm) (opt 16.12mm) (max 19mm))
-      (constraint skew (max 5mm)))
-
-
-(rule "target length and skew for ddr3 data ctrl"
-      (condition "A.hasNetclass('DDR3-DP-SDQS1')")
-      (constraint length (min 14mm) (opt 16.12mm) (max 19mm))
-      (constraint skew (max 5mm)))
-
-(rule "target length and skew for ddr3 clock (calculations is not correct electrical length, refer to lenght tuning tool for accurate lengths and skews))"
-      (condition "A.hasNetclass('DDR3-DP-SCK')")
-      (constraint length (min 17.5mm) (opt 19.95mm) (max 22.5mm))
-      (constraint skew (max 0.13mm)))
-
 (rule "target length and skew for emmc data"
       (condition "A.hasNetclass('eMMC-Data')")
       (constraint length (min 15mm) (opt 18mm) (max 22mm))
@@ -32,12 +10,38 @@
       (constraint length (min 49.8mm) (opt 52mm) (max 56.3mm))
       (constraint skew (max 400mm)))
 
-(rule "target skew for ethernet signals"
-      (condition "A.hasNetclass('Ethernet-DP')")
-      (constraint skew (max 400mm)))
 
+
+
+(rule "target length and skew for ddr3 data)"
+      (condition "A.hasNetclass('DDR3-Data')")
+      (constraint length (min 90ps) (opt 100ps) (max 112ps))
+)
+
+(rule "target length and skew for ddr3 data ctrl"
+      (condition "A.hasNetclass('DDR3-DP-SDQS0')")
+      (constraint length (min 100ps) (opt 110ps) (max 120ps))
+      (constraint skew (max 1ps) (within_diff_pairs))
+)
+
+(rule "target length and skew for ddr3 data ctrl"
+      (condition "A.hasNetclass('DDR3-DP-SDQS1')")
+      (constraint length (min 100ps) (opt 110ps) (max 120ps))
+      (constraint skew (max 1ps) (within_diff_pairs))
+)
 
 (rule "DDR address delay match"
   (constraint length (min 100ps) (opt 110ps) (max 120ps))
-  (condition "A.NetClass == 'DDR3-Address'")
+  (condition "A.hasNetclass('DDR3-Address')")
+)
+
+(rule "ddr3 clock"
+    (condition "A.hasNetclass('DDR3-DP-SCK')")
+    (constraint length (min 130ps) (opt 140ps) (max 150ps))
+    (constraint skew (max 1ps) (within_diff_pairs))
+)
+
+(rule "Ethernet_Diff_Pair_Skew"
+    (constraint skew (max 6ps) (within_diff_pairs))
+    (condition "A.hasNetclass('Ethernet-DP')")
 )
