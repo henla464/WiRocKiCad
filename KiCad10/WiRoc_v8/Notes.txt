@@ -1,0 +1,238 @@
+I tidigare WiRoc har jag använt en NanoPi Neo Air SBC monterat på ett kretskort med en AXP209, Lora modul etc.
+Nu försöker jag flytta över de delar från NanoPi Neo Air som jag behöver till mitt kretskort. I princip har jag utgått från
+schemat för den som finns här:  https://wiki.friendlyelec.com/wiki/images/7/70/Schematic_NanoPi-NEO-Air-V1.1_1708.pdf 
+Tagit bort saker jag inte behöver och ersatt Wifi/BT chippet med en ESP32-C5. Detta eftersom ESP32-C5 modulen är CE-märkt redan
+och ESP-Hosted drivrutiner finns och verkar fungera ganska ok. 
+
+AXP209 används för flera syften:
+- Batterihantering/laddning
+- Den hanterar power knappen (kort tryck (byt meny), längre tryck (start/stop), långt (tvinga av)
+- Den sparar bluetooth adressen så den är samma även efter att images flashas om 
+- RTCn använder sig av N_OE för att starta upp på schema
+
+AXP209 är tyvärr inte jättebra dokumenterad så vill inte försöka mig på att använda den för att skapa fler powerrails även om det förmodligen skulle gå ( i detta första skede iaf ).
+
+Min förhoppning är att det ska bli så likt NanoPi Neo Air att det ska gå att bota samma linux image och bara byta ut drivrutinen för wifi/bt för att få nuvarande mjukvara fungera.
+
+=====================================================
+Jag har använt KiCad 9.
+Allt finns i github på: https://github.com/henla464/WiRocKiCad
+1) Huvudkretskortet ligger under: KiCad9/WiRoc_v8
+2) Ett kretskort som används för att ansluta USB-sladdarna och knappen finns under: KiCad9/NanoPi_v8_USBConnectorPlate
+3) SRR mottagaren finns under: KiCad9/SRRReceiver_v5
+4) Wifimodulkortet: KiCad9/WifiModuleBoard (ej klart)
+
+SRR mottagaren har bara minimala ändringar gjorts i och den har fungerat bra tidigare. Så den behöver du inte kolla på i ett första skede iaf.
+Kretskortet för att ansluta USB-sladdarna har common mode choke och ferrite beads för att minska radiostörningar in eller ut genom sladdarna.
+Samt TVS-diod kretsar för att skydda mot spänningspikar 
+
+=====================================================
+Kommer använda JLCPCB för att skapa och montera iaf framsidan av kretskortet. Sitter en del kondingar på baksidan också som jag kanske får
+löda dit själv :(
+
+Kretskortets stackup är "JLC0616H-3313(Standard/Finished thickness 1.54mm+-10%)" (i order formuläret står det 1.5384 mm tjock), 6 lager
+JLCPCB Impedance Calculator: https://jlcpcb.com/pcb-impedance-calculator
+Svårt att använda så breda traces på L1 att det blir 50ohm till DDR3, men eftersom det är korta traces <=20 mm så borde det inte var lika viktigt.
+Med kalkulatorn fick jag att med 56 ohm istället så blir det tracebredd 0,12 på L1; 0,11 på L3 och 0,10 mm på L5.
+Men på L3 och L5 kan jag använda bredare traces. 0.15 mm bredd skulle ge 48.8 ohm på L3 och 47 ohm på L5.
+
+Har jag räknat rätt?
+
+======================================================
+Tyvärr är längdmatchingsverktygen i KiCad inte helt optimala. Själva verktyget beräknar längden på ett sätt (enligt uppgift rätt sätt), DRC checkern räknar på ett annat sätt (så går inte sätta upp fungerande regler) och Net inspectorn räknar längden på ett tredje sätt (så det går inte enkelt se en lista på rätt längder). KiCad 10 som troligen släpps i februari ska ha fixat detta.
+
+Det går iaf att sätta upp netclass regler med optimala längder. Length matching verktyget använder sedan denna längd. Har satt upp det enligt nedan:
+
+Length-matching DDR3
+--------------------
+netclass: DDR3-Address target: 19,62 mm
+	Signals:
+		SA0,SA1,SA2,SA3,SA4,SA5,SA6,SA7,SA8,SA9,SA10,SA11,SA12,SA13,SA14,SA15
+		SCAS, SRAS (Column Address Strobe, Row Address Strobe)
+		SCKE0,SCKE1 (Clock enable rank 0 / 1) 
+		SBA0,SBA1,SBA2 (Bank address signal bit 0,1,2)
+		SCS0,SCS1 (Chip select rank 0 / 1)
+		SODT0,SODT1 (On-Die termination control signal rank 0 / 1)
+		SWE (write enable signal)
+		SRESET (chip reset)
+
+	
+netclass: DDR3-Data target: 17,41 mm
+	Singals:
+		SDQ0,SDQ1,SDQ2,SDQ3,SDQ4,SDQ5,SDQ6,SDQ7,SDQ8,SDQ9,SDQ10,SDQ11,SDQ12,SDQ13,SDQ14,SDQ15
+		SDQM0,SDQM1
+	(must also have same length as diff pair SDQS0 and SDQS1 below)
+		
+netclass: DDR3-DP-SDQS0 target: 17,41 mm
+	Signals:
+		SDQS0P, SDQS0N
+		
+netclass: DDR3-DP-SDQS1 target: 17,41 mm
+	Signals:
+		SDQS1P, SDQS1N
+	
+netclass: DD3-DP-SCK target: 19.95mm, max skew 0,13mm
+	Signals:
+		SCKP, SCKN
+========================================================
+
+Length-matching eMMC
+--------------------
+Should be enough to match within a few mm
+
+netclass: eMMC-Data target: 20,6 mm
+	Signals:
+		eMMC-D0, eMMC-D1, eMMC-D2, eMMC-D3, eMMC-D4, eMMC-D5, eMMC-D6, eMMC-D7
+	Should also match eMMC-CMD and CLK signals below
+		
+netclass: eMMC-CMD target 20,6 mm + 5.9 mm
+	Signals:
+		eMMC-CMD (has an extra 5,9 mm that should not be included in length)
+		
+netclass: eMMC-CLK-2 + eMMC-Clk + resistor; target: 20,6 mm
+	Signals:
+		eMMC-CLK, Net-(U11B-PC5/NAND_RE/SDC2_CLK)
+		
+========================================================
+
+Length-matching WIFI (SPI etc)
+------------------------------
+netclass: WIFI target 68 mm
+	Signals:
+		WIFI-SPI-SCLK, WIFI-SPI-CS0
+		WIFI-SPI-MISO, WIFI-SPI-MOSI
+
+		Ej matchade: WIFI-DataREady, WIFI-HandShake
+
+=====================
+eMMC
+Orig: KLM8G1WEPD-B031
+EOL
+Interface: HS400
+11.5 x 13 x 0.8 mm
+1.8 / 3.3 V
+eMMC 5.0
+
+Alternativ
+Samsung KLM8G1GETF-B041 / C499918
+Mass Production
+Interface: HS400
+11.5 x 13 x 0.8 mm
+1.8 / 3.3 V
+https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588886742133194752
+eMMC 5.1
+153FBGA
+
+Alternativ (billigare)
+MK MKEV008GCB-SC510 / C2987689
+interface: HS400
+signal level 1.8V
+file:///home/henla464/Downloads/C2987689.pdf
+eMMC 5.1
+FBGA153
+
+=======================
+
+Pins for Wifi board
+
+Alternativ A - SMD male on Wifi, Female throughole
+-------
+SMD:
+//Male pin 1.27 SMD
+//Insulation height 1mm
+//Mating pin: 4mm
+//Total höjd: 5,5mm
+//1x5
+//C51823025
+
+//Male pin 1.27 SMD
+//Insulation height 1mm
+//Mating pin: 4mm
+//Total höjd: 5,5mm
+//C51823027
+
+Should use with shorter mating pins...
+Male pin 1.27 SMD
+Insulation height 1mm
+Mating pin: 2mm
+Total höjd: 3.5mm
+1x12 should be possible to cut it
+C6800617
+
+Male pin 1.27 SMD
+Insulation height 1mm
+Mating pin: 3mm
+Total höjd: 4.5mm
+1x10
+C20750934
+
+
+
+Female 1.27 Throughhole
+1x7
+3.4 mm insulation height
+C2935877
+
+Female 1.27 Throughole
+1x5
+3.4 mm insulation height
+C2935875
+
+Höjd: 3.4+1.5+1+3.3=9.2
+
+
+--------------
+Alternativ B - SMD female on Wifi, Male throughhole 
+
+Female 1,27 SMD
+1x5
+Insulation height 4,3mm
+Total height 4,6mm
+C41397105
+
+Female 1,27 SMD
+1x7
+Insulation height 4,3mm
+Total height: 4,6mm
+C41370663
+
+
+Female 1,27 SMD
+1x5
+Insulation height 3,4mm
+Total height: 3,7mm
+C46061714
+
+
+
+
+Male 1.27 Throughhole
+1x5
+C47278492
+2mm pin
+
+Male 1.27 Throughhole
+1x7
+C47278494
+2mm pin
+
+Male 1.27mm Throughhole
+1x5
+C2935945
+3mm pin
+
+Male 1.27mm Throughhole
+1x7
+C2935947
+3mm pin
+
+
+
+
+PCB: 1 mm
+ESPRESSIF: 3,3mm
+=> 3.7+1+3.3=8mm
+4,6+1+3.3=8.9
+
+===============
+
