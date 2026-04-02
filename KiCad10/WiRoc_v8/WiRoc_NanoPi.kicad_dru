@@ -1,30 +1,38 @@
 (version 1)
 
-(rule "target length and skew for emmc data"
-      (condition "A.hasNetclass('eMMC-Data')")
-      (constraint length (min 15mm) (opt 18mm) (max 22mm))
-      (constraint skew (max 4mm)))
-
-(rule "target length and skew for wifi signals"
-      (condition "A.hasNetclass('WIFI-SPI')")
-      (constraint length (min 49.8mm) (opt 52mm) (max 56.3mm))
-      (constraint skew (max 400mm)))
-
-
-
-
-(rule "target length and skew for ddr3 data)"
-      (condition "A.hasNetclass('DDR3-Data')")
-      (constraint length (min 90ps) (opt 100ps) (max 112ps))
+(rule "emmc cmd"
+      (condition "A.hasNetclass('eMMC-Cmd')")
+      (constraint length (min 95ps) (opt 100ps) (max 145ps))
 )
 
-(rule "target length and skew for ddr3 data ctrl"
+(rule "emmc clk"
+      (condition "A.hasNetclass('eMMC-Clk')")
+      (constraint length (min 95ps) (opt 100ps) (max 125ps))
+      (constraint skew (max 15ps))
+)
+
+(rule "emmc clk 2"
+      (condition "A.hasNetclass('eMMC-CLK-2')")
+      (constraint length (min 0ps) (opt 10ps) (max 30ps))
+)
+
+(rule "wifi signals"
+      (condition "A.hasNetclass('WIFI-SPI')")
+      (constraint length (min 360ps) (opt 390ps) (max 400ps))
+)
+
+(rule "ddr3 data)"
+      (condition "A.hasNetclass('DDR3-Data')")
+      (constraint length (min 99ps) (opt 100ps) (max 114ps))
+)
+
+(rule "ddr3 data ctrl 1"
       (condition "A.hasNetclass('DDR3-DP-SDQS0')")
       (constraint length (min 100ps) (opt 110ps) (max 120ps))
       (constraint skew (max 1ps) (within_diff_pairs))
 )
 
-(rule "target length and skew for ddr3 data ctrl"
+(rule "ddr3 data ctrl 2"
       (condition "A.hasNetclass('DDR3-DP-SDQS1')")
       (constraint length (min 100ps) (opt 110ps) (max 120ps))
       (constraint skew (max 1ps) (within_diff_pairs))

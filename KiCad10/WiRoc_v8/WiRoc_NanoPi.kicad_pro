@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "min_clearance": 0.12
         }
       },
       "diff_pair_dimensions": [
@@ -75,10 +75,6 @@
         [
           "copper_edge_clearance|62585000|111950000|216baf04-62a3-4093-b4f0-458b3322264b|a94ab71b-f685-462e-85bd-b16958223a82",
           ""
-        ],
-        [
-          "copper_edge_clearance|81050000|111950000|da50513e-e9fe-491c-bcf4-356fa2e6bdda|0fc48314-c554-4a45-8ee9-dc35f8289b00",
-          ""
         ]
       ],
       "meta": {
@@ -87,6 +83,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
+        "assertion_failure": "error",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -148,6 +145,7 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
+        "via_diameter": "error",
         "zones_intersect": "error"
       },
       "rule_severitieslegacy_courtyards_overlap": true,
@@ -278,7 +276,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -484,11 +482,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -506,11 +507,13 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -558,7 +561,7 @@
         "microvia_drill": 0.1,
         "name": "AntennaTrace",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 15,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.189458,
         "tuning_profile": "",
@@ -576,7 +579,7 @@
         "microvia_drill": 0.1,
         "name": "BGA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 16,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
         "tuning_profile": "",
@@ -592,7 +595,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-Address",
         "pcb_color": "rgb(148, 255, 61)",
-        "priority": 10,
+        "priority": 14,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "tuning_profile": "DDR3",
@@ -610,7 +613,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-DP-SCK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "tuning_profile": "DDR3-DP",
@@ -628,7 +631,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-DP-SDQS0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "tuning_profile": "DDR3-DP",
@@ -646,7 +649,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-DP-SDQS1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "tuning_profile": "DDR3-DP",
@@ -662,7 +665,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 13,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "tuning_profile": "DDR3",
@@ -678,7 +681,7 @@
         "microvia_drill": 0.1,
         "name": "DDR3-Other-Command-Control",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "tuning_profile": "",
@@ -694,7 +697,7 @@
         "microvia_drill": 0.1,
         "name": "Ethernet-DP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
         "tuning_profile": "Ethernet_DP_Profile",
@@ -707,7 +710,7 @@
         "microvia_drill": 0.1,
         "name": "IPSOUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
         "tuning_profile": "",
@@ -724,7 +727,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 13,
+        "priority": 17,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "tuning_profile": "",
@@ -742,7 +745,7 @@
         "microvia_drill": 0.1,
         "name": "Power-DRAM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 14,
+        "priority": 18,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "tuning_profile": "",
@@ -760,7 +763,7 @@
         "microvia_drill": 0.1,
         "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 15,
+        "priority": 19,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "",
@@ -776,7 +779,7 @@
         "microvia_drill": 0.1,
         "name": "USB-Data",
         "pcb_color": "rgb(47, 255, 52)",
-        "priority": 3,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
         "tuning_profile": "",
@@ -789,7 +792,7 @@
         "microvia_drill": 0.1,
         "name": "WIFI-NONSPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
         "tuning_profile": "",
@@ -802,12 +805,40 @@
         "microvia_drill": 0.1,
         "name": "WIFI-SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
-        "tuning_profile": "",
+        "tuning_profile": "Wifi-SPI",
         "via_diameter": 0.35,
         "via_drill": 0.2
+      },
+      {
+        "name": "eMMC-CLK-2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "Wifi-SPI"
+      },
+      {
+        "name": "eMMC-Clk",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "Wifi-SPI"
+      },
+      {
+        "name": "eMMC-Cmd",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "Wifi-SPI"
+      },
+      {
+        "name": "eMMC-Data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "Wifi-SPI"
       }
     ],
     "meta": {
@@ -1206,6 +1237,9 @@
     ]
   },
   "pcbnew": {
+    "find_by_properties": {
+      "recent_queries": []
+    },
     "last_paths": {
       "gencad": "",
       "idf": "",
@@ -1221,6 +1255,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1387,7 +1425,7 @@
           "show": true
         }
       ],
-      "filter_string": "U12",
+      "filter_string": "u14",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
@@ -1402,6 +1440,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 60.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -1434,6 +1473,7 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "Plots/",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -1448,14 +1488,16 @@
       {
         "filename": "WiRoc_NanoPi.kicad_sch",
         "name": "WiRoc_NanoPi",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "8ba0b499-eaca-4cd5-a002-c6bdb610cc8c"
       }
-    ]
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
       "8ba0b499-eaca-4cd5-a002-c6bdb610cc8c",
-      "Root"
+      "WiRoc_NanoPi"
     ],
     [
       "6289dfcf-924b-4b20-ae8f-252ccdf0f467",
@@ -1603,6 +1645,40 @@
         "profile_name": "DDR3-DP",
         "target_impedance": 100.0,
         "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 6500000
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "B.Cu",
+            "delay": 7100000,
+            "diff_pair_gap": 0,
+            "signal_layer": "In4.Cu",
+            "top_reference_layer": "In3.Cu",
+            "width": 203200
+          },
+          {
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 7100000,
+            "diff_pair_gap": 0,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 150000
+          },
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5000000,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 150000
+          }
+        ],
+        "profile_name": "Wifi-SPI",
+        "target_impedance": 0.0,
+        "type": 0,
         "via_overrides": [],
         "via_prop_delay": 6500000
       }
