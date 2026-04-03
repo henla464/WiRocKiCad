@@ -95,6 +95,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
+        "assertion_failure": "error",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -156,6 +157,7 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
+        "via_diameter": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -504,6 +506,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -584,11 +587,14 @@
     ]
   },
   "pcbnew": {
+    "find_by_properties": {
+      "recent_queries": []
+    },
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Hardware_NanoPi_v7_ConnectorPlate.step",
@@ -603,7 +609,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "production/Hardware_NanoPi_v8_USBConnectorPlate.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -658,12 +664,6 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "IncludeInBOM",
-          "name": "IncludeInBOM",
           "show": false
         },
         {
@@ -725,14 +725,26 @@
           "label": "JLCPCBBasic",
           "name": "JLCPCBBasic",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Basic",
+          "name": "Basic",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "$(EXCLUDE_FROM_BOM)",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "$(EXCLUDE_FROM_BOM)"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -784,7 +796,12 @@
       }
     ],
     "used_designators": "",
-    "variants": []
+    "variants": [
+      {
+        "description": "Variant with ethernet magnetics etc",
+        "name": "Ethernet"
+      }
+    ]
   },
   "sheets": [
     [
