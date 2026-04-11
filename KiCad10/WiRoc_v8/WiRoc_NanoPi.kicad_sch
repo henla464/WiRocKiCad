@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260326)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "10.99")
+	(generator_version "10.0")
 	(uuid "8ba0b499-eaca-4cd5-a002-c6bdb610cc8c")
 	(paper "A4")
 	(title_block
@@ -4634,12 +4634,6 @@
 		(uuid "38275d21-4ac6-4a0b-8cb9-8f079fab3024")
 	)
 	(junction
-		(at 105.41 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3869a53d-5b4f-43de-b60a-ecb71a1341fd")
-	)
-	(junction
 		(at 38.1 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4782,12 +4776,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dde3417d-6899-4940-8463-7ff225e71e10")
-	)
-	(junction
-		(at 53.34 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0b0831a-5ac3-4dfb-a113-ee428ae84636")
 	)
 	(junction
 		(at 128.27 30.48)
@@ -5591,7 +5579,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 161.29) (xy 105.41 161.29)
+			(xy 102.87 161.29) (xy 130.81 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6291,7 +6279,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 134.62) (xy 54.61 134.62)
+			(xy 52.07 134.62) (xy 54.61 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6338,16 +6326,6 @@
 			(type default)
 		)
 		(uuid "d5406567-8449-41cd-a5d4-71185065ffa0")
-	)
-	(wire
-		(pts
-			(xy 52.07 134.62) (xy 53.34 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a3331d-4049-47dd-a9e1-83b869844f4c")
 	)
 	(wire
 		(pts
@@ -6518,16 +6496,6 @@
 			(type default)
 		)
 		(uuid "f2bd35ce-04a1-4e2c-abf1-edaba8b98196")
-	)
-	(wire
-		(pts
-			(xy 105.41 161.29) (xy 130.81 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2c3fbf7-8b79-45df-89b1-e6a16e89f3e5")
 	)
 	(wire
 		(pts
@@ -9867,7 +9835,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uH-DCR<0.1R-1.5A"
+		(property "Value" "DFE252010P-2R2M=P2"
 			(at 110.49 79.375 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9877,7 +9845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WiRoc:Inductor_SLW4018"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 110.49 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9899,7 +9867,7 @@
 				)
 			)
 		)
-		(property "Description" "FIXED IND 2.2UH 1.7A 55 MOHM SMD"
+		(property "Description" "(2.2uH-DCR<0.1R-1.5A) 2.2uH 2.3A 3.6A 82mΩ ±20% 1008 Power Inductors ROHS"
 			(at 110.49 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -9910,7 +9878,7 @@
 				)
 			)
 		)
-		(property "Package" "4018"
+		(property "Package" "1008"
 			(at 110.49 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9921,7 +9889,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNumber" "SLW4018S2R2MST"
+		(property "ManufacturerPartNumber" "DFE252012F‑2R2M=P2"
 			(at 110.49 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -9932,7 +9900,7 @@
 				)
 			)
 		)
-		(property "WebsiteURL" "https://lcsc.com/product-detail/Power-Inductors_2-2uH-20-1-65A_C206341.html"
+		(property "WebsiteURL" ""
 			(at 110.49 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -9943,7 +9911,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Sunltech Tech"
+		(property "Manufacturer" "Murata Electronics"
 			(at 110.49 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -9987,7 +9955,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C206341"
+		(property "LCSC Part #" "C576403"
 			(at 110.49 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13256,248 +13224,6 @@
 		)
 	)
 	(symbol
-		(lib_id "WiRoc:TEST")
-		(at 105.41 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b32b22a")
-		(property "Reference" "TP4"
-			(at 105.41 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "TEST"
-			(at 105.41 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 105.41 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IncludeInBOM" "FALSE"
-			(at 0 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ThroughHole" "FALSE"
-			(at 0 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 105.41 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCBasicExtended" ""
-			(at 105.41 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6134b4ee-2680-4114-b30c-1653a0bc9089")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WiRoc:TEST")
-		(at 53.34 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b32d105")
-		(property "Reference" "TP3"
-			(at 53.34 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "TEST"
-			(at 53.34 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 53.34 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IncludeInBOM" "FALSE"
-			(at 0 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ThroughHole" "FALSE"
-			(at 0 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 53.34 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCBasicExtended" ""
-			(at 53.34 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfaaf2b4-5fc9-4fa4-b33f-f7f9dbca59fa")
-		)
-		(instances
-			(project "WiRoc_NanoPi"
-				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 130.81 166.37 180)
 		(unit 1)
@@ -16360,7 +16086,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WiRoc:Inductor_SLW4018"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 190.5 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -16393,7 +16119,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C206395"
+		(property "LCSC Part #" "C909806"
 			(at 190.5 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -16426,7 +16152,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Sunltech Tech"
+		(property "Manufacturer" "Murata Electronics"
 			(at 190.5 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -16437,7 +16163,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNumber" "SLW4020S1R5MST"
+		(property "ManufacturerPartNumber" "DFE252012F-1R5M=P2"
 			(at 190.5 27.94 0)
 			(hide yes)
 			(show_name no)

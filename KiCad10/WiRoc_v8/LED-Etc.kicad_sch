@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260326)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "10.99")
+	(generator_version "10.0")
 	(uuid "59c885da-359c-440f-92c8-276e822722c7")
 	(paper "A4")
 	(lib_symbols
@@ -784,7 +784,7 @@
 				)
 			)
 		)
-		(property "Description" "1KΩ (1001) ±1%"
+		(property "Description" ""
 			(at 88.9 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -806,7 +806,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNumber" "0402WGF1001TCE"
+		(property "ManufacturerPartNumber" "0402WGF2001TCE"
 			(at 88.9 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -962,7 +962,7 @@
 				)
 			)
 		)
-		(property "Description" "1KΩ (1001) ±1%"
+		(property "Description" ""
 			(at 80.01 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -984,7 +984,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNumber" "0402WGF1001TCE"
+		(property "ManufacturerPartNumber" "0402WGF1002TCE"
 			(at 80.01 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -1324,7 +1324,7 @@
 				)
 			)
 		)
-		(property "Description" "1KΩ (1001) ±1%"
+		(property "Description" ""
 			(at 88.9 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -1346,7 +1346,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNumber" "0402WGF1001TCE"
+		(property "ManufacturerPartNumber" "0402WGF2001TCE"
 			(at 88.9 50.8 90)
 			(hide yes)
 			(show_name no)

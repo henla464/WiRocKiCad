@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260326)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "10.99")
+	(generator_version "10.0")
 	(uuid "92a33563-0a1f-47d9-9b21-d350ccd1c759")
 	(paper "A4")
 	(lib_symbols
@@ -7542,6 +7542,16 @@
 		)
 		(uuid "0a7e12d3-3bb9-4e90-b169-26d28fbfc88d")
 	)
+	(wire
+		(pts
+			(xy 259.08 109.22) (xy 234.95 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c962271-d82f-4586-9246-89d802818da0")
+	)
 	(polyline
 		(pts
 			(xy 238.76 45.72) (xy 238.76 58.42)
@@ -7571,6 +7581,16 @@
 			(type default)
 		)
 		(uuid "4980b788-52f0-4ff9-b9af-6f0cf3d2daf8")
+	)
+	(wire
+		(pts
+			(xy 266.7 104.14) (xy 269.24 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61cd2700-52d3-46d9-ac26-1245a0b34278")
 	)
 	(wire
 		(pts
@@ -7624,6 +7644,26 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 109.22) (xy 266.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0df2733-c9ba-4e28-bdf6-cd4eb9d9ffa9")
+	)
+	(wire
+		(pts
+			(xy 234.95 104.14) (xy 259.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdac4a8-c5c4-4bab-9104-0509a497c009")
+	)
+	(wire
+		(pts
 			(xy 256.54 39.37) (xy 261.62 39.37)
 		)
 		(stroke
@@ -7651,6 +7691,16 @@
 			(type default)
 		)
 		(uuid "e5a97214-cc5d-43d6-b7da-f272b9ad247a")
+	)
+	(label "WIFI-SPI-MOSI-2"
+		(at 236.22 104.14 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "b657964e-9730-4fd8-a585-0f45d86d26aa")
 	)
 	(global_label "SDC0-D0"
 		(shape bidirectional)
@@ -8110,7 +8160,7 @@
 	)
 	(global_label "WIFI-SPI-MOSI"
 		(shape output)
-		(at 234.95 104.14 0)
+		(at 269.24 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8120,7 +8170,7 @@
 		)
 		(uuid "682fe833-9eb3-4355-bee3-a93846212d3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.2365 104.14 0)
+			(at 289.5265 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8446,7 +8496,7 @@
 	)
 	(global_label "WIFI-SPI-SCLK"
 		(shape output)
-		(at 234.95 109.22 0)
+		(at 269.24 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8456,7 +8506,7 @@
 		)
 		(uuid "bfaa5d42-15a9-474a-9da4-659ba8849d14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.4542 109.22 0)
+			(at 289.7442 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11076,7 +11126,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "33R"
 			(at 262.89 118.872 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11141,7 +11191,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25092"
+		(property "LCSC Part #" "C25105"
 			(at 262.89 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -11163,7 +11213,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNumber" "0402WGF220JTCE"
+		(property "ManufacturerPartNumber" "0402WGF330JTCE"
 			(at 262.89 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -11633,6 +11683,296 @@
 			(project "WiRoc_NanoPi"
 				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/cfe61075-22fc-4e27-bce3-1f1b9d5f6dd8"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.89 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90f92bd0-7a15-4c78-a26b-1f554b704213")
+		(property "Reference" "R62"
+			(at 263.144 109.474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 262.89 107.188 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 262.89 110.998 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 262.89 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IncludeInBOM" "TRUE"
+			(at 262.89 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 262.89 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 262.89 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ManufacturerPartNumber" "0402WGF330JTCE"
+			(at 262.89 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 262.89 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ffe65014-5fd8-41fd-bff5-1fd2a84ad653")
+		)
+		(pin "1"
+			(uuid "19817a2e-5cf4-4234-a54f-07e0763720f3")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/cfe61075-22fc-4e27-bce3-1f1b9d5f6dd8"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.89 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d236e76e-3835-418a-89d9-592996f35805")
+		(property "Reference" "R43"
+			(at 263.144 104.394 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 262.89 102.108 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 262.89 105.918 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCBasicExtended" "Basic"
+			(at 262.89 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IncludeInBOM" "TRUE"
+			(at 262.89 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 262.89 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 262.89 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ManufacturerPartNumber" "0402WGF330JTCE"
+			(at 262.89 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 262.89 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d344e70c-358c-4ad7-a269-b47936900c52")
+		)
+		(pin "1"
+			(uuid "e9f5f316-dbdf-4449-8b81-b654516bc779")
+		)
+		(instances
+			(project "WiRoc_NanoPi"
+				(path "/8ba0b499-eaca-4cd5-a002-c6bdb610cc8c/cfe61075-22fc-4e27-bce3-1f1b9d5f6dd8"
+					(reference "R43")
 					(unit 1)
 				)
 			)

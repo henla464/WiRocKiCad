@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260326)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "10.99")
+	(generator_version "10.0")
 	(uuid "23c69191-eefe-4843-9e2f-c9fcbb4d447b")
 	(paper "A4")
 	(lib_symbols
@@ -3267,17 +3267,6 @@
 	)
 	(text "*"
 		(exclude_from_sim no)
-		(at 107.696 17.526 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "746095fb-8686-47dd-ae81-c2ebb9663801")
-	)
-	(text "*"
-		(exclude_from_sim no)
 		(at 125.73 19.05 0)
 		(effects
 			(font
@@ -3286,17 +3275,6 @@
 			(justify left bottom)
 		)
 		(uuid "8bfb252b-ede7-42a7-95ef-2e6479d25e56")
-	)
-	(text "*"
-		(exclude_from_sim no)
-		(at 87.884 14.224 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "8cb8bde7-1825-4f2e-bd60-7f2b12602215")
 	)
 	(text "*"
 		(exclude_from_sim no)
@@ -3729,6 +3707,10 @@
 		(uuid "59a5b596-03ab-400b-804d-3346faa60d63")
 	)
 	(no_connect
+		(at 109.22 20.32)
+		(uuid "5a13c6f3-55dc-4665-9a85-2b3fca0d98a6")
+	)
+	(no_connect
 		(at 160.02 152.4)
 		(uuid "5d5b9243-3d9a-476e-b0a9-694c057244c9")
 	)
@@ -3967,6 +3949,10 @@
 	(no_connect
 		(at 160.02 129.54)
 		(uuid "ee0c63fd-c94a-46c9-b32d-22d34f2b34b8")
+	)
+	(no_connect
+		(at 88.9 20.32)
+		(uuid "ef90a285-1b6f-4dde-85ff-6fce960f363f")
 	)
 	(no_connect
 		(at 137.16 189.23)
@@ -4362,16 +4348,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 13.97) (xy 109.22 13.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e464760-f4ab-47aa-a648-3c1671d1a69d")
-	)
-	(wire
-		(pts
 			(xy 31.75 35.56) (xy 35.56 35.56)
 		)
 		(stroke
@@ -4602,16 +4578,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 13.97) (xy 109.22 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf1c02d4-8a52-45d4-9b86-0366e531f671")
-	)
-	(wire
-		(pts
 			(xy 63.5 120.65) (xy 63.5 118.11)
 		)
 		(stroke
@@ -4742,16 +4708,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 19.05) (xy 88.9 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0a2870e-fbe8-4cc2-8244-0c2ea2a6fc3b")
-	)
-	(wire
-		(pts
 			(xy 63.5 118.11) (xy 72.39 118.11)
 		)
 		(stroke
@@ -4839,26 +4795,6 @@
 			(type default)
 		)
 		(uuid "dc418c8f-41eb-4e26-b234-85cb354c6d2b")
-	)
-	(wire
-		(pts
-			(xy 87.63 12.7) (xy 87.63 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de23c0af-f5bb-4f99-8902-ab9c3a1fcf4a")
-	)
-	(wire
-		(pts
-			(xy 87.63 19.05) (xy 88.9 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de9b917c-ced3-47b1-8561-a58d353c4a4a")
 	)
 	(wire
 		(pts
@@ -5131,30 +5067,6 @@
 		(uuid "67a10593-8ca1-422f-aa62-338f8ab0a0b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.6961 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "eMMC-D7"
-		(shape bidirectional)
-		(at 107.95 13.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "87a4e7f0-6cdf-44ec-aef5-339f1b58a897")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.8342 13.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5443,30 +5355,6 @@
 		(uuid "e97f8357-b741-4993-93b7-82b86ec81cfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.5528 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "eMMC-D7"
-		(shape bidirectional)
-		(at 87.63 12.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "ea5bc64f-d6dd-4a65-9d5c-5f8c31463a8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.5142 12.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6009,7 +5897,7 @@
 		(fields_autoplaced yes)
 		(uuid "48134d1c-d16e-4c1e-904f-5e7bdcfa7dd9")
 		(property "Reference" "C32"
-			(at 52.07 152.4 0)
+			(at 52.07 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6019,8 +5907,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 52.07 154.94 0)
+		(property "Value" "10uF/6.3V"
+			(at 52.07 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6074,7 +5962,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C15525"
 			(at 48.26 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6096,7 +5984,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNumber" "CL05B104KO5NNNC"
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
 			(at 48.26 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7134,7 +7022,7 @@
 		(fields_autoplaced yes)
 		(uuid "805b9bc9-af45-4723-bb91-086f74048302")
 		(property "Reference" "C33"
-			(at 40.64 152.4 0)
+			(at 40.64 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7144,8 +7032,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 40.64 154.94 0)
+		(property "Value" "10uF/6.3V"
+			(at 40.64 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7188,7 +7076,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C52923"
+		(property "LCSC Part #" "C15525"
 			(at 36.83 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7210,7 +7098,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNumber" "CL05A105KA5NQNC"
+		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
 			(at 36.83 153.67 0)
 			(hide yes)
 			(show_name no)

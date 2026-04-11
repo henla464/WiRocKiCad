@@ -18,7 +18,7 @@
 
 (rule "wifi signals"
       (condition "A.hasNetclass('WIFI-SPI')")
-      (constraint length (min 360ps) (opt 390ps) (max 400ps))
+      (constraint length (min 340ps) (opt 350ps) (max 385ps))
 )
 
 (rule "ddr3 data)"

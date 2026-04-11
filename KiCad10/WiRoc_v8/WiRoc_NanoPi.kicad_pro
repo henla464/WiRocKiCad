@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.12
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -74,6 +74,10 @@
       "drc_exclusions": [
         [
           "copper_edge_clearance|62585000|111950000|216baf04-62a3-4093-b4f0-458b3322264b|a94ab71b-f685-462e-85bd-b16958223a82",
+          ""
+        ],
+        [
+          "copper_edge_clearance|81050000|111950000|da50513e-e9fe-491c-bcf4-356fa2e6bdda|0fc48314-c554-4a45-8ee9-dc35f8289b00",
           ""
         ]
       ],
@@ -534,7 +538,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1905,
+        "clearance": 0.09,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
@@ -755,7 +759,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.09,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2032,
         "line_style": 0,
@@ -813,32 +817,56 @@
         "via_drill": 0.2
       },
       {
+        "clearance": 0.09,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "eMMC-CLK-2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "Wifi-SPI"
+        "track_width": 0.12,
+        "tuning_profile": "Wifi-SPI",
+        "via_diameter": 0.35,
+        "via_drill": 0.2
       },
       {
+        "clearance": 0.09,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "eMMC-Clk",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "Wifi-SPI"
+        "track_width": 0.12,
+        "tuning_profile": "Wifi-SPI",
+        "via_diameter": 0.35,
+        "via_drill": 0.2
       },
       {
+        "clearance": 0.09,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "eMMC-Cmd",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "Wifi-SPI"
+        "track_width": 0.12,
+        "tuning_profile": "Wifi-SPI",
+        "via_diameter": 0.35,
+        "via_drill": 0.2
       },
       {
+        "clearance": 0.09,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "eMMC-Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "Wifi-SPI"
+        "track_width": 0.12,
+        "tuning_profile": "Wifi-SPI",
+        "via_diameter": 0.35,
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -932,7 +960,7 @@
       },
       {
         "netclass": "BGA",
-        "pattern": "WIFI*"
+        "pattern": "*WIFI*"
       },
       {
         "netclass": "BGA",
@@ -1233,6 +1261,26 @@
       {
         "netclass": "Ethernet-DP",
         "pattern": "EPHY*"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(U11F-EPHY_RTX)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "*SDC0-CLK-2"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PWRON"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "N_OE"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "EXTEN"
       }
     ]
   },
@@ -1425,12 +1473,12 @@
           "show": true
         }
       ],
-      "filter_string": "u14",
+      "filter_string": "R",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1491,7 +1539,7 @@
         "uuid": "8ba0b499-eaca-4cd5-a002-c6bdb610cc8c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R43,R60-62",
     "variants": []
   },
   "sheets": [

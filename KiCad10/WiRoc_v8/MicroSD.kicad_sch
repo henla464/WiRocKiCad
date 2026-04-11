@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260326)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "10.99")
+	(generator_version "10.0")
 	(uuid "d7172356-2b6f-4389-b45f-13b73d2adf18")
 	(paper "A4")
 	(lib_symbols
@@ -1438,7 +1438,7 @@
 		(dnp no)
 		(uuid "0eff3609-88c6-418b-afb8-83c86f6a3a85")
 		(property "Reference" "R22"
-			(at 69.85 73.66 90)
+			(at 65.278 73.406 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1447,7 +1447,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "33R"
 			(at 64.77 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1512,7 +1512,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25092"
+		(property "LCSC Part #" "C25105"
 			(at 64.77 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -1534,7 +1534,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNumber" "0402WGF220JTCE"
+		(property "ManufacturerPartNumber" "0402WGF330JTCE"
 			(at 64.77 71.12 90)
 			(hide yes)
 			(show_name no)
