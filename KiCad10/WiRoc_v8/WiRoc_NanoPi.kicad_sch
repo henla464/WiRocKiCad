@@ -13842,7 +13842,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d6dc0f2")
 		(property "Reference" "J6"
@@ -14100,7 +14100,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d7d8ecc")
 		(property "Reference" "SW1"
@@ -14278,7 +14278,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005da25c20")
 		(property "Reference" "U2"
@@ -14541,7 +14541,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005db8384b")
 		(property "Reference" "U7"
@@ -14661,7 +14661,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dbc9490")
 		(property "Reference" "U6"
@@ -15192,7 +15192,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "17e39364-1c1b-4337-bb97-8bf4291fb3cd")
 		(property "Reference" "J2"
@@ -16977,7 +16977,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "923abfc6-975c-4bd5-a7a6-dd95284a618a")
@@ -17957,7 +17957,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "b9c6a407-a07c-4a5e-8408-4ff892f825f3")
 		(property "Reference" "J8"

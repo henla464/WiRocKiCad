@@ -789,7 +789,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "6dcfef7e-ead8-4dfc-a87c-c15fdb8d852d")
 		(property "Reference" "U19"

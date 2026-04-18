@@ -5857,7 +5857,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25157"
+		(property "LCSC Part #" "C270630"
 			(at 172.72 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -5879,7 +5879,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNumber" "0402WGJ020JTCE"
+		(property "ManufacturerPartNumber" "0402WGF200KTCE"
 			(at 172.72 118.11 90)
 			(hide yes)
 			(show_name no)
