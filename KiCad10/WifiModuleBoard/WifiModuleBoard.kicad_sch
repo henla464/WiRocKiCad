@@ -319,26 +319,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J2"
-				(at -1.27 -1.2701 0)
+			(property "Reference" "J"
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Value" "Conn_01x07_Pin"
-				(at -1.27 1.2699 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -408,17 +406,6 @@
 			)
 			(symbol "Conn_01x07_Pin_1_1"
 				(rectangle
-					(start 0 -4.953)
-					(end 0.8636 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start 0.8636 7.747)
 					(end 0 7.493)
 					(stroke
@@ -465,6 +452,17 @@
 				(rectangle
 					(start 0.8636 -2.413)
 					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -658,7 +656,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 5.08 -5.08 180)
 					(length 3.81)
 					(name "Pin_6"
@@ -1349,7 +1347,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "802.15.4, Bluetooth, WiFi 802.11b/g/n/ac/ax, Bluetooth v5.0, Thread, Zigbee® Transceiver Module 2.412GHz ~ 2.484GHz, 5.18GHz ~ 5.885GHz Antenna Not Included Surface Mount"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1358,6 +1356,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "MF" "Espressif Systems"
@@ -1481,18 +1480,6 @@
 				)
 			)
 			(property "MP" "ESP32-C5-WROOM-1U-N8R8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "802.15.4, Bluetooth, WiFi 802.11b/g/n/ac/ax, Bluetooth v5.0, Thread, Zigbee® Transceiver Module 2.412GHz ~ 2.484GHz, 5.18GHz ~ 5.885GHz Antenna Not Included Surface Mount"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3804,17 +3791,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 115.57 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ManufacturerPartNumber" "CL05B104KO5NNNC"
 			(at 115.57 66.04 0)
 			(hide yes)
@@ -3908,17 +3884,6 @@
 			)
 		)
 		(property "LCSC Part#" "C15525"
-			(at 138.43 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 138.43 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4089,7 +4054,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "802.15.4, Bluetooth, WiFi 802.11b/g/n/ac/ax, Bluetooth v5.0, Thread, Zigbee® Transceiver Module 2.412GHz ~ 2.484GHz, 5.18GHz ~ 5.885GHz Antenna Not Included Surface Mount"
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4269,17 +4234,6 @@
 			)
 		)
 		(property "LCSC Part#" ""
-			(at 110.49 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4508,17 +4462,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 144.78 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ManufacturerPartNumber" "CL05A106MQ5NUNC"
 			(at 144.78 76.2 0)
 			(hide yes)
@@ -4609,7 +4552,7 @@
 				)
 			)
 		)
-		(property "LCSC Part#" ""
+		(property "LCSC Part#" "C25105"
 			(at 157.48 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -4620,7 +4563,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Elec"
+		(property "ManufacturerPartNumber" "0402WGF330JTCE"
 			(at 157.48 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -4631,7 +4574,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNumber" ""
+		(property "MANUFACTURER" "UNI-ROYAL"
 			(at 157.48 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -4722,17 +4665,6 @@
 			)
 		)
 		(property "LCSC Part#" "C25741"
-			(at 137.16 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Uniroyal Elec"
 			(at 137.16 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -4837,17 +4769,6 @@
 			)
 		)
 		(property "LCSC Part#" ""
-			(at 184.15 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 184.15 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5129,17 +5050,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 184.15 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ManufacturerPartNumber" ""
 			(at 184.15 96.52 0)
 			(hide yes)
@@ -5246,17 +5156,6 @@
 			)
 		)
 		(property "LCSC Part#" "C25741"
-			(at 137.16 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Uniroyal Elec"
 			(at 137.16 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -5436,17 +5335,6 @@
 			)
 		)
 		(property "LCSC Part#" ""
-			(at 45.72 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5875,17 +5763,6 @@
 			)
 		)
 		(property "LCSC Part#" "C25744"
-			(at 133.35 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Uniroyal Elec"
 			(at 133.35 68.58 0)
 			(hide yes)
 			(show_name no)

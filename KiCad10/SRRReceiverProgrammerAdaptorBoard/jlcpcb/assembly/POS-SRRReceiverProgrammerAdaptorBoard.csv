@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Conn_01x10,FPC-Connector_1x10-1MP_P0.5mm_Horizontal,117.0,-92.0,-90.0,top
+J2,Conn_02x05_Odd_Even,PinHeader_2x05_P1.27mm_Vertical,132.0,-87.0,-90.0,top
+J3,Conn_02x05_Odd_Even,PinHeader_2x05_P1.27mm_Vertical,141.0,-95.0,180.0,top
+J5,Conn_01x04,PinHeader_1x04_P2.54mm_Vertical,125.0,-96.4,90.0,top

@@ -17988,7 +17988,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25076"
+		(property "LCSC Part #" "C106232"
 			(at 209.55 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -17999,7 +17999,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Elec"
+		(property "Manufacturer" "YAGEO"
 			(at 209.55 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -18010,7 +18010,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNumber" "0402WGF1000TCE"
+		(property "ManufacturerPartNumber" "RC0402FR-07100RL"
 			(at 209.55 161.29 90)
 			(hide yes)
 			(show_name no)

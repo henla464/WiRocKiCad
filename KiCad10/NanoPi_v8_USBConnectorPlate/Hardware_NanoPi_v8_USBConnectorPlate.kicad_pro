@@ -78,12 +78,12 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|105465000|53505000|1dc6ffd5-2366-4538-829a-5d9151e34256|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|112865000|74355000|265825ab-691e-4837-b598-9aa69ef926bf|af0d9c1b-b30f-41f3-8b26-b0646a2be0ea",
           ""
         ],
         [
-          "starved_thermal|110500000|87460000|eaaf3eeb-c6e5-46ff-9aa2-bb666e03b28f|c985cff9-68e7-4d67-9287-2f432addbd38|F.Cu",
-          ""
+          "lib_footprint_mismatch|105465000|53505000|1dc6ffd5-2366-4538-829a-5d9151e34256|00000000-0000-0000-0000-000000000000",
+          "removed silkscreen"
         ],
         [
           "starved_thermal|111642500|95295000|eaaf3eeb-c6e5-46ff-9aa2-bb666e03b28f|a6e2e9e7-4f79-430c-8ca3-661eecd0c461|F.Cu",
@@ -609,7 +609,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "production/Hardware_NanoPi_v8_USBConnectorPlate.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

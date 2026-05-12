@@ -5,14 +5,14 @@
 	(uuid "b35cd2a6-7710-4278-b39a-5ec0b0a6104c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "WiRoc:ESP32-Hosted-Board"
+		(symbol "WiRoc:ESP32-C5-Hosted-Board"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -8.89 12.7 0)
+			(property "Reference" "U19"
+				(at -7.62 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -21,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 2.54 0)
+			(property "Value" "ESP32-C5-Board"
+				(at -1.27 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "WiRoc:ESP32Hosted-C6-Board"
 				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -64,7 +64,29 @@
 					)
 				)
 			)
-			(symbol "ESP32-Hosted-Board_0_1"
+			(property "JLCBasicExtended" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IncludeInBOM" "FALSE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32-C5-Hosted-Board_0_1"
 				(rectangle
 					(start -10.16 11.43)
 					(end 8.89 -11.43)
@@ -77,7 +99,7 @@
 					)
 				)
 			)
-			(symbol "ESP32-Hosted-Board_1_1"
+			(symbol "ESP32-C5-Hosted-Board_1_1"
 				(text private "ESP32-C6 wroom-1\nSPI2\nIO10 - CS0\nIO6 -FSPICLK\nIO2 - MISO\nIO7 - MOSI\n"
 					(at -11.43 24.13 0)
 					(effects
@@ -699,7 +721,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 125.73 100.965) (xy 125.73 81.28) (xy 128.27 81.28) (xy 128.27 100.965)
+				(xy 125.73 101.6) (xy 125.73 88.9) (xy 128.27 88.9) (xy 128.27 101.6)
 			)
 			(stroke
 				(width 0)
@@ -709,6 +731,41 @@
 				(type none)
 			)
 			(uuid "5b0fabe9-fcd6-4208-9c3e-00bdfe8323f4")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 125.73 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "09971233-fb2c-4955-b124-6e413c25c750")
+		(property "Net Class" "WIFI"
+			(at 126.3599 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -106.68 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
 		)
 	)
 	(netclass_flag ""
@@ -749,7 +806,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 127 81.28 0)
+		(at 128.27 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -757,9 +814,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c8ed3079-2a58-46f2-87c6-64fe2521dfd4")
+		(uuid "7e86835b-08c7-4c81-acf1-895decb7aa89")
 		(property "Net Class" "WIFI"
-			(at 127.6299 78.74 0)
+			(at 128.8999 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -770,7 +827,41 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -69.85 -2.54 0)
+			(at -104.14 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 127 101.6 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8ed3079-2a58-46f2-87c6-64fe2521dfd4")
+		(property "Net Class" "WIFI-SPI"
+			(at 128.016 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -69.85 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -782,14 +873,14 @@
 		)
 	)
 	(symbol
-		(lib_id "WiRoc:ESP32-Hosted-Board")
+		(lib_id "WiRoc:ESP32-C5-Hosted-Board")
 		(at 149.86 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp yes)
 		(uuid "6dcfef7e-ead8-4dfc-a87c-c15fdb8d852d")
 		(property "Reference" "U19"

@@ -5161,7 +5161,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 80.01) (xy 132.08 71.12)
+			(xy 132.08 71.12) (xy 132.08 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5261,6 +5261,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 129.54) (xy 128.27 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2212ceae-020c-4ee3-bff8-b02ebd29b77b")
+	)
+	(wire
+		(pts
 			(xy 100.33 180.34) (xy 100.33 172.72)
 		)
 		(stroke
@@ -5348,16 +5358,6 @@
 			(type default)
 		)
 		(uuid "340f0c6f-3704-4c4e-a57b-57d994ab4e2d")
-	)
-	(wire
-		(pts
-			(xy 137.16 80.01) (xy 132.08 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "345efa91-7b48-41ba-89e7-504b9103c630")
 	)
 	(wire
 		(pts
@@ -5561,6 +5561,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 85.09) (xy 132.08 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fabba6-5b5f-4240-8cbe-663ecf377c74")
+	)
+	(wire
+		(pts
 			(xy 35.56 31.75) (xy 36.83 31.75)
 		)
 		(stroke
@@ -5621,7 +5631,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 142.24) (xy 124.46 142.24)
+			(xy 101.6 142.24) (xy 128.27 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5651,7 +5661,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 85.09) (xy 132.08 92.71)
+			(xy 128.27 129.54) (xy 130.81 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b647fee-ab7a-49e2-8548-ef92d3bb6bd9")
+	)
+	(wire
+		(pts
+			(xy 135.255 80.01) (xy 135.255 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5708,26 +5728,6 @@
 			(type default)
 		)
 		(uuid "76db88c3-bd0d-4b27-b67b-eb397a018202")
-	)
-	(wire
-		(pts
-			(xy 124.46 129.54) (xy 124.46 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77ebb155-6161-42b2-a69d-fcbb28043fab")
-	)
-	(wire
-		(pts
-			(xy 124.46 142.24) (xy 124.46 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7889e669-95d6-4626-aaba-d946d259a6e6")
 	)
 	(wire
 		(pts
@@ -5891,6 +5891,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 134.62) (xy 124.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1af1c1b-96f5-4c05-b120-3b03db63f987")
+	)
+	(wire
+		(pts
 			(xy 60.96 162.56) (xy 60.96 160.02)
 		)
 		(stroke
@@ -5938,16 +5948,6 @@
 			(type default)
 		)
 		(uuid "a977f923-e861-40a6-b101-27c3059f8b10")
-	)
-	(wire
-		(pts
-			(xy 137.16 85.09) (xy 132.08 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afea9c81-95e8-4e9e-821c-23ef6121e4e5")
 	)
 	(wire
 		(pts
@@ -6011,16 +6011,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 129.54) (xy 124.46 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cba2cb8c-c3fb-4f30-a885-b6248c9f22a0")
-	)
-	(wire
-		(pts
 			(xy 166.37 162.56) (xy 166.37 160.02)
 		)
 		(stroke
@@ -6061,6 +6051,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 119.38) (xy 124.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc78d81e-0566-4f63-8a38-4fcde2f1446d")
+	)
+	(wire
+		(pts
 			(xy 74.93 118.11) (xy 74.93 139.7)
 		)
 		(stroke
@@ -6091,13 +6091,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 134.62) (xy 130.81 134.62)
+			(xy 137.16 80.01) (xy 135.255 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9746f92-297d-48c8-8e78-11b4eab99deb")
+		(uuid "e7a0eb55-7a32-41b0-8da2-7c7dd678111f")
 	)
 	(wire
 		(pts
@@ -6161,7 +6161,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 132.08 92.71)
+			(xy 106.68 92.71) (xy 135.255 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6189,6 +6189,26 @@
 		)
 		(uuid "ff732ac7-7c0b-4b8a-b1f1-908083773b88")
 	)
+	(label "USB2-DM-ToPad"
+		(at 51.435 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "231340f0-96ba-4c4f-9052-02cdd78e17be")
+	)
+	(label "USB1-DP-ToPad"
+		(at 53.975 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "298c7087-9db0-4e63-a627-0c72d9daa528")
+	)
 	(label "ETH-RXP"
 		(at 147.32 160.02 0)
 		(effects
@@ -6198,6 +6218,16 @@
 			(justify left bottom)
 		)
 		(uuid "41c1e646-0a69-4604-afcc-abb2d3d24506")
+	)
+	(label "USB2-DP-ToESD"
+		(at 109.855 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53feaa54-7bd8-490d-9a44-24b5a573d2f7")
 	)
 	(label "ETH-TXN"
 		(at 62.23 165.1 180)
@@ -6219,6 +6249,16 @@
 		)
 		(uuid "8b85dadf-dee3-4da4-938b-7cc47342ce1f")
 	)
+	(label "USB1-DP-ToESD"
+		(at 117.475 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9383f2dd-5fcf-4ecf-b162-ce248c8c421b")
+	)
 	(label "ETH-RXN"
 		(at 147.32 162.56 0)
 		(effects
@@ -6228,6 +6268,46 @@
 			(justify left bottom)
 		)
 		(uuid "95121e2f-582f-4645-aed4-0e947b481032")
+	)
+	(label "USB2-DP-ToPad"
+		(at 51.435 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd86e6b8-c7b9-42da-b5ec-ad97f2dc8031")
+	)
+	(label "USB1-DM-ToPad"
+		(at 53.975 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c68181a5-941b-4942-bd1a-ba0fb81af8f9")
+	)
+	(label "USB1-DM-ToESD"
+		(at 113.665 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa172dd3-5486-44cf-9fd7-cf468459b2b1")
+	)
+	(label "USB2-DM-ToESD"
+		(at 105.41 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb880f0f-723e-434a-bd06-efdb2be34c8d")
 	)
 	(global_label "VBUS_IN"
 		(shape input)
@@ -6631,7 +6711,7 @@
 	)
 	(global_label "USBHost-DM1"
 		(shape input)
-		(at 153.67 80.01 0)
+		(at 153.67 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6641,7 +6721,7 @@
 		)
 		(uuid "6b234f3e-e454-4960-9028-c87691292ac2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.5078 80.01 0)
+			(at 173.5078 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6953,7 +7033,7 @@
 	)
 	(global_label "USBHost-DP2"
 		(shape input)
-		(at 146.05 134.62 0)
+		(at 146.05 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6963,7 +7043,7 @@
 		)
 		(uuid "a5ae18e2-2d82-483f-bcb2-2f37f186ba20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.6701 134.62 0)
+			(at 165.6701 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7161,7 +7241,7 @@
 	)
 	(global_label "USBHost-DP1"
 		(shape input)
-		(at 153.67 85.09 0)
+		(at 153.67 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7171,7 +7251,7 @@
 		)
 		(uuid "e21150ac-459b-4769-bea4-7f9158ea75fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.2901 85.09 0)
+			(at 173.2901 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7253,7 +7333,7 @@
 	)
 	(global_label "USBHost-DM2"
 		(shape input)
-		(at 146.05 129.54 0)
+		(at 146.05 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7263,7 +7343,7 @@
 		)
 		(uuid "f3e25781-d1e3-475f-b63c-9bf4df5c395e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.8878 129.54 0)
+			(at 165.8878 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7799,7 +7879,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 238.76 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10610,7 +10690,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C307331"
+		(property "LCSC Part #" "C1525"
 			(at 186.69 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10654,7 +10734,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C1525"
 			(at 186.69 109.22 0)
 			(hide yes)
 			(show_name no)
