@@ -8002,7 +8002,7 @@
 			(uuid "87eca1f4-9c70-4311-84b3-df8dd05d2baf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x04_P1.27mm_Vertical.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x04_P1.27mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8812,7 +8812,7 @@
 			(uuid "e6616f72-c92e-46c5-886d-d333cbbb628a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9139,7 +9139,7 @@
 			(uuid "a9602a3e-ee56-4df8-9f63-2fdbc40b8c60")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x06_P1.27mm_Vertical.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x06_P1.27mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
