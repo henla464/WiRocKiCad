@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "Ethernet_Diff_Pair_Skew"
+    (constraint skew (max 5ps) (within_diff_pairs))
+    (condition "A.hasNetclass('Ethernet')")
+)
