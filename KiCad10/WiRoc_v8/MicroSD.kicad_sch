@@ -1209,7 +1209,7 @@
 			(justify left bottom)
 		)
 		(uuid "1e38de12-cfd4-4d48-900b-78b6fabecb5d")
-		(property "Net Class" "SD-CARD-LINES"
+		(property "Netclass" "SD-CARD-LINES"
 			(at 56.5099 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1244,7 +1244,7 @@
 			(justify left bottom)
 		)
 		(uuid "e642f0a5-99ff-4251-a6e7-4ac174ce5e3e")
-		(property "Net Class" "SD-CARD-LINES"
+		(property "Netclass" "SD-CARD-LINES"
 			(at 71.7499 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)

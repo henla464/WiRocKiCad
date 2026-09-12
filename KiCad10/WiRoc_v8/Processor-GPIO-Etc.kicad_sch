@@ -15343,7 +15343,7 @@
 			(justify left bottom)
 		)
 		(uuid "cd33037b-667a-4b60-912b-b507668196b3")
-		(property "Net Class" "eMMC-CLK-2"
+		(property "Netclass" "eMMC-CLK-2"
 			(at 259.842 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -5421,7 +5421,7 @@
 			(justify left bottom)
 		)
 		(uuid "a7e65ce8-8cbb-4df0-afb9-1cc988c5569e")
-		(property "Net Class" "eMMC-Cmd"
+		(property "Netclass" "eMMC-Cmd"
 			(at 41.2699 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5456,7 +5456,7 @@
 			(justify left bottom)
 		)
 		(uuid "c3603a56-09b7-4f76-9f69-d60d6b1a4925")
-		(property "Net Class" "eMMC-Data"
+		(property "Netclass" "eMMC-Data"
 			(at 66.6699 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5490,7 +5490,7 @@
 			(justify left bottom)
 		)
 		(uuid "c59b6004-298f-4d15-8e90-80d6fdcdb441")
-		(property "Net Class" "eMMC-Clk"
+		(property "Netclass" "eMMC-Clk"
 			(at 47.752 60.198 0)
 			(show_name no)
 			(do_not_autoplace no)

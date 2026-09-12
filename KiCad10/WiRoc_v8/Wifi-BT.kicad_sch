@@ -745,7 +745,7 @@
 			(justify left bottom)
 		)
 		(uuid "09971233-fb2c-4955-b124-6e413c25c750")
-		(property "Net Class" "WIFI"
+		(property "Netclass" "WIFI"
 			(at 126.3599 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -780,7 +780,7 @@
 			(justify right bottom)
 		)
 		(uuid "182e1abe-867e-466f-8adf-3f6ee5dd7e64")
-		(property "Net Class" "WIFI"
+		(property "Netclass" "WIFI"
 			(at 166.9999 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -815,7 +815,7 @@
 			(justify left bottom)
 		)
 		(uuid "7e86835b-08c7-4c81-acf1-895decb7aa89")
-		(property "Net Class" "WIFI"
+		(property "Netclass" "WIFI"
 			(at 128.8999 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -849,7 +849,7 @@
 			(justify right bottom)
 		)
 		(uuid "c8ed3079-2a58-46f2-87c6-64fe2521dfd4")
-		(property "Net Class" "WIFI-SPI"
+		(property "Netclass" "WIFI-SPI"
 			(at 128.016 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
