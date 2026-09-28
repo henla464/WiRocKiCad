@@ -6803,7 +6803,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 200.66 88.9 0)
 			(hide yes)
 			(show_name no)
