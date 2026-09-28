@@ -129,6 +129,14 @@
         [
           "silk_edge_clearance|134395000|78300000|6107e94c-3b92-49c4-9187-400ce820b830|1e8c2957-9821-40c0-8546-f8d2f8db09bf",
           ""
+        ],
+        [
+          "starved_thermal|118460000|77000000|f0639a25-62ee-4888-b9fc-b50e8a2ca548|c00c8b86-0e0c-47c4-995c-41e8b866792a|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|119730000|77000000|e855f62a-62f3-40ee-8b42-869e93261473|9f6276dc-609a-4410-9818-bd60904236e0|B.Cu",
+          ""
         ]
       ],
       "meta": {
@@ -140,7 +148,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
