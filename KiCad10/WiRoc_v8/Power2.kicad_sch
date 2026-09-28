@@ -5857,7 +5857,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C270630"
+		(property "LCSC Part #" "C2998051"
 			(at 172.72 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -5868,7 +5868,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Elec"
+		(property "Manufacturer" "Fojan"
 			(at 172.72 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -5879,7 +5879,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNumber" "0402WGF200KTCE"
+		(property "ManufacturerPartNumber" "FRC0402F2R00TS"
 			(at 172.72 118.11 90)
 			(hide yes)
 			(show_name no)
